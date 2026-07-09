@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "validate:data": "python3 scripts/validate.py",
     "validate:links": "python3 scripts/validate_links.py",
-    "validate": "npm run validate:data && npm run validate:links"
+    "validate": "npm run validate:data && npm run validate:links",
+    "harvest:covers": "python3 scripts/harvest_covers.py"
   },
   "dependencies": {
     "@astrojs/check": "latest",
