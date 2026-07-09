@@ -1,0 +1,75 @@
+{
+  "groups": {
+    "A": {
+      "label": "Identidad y geografía",
+      "terms": [
+        {"term": "argentina", "jurisdiccion": null},
+        {"term": "malvinas", "jurisdiccion": null},
+        {"term": "falklands", "jurisdiccion": null},
+        {"term": "gaucho", "jurisdiccion": null},
+        {"term": "pampa", "jurisdiccion": "La Pampa"},
+        {"term": "patagonia", "jurisdiccion": null},
+        {"term": "buenos aires", "jurisdiccion": "Ciudad Autónoma de Buenos Aires", "reuse_from": "argentina"},
+        {"term": "conurbano", "jurisdiccion": "Buenos Aires"}
+      ]
+    },
+    "B": {
+      "label": "Cultura y tradiciones",
+      "terms": [
+        {"term": "mate", "jurisdiccion": null},
+        {"term": "yerba mate", "jurisdiccion": null},
+        {"term": "tango", "jurisdiccion": "Ciudad Autónoma de Buenos Aires"},
+        {"term": "pombero", "jurisdiccion": "Corrientes"},
+        {"term": "truco", "jurisdiccion": null},
+        {"term": "independencia", "jurisdiccion": null},
+        {"term": "libertador", "jurisdiccion": null}
+      ]
+    },
+    "C": {
+      "label": "24 jurisdicciones",
+      "terms": [
+        {"term": "provincia buenos aires", "jurisdiccion": "Buenos Aires"},
+        {"term": "catamarca", "jurisdiccion": "Catamarca"},
+        {"term": "chaco", "jurisdiccion": "Chaco"},
+        {"term": "chubut", "jurisdiccion": "Chubut"},
+        {"term": "cordoba", "jurisdiccion": "Córdoba"},
+        {"term": "corrientes", "jurisdiccion": "Corrientes"},
+        {"term": "entre rios", "jurisdiccion": "Entre Ríos"},
+        {"term": "formosa", "jurisdiccion": "Formosa"},
+        {"term": "jujuy", "jurisdiccion": "Jujuy"},
+        {"term": "la pampa", "jurisdiccion": "La Pampa"},
+        {"term": "la rioja", "jurisdiccion": "La Rioja"},
+        {"term": "mendoza", "jurisdiccion": "Mendoza"},
+        {"term": "misiones", "jurisdiccion": "Misiones"},
+        {"term": "neuquen", "jurisdiccion": "Neuquén"},
+        {"term": "rio negro", "jurisdiccion": "Río Negro"},
+        {"term": "salta", "jurisdiccion": "Salta"},
+        {"term": "san juan", "jurisdiccion": "San Juan"},
+        {"term": "san luis", "jurisdiccion": "San Luis"},
+        {"term": "santa cruz", "jurisdiccion": "Santa Cruz"},
+        {"term": "santa fe", "jurisdiccion": "Santa Fe"},
+        {"term": "santiago del estero", "jurisdiccion": "Santiago del Estero"},
+        {"term": "tierra del fuego", "jurisdiccion": "Tierra del Fuego"},
+        {"term": "tucuman", "jurisdiccion": "Tucumán"}
+      ]
+    },
+    "D": {
+      "label": "Histórico / sim internacional",
+      "terms": [
+        {"term": "dakar", "jurisdiccion": null},
+        {"term": "ruta 40", "jurisdiccion": null},
+        {"term": "rio de la plata", "jurisdiccion": null},
+        {"term": "cono sur", "jurisdiccion": null}
+      ]
+    },
+    "E": {
+      "label": "Baja prioridad",
+      "terms": [
+        {"term": "peron", "jurisdiccion": null},
+        {"term": "evita", "jurisdiccion": null},
+        {"term": "superliga", "jurisdiccion": null},
+        {"term": "futbol argentino", "jurisdiccion": null}
+      ]
+    }
+  }
+}

@@ -12,6 +12,7 @@
     "validate:external": "python3 scripts/validate_external_links.py",
     "validate": "npm run validate:data && npm run validate:links",
     "test:filters": "npx tsx scripts/test_filters.ts",
+    "steam:search": "python3 scripts/steam_search.py",
     "harvest:covers": "python3 scripts/harvest_covers.py",
     "data:patch-links": "python3 scripts/apply_play_links.py",
     "data:infer": "python3 scripts/infer_disponibilidad.py",
