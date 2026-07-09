@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { listas } from "../../lib/listas";
+import { sitePath } from "../../lib/links";
+
+export function getStaticPaths() {
+  return listas.map((lista) => ({
+    params: { tipo: lista.slug },
+    props: { lista },
+  }));
+}
+
+const { lista } = Astro.props;
+const items = lista.getItems();
+---
+
+<BaseLayout title={lista.titulo} description={lista.descripcion}>
+  <section class="page-hero">
+    <a class="back-link" href={sitePath("/")}>Volver al inicio</a>
+    <p class="eyebrow">Lista del catálogo</p>
+    <h1>{lista.titulo}</h1>
+    <p>{lista.descripcion}</p>
+    <p class="lista-count">{items.length} entradas</p>
+  </section>
+
+  <section class="section">
+    <ol class="data-list">
+      {
+        items.map((item) => (
+          <li class="data-list-item">
+            {item.href ? (
+              <a
+                href={item.external ? item.href : sitePath(item.href)}
+                target={item.external ? "_blank" : undefined}
+                rel={item.external ? "noreferrer" : undefined}
+              >
+                <span class="data-list-title">{item.titulo}</span>
+                {item.subtitulo ? (
+                  <span class="data-list-meta">{item.subtitulo}</span>
+                ) : null}
+              </a>
+            ) : (
+              <div>
+                <span class="data-list-title">{item.titulo}</span>
+                {item.subtitulo ? (
+                  <span class="data-list-meta">{item.subtitulo}</span>
+                ) : null}
+              </div>
+            )}
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</BaseLayout>

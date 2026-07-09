@@ -1,4 +1,7 @@
 ---
+import { listaHrefByStatKey } from "../lib/listas";
+import { sitePath } from "../lib/links";
+
 type Props = {
   stats: {
     total: number;
@@ -13,27 +16,31 @@ type Props = {
 };
 
 const { stats } = Astro.props;
+
+const items = [
+  { key: "total" as const, count: stats.total, label: "juegos verificados" },
+  { key: "candidatos" as const, count: stats.candidatos, label: "candidatos rastreados" },
+  {
+    key: "escenario" as const,
+    count: stats.vinculos.escenario,
+    label: "con escenario argentino",
+  },
+  {
+    key: "protagonista" as const,
+    count: stats.vinculos.protagonista,
+    label: "con protagonistas argentinos",
+  },
+  { key: "descartados" as const, count: stats.descartados, label: "descartes explicados" },
+];
 ---
 
 <section class="stats-strip" aria-label="Estadísticas de la base">
-  <div>
-    <strong>{stats.total}</strong>
-    <span>juegos verificados</span>
-  </div>
-  <div>
-    <strong>{stats.candidatos}</strong>
-    <span>candidatos rastreados</span>
-  </div>
-  <div>
-    <strong>{stats.vinculos.escenario}</strong>
-    <span>con escenario argentino</span>
-  </div>
-  <div>
-    <strong>{stats.vinculos.protagonista}</strong>
-    <span>con protagonistas argentinos</span>
-  </div>
-  <div>
-    <strong>{stats.descartados}</strong>
-    <span>descartes explicados</span>
-  </div>
+  {
+    items.map((item) => (
+      <a class="stats-strip-link" href={sitePath(listaHrefByStatKey[item.key])}>
+        <strong>{item.count}</strong>
+        <span>{item.label}</span>
+      </a>
+    ))
+  }
 </section>

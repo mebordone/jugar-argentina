@@ -350,11 +350,26 @@ select {
   margin: 1rem 0 2rem;
 }
 
+.stats-strip-link,
 .stats-strip div {
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--paper);
   padding: 1rem;
+}
+
+.stats-strip-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.stats-strip-link:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
 }
 
 .stats-strip strong {
@@ -565,6 +580,53 @@ select {
   color: var(--muted);
   font-size: 0.92rem;
   font-weight: 700;
+}
+
+.lista-count {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.data-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.data-list-item {
+  border-bottom: 1px solid var(--line);
+}
+
+.data-list-item:last-child {
+  border-bottom: none;
+}
+
+.data-list-item a,
+.data-list-item > div {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.95rem 1.1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.data-list-item a:hover {
+  background: rgba(116, 172, 223, 0.12);
+}
+
+.data-list-title {
+  font-weight: 800;
+}
+
+.data-list-meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
 }
 
 .detail-grid {
