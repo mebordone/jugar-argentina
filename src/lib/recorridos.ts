@@ -13,6 +13,29 @@ export type Recorrido = {
 
 export const recorridos = efemerides as Recorrido[];
 
+const MESES = [
+  "enero",
+  "febrero",
+  "marzo",
+  "abril",
+  "mayo",
+  "junio",
+  "julio",
+  "agosto",
+  "septiembre",
+  "octubre",
+  "noviembre",
+  "diciembre",
+];
+
+export function formatRecorridoFecha(fecha: string | null) {
+  if (!fecha) return null;
+  const [mm, dd] = fecha.split("-");
+  const mes = MESES[Number(mm) - 1];
+  if (!mes) return null;
+  return `${Number(dd)} de ${mes}`;
+}
+
 export function getTodayRecorrido(date = new Date()) {
   const today = `${String(date.getMonth() + 1).padStart(2, "0")}-${String(
     date.getDate(),

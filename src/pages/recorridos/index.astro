@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  formatRecorridoFecha,
+  gamesForRecorrido,
+  getTodayRecorrido,
+  recorridos,
+} from "../../lib/recorridos";
+import { sitePath } from "../../lib/links";
+
+const today = getTodayRecorrido();
+const recorridosConConteo = recorridos.map((recorrido) => ({
+  ...recorrido,
+  juegos: gamesForRecorrido(recorrido).length,
+  fechaLabel: formatRecorridoFecha(recorrido.fecha),
+}));
+---
+
+<BaseLayout
+  title="Recorridos"
+  description="Recorridos temáticos por efemérides y ejes culturales argentinos."
+>
+  <section class="page-hero">
+    <p class="eyebrow">Efemérides y recorridos</p>
+    <h1>Recorridos para jugar Argentina por tema</h1>
+    <p>
+      Cada recorrido agrupa juegos por una fecha, un eje cultural o un momento
+      histórico. Elegí uno y compartilo.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Hoy</p>
+        <h2>{today.titulo}</h2>
+      </div>
+      <a href={sitePath(`/recorridos/${today.slug}`)}>Ver recorrido del día</a>
+    </div>
+  </section>
+
+  <section class="recorrido-grid">
+    {
+      recorridosConConteo.map((recorrido) => (
+        <a class="panel recorrido-card" href={sitePath(`/recorridos/${recorrido.slug}`)}>
+          {recorrido.fechaLabel ? (
+            <p class="recorrido-date">{recorrido.fechaLabel}</p>
+          ) : (
+            <p class="recorrido-date recorrido-date-muted">Todo el año</p>
+          )}
+          <h2>{recorrido.titulo}</h2>
+          <p>{recorrido.descripcion}</p>
+          <div class="chip-row">
+            {recorrido.temas.slice(0, 3).map((tema) => (
+              <span class="chip">{tema.replaceAll("_", " ")}</span>
+            ))}
+          </div>
+          <p class="recorrido-meta">
+            {recorrido.juegos} juego{recorrido.juegos === 1 ? "" : "s"}
+          </p>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>
