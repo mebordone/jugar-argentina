@@ -95,7 +95,30 @@ def validate():
             print(" -", e)
         return 1
 
-    print(f"OK: {len(games)} juegos válidos, {len(ids)} IDs únicos")
+    play_keys = {
+        "steam", "itch", "gog", "epic", "archive", "abandonware",
+        "google_play", "apkpure", "web_oficial", "descarga_directa",
+        "steam_workshop",
+    }
+    with_cover = sum(1 for g in games if g.get("imagenes", {}).get("portada"))
+    with_play = sum(
+        1 for g in games
+        if any(g.get("enlaces", {}).get(k) for k in play_keys)
+    )
+    known_disp = sum(1 for g in games if g.get("disponibilidad") != "desconocido")
+    with_ejes = sum(1 for g in games if g.get("ejes_culturales"))
+    with_anio = sum(1 for g in games if g.get("anio"))
+    with_capturas = sum(1 for g in games if g.get("imagenes", {}).get("capturas"))
+    n = len(games)
+
+    print(f"OK: {n} juegos válidos, {len(ids)} IDs únicos")
+    print("--- Completitud ---")
+    print(f"  Link jugable:   {with_play}/{n} ({100 * with_play // n}%)")
+    print(f"  Portada:        {with_cover}/{n} ({100 * with_cover // n}%)")
+    print(f"  Disponibilidad: {known_disp}/{n} ({100 * known_disp // n}% curado)")
+    print(f"  Ejes culturales:{with_ejes}/{n} ({100 * with_ejes // n}%)")
+    print(f"  Año:            {with_anio}/{n} ({100 * with_anio // n}%)")
+    print(f"  Capturas:       {with_capturas}/{n} ({100 * with_capturas // n}%)")
     return 0
 
 

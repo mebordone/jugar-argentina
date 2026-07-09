@@ -168,8 +168,18 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
     "super-menem-bros": {
         "archive": "https://www.old-games.ru/game/download/9255.html",
     },
+    "argentina-8-bit": {
+        "web_oficial": "https://argentina8bit.com/",
+        "google_play": "https://play.google.com/store/apps/details?id=com.marianolarronde.argentina8bit",
+    },
+    "argentina-y-sus-provincias": {
+        "itch": "https://themaxcraft1.itch.io/argentina-y-sus-provincias",
+    },
+    "tito-en-el-humedal": {
+        "itch": "https://juegotito.itch.io/tito",
+    },
     "cristina-vs-gorilas": {
-        "web_oficial": "https://nicolasbroner.wordpress.com/2016/02/05/cristina-vs-gorilas/",
+        "apkpure": "https://apkpure.com/cristina-vs-gorilas/com.cfk.cristinavsgorilas",
     },
     "truco-arbiser-1982": {
         "web_oficial": "https://www-2.dc.uba.ar/charlas/lud/truco/",
