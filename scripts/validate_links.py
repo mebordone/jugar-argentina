@@ -40,6 +40,16 @@ STEAM_TITLE_OVERRIDES: dict[str, set[str]] = {
     "hearts-of-iron-iv-mods-argentina": {"hearts", "iron"},
     "microsoft-flight-simulator-argentina": {"flight", "simulator", "microsoft"},
     "europa-universalis-iv-argentina": {"europa", "universalis"},
+    "dcs-south-atlantic": {"dcs", "south", "atlantic"},
+    "command-falklands": {"command", "falklands"},
+    "dakar-18-argentina": {"dakar"},
+    "dirt-rally-2-argentina": {"dirt", "rally"},
+    "wrc-10-argentina": {"wrc", "rally", "championship"},
+    "wars-curupayti-1866": {"wars", "across", "world", "curupayti"},
+    "aws-argentina-wingshooting": {"argentina", "wingshooting", "aws"},
+    "tierras-infernales": {"infernal", "lands", "tierras"},
+    "funeraria-marquez-paz": {"funerary", "marquez", "services"},
+    "en-busca-de-la-libertad": {"search", "freedom", "libertad"},
 }
 
 
