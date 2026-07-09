@@ -1,0 +1,342 @@
+"""Lote 4: independencia, estrategia histórica y escenarios internacionales."""
+from generate_db import game, v
+
+BATCH4_GAMES = [
+    game(
+        "federacion-2073",
+        "Federación 2073",
+        None,
+        "abandonware",
+        v("principal", "principal", None),
+        "Austral Games / Arrow",
+        "Argentina",
+        ["PC"],
+        ["mmorpg", "accion"],
+        "MMO argentino de principios de los 2000 ambientado en una Buenos Aires futurista y postapocalíptica, donde tribus urbanas combatían por el control de la ciudad.",
+        {
+            "regiones": ["Pampeana"],
+            "provincias": ["Ciudad Autónoma de Buenos Aires"],
+            "periodo_historico": ["contemporaneo"],
+            "temas": ["ciencia_ficcion", "cultura_urbana"],
+        },
+        {
+            "fuentes_investigacion": [
+                "https://www.lanacion.com.ar/tecnologia/videojuegos-hechos-en-la-argentina-nid543208/",
+                "https://www.fabio.com.ar/498-federacion-2073",
+            ]
+        },
+        ejes_culturales=["cultura_urbana", "historia"],
+        tipo_obra="abandonware",
+        disponibilidad="perdido",
+    ),
+    game(
+        "heroinas-independencia",
+        "Heroínas de la Independencia",
+        None,
+        "en_desarrollo",
+        v("principal", "principal", None),
+        "Fundación Ariadna",
+        "Argentina",
+        ["PC"],
+        ["aventura", "educativo"],
+        "Videojuego lúdico-educativo en desarrollo sobre cinco mujeres protagonistas de las guerras de independencia en el norte argentino y el Alto Perú.",
+        {
+            "regiones": ["Noroeste"],
+            "provincias": ["Salta", "Jujuy"],
+            "periodo_historico": ["independencia", "siglo_xix"],
+            "temas": ["independencia", "proceres", "historia"],
+        },
+        {
+            "web_oficial": "https://fundacionariadna.org.ar/videojuego",
+            "fuentes_investigacion": ["https://fundacionariadna.org.ar/videojuego"],
+        },
+        personajes=[
+            {"nombre": "Juana Azurduy de Padilla", "tipo": "historico", "rol": "protagonista", "descripcion": "Heroína de la independencia"},
+            {"nombre": "Macacha Güemes", "tipo": "historico", "rol": "protagonista", "descripcion": "Organizadora de la resistencia en Salta"},
+            {"nombre": "María Remedios del Valle", "tipo": "historico", "rol": "protagonista", "descripcion": "Capitana de milicias afrodescendientes"},
+        ],
+        ejes_culturales=["historia", "educativo"],
+        tipo_obra="educativo",
+    ),
+    game(
+        "cronicas-libertadores",
+        "Crónicas de los Libertadores",
+        None,
+        "en_desarrollo",
+        v("principal", "principal", None),
+        "Digi Learnnials",
+        "Argentina",
+        ["PC"],
+        ["estrategia", "simulacion"],
+        "Estrategia por turnos en desarrollo sobre las campañas independentistas sudamericanas del siglo XIX, con énfasis en héroes anónimos y figuras poco difundidas.",
+        {
+            "regiones": ["Nacional", "Noroeste"],
+            "provincias": ["Ciudad Autónoma de Buenos Aires", "Salta", "Jujuy"],
+            "periodo_historico": ["independencia", "siglo_xix"],
+            "temas": ["independencia", "proceres", "historia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/2603120/Liberators_Chronicles/",
+            "fuentes_investigacion": [
+                "https://www.infobae.com/def/2024/01/06/crearon-un-videojuego-con-personajes-de-la-historia-argentina-como-nacio-cronica-de-los-libertadores/",
+                "https://www.imagecampus.edu.ar/incubadora/cronicas-de-los-libertadores",
+            ],
+        },
+        ejes_culturales=["historia", "educativo"],
+    ),
+    game(
+        "el-gaucho-martin-fierro",
+        "El Gaucho Martín Fierro",
+        None,
+        "publicado",
+        v("principal", "principal", None),
+        "Estudio argentino",
+        "Argentina",
+        ["PC"],
+        ["aventura", "accion"],
+        "Videojuego inspirado en el poema de José Hernández, ambientado en la pampa argentina del siglo XIX.",
+        {
+            "regiones": ["Pampeana"],
+            "provincias": [],
+            "periodo_historico": ["siglo_xix"],
+            "temas": ["gauchesco", "literatura", "folclore"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/3610780/El_gaucho_Martn_Fierro/",
+            "fuentes_investigacion": [
+                "https://store.steampowered.com/app/3610780/El_gaucho_Martn_Fierro/"
+            ],
+        },
+        personajes=[
+            {
+                "nombre": "Martín Fierro",
+                "tipo": "literario",
+                "rol": "protagonista",
+                "descripcion": "Gaucho del poema de Hernández",
+            }
+        ],
+        ejes_culturales=["literatura", "folclore", "historia"],
+    ),
+    game(
+        "microsoft-flight-simulator-argentina",
+        "Microsoft Flight Simulator",
+        2020,
+        "publicado",
+        v("referencia_menor", None, None),
+        "Asobo Studio / Microsoft",
+        "Francia",
+        ["PC", "Xbox"],
+        ["simulacion"],
+        "Simulador de vuelo con escenarios fotorealistas de todo el país: Ushuaia, Bariloche, Iguazú, Perito Moreno y más puntos icónicos argentinos.",
+        {
+            "regiones": ["Nacional", "Patagonia", "Noreste", "Cuyo"],
+            "provincias": [
+                "Tierra del Fuego",
+                "Río Negro",
+                "Misiones",
+                "Santa Cruz",
+                "Ciudad Autónoma de Buenos Aires",
+            ],
+            "periodo_historico": ["contemporaneo"],
+            "temas": ["geografia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/",
+            "fuentes_investigacion": [
+                "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+            ],
+        },
+        ejes_culturales=["geografia"],
+        grado_relevancia_argentina="menor",
+    ),
+    game(
+        "fortnite-argentina-maps",
+        "Fortnite — Mapas turísticos",
+        None,
+        "publicado",
+        v("referencia_menor", None, None),
+        "Epic Games",
+        "Estados Unidos",
+        ["PC", "PlayStation", "Xbox", "Android", "iOS"],
+        ["accion", "battle_royale"],
+        "Fortnite incorporó mapas y experiencias turísticas de Argentina — Obelisco, Iguazú, Perito Moreno, Ischigualasto y más — como contenido limitado de Epic.",
+        {
+            "regiones": ["Nacional", "Patagonia", "Noreste", "Cuyo"],
+            "provincias": ["Ciudad Autónoma de Buenos Aires", "Misiones", "Santa Cruz"],
+            "periodo_historico": ["contemporaneo"],
+            "temas": ["geografia", "cultura_popular"],
+        },
+        {
+            "web_oficial": "https://www.fortnite.com/",
+            "fuentes_investigacion": [
+                "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+            ],
+        },
+        ejes_culturales=["geografia"],
+        grado_relevancia_argentina="menor",
+    ),
+    game(
+        "libertad-o-muerte",
+        "Libertad o Muerte!",
+        2020,
+        "publicado",
+        v("principal", "principal", None),
+        "Headquarter S.L.",
+        "España",
+        ["PC"],
+        ["estrategia", "simulacion"],
+        "Wargame por turnos sobre las guerras de independencia latinoamericanas, con campañas jugables en el Cono Sur y el norte colonial.",
+        {
+            "regiones": ["Nacional", "Noroeste", "Pampeana"],
+            "provincias": ["Buenos Aires", "Salta", "Jujuy"],
+            "periodo_historico": ["independencia", "siglo_xix"],
+            "temas": ["independencia", "historia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/1174420/Libertad_o_Muerte/",
+            "fuentes_investigacion": [
+                "https://store.steampowered.com/app/1174420/Libertad_o_Muerte/"
+            ],
+        },
+        ejes_culturales=["historia"],
+        grado_relevancia_argentina="importante",
+    ),
+    game(
+        "mount-blade-warband-mods-argentina",
+        "Mount & Blade: Warband — Mods independentistas",
+        2010,
+        "publicado",
+        v("referencia_menor", "referencia_menor", None),
+        "TaleWorlds / comunidad modder",
+        "Turquía",
+        ["PC"],
+        ["estrategia", "accion", "rpg"],
+        "Juego base con mods de la comunidad que recrean campañas de independencia y conflictos coloniales en América del Sur.",
+        {
+            "regiones": ["Nacional"],
+            "provincias": [],
+            "periodo_historico": ["independencia", "siglo_xix"],
+            "temas": ["independencia", "historia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/48700/Mount__Blade_Warband/",
+            "fuentes_investigacion": [
+                "https://steamcommunity.com/workshop/browse/?appid=48700&searchtext=argentina+independencia"
+            ],
+        },
+        metadatos={"idiomas": ["es", "en"], "multijugador": True, "precio": None, "rating": {}, "tipo": "mod"},
+        ejes_culturales=["historia"],
+        tipo_obra="mod",
+        grado_relevancia_argentina="menor",
+    ),
+    game(
+        "napoleon-total-war-mods-independencia",
+        "Napoleon: Total War — Mods independencia americana",
+        2010,
+        "publicado",
+        v("referencia_menor", "referencia_menor", None),
+        "Creative Assembly / comunidad modder",
+        "Reino Unido",
+        ["PC"],
+        ["estrategia"],
+        "Total War napoleónico con mods comunitarios que exploran la independencia americana y conflictos en el Cono Sur.",
+        {
+            "regiones": ["Nacional"],
+            "provincias": [],
+            "periodo_historico": ["independencia", "siglo_xix"],
+            "temas": ["independencia", "historia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/34030/Napoleon_Total_War/",
+            "fuentes_investigacion": [
+                "https://steamcommunity.com/workshop/browse/?appid=34030&searchtext=south+america+independence"
+            ],
+        },
+        metadatos={"idiomas": ["es", "en"], "multijugador": True, "precio": None, "rating": {}, "tipo": "mod"},
+        ejes_culturales=["historia"],
+        tipo_obra="mod",
+        grado_relevancia_argentina="menor",
+    ),
+    game(
+        "empire-total-war-mods-america",
+        "Empire: Total War — Mods América colonial",
+        2009,
+        "publicado",
+        v("referencia_menor", "referencia_menor", None),
+        "Creative Assembly / comunidad modder",
+        "Reino Unido",
+        ["PC"],
+        ["estrategia"],
+        "Estrategia en tiempo real del siglo XVIII con mods que amplían campañas en América colonial, incluyendo el Río de la Plata.",
+        {
+            "regiones": ["Pampeana"],
+            "provincias": ["Buenos Aires"],
+            "periodo_historico": ["colonial", "siglo_xviii"],
+            "temas": ["historia", "independencia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/10500/Empire_Total_War/",
+            "fuentes_investigacion": [
+                "https://steamcommunity.com/workshop/browse/?appid=10500&searchtext=argentina+colonial"
+            ],
+        },
+        metadatos={"idiomas": ["es", "en"], "multijugador": True, "precio": None, "rating": {}, "tipo": "mod"},
+        ejes_culturales=["historia"],
+        tipo_obra="mod",
+        grado_relevancia_argentina="menor",
+    ),
+    game(
+        "europa-universalis-iv-argentina",
+        "Europa Universalis IV",
+        2013,
+        "publicado",
+        v("principal", "principal", None),
+        "Paradox Development Studio",
+        "Suecia",
+        ["PC"],
+        ["estrategia", "simulacion"],
+        "Grand strategy donde se puede jugar como Castilla del Plata y formar las Provincias Unidas del Río de la Plata o la Argentina a lo largo de siglos de historia.",
+        {
+            "regiones": ["Pampeana", "Noroeste"],
+            "provincias": ["Buenos Aires", "Córdoba", "Salta"],
+            "periodo_historico": ["colonial", "independencia", "siglo_xix"],
+            "temas": ["historia", "independencia"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/236850/Europa_Universalis_IV/",
+            "fuentes_investigacion": [
+                "https://store.steampowered.com/app/236850/Europa_Universalis_IV/"
+            ],
+        },
+        ejes_culturales=["historia"],
+        grado_relevancia_argentina="importante",
+    ),
+    game(
+        "hearts-of-iron-iv-mods-argentina",
+        "Hearts of Iron IV — Mods Argentina",
+        2016,
+        "publicado",
+        v("referencia_menor", "referencia_menor", None),
+        "Paradox Development Studio / comunidad modder",
+        "Suecia",
+        ["PC"],
+        ["estrategia", "simulacion"],
+        "Juego de estrategia de la Segunda Guerra Mundial con mods comunitarios que exploran líneas temporales alternativas de Argentina.",
+        {
+            "regiones": ["Nacional"],
+            "provincias": [],
+            "periodo_historico": ["siglo_xx"],
+            "temas": ["historia", "politica"],
+        },
+        {
+            "steam": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/",
+            "fuentes_investigacion": [
+                "https://steamcommunity.com/workshop/browse/?appid=394360&searchtext=argentina"
+            ],
+        },
+        metadatos={"idiomas": ["es", "en"], "multijugador": True, "precio": None, "rating": {}, "tipo": "mod"},
+        ejes_culturales=["historia", "politica"],
+        tipo_obra="mod",
+        grado_relevancia_argentina="menor",
+    ),
+]

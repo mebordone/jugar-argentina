@@ -8580,5 +8580,1051 @@
     "disponibilidad": "gratis",
     "verificado": true,
     "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "federacion-2073",
+    "titulo": "Federación 2073",
+    "titulo_original": "Federación 2073",
+    "anio": null,
+    "estado": "abandonware",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Austral Games / Arrow",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "mmorpg",
+      "accion"
+    ],
+    "descripcion": "MMO argentino de principios de los 2000 ambientado en una Buenos Aires futurista y postapocalíptica, donde tribus urbanas combatían por el control de la ciudad.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "ciencia_ficcion",
+        "cultura_urbana"
+      ]
+    },
+    "enlaces": {
+      "fuentes_investigacion": [
+        "https://www.lanacion.com.ar/tecnologia/videojuegos-hechos-en-la-argentina-nid543208/",
+        "https://www.fabio.com.ar/498-federacion-2073"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "cultura_urbana",
+      "historia"
+    ],
+    "tipo_obra": "abandonware",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "perdido",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "heroinas-independencia",
+    "titulo": "Heroínas de la Independencia",
+    "titulo_original": "Heroínas de la Independencia",
+    "anio": null,
+    "estado": "en_desarrollo",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [
+      {
+        "nombre": "Juana Azurduy de Padilla",
+        "tipo": "historico",
+        "rol": "protagonista",
+        "descripcion": "Heroína de la independencia"
+      },
+      {
+        "nombre": "Macacha Güemes",
+        "tipo": "historico",
+        "rol": "protagonista",
+        "descripcion": "Organizadora de la resistencia en Salta"
+      },
+      {
+        "nombre": "María Remedios del Valle",
+        "tipo": "historico",
+        "rol": "protagonista",
+        "descripcion": "Capitana de milicias afrodescendientes"
+      }
+    ],
+    "deporte_argentino": null,
+    "desarrollador": "Fundación Ariadna",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "educativo"
+    ],
+    "descripcion": "Videojuego lúdico-educativo en desarrollo sobre cinco mujeres protagonistas de las guerras de independencia en el norte argentino y el Alto Perú.",
+    "contexto_argentino": {
+      "regiones": [
+        "Noroeste"
+      ],
+      "provincias": [
+        "Salta",
+        "Jujuy"
+      ],
+      "periodo_historico": [
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "independencia",
+        "proceres",
+        "historia"
+      ]
+    },
+    "enlaces": {
+      "web_oficial": "https://fundacionariadna.org.ar/videojuego",
+      "fuentes_investigacion": [
+        "https://fundacionariadna.org.ar/videojuego"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "historia",
+      "educativo"
+    ],
+    "tipo_obra": "educativo",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "perdido",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "cronicas-libertadores",
+    "titulo": "Crónicas de los Libertadores",
+    "titulo_original": "Crónicas de los Libertadores",
+    "anio": null,
+    "estado": "en_desarrollo",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Digi Learnnials",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "simulacion"
+    ],
+    "descripcion": "Estrategia por turnos en desarrollo sobre las campañas independentistas sudamericanas del siglo XIX, con énfasis en héroes anónimos y figuras poco difundidas.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional",
+        "Noroeste"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires",
+        "Salta",
+        "Jujuy"
+      ],
+      "periodo_historico": [
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "independencia",
+        "proceres",
+        "historia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2603120/Liberators_Chronicles/",
+      "fuentes_investigacion": [
+        "https://www.infobae.com/def/2024/01/06/crearon-un-videojuego-con-personajes-de-la-historia-argentina-como-nacio-cronica-de-los-libertadores/",
+        "https://www.imagecampus.edu.ar/incubadora/cronicas-de-los-libertadores"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2603120/7a3e86d0c7d8dc280e653e0c5e0f8248dcb72e70/header.jpg?t=1782929731",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2603120/ss_6502c5b44ded469af28b898cffab6eb64d09cb6a.1920x1080.jpg?t=1782929731",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2603120/6cbe9d4975790a26e6f3c84eea7b6d7bea4d9e64/ss_6cbe9d4975790a26e6f3c84eea7b6d7bea4d9e64.1920x1080.jpg?t=1782929731",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2603120/a75eefa995bc80ae8de6e3e87b043fb24880080d/ss_a75eefa995bc80ae8de6e3e87b043fb24880080d.1920x1080.jpg?t=1782929731",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2603120/91120b1255dff40dafd1df96ea1a4d70e5159b8b/ss_91120b1255dff40dafd1df96ea1a4d70e5159b8b.1920x1080.jpg?t=1782929731"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "historia",
+      "educativo"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "perdido",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "el-gaucho-martin-fierro",
+    "titulo": "El Gaucho Martín Fierro",
+    "titulo_original": "El Gaucho Martín Fierro",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [
+      {
+        "nombre": "Martín Fierro",
+        "tipo": "literario",
+        "rol": "protagonista",
+        "descripcion": "Gaucho del poema de Hernández"
+      }
+    ],
+    "deporte_argentino": null,
+    "desarrollador": "Estudio argentino",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "accion"
+    ],
+    "descripcion": "Videojuego inspirado en el poema de José Hernández, ambientado en la pampa argentina del siglo XIX.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "siglo_xix"
+      ],
+      "temas": [
+        "gauchesco",
+        "literatura",
+        "folclore"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3610780/El_gaucho_Martn_Fierro/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3610780/El_gaucho_Martn_Fierro/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610780/12ab33641e78184b374e0ef399ab0f37add0e294/header.jpg?t=1760487025",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610780/6a5e8de18281bce81e27c618f8961e808be299d5/ss_6a5e8de18281bce81e27c618f8961e808be299d5.1920x1080.jpg?t=1760487025",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610780/079fa641ab01c72a25bb71b92e35d99a8670365e/ss_079fa641ab01c72a25bb71b92e35d99a8670365e.1920x1080.jpg?t=1760487025",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610780/47b404c34d070fb09a44fe4c62695d7d176bfef5/ss_47b404c34d070fb09a44fe4c62695d7d176bfef5.1920x1080.jpg?t=1760487025",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610780/0420698e4bb9b15ffc5378841c967545b70c04e4/ss_0420698e4bb9b15ffc5378841c967545b70c04e4.1920x1080.jpg?t=1760487025"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "literatura",
+      "folclore",
+      "historia"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "microsoft-flight-simulator-argentina",
+    "titulo": "Microsoft Flight Simulator",
+    "titulo_original": "Microsoft Flight Simulator",
+    "anio": 2020,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Asobo Studio / Microsoft",
+    "pais_desarrollo": "Francia",
+    "plataformas": [
+      "PC",
+      "Xbox"
+    ],
+    "generos": [
+      "simulacion"
+    ],
+    "descripcion": "Simulador de vuelo con escenarios fotorealistas de todo el país: Ushuaia, Bariloche, Iguazú, Perito Moreno y más puntos icónicos argentinos.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional",
+        "Patagonia",
+        "Noreste",
+        "Cuyo"
+      ],
+      "provincias": [
+        "Tierra del Fuego",
+        "Río Negro",
+        "Misiones",
+        "Santa Cruz",
+        "Ciudad Autónoma de Buenos Aires"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "geografia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/",
+      "fuentes_investigacion": [
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/header.jpg?t=1777409972",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/ss_d31fefd20eda54107d0414c779d0058c8b030233.1920x1080.jpg?t=1777409972",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/ss_7bef6695583570c8714dab5acda6f08128e02f22.1920x1080.jpg?t=1777409972",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/ss_28e2168df0f5a96a0f7f90e04d6a2059fa09d32c.1920x1080.jpg?t=1777409972",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/ss_56be1573715370c1f3d4abfef38e2fa5cc9cfc08.1920x1080.jpg?t=1777409972"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "geografia"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "fortnite-argentina-maps",
+    "titulo": "Fortnite — Mapas turísticos",
+    "titulo_original": "Fortnite — Mapas turísticos",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Epic Games",
+    "pais_desarrollo": "Estados Unidos",
+    "plataformas": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Android",
+      "iOS"
+    ],
+    "generos": [
+      "accion",
+      "battle_royale"
+    ],
+    "descripcion": "Fortnite incorporó mapas y experiencias turísticas de Argentina — Obelisco, Iguazú, Perito Moreno, Ischigualasto y más — como contenido limitado de Epic.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional",
+        "Patagonia",
+        "Noreste",
+        "Cuyo"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires",
+        "Misiones",
+        "Santa Cruz"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "geografia",
+        "cultura_popular"
+      ]
+    },
+    "enlaces": {
+      "web_oficial": "https://www.fortnite.com/",
+      "fuentes_investigacion": [
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "geografia",
+      "folclore"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "libertad-o-muerte",
+    "titulo": "Libertad o Muerte!",
+    "titulo_original": "Libertad o Muerte!",
+    "anio": 2020,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Headquarter S.L.",
+    "pais_desarrollo": "España",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "simulacion"
+    ],
+    "descripcion": "Wargame por turnos sobre las guerras de independencia latinoamericanas, con campañas jugables en el Cono Sur y el norte colonial.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional",
+        "Noroeste",
+        "Pampeana"
+      ],
+      "provincias": [
+        "Buenos Aires",
+        "Salta",
+        "Jujuy"
+      ],
+      "periodo_historico": [
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "independencia",
+        "historia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/1174420/Libertad_o_Muerte/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/1174420/Libertad_o_Muerte/"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "importante",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "mount-blade-warband-mods-argentina",
+    "titulo": "Mount & Blade: Warband — Mods independentistas",
+    "titulo_original": "Mount & Blade: Warband — Mods independentistas",
+    "anio": 2010,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "TaleWorlds / comunidad modder",
+    "pais_desarrollo": "Turquía",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "accion",
+      "rpg"
+    ],
+    "descripcion": "Juego base con mods de la comunidad que recrean campañas de independencia y conflictos coloniales en América del Sur.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "independencia",
+        "historia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/48700/Mount__Blade_Warband/",
+      "fuentes_investigacion": [
+        "https://steamcommunity.com/workshop/browse/?appid=48700&searchtext=argentina+independencia"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es",
+        "en"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "napoleon-total-war-mods-independencia",
+    "titulo": "Napoleon: Total War — Mods independencia americana",
+    "titulo_original": "Napoleon: Total War — Mods independencia americana",
+    "anio": 2010,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Creative Assembly / comunidad modder",
+    "pais_desarrollo": "Reino Unido",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia"
+    ],
+    "descripcion": "Total War napoleónico con mods comunitarios que exploran la independencia americana y conflictos en el Cono Sur.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "independencia",
+        "historia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/34030/Napoleon_Total_War/",
+      "fuentes_investigacion": [
+        "https://steamcommunity.com/workshop/browse/?appid=34030&searchtext=south+america+independence"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es",
+        "en"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "empire-total-war-mods-america",
+    "titulo": "Empire: Total War — Mods América colonial",
+    "titulo_original": "Empire: Total War — Mods América colonial",
+    "anio": 2009,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Creative Assembly / comunidad modder",
+    "pais_desarrollo": "Reino Unido",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia"
+    ],
+    "descripcion": "Estrategia en tiempo real del siglo XVIII con mods que amplían campañas en América colonial, incluyendo el Río de la Plata.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "Buenos Aires"
+      ],
+      "periodo_historico": [
+        "colonial",
+        "siglo_xviii"
+      ],
+      "temas": [
+        "historia",
+        "independencia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/10500/Empire_Total_War/",
+      "fuentes_investigacion": [
+        "https://steamcommunity.com/workshop/browse/?appid=10500&searchtext=argentina+colonial"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es",
+        "en"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "europa-universalis-iv-argentina",
+    "titulo": "Europa Universalis IV",
+    "titulo_original": "Europa Universalis IV",
+    "anio": 2013,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Paradox Development Studio",
+    "pais_desarrollo": "Suecia",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "simulacion"
+    ],
+    "descripcion": "Grand strategy donde se puede jugar como Castilla del Plata y formar las Provincias Unidas del Río de la Plata o la Argentina a lo largo de siglos de historia.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana",
+        "Noroeste"
+      ],
+      "provincias": [
+        "Buenos Aires",
+        "Córdoba",
+        "Salta"
+      ],
+      "periodo_historico": [
+        "colonial",
+        "independencia",
+        "siglo_xix"
+      ],
+      "temas": [
+        "historia",
+        "independencia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/236850/Europa_Universalis_IV/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/236850/Europa_Universalis_IV/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1778249292",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_505866198168d5ebaf3b4b76caeca2ee55883786.1920x1080.jpg?t=1778249292",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_a7a6735657b6aafd1125b9b4280a0f73e5fc2981.1920x1080.jpg?t=1778249292",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_0f31b85193b9e40fd70f710c0ac8fa843c96b604.1920x1080.jpg?t=1778249292",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/ss_83179e7c220e4bf9a396c77e8a566a4c9d30d686.1920x1080.jpg?t=1778249292"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "comercial",
+    "grado_relevancia_argentina": "importante",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "hearts-of-iron-iv-mods-argentina",
+    "titulo": "Hearts of Iron IV — Mods Argentina",
+    "titulo_original": "Hearts of Iron IV — Mods Argentina",
+    "anio": 2016,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Paradox Development Studio / comunidad modder",
+    "pais_desarrollo": "Suecia",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "simulacion"
+    ],
+    "descripcion": "Juego de estrategia de la Segunda Guerra Mundial con mods comunitarios que exploran líneas temporales alternativas de Argentina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "siglo_xx"
+      ],
+      "temas": [
+        "historia",
+        "politica"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/",
+      "fuentes_investigacion": [
+        "https://steamcommunity.com/workshop/browse/?appid=394360&searchtext=argentina"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": []
+    },
+    "metadatos": {
+      "idiomas": [
+        "es",
+        "en"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "historia",
+      "politica"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
   }
 ]

@@ -34,6 +34,12 @@ STEAM_TITLE_OVERRIDES: dict[str, set[str]] = {
     "chameleon-buenos-aires": {"chameleon"},
     "battlefield-bad-company-2-andes": {"battlefield", "bad", "company"},
     "fifa-street-caminito": {"fifa", "street"},
+    "mount-blade-warband-mods-argentina": {"mount", "blade", "warband"},
+    "napoleon-total-war-mods-independencia": {"napoleon", "total", "war"},
+    "empire-total-war-mods-america": {"empire", "total", "war"},
+    "hearts-of-iron-iv-mods-argentina": {"hearts", "iron"},
+    "microsoft-flight-simulator-argentina": {"flight", "simulator", "microsoft"},
+    "europa-universalis-iv-argentina": {"europa", "universalis"},
 }
 
 

@@ -187,11 +187,48 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
     "resistencia-en-obligado": {
         "itch": "https://pazrozen.itch.io/resistenciaenobligado",
     },
+    "cronicas-libertadores": {
+        "steam": "https://store.steampowered.com/app/2603120/Liberators_Chronicles/",
+    },
+    "el-gaucho-martin-fierro": {
+        "steam": "https://store.steampowered.com/app/3610780/El_gaucho_Martn_Fierro/",
+    },
+    "microsoft-flight-simulator-argentina": {
+        "steam": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/",
+    },
+    "fortnite-argentina-maps": {
+        "web_oficial": "https://www.fortnite.com/",
+    },
+    "libertad-o-muerte": {
+        "steam": "https://store.steampowered.com/app/1174420/Libertad_o_Muerte/",
+    },
+    "mount-blade-warband-mods-argentina": {
+        "steam": "https://store.steampowered.com/app/48700/Mount__Blade_Warband/",
+    },
+    "napoleon-total-war-mods-independencia": {
+        "steam": "https://store.steampowered.com/app/34030/Napoleon_Total_War/",
+    },
+    "empire-total-war-mods-america": {
+        "steam": "https://store.steampowered.com/app/10500/Empire_Total_War/",
+    },
+    "europa-universalis-iv-argentina": {
+        "steam": "https://store.steampowered.com/app/236850/Europa_Universalis_IV/",
+    },
+    "hearts-of-iron-iv-mods-argentina": {
+        "steam": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/",
+    },
+    "heroinas-independencia": {
+        "web_oficial": "https://fundacionariadna.org.ar/videojuego",
+    },
 }
 
 TIPO_OBRA_PATCHES: dict[str, str] = {
     "civ6-mod-argentina": "mod",
     "gta-rio-de-la-plata": "mod",
+    "mount-blade-warband-mods-argentina": "mod",
+    "napoleon-total-war-mods-independencia": "mod",
+    "empire-total-war-mods-america": "mod",
+    "hearts-of-iron-iv-mods-argentina": "mod",
 }
 
 WORKSHOP_PATCHES: dict[str, str] = {
