@@ -5,12 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npm run data:publish && astro check && astro build && npm run search:index",
     "preview": "astro preview",
     "validate:data": "python3 scripts/validate.py",
     "validate:links": "python3 scripts/validate_links.py",
+    "validate:external": "python3 scripts/validate_external_links.py",
     "validate": "npm run validate:data && npm run validate:links",
-    "harvest:covers": "python3 scripts/harvest_covers.py"
+    "test:filters": "npx tsx scripts/test_filters.ts",
+    "harvest:covers": "python3 scripts/harvest_covers.py",
+    "data:patch-links": "python3 scripts/apply_play_links.py",
+    "data:infer": "python3 scripts/infer_disponibilidad.py",
+    "data:ejes": "python3 scripts/propagate_ejes.py",
+    "data:grados": "python3 scripts/reclassify_grados.py",
+    "data:sync-csv": "python3 scripts/sync_csv_triage.py",
+    "data:build": "python3 scripts/apply_play_links.py && python3 scripts/infer_disponibilidad.py && python3 scripts/propagate_ejes.py && python3 scripts/reclassify_grados.py && python3 scripts/harvest_covers.py && python3 scripts/harvest_captures.py && python3 scripts/sync_csv_triage.py",
+    "harvest:captures": "python3 scripts/harvest_captures.py",
+    "data:publish": "mkdir -p public/data && cp data/games.json public/data/games.json",
+    "search:index": "npx pagefind --site dist --output-path dist/pagefind || true"
   },
   "dependencies": {
     "@astrojs/check": "latest",
@@ -22,6 +33,7 @@
     "typescript": "latest"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1"
+    "@types/node": "^26.1.1",
+    "pagefind": "^1.5.2"
   }
 }

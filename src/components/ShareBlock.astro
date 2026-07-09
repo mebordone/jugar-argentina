@@ -11,16 +11,23 @@ const { title, text } = Astro.props;
   <p class="eyebrow">Para compartir</p>
   <h2>{title}</h2>
   <p>{text}</p>
-  <button class="button button-secondary" data-copy-url>
+  <button class="button button-secondary" data-copy-url type="button">
     Copiar enlace
   </button>
+  <p class="share-status" data-copy-status aria-live="polite"></p>
 </section>
 
 <script>
   document.querySelectorAll("[data-copy-url]").forEach((button) => {
+    const status = button.parentElement?.querySelector("[data-copy-status]");
     button.addEventListener("click", async () => {
       await navigator.clipboard.writeText(window.location.href);
       button.textContent = "Enlace copiado";
+      if (status) status.textContent = "Enlace copiado al portapapeles.";
+      window.setTimeout(() => {
+        button.textContent = "Copiar enlace";
+        if (status) status.textContent = "";
+      }, 2500);
     });
   });
 </script>

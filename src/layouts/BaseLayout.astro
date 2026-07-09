@@ -6,13 +6,36 @@ import { absoluteUrl, sitePath } from "../lib/links";
 type Props = {
   title?: string;
   description?: string;
+  ogImage?: string;
+  currentPath?: string;
 };
 
-const { title = SITE.name, description = SITE.description } = Astro.props;
+const {
+  title = SITE.name,
+  description = SITE.description,
+  ogImage = absoluteUrl("/og-default.png"),
+  currentPath = Astro.url.pathname,
+} = Astro.props;
 const pageTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
 const canonicalUrl = absoluteUrl(Astro.url.pathname);
-const ogImage = absoluteUrl("/og-default.png");
 const favicon = sitePath("/favicon.svg");
+
+function isActive(href: string) {
+  const normalized = href.replace(/\/$/, "") || "/";
+  const current = currentPath.replace(/\/$/, "") || "/";
+  if (normalized === sitePath("/").replace(/\/$/, "") || normalized === "/") {
+    return current === sitePath("/").replace(/\/$/, "") || current === "/";
+  }
+  return current.startsWith(normalized);
+}
+
+const navItems = [
+  { href: "/catalogo", label: "Catálogo" },
+  { href: "/recorridos", label: "Recorridos" },
+  { href: "/listas/juegos-verificados", label: "Listas" },
+  { href: "/curaduria", label: "Curaduría" },
+  { href: "/sugerir", label: "Sugerí un juego" },
+];
 ---
 
 <!doctype html>
@@ -26,6 +49,8 @@ const favicon = sitePath("/favicon.svg");
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content="es_AR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
@@ -39,8 +64,16 @@ const favicon = sitePath("/favicon.svg");
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,900;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE.name,
+      description: SITE.description,
+      url: SITE.siteUrl,
+    })} />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Ir al contenido</a>
     <header class="site-header">
       <a href={sitePath("/")} class="brand" aria-label="Inicio">
         <span class="brand-mark">JA</span>
@@ -49,14 +82,20 @@ const favicon = sitePath("/favicon.svg");
           <small>{SITE.tagline}</small>
         </span>
       </a>
-      <nav class="nav">
-        <a href={sitePath("/catalogo")}>Catálogo</a>
-        <a href={sitePath("/recorridos")}>Recorridos</a>
-        <a href={sitePath("/curaduria")}>Curaduría</a>
-        <a href={sitePath("/sugerir")}>Sugerí un juego</a>
+      <nav class="nav" aria-label="Principal">
+        {
+          navItems.map((item) => (
+            <a
+              href={sitePath(item.href)}
+              aria-current={isActive(item.href) ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
       </nav>
     </header>
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <footer class="site-footer">
@@ -64,6 +103,14 @@ const favicon = sitePath("/favicon.svg");
         <strong>{SITE.name}</strong> es una base curada para descubrir, jugar y
         compartir videojuegos vinculados a la cultura argentina.
       </p>
+      <nav class="footer-nav" aria-label="Mapa del sitio">
+        <a href={sitePath("/catalogo")}>Catálogo</a>
+        <a href={sitePath("/recorridos")}>Recorridos</a>
+        <a href={sitePath("/listas/juegos-verificados")}>Listas</a>
+        <a href={sitePath("/curaduria")}>Curaduría</a>
+        <a href={sitePath("/sugerir")}>Sugerí un juego</a>
+        <a href={sitePath("/data/games.json")} download>Descargar datos (JSON)</a>
+      </nav>
       <p>Datos abiertos desde JSON estático. Hecho para publicarse en GitHub Pages.</p>
     </footer>
   </body>

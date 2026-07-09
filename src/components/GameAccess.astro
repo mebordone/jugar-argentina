@@ -22,11 +22,12 @@ const sourceActions = actions.filter((action) => action.type === "source");
 
 <div class:list={["access-box", compact && "access-compact"]}>
   {primary && primary.type !== "source" ? (
-    <a class="button button-primary" href={primary.url} target="_blank" rel="noreferrer">
+    <a class="button button-primary" href={primary.url} target="_blank" rel="noreferrer noopener">
       {primary.label}
+      <span class="sr-only"> (se abre en una pestaña nueva)</span>
     </a>
   ) : (
-    <span class="button button-disabled">
+    <span class="button button-disabled" aria-disabled="true">
       {isPlayable ? "Sin enlace disponible" : "Sin link de juego"}
     </span>
   )}

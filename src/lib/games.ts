@@ -55,6 +55,13 @@ export type Game = {
   edicion: string | null;
   relacionado_con: string[];
   disponibilidad: string;
+  metadatos?: {
+    idiomas?: string[];
+    multijugador?: boolean;
+    precio?: string | null;
+    rating?: Record<string, unknown>;
+    tipo?: string;
+  };
 };
 
 export type GameView = Game & {

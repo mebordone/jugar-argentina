@@ -1,7 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import GameCard from "../../components/GameCard.astro";
 import ShareBlock from "../../components/ShareBlock.astro";
+import { catalogQueryForTemas } from "../../lib/filterGames";
 import {
   destacadosForRecorrido,
   formatRecorridoFecha,
@@ -23,9 +25,16 @@ const destacados = destacadosForRecorrido(recorrido);
 const relacionados = relatedForRecorrido(recorrido);
 const recorridoGames = gamesForRecorrido(recorrido);
 const fechaLabel = formatRecorridoFecha(recorrido.fecha);
+const catalogHref = sitePath(catalogQueryForTemas(recorrido.temas));
 ---
 
 <BaseLayout title={recorrido.titulo} description={recorrido.descripcion}>
+  <Breadcrumbs
+    items={[
+      { label: "Recorridos", href: "/recorridos" },
+      { label: recorrido.titulo },
+    ]}
+  />
   <section class="page-hero">
     <a class="back-link" href={sitePath("/recorridos")}>Todos los recorridos</a>
     <p class="eyebrow">
@@ -58,7 +67,7 @@ const fechaLabel = formatRecorridoFecha(recorrido.fecha);
       </div>
     </div>
     <div class="game-grid">
-      {destacados.map((game) => <GameCard game={game} />)}
+      {destacados.map((game) => <GameCard game={game} fromRecorrido={recorrido.slug} />)}
     </div>
   </section>
 
@@ -74,8 +83,17 @@ const fechaLabel = formatRecorridoFecha(recorrido.fecha);
         </div>
       </div>
       <div class="game-grid">
-        {relacionados.map((game) => <GameCard game={game} />)}
+        {relacionados.map((game) => <GameCard game={game} fromRecorrido={recorrido.slug} />)}
       </div>
     </section>
   )}
+
+  <section class="section panel catalog-cta">
+    <h2>Explorar más en el catálogo</h2>
+    <p>
+      Este recorrido muestra hasta {recorridoGames.length} juegos curados. En el catálogo
+      podés ver todos los títulos relacionados y combinar filtros.
+    </p>
+    <a class="button button-primary" href={catalogHref}>Ver en el catálogo</a>
+  </section>
 </BaseLayout>
