@@ -1,6 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import type { GameView } from "../lib/games";
-import { humanize, normalizeText, tipoObraTone } from "../lib/filters";
+import {
+  EMPTY_CATALOG_FILTERS,
+  filterGames,
+  type CatalogFilters,
+} from "../lib/filterGames";
+import { humanize, placeholderClass, tipoObraTone } from "../lib/filters";
+import { reportGameUrl } from "../lib/report";
+
+const PAGE_SIZE = 24;
 
 type Options = {
   ejes: string[];
@@ -12,57 +20,25 @@ type Options = {
   tiposObra: string[];
 };
 
-type Filters = {
-  q: string;
-  eje: string;
-  vinculo: string;
-  plataforma: string;
-  provincia: string;
-  disponibilidad: string;
-  sensibilidad: string;
-  tipo_obra: string;
-  jugable: string;
-  tema: string;
-};
-
 type Props = {
   games: GameView[];
   options: Options;
   basePath: string;
+  initialFilters?: CatalogFilters;
 };
 
-const EMPTY_FILTERS: Filters = {
-  q: "",
-  eje: "",
-  vinculo: "",
-  plataforma: "",
-  provincia: "",
-  disponibilidad: "",
-  sensibilidad: "",
-  tipo_obra: "",
-  jugable: "",
-  tema: "",
-};
-
-export default function GameFilters({ games, options, basePath }: Props) {
-  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+export default function GameFilters({
+  games,
+  options,
+  basePath,
+  initialFilters = EMPTY_CATALOG_FILTERS,
+}: Props) {
+  const [filters, setFilters] = useState<CatalogFilters>(initialFilters);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    setFilters({
-      ...EMPTY_FILTERS,
-      q: params.get("q") || "",
-      eje: params.get("eje") || "",
-      vinculo: params.get("vinculo") || "",
-      plataforma: params.get("plataforma") || "",
-      provincia: params.get("provincia") || "",
-      disponibilidad: params.get("disponibilidad") || "",
-      sensibilidad: params.get("sensibilidad") || "",
-      tipo_obra: params.get("tipo_obra") || "",
-      jugable: params.get("jugable") || "",
-      tema: params.get("tema") || "",
-    });
-  }, []);
+    setPage(1);
+  }, [filters]);
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -74,56 +50,26 @@ export default function GameFilters({ games, options, basePath }: Props) {
     window.history.replaceState(null, "", next);
   }, [filters]);
 
-  const filtered = useMemo(() => {
-    const textQuery = normalizeText([filters.q, filters.tema].filter(Boolean).join(" "));
-    return games.filter((game) => {
-      if (textQuery && !game.searchText.includes(textQuery)) return false;
-      if (filters.eje && !game.ejes_culturales.includes(filters.eje)) return false;
-      if (filters.tipo_obra && game.tipo_obra !== filters.tipo_obra) return false;
-      if (filters.jugable === "si" && !game.isPlayableToday) return false;
-      if (filters.jugable === "no" && game.isPlayableToday) return false;
-      if (filters.plataforma && !game.plataformas.includes(filters.plataforma)) return false;
-      if (
-        filters.provincia &&
-        !game.contexto_argentino.provincias.includes(filters.provincia) &&
-        !game.contexto_argentino.regiones.includes(filters.provincia)
-      ) {
-        return false;
-      }
-      if (
-        filters.disponibilidad &&
-        game.disponibilidad !== filters.disponibilidad
-      ) {
-        return false;
-      }
-      if (filters.sensibilidad && game.sensibilidad !== filters.sensibilidad) {
-        return false;
-      }
-      if (filters.vinculo) {
-        const vinculo = game.vinculo_argentina;
-        if (
-          filters.vinculo === "escenario" &&
-          !vinculo.escenario.activo
-        ) return false;
-        if (
-          filters.vinculo === "protagonista" &&
-          !vinculo.protagonista.activo
-        ) return false;
-        if (
-          filters.vinculo === "deporte" &&
-          !vinculo.deporte_argentino.activo
-        ) return false;
-      }
-      return true;
-    });
-  }, [filters, games]);
+  const filtered = useMemo(() => filterGames(games, filters), [filters, games]);
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(page, pageCount);
+  const visible = filtered.slice(
+    (currentPage - 1) * PAGE_SIZE,
+    currentPage * PAGE_SIZE,
+  );
 
-  function update(key: keyof Filters, value: string) {
+  const activeTema = filters.tema;
+
+  function update(key: keyof CatalogFilters, value: string) {
     setFilters((current) => ({ ...current, [key]: value }));
   }
 
   function clear() {
-    setFilters(EMPTY_FILTERS);
+    setFilters(EMPTY_CATALOG_FILTERS);
+  }
+
+  function removeTema() {
+    update("tema", "");
   }
 
   return (
@@ -135,6 +81,7 @@ export default function GameFilters({ games, options, basePath }: Props) {
             value={filters.q}
             onChange={(event) => update("q", event.target.value)}
             placeholder="Malvinas, truco, Mendoza, San Martín..."
+            aria-label="Buscar juegos en el catálogo"
           />
         </label>
         <Select label="Eje cultural" value={filters.eje} onChange={(v) => update("eje", v)} values={options.ejes} />
@@ -147,82 +94,149 @@ export default function GameFilters({ games, options, basePath }: Props) {
         <Select label="Sensibilidad" value={filters.sensibilidad} onChange={(v) => update("sensibilidad", v)} values={options.sensibilidades} />
       </div>
 
+      {activeTema && (
+        <div className="active-filters">
+          <span className="chip chip-active">
+            Tema: {humanize(activeTema)}
+            <button type="button" className="chip-remove" onClick={removeTema} aria-label={`Quitar filtro ${humanize(activeTema)}`}>
+              ×
+            </button>
+          </span>
+        </div>
+      )}
+
       <div className="result-heading">
         <p>
           <strong>{filtered.length}</strong> juegos encontrados
+          {pageCount > 1 && (
+            <span className="result-page">
+              {" "}
+              · página {currentPage} de {pageCount}
+            </span>
+          )}
         </p>
         <button className="link-button" type="button" onClick={clear}>
           Limpiar filtros
         </button>
       </div>
 
-      <div className="game-grid">
-        {filtered.map((game) => (
-          <article className="game-card" key={game.id}>
-            {game.imagenes?.portada ? (
-              <img
-                className="game-card-cover"
-                src={game.imagenes.portada}
-                alt={`Portada de ${game.titulo}`}
-                loading="lazy"
-                decoding="async"
-              />
-            ) : (
-              <div
-                className={`game-card-cover ${placeholderClass(game.ejes_culturales)}`}
-                aria-hidden="true"
-              />
-            )}
-            <div className="game-card-content">
-              <p className="eyebrow">
-                {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}
-              </p>
-              <h3>
-                <a href={joinBase(basePath, `/juegos/${game.id}`)}>{game.titulo}</a>
-              </h3>
-              <p>{game.culturalSummary || game.descripcion}</p>
-              <div className="badge-row">
-                <span className={`badge badge-${tipoObraTone(game.tipo_obra)}`}>
-                  {humanize(game.tipo_obra)}
-                </span>
-                {game.badges.slice(0, 4).map((badge) => (
-                  <span className="badge" key={badge}>{badge}</span>
-                ))}
-                <span className="badge badge-warm">
-                  {humanize(game.grado_relevancia_argentina)}
-                </span>
-                {!game.isPlayableToday && (
-                  <span className="badge badge-muted">Sin link de juego</span>
-                )}
-              </div>
+      {filtered.length === 0 ? (
+        <div className="empty-state panel">
+          <h2>Sin resultados</h2>
+          <p>
+            No hay juegos que coincidan con estos filtros. Probá ampliar la búsqueda o
+            limpiar los filtros activos.
+          </p>
+          <button className="button button-secondary" type="button" onClick={clear}>
+            Limpiar filtros
+          </button>
+        </div>
+      ) : (
+        <>
+          <div className="game-grid">
+            {visible.map((game) => (
+              <GameCard key={game.id} game={game} basePath={basePath} />
+            ))}
+          </div>
+          {pageCount > 1 && (
+            <div className="pagination">
+              <button
+                className="button button-secondary"
+                type="button"
+                disabled={currentPage <= 1}
+                onClick={() => setPage((value) => Math.max(1, value - 1))}
+              >
+                Anterior
+              </button>
+              <span className="pagination-meta">
+                Página {currentPage} de {pageCount}
+              </span>
+              <button
+                className="button button-secondary"
+                type="button"
+                disabled={currentPage >= pageCount}
+                onClick={() => setPage((value) => Math.min(pageCount, value + 1))}
+              >
+                Siguiente
+              </button>
             </div>
-            <div className="game-card-actions">
-              {game.primaryAction ? (
-                <a
-                  className="button button-primary"
-                  href={game.primaryAction.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {game.primaryAction.label}
-                </a>
-              ) : (
-                <span className="button button-disabled">Sin link de juego</span>
-              )}
-              <a className="button button-secondary" href={joinBase(basePath, `/juegos/${game.id}`)}>
-                Ver ficha
-              </a>
-            </div>
-          </article>
-        ))}
-      </div>
+          )}
+        </>
+      )}
     </section>
   );
 }
 
-function placeholderClass(ejes: string[]) {
-  const eje = ejes[0] || "historia";
-  return `cover-placeholder cover-${eje}`;
+function GameCard({ game, basePath }: { game: GameView; basePath: string }) {
+  return (
+    <article className="game-card">
+      {game.imagenes?.portada ? (
+        <img
+          className="game-card-cover"
+          src={game.imagenes.portada}
+          alt={`Portada de ${game.titulo}`}
+          loading="lazy"
+          decoding="async"
+        />
+      ) : (
+        <div
+          className={`game-card-cover ${placeholderClass(game.ejes_culturales)}`}
+          aria-hidden="true"
+        />
+      )}
+      <div className="game-card-content">
+        <p className="eyebrow">
+          {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}
+        </p>
+        <h3>
+          <a href={joinBase(basePath, `/juegos/${game.id}`)}>{game.titulo}</a>
+        </h3>
+        <p>{game.culturalSummary || game.descripcion}</p>
+        <div className="badge-row">
+          <span className={`badge badge-${tipoObraTone(game.tipo_obra)}`}>
+            {humanize(game.tipo_obra)}
+          </span>
+          {game.badges.slice(0, 4).map((badge) => (
+            <span className="badge" key={badge}>{badge}</span>
+          ))}
+          <span className="badge badge-warm">
+            {humanize(game.grado_relevancia_argentina)}
+          </span>
+          {!game.isPlayableToday && (
+            <span className="badge badge-muted">Sin link de juego</span>
+          )}
+        </div>
+      </div>
+      <div className="game-card-actions">
+        {game.primaryAction ? (
+          <a
+            className="button button-primary"
+            href={game.primaryAction.url}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            {game.primaryAction.label}
+            <span className="sr-only"> (se abre en una pestaña nueva)</span>
+          </a>
+        ) : (
+          <span className="button button-disabled" aria-disabled="true">
+            Sin link de juego
+          </span>
+        )}
+        <a className="button button-secondary" href={joinBase(basePath, `/juegos/${game.id}`)}>
+          Ver ficha
+        </a>
+        <a
+          className="game-card-report"
+          href={reportGameUrl(game)}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Sugerir corrección
+        </a>
+      </div>
+    </article>
+  );
 }
 
 function Select({
@@ -238,10 +252,11 @@ function Select({
   labels?: Record<string, string>;
   onChange: (value: string) => void;
 }) {
+  const id = `filter-${label.toLowerCase().replace(/\W+/g, "-")}`;
   return (
-    <label>
+    <label htmlFor={id}>
       <span>{label}</span>
-      <select value={value} onChange={(event) => onChange(event.target.value)}>
+      <select id={id} value={value} onChange={(event) => onChange(event.target.value)}>
         <option value="">Todos</option>
         {values.map((item) => (
           <option value={item} key={item}>
