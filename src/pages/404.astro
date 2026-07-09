@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sitePath } from "../lib/links";
+---
+
+<BaseLayout
+  title="Página no encontrada"
+  description="No encontramos la página que buscás en Jugar Argentina."
+>
+  <section class="page-hero">
+    <p class="eyebrow">Error 404</p>
+    <h1>No encontramos esa página</h1>
+    <p>
+      El enlace puede estar roto o la ruta ya no existe. Probá volver al inicio o
+      buscar en el catálogo.
+    </p>
+    <div class="chip-row">
+      <a class="button button-primary" href={sitePath("/")}>Ir al inicio</a>
+      <a class="button button-secondary" href={sitePath("/catalogo")}>
+        Ver catálogo
+      </a>
+    </div>
+  </section>
+</BaseLayout>
