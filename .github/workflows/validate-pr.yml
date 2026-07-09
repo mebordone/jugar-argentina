@@ -1,0 +1,26 @@
+name: Validate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+      - run: npm run validate:data
+      - run: npm run test:filters
+      - run: npm run build
+        env:
+          PUBLIC_SITE_URL: https://mebordone.github.io
+          PUBLIC_BASE_PATH: /jugar-argentina/
