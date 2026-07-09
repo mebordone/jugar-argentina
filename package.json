@@ -1,0 +1,26 @@
+{
+  "name": "jugar-argentina",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "validate:data": "python3 scripts/validate.py",
+    "validate:links": "python3 scripts/validate_links.py",
+    "validate": "npm run validate:data && npm run validate:links"
+  },
+  "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/react": "latest",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1"
+  }
+}
