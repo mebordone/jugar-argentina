@@ -87,5 +87,26 @@
       "truco-arbiser-1982",
       "truco-blyts"
     ]
+  },
+  {
+    "slug": "recomendados",
+    "fecha": null,
+    "titulo": "Los mejores juegos del catálogo",
+    "descripcion": "Selección curada de obras con vínculo central con Argentina, buena disponibilidad para jugar hoy y peso cultural verificable.",
+    "temas": [],
+    "juegos_destacados": [
+      "atuel-2022",
+      "zupay-sombras-independencia",
+      "la-furia-de-las-trenzas",
+      "los-infernales",
+      "pomberito-2024",
+      "malvinas-la-ultima-carta",
+      "echoes-of-the-city",
+      "sol-705-2020",
+      "slender-threads",
+      "runa-legado-chaikuru-2025",
+      "buenos-aires-mirror-line",
+      "desvelado-2024"
+    ]
   }
 ]

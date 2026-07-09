@@ -9,6 +9,7 @@ import {
 import { sitePath } from "../../lib/links";
 
 const today = getTodayRecorrido();
+const todayTotal = gamesForRecorrido(today).length;
 const recorridosConConteo = recorridos.map((recorrido) => ({
   ...recorrido,
   juegos: gamesForRecorrido(recorrido).length,
@@ -35,7 +36,9 @@ const recorridosConConteo = recorridos.map((recorrido) => ({
         <p class="eyebrow">Hoy</p>
         <h2>{today.titulo}</h2>
       </div>
-      <a href={sitePath(`/recorridos/${today.slug}`)}>Ver recorrido del día</a>
+      <a href={sitePath(`/recorridos/${today.slug}`)}>
+        Ver los {todayTotal} juegos
+      </a>
     </div>
   </section>
 
