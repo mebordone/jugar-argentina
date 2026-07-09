@@ -411,6 +411,18 @@ img.detail-cover {
   letter-spacing: -0.04em;
 }
 
+.section-subtitle {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.recorrido-section + .recorrido-section {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -452,6 +464,29 @@ img.detail-cover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
+}
+
+.game-card-report {
+  width: 100%;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.game-card-report:hover {
+  color: var(--accent-dark);
+}
+
+.detail-report {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.detail-report .notice {
+  margin: 0.5rem 0 0;
 }
 
 .access-links,
