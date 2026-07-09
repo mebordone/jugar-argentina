@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jugar Argentina">
+  <rect width="64" height="64" rx="16" fill="#6cace4" stroke="#1a2433" stroke-width="3"/>
+  <rect x="38" y="38" width="18" height="18" rx="4" fill="#7b1e2f"/>
+  <text x="20" y="40" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="900" fill="#1a2433">JA</text>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mebordone.github.io/jugar-argentina/sitemap-index.xml
