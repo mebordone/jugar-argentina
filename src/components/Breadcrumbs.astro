@@ -1,0 +1,32 @@
+---
+import { sitePath } from "../lib/links";
+
+type Crumb = {
+  label: string;
+  href?: string;
+};
+
+type Props = {
+  items: Crumb[];
+};
+
+const { items } = Astro.props;
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {
+      items.map((item, index) => (
+        <li>
+          {item.href && index < items.length - 1 ? (
+            <a href={sitePath(item.href)}>{item.label}</a>
+          ) : (
+            <span aria-current={index === items.length - 1 ? "page" : undefined}>
+              {item.label}
+            </span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
