@@ -1,0 +1,27 @@
+---
+import { placeholderClass } from "../lib/filters";
+import type { GameView } from "../lib/games";
+
+type Props = {
+  game: Pick<GameView, "titulo" | "ejes_culturales" | "imagenes">;
+  class?: string;
+};
+
+const { game, class: className = "game-card-cover" } = Astro.props;
+const coverClass = placeholderClass(game.ejes_culturales);
+const portada = game.imagenes?.portada;
+---
+
+{
+  portada ? (
+    <img
+      class={className}
+      src={portada}
+      alt={`Portada de ${game.titulo}`}
+      loading="lazy"
+      decoding="async"
+    />
+  ) : (
+    <div class={`${className} ${coverClass}`} aria-hidden="true" />
+  )
+}

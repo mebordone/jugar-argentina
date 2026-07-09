@@ -261,14 +261,21 @@ select {
 }
 
 .game-card-cover,
-.detail-cover {
+.detail-cover,
+img.game-card-cover,
+img.detail-cover {
+  display: block;
+  width: 100%;
   min-height: 120px;
   border-radius: 18px;
   border: 1px solid var(--line);
   margin-bottom: 0.5rem;
+  object-fit: cover;
+  background: var(--paper);
 }
 
-.detail-cover {
+.detail-cover,
+img.detail-cover {
   min-height: 180px;
   margin-bottom: 1rem;
 }
@@ -608,11 +615,13 @@ select {
 
 .data-list-item a,
 .data-list-item > div {
-  display: grid;
-  gap: 0.2rem;
-  padding: 0.95rem 1.1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.8rem 1.1rem;
   color: inherit;
   text-decoration: none;
+  min-width: 0;
 }
 
 .data-list-item a:hover {
@@ -620,13 +629,25 @@ select {
 }
 
 .data-list-title {
+  flex-shrink: 0;
   font-weight: 800;
 }
 
 .data-list-meta {
+  flex: 1;
+  min-width: 0;
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.45;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-list-meta::before {
+  content: "·";
+  margin-right: 0.5rem;
+  color: var(--line);
 }
 
 .detail-grid {

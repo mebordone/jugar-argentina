@@ -6,8 +6,9 @@ import GameCard from "../../components/GameCard.astro";
 import ShareBlock from "../../components/ShareBlock.astro";
 import { activeVinculos, games, relatedGames } from "../../lib/games";
 import { buildComoJugarSteps, sensibilidadNotice } from "../../lib/comoJugar";
-import { humanize, placeholderClass, tipoObraTone } from "../../lib/filters";
+import { humanize, tipoObraTone } from "../../lib/filters";
 import { sitePath } from "../../lib/links";
+import GameCover from "../../components/GameCover.astro";
 
 export function getStaticPaths() {
   return games.map((game) => ({
@@ -20,7 +21,6 @@ const { game } = Astro.props;
 const relacionados = relatedGames(game);
 const comoJugar = buildComoJugarSteps(game);
 const sensibilidadAviso = sensibilidadNotice(game.sensibilidad);
-const coverClass = placeholderClass(game.ejes_culturales);
 const places = [
   ...game.contexto_argentino.provincias,
   ...game.contexto_argentino.regiones,
@@ -46,7 +46,7 @@ function getPresencia(vinculo: string) {
 <BaseLayout title={game.titulo} description={game.descripcion}>
   <article class="detail">
     <header class="detail-hero">
-      <div class={`detail-cover ${coverClass}`} aria-hidden="true"></div>
+      <GameCover game={game} class="detail-cover" />
       <a class="back-link" href={sitePath("/catalogo")}>Volver al catálogo</a>
       <p class="eyebrow">
         {game.anio ?? "Sin fecha"} · {game.estado.replaceAll("_", " ")}

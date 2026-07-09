@@ -42,6 +42,10 @@ export type Game = {
     temas: string[];
   };
   enlaces: Record<string, unknown>;
+  imagenes: {
+    portada: string | null;
+    capturas: string[];
+  };
   ejes_culturales: string[];
   tipo_obra: string;
   grado_relevancia_argentina: string;

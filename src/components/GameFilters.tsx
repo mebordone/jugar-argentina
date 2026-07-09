@@ -159,7 +159,20 @@ export default function GameFilters({ games, options, basePath }: Props) {
       <div className="game-grid">
         {filtered.map((game) => (
           <article className="game-card" key={game.id}>
-            <div className={`game-card-cover ${placeholderClass(game.ejes_culturales)}`} aria-hidden="true" />
+            {game.imagenes?.portada ? (
+              <img
+                className="game-card-cover"
+                src={game.imagenes.portada}
+                alt={`Portada de ${game.titulo}`}
+                loading="lazy"
+                decoding="async"
+              />
+            ) : (
+              <div
+                className={`game-card-cover ${placeholderClass(game.ejes_culturales)}`}
+                aria-hidden="true"
+              />
+            )}
             <div className="game-card-content">
               <p className="eyebrow">
                 {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}

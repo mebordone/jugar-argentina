@@ -1,7 +1,8 @@
 ---
 import Badge from "./Badge.astro";
 import GameAccess from "./GameAccess.astro";
-import { humanize, placeholderClass, tipoObraTone } from "../lib/filters";
+import GameCover from "./GameCover.astro";
+import { humanize, tipoObraTone } from "../lib/filters";
 import { sitePath } from "../lib/links";
 import type { GameView } from "../lib/games";
 
@@ -12,11 +13,10 @@ type Props = {
 const { game } = Astro.props;
 const place =
   game.contexto_argentino.provincias[0] || game.contexto_argentino.regiones[0];
-const coverClass = placeholderClass(game.ejes_culturales);
 ---
 
 <article class="game-card">
-  <div class={`game-card-cover ${coverClass}`} aria-hidden="true"></div>
+  <GameCover game={game} />
   <div class="game-card-content">
     <p class="eyebrow">
       {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}
