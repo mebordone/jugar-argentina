@@ -1,0 +1,39 @@
+---
+type Props = {
+  stats: {
+    total: number;
+    candidatos: number;
+    descartados: number;
+    vinculos: {
+      escenario: number;
+      protagonista: number;
+      deporte: number;
+    };
+  };
+};
+
+const { stats } = Astro.props;
+---
+
+<section class="stats-strip" aria-label="Estadísticas de la base">
+  <div>
+    <strong>{stats.total}</strong>
+    <span>juegos verificados</span>
+  </div>
+  <div>
+    <strong>{stats.candidatos}</strong>
+    <span>candidatos rastreados</span>
+  </div>
+  <div>
+    <strong>{stats.vinculos.escenario}</strong>
+    <span>con escenario argentino</span>
+  </div>
+  <div>
+    <strong>{stats.vinculos.protagonista}</strong>
+    <span>con protagonistas argentinos</span>
+  </div>
+  <div>
+    <strong>{stats.descartados}</strong>
+    <span>descartes explicados</span>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+---
+import type { LinkAction } from "../lib/links";
+
+type Props = {
+  actions: LinkAction[];
+  primary?: LinkAction;
+  compact?: boolean;
+  disponibilidad?: string;
+  isPlayable?: boolean;
+};
+
+const {
+  actions,
+  primary,
+  compact = false,
+  disponibilidad,
+  isPlayable = Boolean(primary && primary.type !== "source"),
+} = Astro.props;
+const needsNotice = disponibilidad === "abandonware" || disponibilidad === "perdido";
+const sourceActions = actions.filter((action) => action.type === "source");
+---
+
+<div class:list={["access-box", compact && "access-compact"]}>
+  {primary && primary.type !== "source" ? (
+    <a class="button button-primary" href={primary.url} target="_blank" rel="noreferrer">
+      {primary.label}
+    </a>
+  ) : (
+    <span class="button button-disabled">
+      {isPlayable ? "Sin enlace disponible" : "Sin link de juego"}
+    </span>
+  )}
+  {!compact && actions.filter((action) => action.type !== "source").length > 1 && (
+    <div class="access-links">
+      {actions
+        .filter((action) => action.type !== "source" && action.url !== primary?.url)
+        .map((action) => (
+          <a href={action.url} target="_blank" rel="noreferrer">
+            {action.label} · {action.source}
+          </a>
+        ))}
+    </div>
+  )}
+  {!compact && sourceActions.length > 0 && (
+    <div class="source-links">
+      <p class="source-heading">Fuentes e investigación</p>
+      {sourceActions.map((action) => (
+        <a href={action.url} target="_blank" rel="noreferrer">
+          {action.label} · {action.source}
+        </a>
+      ))}
+    </div>
+  )}
+  {!compact && needsNotice && (
+    <p class="notice">
+      Algunos enlaces pueden apuntar a preservaciones externas. Revisá
+      compatibilidad, seguridad y situación legal antes de descargar.
+    </p>
+  )}
+</div>

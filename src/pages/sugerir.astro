@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../site.config";
+---
+
+<BaseLayout
+  title="Sugerí un juego"
+  description="Proponé un videojuego para sumar a Jugar Argentina."
+>
+  <section class="page-hero">
+    <p class="eyebrow">Colaborá</p>
+    <h1>Sugerí un juego para Jugar Argentina</h1>
+    <p>
+      Si conocés un videojuego con vínculo jugable con Argentina, compartí una
+      fuente y contanos por qué debería entrar.
+    </p>
+    <a class="button button-primary" href={SITE.githubIssuesUrl} target="_blank" rel="noreferrer">
+      Abrir issue en GitHub
+    </a>
+  </section>
+
+  <section class="panel suggestion-template">
+    <h2>Datos ideales para sugerir</h2>
+    <pre>{`Título:
+Año:
+Plataforma:
+Link para jugar/ver:
+Vínculo con Argentina:
+Fuente:
+Por qué debería entrar:
+Disponibilidad: jugar / descargar / comprar / archivo / fuente`}</pre>
+  </section>
+</BaseLayout>

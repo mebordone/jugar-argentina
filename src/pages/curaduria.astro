@@ -1,0 +1,91 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Badge from "../components/Badge.astro";
+import { discarded, getStats } from "../lib/games";
+import { sitePath } from "../lib/links";
+
+const stats = getStats();
+---
+
+<BaseLayout
+  title="Curaduría"
+  description="Criterios de curaduría de Jugar Argentina."
+>
+  <section class="page-hero">
+    <p class="eyebrow">Curaduría</p>
+    <h1>Qué entra, qué no entra y por qué</h1>
+    <p>
+      Jugar Argentina prioriza juegos donde Argentina aparece como territorio,
+      personaje, historia, deporte o cultura jugable. No alcanza con que el
+      estudio sea argentino.
+    </p>
+  </section>
+
+  <section class="detail-grid">
+    <article class="panel">
+      <h2>Entra si...</h2>
+      <ul class="check-list">
+        <li>tiene mapas, niveles o ambientación jugable en Argentina;</li>
+        <li>incluye protagonistas de historia, cultura, folclore o política argentina;</li>
+        <li>usa ligas o equipos argentinos como eje central;</li>
+        <li>trabaja ejes como memoria, folclore, truco, conurbano o educación argentina.</li>
+      </ul>
+    </article>
+    <article class="panel">
+      <h2>No entra si...</h2>
+      <ul class="check-list">
+        <li>Argentina aparece solo como selección entre muchas;</li>
+        <li>la única relación es que el desarrollador sea argentino;</li>
+        <li>hay una referencia mínima sin peso jugable o cultural;</li>
+        <li>no hay una fuente razonable para verificarlo.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="section panel">
+    <h2>Relevancia y sensibilidad</h2>
+    <div class="mini-grid">
+      <article>
+        <Badge label="Central" tone="warm" />
+        <p>Argentina es el núcleo de la experiencia.</p>
+      </article>
+      <article>
+        <Badge label="Importante" tone="cool" />
+        <p>El vínculo argentino pesa, aunque convive con otros ejes.</p>
+      </article>
+      <article>
+        <Badge label="Referencia menor" />
+        <p>Argentina aparece, pero no organiza la experiencia principal.</p>
+      </article>
+    </div>
+    <p>
+      Malvinas, dictadura o política partidaria pueden marcarse con sensibilidad
+      media o alta para contextualizar mejor la recomendación.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">También nos preguntaron por...</p>
+        <h2>Descartados y casos explicados</h2>
+      </div>
+      <span>{stats.descartados} casos documentados</span>
+    </div>
+    <div class="mini-grid">
+      {discarded.map((item) => (
+        <article class="panel">
+          <h3>{item.titulo}</h3>
+          <p>{item.motivo_exclusion}</p>
+          <small>Descartado el {item.fecha_descarte}</small>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <h2>¿Conocés un juego que debería estar?</h2>
+    <p>La base está viva. Podés proponer nuevos juegos con una fuente verificable.</p>
+    <a class="button button-primary" href={sitePath("/sugerir")}>Sugerí un juego</a>
+  </section>
+</BaseLayout>

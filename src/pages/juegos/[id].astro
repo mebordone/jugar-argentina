@@ -1,0 +1,182 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Badge from "../../components/Badge.astro";
+import GameAccess from "../../components/GameAccess.astro";
+import GameCard from "../../components/GameCard.astro";
+import ShareBlock from "../../components/ShareBlock.astro";
+import { activeVinculos, games, relatedGames } from "../../lib/games";
+import { buildComoJugarSteps, sensibilidadNotice } from "../../lib/comoJugar";
+import { humanize, placeholderClass, tipoObraTone } from "../../lib/filters";
+import { sitePath } from "../../lib/links";
+
+export function getStaticPaths() {
+  return games.map((game) => ({
+    params: { id: game.id },
+    props: { game },
+  }));
+}
+
+const { game } = Astro.props;
+const relacionados = relatedGames(game);
+const comoJugar = buildComoJugarSteps(game);
+const sensibilidadAviso = sensibilidadNotice(game.sensibilidad);
+const coverClass = placeholderClass(game.ejes_culturales);
+const places = [
+  ...game.contexto_argentino.provincias,
+  ...game.contexto_argentino.regiones,
+].filter(Boolean);
+const vinculoItems = activeVinculos(game).map((vinculo) => ({
+  label: humanize(vinculo),
+  presencia: getPresencia(vinculo),
+}));
+const playableActions = game.actions.filter((action) => action.type !== "source");
+const sourceActions = game.actions.filter((action) => action.type === "source");
+
+function getPresencia(vinculo: string) {
+  if (vinculo === "deporte") {
+    return game.vinculo_argentina.deporte_argentino.presencia;
+  }
+  if (vinculo === "protagonista") {
+    return game.vinculo_argentina.protagonista.presencia;
+  }
+  return game.vinculo_argentina.escenario.presencia;
+}
+---
+
+<BaseLayout title={game.titulo} description={game.descripcion}>
+  <article class="detail">
+    <header class="detail-hero">
+      <div class={`detail-cover ${coverClass}`} aria-hidden="true"></div>
+      <a class="back-link" href={sitePath("/catalogo")}>Volver al catálogo</a>
+      <p class="eyebrow">
+        {game.anio ?? "Sin fecha"} · {game.estado.replaceAll("_", " ")}
+      </p>
+      <h1>{game.titulo}</h1>
+      <p>{game.culturalSummary || game.descripcion}</p>
+      <div class="badge-row">
+        <Badge label={humanize(game.tipo_obra)} tone={tipoObraTone(game.tipo_obra)} />
+        {game.badges.slice(1).map((badge) => <Badge label={badge} />)}
+        <Badge label={humanize(game.disponibilidad)} tone="warm" />
+        {!game.isPlayableToday && <Badge label="Sin link de juego" tone="muted" />}
+      </div>
+      <GameAccess
+        actions={game.actions}
+        primary={game.primaryAction}
+        disponibilidad={game.disponibilidad}
+        isPlayable={game.isPlayableToday}
+      />
+    </header>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <h2>Cómo jugarlo hoy</h2>
+        <ol class="step-list">
+          {comoJugar.map((step) => (
+            <li>
+              <strong>{step.title}</strong>
+              <p>{step.detail}</p>
+            </li>
+          ))}
+        </ol>
+        {sensibilidadAviso && <p class="notice notice-alert">{sensibilidadAviso}</p>}
+      </section>
+
+      <section class="panel">
+        <h2>Por qué está en Jugar Argentina</h2>
+        <p>{game.descripcion}</p>
+        <ul class="check-list">
+          {vinculoItems.map((vinculo) => (
+            <li>
+              <strong>{vinculo.label}:</strong>
+              vínculo {vinculo.presencia}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Contexto argentino</h2>
+        <dl class="meta-list">
+          <div>
+            <dt>Provincia / región</dt>
+            <dd>{places.length ? places.join(", ") : "Nacional o sin dato específico"}</dd>
+          </div>
+          <div>
+            <dt>Período</dt>
+            <dd>{game.contexto_argentino.periodo_historico.map(humanize).join(", ")}</dd>
+          </div>
+          <div>
+            <dt>Temas</dt>
+            <dd>{game.contexto_argentino.temas.map(humanize).join(", ")}</dd>
+          </div>
+          <div>
+            <dt>Sensibilidad</dt>
+            <dd>{humanize(game.sensibilidad)}</dd>
+          </div>
+        </dl>
+      </section>
+    </div>
+
+    {game.personajes_argentinos.length > 0 && (
+      <section class="section panel">
+        <h2>Personajes argentinos</h2>
+        <div class="mini-grid">
+          {game.personajes_argentinos.map((personaje) => (
+            <article>
+              <h3>{personaje.nombre}</h3>
+              <p>{personaje.descripcion}</p>
+              <small>{personaje.tipo} · {personaje.rol}</small>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="section panel">
+      <h2>Enlaces para jugar o comprar</h2>
+      {playableActions.length > 0 ? (
+        <div class="link-list">
+          {playableActions.map((action) => (
+            <a href={action.url} target="_blank" rel="noreferrer">
+              {action.label} · {action.source}
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="notice">Todavía no hay un enlace directo de juego o tienda para este título.</p>
+      )}
+    </section>
+
+    {sourceActions.length > 0 && (
+      <section class="section panel source-panel">
+        <h2>Fuentes e investigación</h2>
+        <div class="link-list">
+          {sourceActions.map((action) => (
+            <a href={action.url} target="_blank" rel="noreferrer">
+              {action.label} · {action.source}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relacionados.length > 0 && (
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Relacionados</p>
+            <h2>Más de esta serie o colección</h2>
+          </div>
+        </div>
+        <div class="game-grid">
+          {relacionados.slice(0, 4).map((related) => <GameCard game={related} />)}
+        </div>
+      </section>
+    )}
+
+    <ShareBlock
+      title={`Jugar Argentina recomienda: ${game.titulo}`}
+      text={`${game.culturalSummary || game.descripcion} Ejes: ${game.badges.slice(0, 3).join(" · ")}`}
+    />
+  </article>
+</BaseLayout>

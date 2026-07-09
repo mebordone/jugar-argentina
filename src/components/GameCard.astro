@@ -1,0 +1,46 @@
+---
+import Badge from "./Badge.astro";
+import GameAccess from "./GameAccess.astro";
+import { humanize, placeholderClass, tipoObraTone } from "../lib/filters";
+import { sitePath } from "../lib/links";
+import type { GameView } from "../lib/games";
+
+type Props = {
+  game: GameView;
+};
+
+const { game } = Astro.props;
+const place =
+  game.contexto_argentino.provincias[0] || game.contexto_argentino.regiones[0];
+const coverClass = placeholderClass(game.ejes_culturales);
+---
+
+<article class="game-card">
+  <div class={`game-card-cover ${coverClass}`} aria-hidden="true"></div>
+  <div class="game-card-content">
+    <p class="eyebrow">
+      {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}
+    </p>
+    <h3><a href={sitePath(`/juegos/${game.id}`)}>{game.titulo}</a></h3>
+    <p>{game.culturalSummary || game.descripcion}</p>
+    <div class="badge-row">
+      <Badge label={humanize(game.tipo_obra)} tone={tipoObraTone(game.tipo_obra)} />
+      {game.badges.slice(1, 5).map((badge) => <Badge label={badge} />)}
+      {place && <Badge label={place} tone="cool" />}
+      <Badge label={humanize(game.grado_relevancia_argentina)} tone="warm" />
+      {!game.isPlayableToday && <Badge label="Sin link de juego" tone="muted" />}
+    </div>
+  </div>
+  <div class="game-card-actions">
+    <GameAccess
+      actions={game.actions}
+      primary={game.primaryAction}
+      compact
+      disponibilidad={game.disponibilidad}
+      isPlayable={game.isPlayableToday}
+    />
+    <a class="button button-secondary" href={sitePath(`/juegos/${game.id}`)}>
+      Ver ficha
+    </a>
+  </div>
+</article>

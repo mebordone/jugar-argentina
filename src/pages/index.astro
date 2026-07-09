@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GameCard from "../components/GameCard.astro";
+import StatsStrip from "../components/StatsStrip.astro";
+import { QUICK_FILTERS } from "../lib/filters";
+import { sitePath } from "../lib/links";
+import { games, getStats } from "../lib/games";
+import { getTodayRecorrido, gamesForRecorrido } from "../lib/recorridos";
+
+const stats = getStats();
+const today = getTodayRecorrido();
+const todayGames = gamesForRecorrido(today).slice(0, 4);
+const featured = games
+  .filter((game) => game.primaryAction && game.grado_relevancia_argentina !== "menor")
+  .slice(0, 6);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Catálogo cultural jugable</p>
+      <h1>¿Qué querés jugar de Argentina hoy?</h1>
+      <p>
+        Descubrí videojuegos para recorrer historia, folclore, política,
+        territorios, deportes y cultura popular argentina.
+      </p>
+      <form class="hero-search" action={sitePath("/catalogo")}>
+        <input
+          name="q"
+          type="search"
+          placeholder="Buscá Malvinas, truco, Mendoza, San Martín..."
+          aria-label="Buscar juegos"
+        />
+        <button class="button button-primary" type="submit">Buscar</button>
+      </form>
+      <div class="chip-row">
+        {QUICK_FILTERS.map((filter) => (
+          <a href={sitePath(filter.href)} class="chip">{filter.label}</a>
+        ))}
+      </div>
+    </div>
+    <aside class="hero-card">
+      <p class="eyebrow">Hoy en Jugar Argentina</p>
+      <h2>{today.titulo}</h2>
+      <p>{today.descripcion}</p>
+      <a class="button button-secondary" href={sitePath(`/recorridos/${today.slug}`)}>
+        Ver recorrido
+      </a>
+    </aside>
+  </section>
+
+  <StatsStrip stats={stats} />
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Efemérides y recorridos</p>
+        <h2>{today.titulo}</h2>
+      </div>
+      <a href={sitePath(`/recorridos/${today.slug}`)}>Compartir recorrido</a>
+    </div>
+    <div class="game-grid">
+      {todayGames.map((game) => <GameCard game={game} />)}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Para empezar a jugar</p>
+        <h2>Recomendados del catálogo</h2>
+      </div>
+      <a href={sitePath("/catalogo")}>Ver todo</a>
+    </div>
+    <div class="game-grid">
+      {featured.map((game) => <GameCard game={game} />)}
+    </div>
+  </section>
+</BaseLayout>

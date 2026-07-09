@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GameFilters from "../components/GameFilters";
+import { games, getFilterOptions } from "../lib/games";
+
+const options = getFilterOptions();
+const basePath = import.meta.env.BASE_URL || "/";
+---
+
+<BaseLayout
+  title="Catálogo"
+  description="Catálogo filtrable de videojuegos vinculados a Argentina."
+>
+  <section class="page-hero">
+    <p class="eyebrow">Catálogo</p>
+    <h1>Encontrá juegos por tema, provincia, plataforma o disponibilidad</h1>
+    <p>
+      Usá los filtros y compartí la URL: cada búsqueda queda guardada en el enlace.
+    </p>
+  </section>
+
+  <GameFilters games={games} options={options} basePath={basePath} client:load />
+</BaseLayout>
