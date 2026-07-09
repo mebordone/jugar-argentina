@@ -11,6 +11,7 @@ export type ListaStatKey =
   | "candidatos"
   | "escenario"
   | "protagonista"
+  | "deporte"
   | "descartados";
 
 export type ListaItem = {
@@ -106,6 +107,19 @@ export const listas: ListaDef[] = [
         .map(gameItem),
   },
   {
+    slug: "deporte-argentino",
+    statKey: "deporte",
+    statLabel: "con deporte argentino",
+    titulo: "Con deporte argentino",
+    descripcion:
+      "Juegos donde ligas, equipos o deportes argentinos son eje central de la experiencia.",
+    getItems: () =>
+      games
+        .filter((game) => game.vinculo_argentina.deporte_argentino.activo)
+        .sort((a, b) => a.titulo.localeCompare(b.titulo, "es"))
+        .map(gameItem),
+  },
+  {
     slug: "descartados",
     statKey: "descartados",
     statLabel: "descartes explicados",
@@ -116,6 +130,7 @@ export const listas: ListaDef[] = [
       discarded.map((item) => ({
         titulo: item.titulo,
         subtitulo: item.motivo_exclusion,
+        href: "/curaduria#descartados",
       })),
   },
 ];
