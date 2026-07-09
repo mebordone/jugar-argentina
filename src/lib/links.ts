@@ -14,6 +14,7 @@ export type LinkAction = {
 };
 
 const PLAY_KEYS = ["itch", "web_oficial", "kongregate"];
+const DOWNLOAD_KEYS = ["apkpure", "google_play"];
 const STORE_KEYS = ["steam", "nintendo", "playstation", "xbox"];
 const PRESS_HOSTS = new Set([
   "infobae.com",
@@ -72,12 +73,14 @@ export function labelFromKey(key: string) {
     wikipedia: "Wikipedia",
     archive: "Preservación",
     kongregate: "Kongregate",
+    apkpure: "APKPure",
+    google_play: "Google Play",
   };
   return labels[key] || key.replaceAll("_", " ");
 }
 
 export function hasPlayableLink(enlaces: Record<string, unknown>) {
-  const keys = [...PLAY_KEYS, ...STORE_KEYS, "steam_workshop", "archive"];
+  const keys = [...PLAY_KEYS, ...DOWNLOAD_KEYS, ...STORE_KEYS, "steam_workshop", "archive"];
   return keys.some((key) => {
     const value = enlaces[key];
     return typeof value === "string" && value.length > 0;
@@ -132,6 +135,18 @@ export function collectActions(
       url: archiveUrl,
       source: labelFromKey("archive"),
     });
+  }
+
+  for (const key of DOWNLOAD_KEYS) {
+    const url = enlaces[key];
+    if (typeof url === "string" && url) {
+      actions.push({
+        type: "download",
+        label: key === "apkpure" ? "Descargar APK" : "Descargar",
+        url,
+        source: labelFromKey(key),
+      });
+    }
   }
 
   if (disponibilidad === "abandonware") {
