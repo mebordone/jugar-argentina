@@ -1,0 +1,60 @@
+"""Colecciones educativas — curaduría v1.1 (política mixto)."""
+from generate_db import game, v
+
+EDUCATIVOS_GAMES = [
+    game(
+        "mobbyt-geografia-argentina",
+        "Mobbyt — Colección Geografía Argentina",
+        None,
+        "publicado",
+        v("principal", None, None),
+        "Mobbyt / educadores argentinos",
+        "Argentina",
+        ["Web"],
+        ["educativo", "trivia"],
+        "Colección de trivias escolares sobre geografía argentina en la plataforma Mobbyt. Incluye: Provincias y Capitales, Banderas provinciales, mapas interactivos y juegos de memoria territorial.",
+        {
+            "regiones": ["Nacional"],
+            "provincias": [],
+            "periodo_historico": ["contemporaneo"],
+            "temas": ["geografia", "educacion"],
+        },
+        {
+            "web_oficial": "https://mobbyt.com/videojuego/educativo/",
+            "fuentes_investigacion": [
+                "https://mobbyt.com/videojuego/educativo/?Id=77918",
+                "https://mobbyt.com/videojuego/educativo/?Id=262495",
+            ],
+        },
+        ejes_culturales=["educativo", "geografia"],
+        tipo_obra="educativo",
+        grado_relevancia_argentina="importante",
+        calidad_fuente="oficial",
+        disponibilidad="gratis",
+        relacionado_con=["mobbyt-provincias-capitales", "mobbyt-banderas-provincias"],
+    ),
+    game(
+        "mobbyt-historia-argentina",
+        "Mobbyt — Colección Historia Argentina",
+        None,
+        "publicado",
+        v("principal", None, None),
+        "Mobbyt / educadores argentinos",
+        "Argentina",
+        ["Web"],
+        ["educativo", "trivia"],
+        "Trivias y minijuegos sobre historia argentina en Mobbyt: independencia, próceres, hechos históricos y cultura cívica para uso escolar.",
+        {
+            "regiones": ["Nacional"],
+            "provincias": [],
+            "periodo_historico": ["contemporaneo"],
+            "temas": ["historia", "educacion"],
+        },
+        {"web_oficial": "https://mobbyt.com/videojuego/educativo/"},
+        ejes_culturales=["educativo", "historia"],
+        tipo_obra="educativo",
+        grado_relevancia_argentina="importante",
+        calidad_fuente="oficial",
+        disponibilidad="gratis",
+    ),
+]

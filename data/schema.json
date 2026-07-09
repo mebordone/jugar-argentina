@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Videojuego vinculado a Argentina",
+  "type": "object",
+  "required": [
+    "id",
+    "titulo",
+    "estado",
+    "vinculo_argentina",
+    "desarrollador",
+    "pais_desarrollo",
+    "plataformas",
+    "generos",
+    "descripcion",
+    "contexto_argentino",
+    "enlaces",
+    "verificado",
+    "fecha_actualizacion"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_original": {
+      "type": "string"
+    },
+    "anio": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "estado": {
+      "enum": [
+        "publicado",
+        "early_access",
+        "en_desarrollo",
+        "cancelado",
+        "abandonware",
+        "prototipo"
+      ]
+    },
+    "vinculo_argentina": {
+      "type": "object"
+    },
+    "personajes_argentinos": {
+      "type": "array"
+    },
+    "deporte_argentino": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "desarrollador": {
+      "type": "string"
+    },
+    "pais_desarrollo": {
+      "type": "string"
+    },
+    "plataformas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "contexto_argentino": {
+      "type": "object"
+    },
+    "enlaces": {
+      "type": "object",
+      "properties": {
+        "steam": { "type": "string", "format": "uri" },
+        "steam_workshop": { "type": "string", "format": "uri" },
+        "itch": { "type": "string", "format": "uri" },
+        "web_oficial": { "type": "string", "format": "uri" },
+        "archive": { "type": "string", "format": "uri" },
+        "kongregate": { "type": "string", "format": "uri" },
+        "wikipedia": { "type": "string", "format": "uri" },
+        "mobygames": { "type": "string", "format": "uri" },
+        "fuentes_investigacion": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "imagenes": {
+      "type": "object"
+    },
+    "metadatos": {
+      "type": "object"
+    },
+    "ejes_culturales": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "politica",
+          "satira",
+          "folclore",
+          "juegos_tradicionales",
+          "historia",
+          "memoria",
+          "cultura_urbana",
+          "historieta",
+          "literatura",
+          "educativo",
+          "deporte",
+          "geografia",
+          "migracion",
+          "musica"
+        ]
+      }
+    },
+    "tipo_obra": {
+      "enum": [
+        "comercial",
+        "indie",
+        "educativo",
+        "jam",
+        "mod",
+        "fan_game",
+        "abandonware",
+        "prototipo",
+        "promocional"
+      ]
+    },
+    "grado_relevancia_argentina": {
+      "enum": [
+        "central",
+        "importante",
+        "menor"
+      ]
+    },
+    "calidad_fuente": {
+      "enum": [
+        "oficial",
+        "tienda",
+        "prensa",
+        "wiki",
+        "foro",
+        "archive"
+      ]
+    },
+    "sensibilidad": {
+      "enum": [
+        "baja",
+        "media",
+        "alta"
+      ]
+    },
+    "serie": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "edicion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relacionado_con": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disponibilidad": {
+      "enum": [
+        "a_la_venta",
+        "gratis",
+        "abandonware",
+        "perdido",
+        "desconocido"
+      ]
+    },
+    "verificado": {
+      "type": "boolean"
+    },
+    "fecha_actualizacion": {
+      "type": "string"
+    }
+  }
+}
