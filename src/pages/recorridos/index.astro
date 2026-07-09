@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import GameCard from "../../components/GameCard.astro";
 import {
+  destacadosForRecorrido,
   formatRecorridoFecha,
   gamesForRecorrido,
   getTodayRecorrido,
@@ -10,6 +12,7 @@ import { sitePath } from "../../lib/links";
 
 const today = getTodayRecorrido();
 const todayTotal = gamesForRecorrido(today).length;
+const todayPreview = destacadosForRecorrido(today).slice(0, 4);
 const recorridosConConteo = recorridos.map((recorrido) => ({
   ...recorrido,
   juegos: gamesForRecorrido(recorrido).length,
@@ -35,10 +38,14 @@ const recorridosConConteo = recorridos.map((recorrido) => ({
       <div>
         <p class="eyebrow">Hoy</p>
         <h2>{today.titulo}</h2>
+        <p class="section-subtitle">{today.descripcion}</p>
       </div>
       <a href={sitePath(`/recorridos/${today.slug}`)}>
         Ver los {todayTotal} juegos
       </a>
+    </div>
+    <div class="game-grid">
+      {todayPreview.map((game) => <GameCard game={game} />)}
     </div>
   </section>
 
