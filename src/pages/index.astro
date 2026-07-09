@@ -5,13 +5,19 @@ import StatsStrip from "../components/StatsStrip.astro";
 import { QUICK_FILTERS } from "../lib/filters";
 import { sitePath } from "../lib/links";
 import { games, getStats } from "../lib/games";
-import { getTodayRecorrido, gamesForRecorrido } from "../lib/recorridos";
+import { getTodayRecorrido, getRecomendadosRecorrido, gamesForRecorrido } from "../lib/recorridos";
 
 const stats = getStats();
 const today = getTodayRecorrido();
-const todayGames = gamesForRecorrido(today).slice(0, 4);
-const featured = games
-  .filter((game) => game.primaryAction && game.grado_relevancia_argentina !== "menor")
+const recomendados = getRecomendadosRecorrido();
+const allTodayGames = gamesForRecorrido(today);
+const todayGames = allTodayGames.slice(0, 4);
+const todayTotal = allTodayGames.length;
+const todayIds = new Set(allTodayGames.map((game) => game.id));
+const allRecomendados = gamesForRecorrido(recomendados);
+const recomendadosTotal = allRecomendados.length;
+const featured = allRecomendados
+  .filter((game) => !todayIds.has(game.id))
   .slice(0, 6);
 ---
 
@@ -56,8 +62,15 @@ const featured = games
       <div>
         <p class="eyebrow">Efemérides y recorridos</p>
         <h2>{today.titulo}</h2>
+        {todayTotal > 4 && (
+          <p class="section-subtitle">
+            4 destacados de un recorrido de {todayTotal} juegos
+          </p>
+        )}
       </div>
-      <a href={sitePath(`/recorridos/${today.slug}`)}>Compartir recorrido</a>
+      <a href={sitePath(`/recorridos/${today.slug}`)}>
+        Ver los {todayTotal} juegos
+      </a>
     </div>
     <div class="game-grid">
       {todayGames.map((game) => <GameCard game={game} />)}
@@ -69,8 +82,13 @@ const featured = games
       <div>
         <p class="eyebrow">Para empezar a jugar</p>
         <h2>Recomendados del catálogo</h2>
+        <p class="section-subtitle">
+          {featured.length} destacados de un recorrido de {recomendadosTotal} juegos
+        </p>
       </div>
-      <a href={sitePath("/catalogo")}>Ver todo</a>
+      <a href={sitePath("/recorridos/recomendados")}>
+        Ver los {recomendadosTotal} juegos
+      </a>
     </div>
     <div class="game-grid">
       {featured.map((game) => <GameCard game={game} />)}
