@@ -520,6 +520,53 @@ select {
   font-size: 1.13rem;
 }
 
+.recorrido-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.recorrido-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.recorrido-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.recorrido-card h2 {
+  margin: 0 0 0.5rem;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.45rem;
+}
+
+.recorrido-date {
+  margin: 0 0 0.35rem;
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.recorrido-date-muted {
+  color: var(--muted);
+}
+
+.recorrido-meta {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 .detail-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
