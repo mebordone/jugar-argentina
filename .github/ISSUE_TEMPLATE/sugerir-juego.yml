@@ -1,0 +1,69 @@
+name: Sugerir juego
+description: Proponé un videojuego para sumar a Jugar Argentina
+title: "[Sugerencia] "
+labels: ["sugerencia"]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título del juego
+      placeholder: "Ej. Zupay: Sombras de la Independencia"
+    validations:
+      required: true
+
+  - type: input
+    id: anio
+    attributes:
+      label: Año
+      placeholder: "2024 o sin dato"
+
+  - type: input
+    id: plataforma
+    attributes:
+      label: Plataforma
+      placeholder: "PC, Android, PlayStation..."
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link para jugar o ver
+      description: Steam, itch.io, web oficial, archive.org, etc.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: vinculo
+    attributes:
+      label: Vínculo con Argentina
+      description: ¿Por qué debería estar en el catálogo?
+      placeholder: "Escenario en Mendoza, protagonista argentino, folclore..."
+    validations:
+      required: true
+
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente verificable
+      description: Prensa, tienda, wiki o sitio del desarrollador
+      placeholder: "https://..."
+
+  - type: dropdown
+    id: disponibilidad
+    attributes:
+      label: Disponibilidad
+      options:
+        - jugar / descargar gratis
+        - comprar en tienda
+        - abandonware / archivo
+        - solo fuente informativa
+    validations:
+      required: true
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas opcionales
+      placeholder: Mod, fan game, sensibilidad del tema, etc.
