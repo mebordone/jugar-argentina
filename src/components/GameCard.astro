@@ -4,6 +4,7 @@ import GameAccess from "./GameAccess.astro";
 import GameCover from "./GameCover.astro";
 import { humanize, tipoObraTone } from "../lib/filters";
 import { sitePath } from "../lib/links";
+import { reportGameUrl } from "../lib/report";
 import type { GameView } from "../lib/games";
 
 type Props = {
@@ -41,6 +42,14 @@ const place =
     />
     <a class="button button-secondary" href={sitePath(`/juegos/${game.id}`)}>
       Ver ficha
+    </a>
+    <a
+      class="game-card-report"
+      href={reportGameUrl(game)}
+      target="_blank"
+      rel="noreferrer"
+    >
+      Sugerir corrección
     </a>
   </div>
 </article>

@@ -1,0 +1,55 @@
+name: Sugerir corrección
+description: Reportá un error o mejora en la ficha de un juego del catálogo
+title: "[Corrección] "
+labels: ["correccion"]
+body:
+  - type: input
+    id: juego-id
+    attributes:
+      label: ID del juego
+      description: Identificador interno en games.json
+    validations:
+      required: true
+
+  - type: input
+    id: titulo
+    attributes:
+      label: Título del juego
+    validations:
+      required: true
+
+  - type: input
+    id: ficha
+    attributes:
+      label: URL de la ficha en Jugar Argentina
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de corrección
+      options:
+        - link roto
+        - dato incorrecto
+        - falta portada
+        - descripción
+        - disponibilidad
+        - otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Detalle
+      description: ¿Qué habría que corregir o mejorar?
+      placeholder: "El link de itch.io devuelve 404. La portada correcta es..."
+    validations:
+      required: true
+
+  - type: input
+    id: fuente
+    attributes:
+      label: Link correcto o fuente (opcional)
+      placeholder: "https://..."
