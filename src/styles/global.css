@@ -346,8 +346,44 @@ img.detail-cover {
   font-weight: 700;
 }
 
-.filters {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.filters-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: end;
+  gap: 0.75rem;
+  border: 2px solid var(--ink);
+  border-radius: 26px;
+  background: var(--paper);
+  padding: 1rem;
+}
+
+.filters-advanced {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  border: 2px solid var(--ink);
+  border-radius: 26px;
+  background: var(--paper);
+  padding: 1rem;
+}
+
+.filters-advanced label,
+.toolbar-search {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.filters-toggle {
+  white-space: nowrap;
+}
+
+.toolbar-clear {
+  align-self: center;
+  padding: 0.35rem 0;
 }
 
 .stats-strip {
@@ -510,28 +546,6 @@ img.detail-cover {
 
 .catalog-panel {
   margin: 2rem 0 4rem;
-}
-
-.filters {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.75rem;
-  border: 2px solid var(--ink);
-  border-radius: 26px;
-  background: var(--paper);
-  padding: 1rem;
-}
-
-.filters label {
-  display: grid;
-  gap: 0.35rem;
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 900;
-}
-
-.search-field {
-  grid-column: span 2;
 }
 
 .result-heading {
@@ -890,6 +904,10 @@ img.detail-cover {
   margin: 1.5rem 0 0;
 }
 
+.pagination-top {
+  margin: 0 0 1rem;
+}
+
 .pagination-meta {
   color: var(--muted);
   font-weight: 700;
@@ -911,10 +929,8 @@ img.detail-cover {
   font-size: 0.9rem;
 }
 
-.filters {
-  position: sticky;
-  top: 0.75rem;
-  z-index: 5;
+.result-heading:focus {
+  outline: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -945,13 +961,12 @@ img.detail-cover {
   }
 
   .stats-strip,
-  .filters {
+  .filters-advanced {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .filters {
-    position: static;
-    top: auto;
+  .filters-toolbar {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -969,11 +984,7 @@ img.detail-cover {
   }
 
   .stats-strip,
-  .filters {
+  .filters-advanced {
     grid-template-columns: 1fr;
-  }
-
-  .search-field {
-    grid-column: auto;
   }
 }
