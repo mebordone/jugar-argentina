@@ -5,7 +5,7 @@ from __future__ import annotations
 import csv
 import json
 import re
-import unicodedata
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -13,16 +13,20 @@ DISCOVERIES = ROOT / "data" / "steam_discoveries.json"
 CSV_PATH = ROOT / "data" / "raw_candidates.csv"
 GAMES_PATH = ROOT / "data" / "games.json"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from steam_triage_rules import (  # noqa: E402
+    STRONG_TERMS,
+    auto_discard_reason,
+    normalize_title,
+    parse_jurisdicciones,
+)
+
 FIELDNAMES = [
     "titulo", "anio", "estado_juego", "vinculo_preliminar", "fuente", "url", "nota",
     "estado_triage", "eje_sugerido", "ejes_culturales_sugeridos", "notas_triage",
 ]
 
-SKIP_TITLE_RE = re.compile(
-    r"\b(demo|soundtrack|dlc|pack|skin|bundle|upgrade|expansion|flags?\s+pack|"
-    r"content creator|workshop|100 cats|hidden cats|jigsaw)\b",
-    re.I,
-)
+SKIP_TITLE_RE = None  # usa auto_discard_reason
 
 # IDs que el plan incorpora directamente — no duplicar como pendiente genérico
 PLANNED_APP_IDS = {
@@ -33,9 +37,8 @@ PLANNED_APP_IDS = {
 }
 
 
-def normalize_title(text: str) -> str:
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
-    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+def normalize_title_local(text: str) -> str:
+    return normalize_title(text)
 
 
 def main() -> int:
@@ -54,7 +57,7 @@ def main() -> int:
                     catalog_steam.add(m.group(1))
 
     rows = list(csv.DictReader(CSV_PATH.open(encoding="utf-8"))) if CSV_PATH.exists() else []
-    by_title = {normalize_title(r["titulo"]): r for r in rows if r.get("titulo")}
+    by_title = {normalize_title_local(r["titulo"]): r for r in rows if r.get("titulo")}
 
     added_pendiente = 0
     added_descartado = 0
@@ -66,22 +69,18 @@ def main() -> int:
             continue
 
         title = app.get("titulo", "").strip()
-        if not title or normalize_title(title) in by_title:
+        if not title or normalize_title_local(title) in by_title:
             continue
 
-        if SKIP_TITLE_RE.search(title):
+        discard = auto_discard_reason(title)
+        if discard:
             estado = "descartado"
-            notas = f"steam auto-descartado; terminos: {','.join(app.get('terminos_busqueda', [])[:3])}"
+            notas = f"steam auto-descartado; {discard}"
             added_descartado += 1
         else:
-            # Solo agregar candidatos con señal argentina fuerte en términos de búsqueda
-            strong_terms = {
-                "argentina", "malvinas", "falklands", "gaucho", "mate", "yerba mate",
-                "tango", "pombero", "independencia", "libertador", "dakar", "ruta 40",
-                "peron", "evita", "conurbano", "patagonia", "pampa",
-            }
             terms = set(app.get("terminos_busqueda", []))
-            if not (terms & strong_terms) and not app.get("jurisdicciones"):
+            juris = app.get("jurisdicciones", [])
+            if not (terms & STRONG_TERMS) and not juris:
                 continue
             estado = "pendiente"
             juris = ";".join(app.get("jurisdicciones", [])[:2])
@@ -104,7 +103,7 @@ def main() -> int:
             "notas_triage": notas,
         }
         rows.append(row)
-        by_title[normalize_title(title)] = row
+        by_title[normalize_title_local(title)] = row
 
     with CSV_PATH.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
