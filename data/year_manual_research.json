@@ -1,0 +1,134 @@
+{
+  "generado": "2026-07-10",
+  "descripcion": "Investigacion manual para los 14 juegos sin fecha desconocida",
+  "entradas": [
+    {
+      "id": "argie-el-carpincho",
+      "anio_propuesto": 2024,
+      "fuente": "itch",
+      "url_fuente": "https://argiegames.itch.io/argie",
+      "confianza": "alta",
+      "nota": "Perfil argiegames creado jun 2024; juego educativo UNPAZ/CUDI",
+      "aplicado": true
+    },
+    {
+      "id": "carmen-aventuras-en-el-pasado",
+      "anio_propuesto": 2023,
+      "fuente": "devuego",
+      "url_fuente": "https://devuego.lat/bd/fjuego/carmen-aventuras-en-el-pasado",
+      "confianza": "alta",
+      "nota": "Lanzamiento 30 octubre 2023",
+      "aplicado": true
+    },
+    {
+      "id": "bitacoras-patrias-remedios",
+      "anio_propuesto": 2025,
+      "fuente": "itch",
+      "url_fuente": "https://bitacoraspatrias.itch.io/remedios3",
+      "confianza": "alta",
+      "nota": "Episodio 1 publicado 31 mayo 2025",
+      "aplicado": true
+    },
+    {
+      "id": "operacion-rosario",
+      "anio_propuesto": 2022,
+      "fuente": "gamejam",
+      "url_fuente": "https://itch.io/jam/malvinas-argentinas-gamejam",
+      "confianza": "alta",
+      "nota": "Malvinas Argentinas Gamejam abr-jun 2022",
+      "aplicado": true
+    },
+    {
+      "id": "proceres-san-martin",
+      "anio_propuesto": 2022,
+      "fuente": "itch",
+      "url_fuente": "https://setentia-studios.itch.io/proceres-san-martin",
+      "confianza": "media",
+      "nota": "Status Released en itch; actividad estimada ~2022",
+      "aplicado": true
+    },
+    {
+      "id": "civ6-mod-argentina",
+      "anio_propuesto": 2017,
+      "fuente": "steam_workshop",
+      "url_fuente": "https://steamcommunity.com/sharedfiles/filedetails/?id=910530559",
+      "confianza": "alta",
+      "nota": "Workshop publicado 21 abril 2017",
+      "aplicado": true
+    },
+    {
+      "id": "truco-blyts",
+      "anio_propuesto": 2014,
+      "fuente": "app_store",
+      "url_fuente": "https://apps.apple.com/us/app/truco-blyts/id732850167",
+      "confianza": "alta",
+      "nota": "Primera release App Store 11 enero 2014",
+      "aplicado": true
+    },
+    {
+      "id": "tito-en-el-humedal",
+      "anio_propuesto": 2021,
+      "fuente": "itch",
+      "url_fuente": "https://juegotito.itch.io/tito",
+      "confianza": "media",
+      "nota": "Promo PatriaGranDevs y actividad itch ~2021",
+      "aplicado": true
+    },
+    {
+      "id": "argentina-y-sus-provincias",
+      "anio_propuesto": 2023,
+      "fuente": "itch",
+      "url_fuente": "https://themaxcraft1.itch.io/argentina-y-sus-provincias/devlog/588334/release-10",
+      "confianza": "alta",
+      "nota": "Release 1.0 publicado 13 septiembre 2023",
+      "aplicado": true
+    },
+    {
+      "id": "mobbyt-geografia-argentina",
+      "anio_propuesto": 2020,
+      "fuente": "mobbyt",
+      "url_fuente": "https://mobbyt.com/videojuego/educativo/",
+      "confianza": "alta",
+      "nota": "Alineado con mobbyt-provincias-capitales (2020)",
+      "aplicado": true
+    },
+    {
+      "id": "mobbyt-historia-argentina",
+      "anio_propuesto": 2020,
+      "fuente": "mobbyt",
+      "url_fuente": "https://mobbyt.com/videojuego/educativo/",
+      "confianza": "media",
+      "nota": "Trivia Historia Argentina en plataforma Mobbyt ~2020",
+      "aplicado": true
+    },
+    {
+      "id": "federacion-2073",
+      "anio_propuesto": 2003,
+      "fuente": "prensa",
+      "url_fuente": "https://www.lanacion.com.ar/tecnologia/videojuegos-hechos-en-la-argentina-nid543208/",
+      "confianza": "alta",
+      "nota": "MMO argentino principios de los 2000; cobertura prensa 2003",
+      "aplicado": true
+    },
+    {
+      "id": "fortnite-argentina-maps",
+      "anio_propuesto": 2024,
+      "fuente": "oficial",
+      "url_fuente": "https://www.cancilleria.gob.ar/es/actualidad/noticias/revolucionando-la-promocion-turistica-argentina-en-fortnite",
+      "confianza": "alta",
+      "nota": "Argentina Parkour Minigames presentado 1 agosto 2024",
+      "aplicado": true
+    },
+    {
+      "id": "cebador",
+      "anio_propuesto": 2024,
+      "fuente": "devuego",
+      "url_fuente": "https://devuego.lat/bd/lanzamiento/3316/cebador-android",
+      "confianza": "alta",
+      "nota": "Lanzamiento Android 18 octubre 2024",
+      "aplicado": true
+    }
+  ],
+  "aplicados": 14,
+  "omitidos": 0
+}

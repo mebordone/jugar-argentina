@@ -33,6 +33,18 @@
         "null"
       ]
     },
+    "anio_nota": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "anio_fuente": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "estado": {
       "enum": [
         "publicado",
@@ -98,7 +110,16 @@
       "additionalProperties": true
     },
     "imagenes": {
-      "type": "object"
+      "type": "object",
+      "properties": {
+        "portada": { "type": ["string", "null"], "format": "uri" },
+        "portada_fuente": { "type": ["string", "null"] },
+        "capturas": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        }
+      },
+      "additionalProperties": true
     },
     "metadatos": {
       "type": "object"

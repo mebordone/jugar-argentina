@@ -182,7 +182,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "la-furia-de-las-trenzas",
@@ -275,7 +276,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "los-infernales",
@@ -370,7 +372,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "malvinas-2032",
@@ -540,13 +543,14 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "gauchos-inmortales",
     "titulo": "Gauchos Inmortales",
     "titulo_original": "Gauchos Inmortales",
-    "anio": null,
+    "anio": 2025,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -807,7 +811,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "el-39-2025",
@@ -1064,7 +1069,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "runa-legado-chaikuru-2025",
@@ -1222,8 +1228,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/65345-ceferino-windows-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -1310,8 +1317,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://gameon2019.com/wp-content/uploads/2019/10/trucotron-logo.png",
+      "capturas": [],
+      "portada_fuente": "gameon2019"
     },
     "metadatos": {
       "idiomas": [
@@ -1754,13 +1762,15 @@
     "enlaces": {
       "wikipedia": "https://es.wikipedia.org/wiki/F%C3%BAtbol_Deluxe",
       "fuentes_investigacion": [
-        "https://es.wikipedia.org/wiki/F%C3%BAtbol_Deluxe"
+        "https://es.wikipedia.org/wiki/F%C3%BAtbol_Deluxe",
+        "https://archive.org/details/futbol-deluxe-manager-argentino"
       ],
       "archive": "https://redump.org/disc/99941/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://archive.org/download/futbol-deluxe-manager-argentino/portada.png",
+      "capturas": [],
+      "portada_fuente": "archive.org"
     },
     "metadatos": {
       "idiomas": [
@@ -1938,8 +1948,9 @@
       "web_oficial": "https://www.konami.com/games/efootball/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://imagenes.hobbyconsolas.com/files/image_1920_1080/uploads/imagenes/2023/04/25/69019e04c1d14.jpg",
+      "capturas": [],
+      "portada_fuente": "hobbyconsolas"
     },
     "metadatos": {
       "idiomas": [
@@ -2056,7 +2067,7 @@
     "id": "argie-el-carpincho",
     "titulo": "ARGIE - El Carpincho",
     "titulo_original": "ARGIE - El Carpincho",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2136,13 +2147,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "itch"
   },
   {
     "id": "tincho-aventuras-a-la-carta",
     "titulo": "Tincho Aventuras a la Carta",
     "titulo_original": "Tincho Aventuras a la Carta",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2234,7 +2246,7 @@
     "id": "carmen-aventuras-en-el-pasado",
     "titulo": "Carmen: aventuras en el pasado",
     "titulo_original": "Carmen: aventuras en el pasado",
-    "anio": null,
+    "anio": 2023,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2290,7 +2302,8 @@
     "enlaces": {
       "itch": "https://video-juego-carmen-funes.itch.io/carmen-aventuras-en-el-pasado-saga-1",
       "fuentes_investigacion": [
-        "https://icom.museum/en/news/museums-video-games-two-projects-developed-in-argentina/"
+        "https://icom.museum/en/news/museums-video-games-two-projects-developed-in-argentina/",
+        "https://devuego.lat/bd/fjuego/carmen-aventuras-en-el-pasado"
       ]
     },
     "imagenes": {
@@ -2318,13 +2331,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "devuego"
   },
   {
     "id": "busqueda-interestelar",
     "titulo": "Búsqueda Interestelar",
     "titulo_original": "Búsqueda Interestelar",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2382,8 +2396,9 @@
       "web_oficial": "https://icom.museum/en/news/museums-video-games-two-projects-developed-in-argentina"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://icom.museum/wp-content/uploads/2024/04/Fig-3-1024x576.jpeg",
+      "capturas": [],
+      "portada_fuente": "icom"
     },
     "metadatos": {
       "idiomas": [
@@ -2413,7 +2428,7 @@
     "id": "bitacoras-patrias-remedios",
     "titulo": "Bitácoras Patrias: Remedios del Valle",
     "titulo_original": "Bitácoras Patrias: Remedios del Valle",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2469,12 +2484,14 @@
     "enlaces": {
       "itch": "https://bitacoraspatrias.itch.io/",
       "fuentes_investigacion": [
-        "https://bitacoraspatrias.itch.io/"
+        "https://bitacoraspatrias.itch.io/",
+        "https://bitacoraspatrias.itch.io/remedios3"
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://img.itch.zone/aW1nLzIyMDQ0NTk3LnBuZw==/508x254%23mb/THO3W9.png",
+      "capturas": [],
+      "portada_fuente": "itch"
     },
     "metadatos": {
       "idiomas": [
@@ -2498,13 +2515,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "itch"
   },
   {
     "id": "mapampa",
     "titulo": "Mapampa",
     "titulo_original": "Mapampa",
-    "anio": null,
+    "anio": 2000,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2637,8 +2655,9 @@
       "web_oficial": "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/166995-perfil-de-riesgo-casos-federales-windows-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -2903,8 +2922,9 @@
       "archive": "https://www.abandonsocios.org/index.php?topic=15458.0"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "capturas": [],
+      "portada_fuente": "archive.org"
     },
     "metadatos": {
       "idiomas": [
@@ -2989,8 +3009,9 @@
       "archive": "https://www.old-games.ru/game/download/9255.html"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://www.tribunahacker.com.ar/wp-content/uploads/2024/05/text1780-1.png",
+      "capturas": [],
+      "portada_fuente": "tribunahacker"
     },
     "metadatos": {
       "idiomas": [
@@ -3445,7 +3466,7 @@
     "id": "operacion-rosario",
     "titulo": "Operación Rosario",
     "titulo_original": "Operación Rosario",
-    "anio": null,
+    "anio": 2022,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -3489,7 +3510,8 @@
     "enlaces": {
       "itch": "https://a-m-o-g-u-s-u-s.itch.io/operacion-rosario",
       "fuentes_investigacion": [
-        "https://a-m-o-g-u-s-u-s.itch.io/operacion-rosario"
+        "https://a-m-o-g-u-s-u-s.itch.io/operacion-rosario",
+        "https://itch.io/jam/malvinas-argentinas-gamejam"
       ]
     },
     "imagenes": {
@@ -3515,13 +3537,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "gamejam"
   },
   {
     "id": "argentina-recicla",
     "titulo": "Argentina Recicla",
     "titulo_original": "Argentina Recicla",
-    "anio": null,
+    "anio": 2023,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -3924,8 +3947,9 @@
       "web_oficial": "https://www-2.dc.uba.ar/charlas/lud/truco/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://www-2.dc.uba.ar/charlas/lud/truco/truco.gif",
+      "capturas": [],
+      "portada_fuente": "uba"
     },
     "metadatos": {
       "idiomas": [
@@ -4188,7 +4212,7 @@
     "id": "conur-life",
     "titulo": "Conur Life",
     "titulo_original": "Conur Life",
-    "anio": null,
+    "anio": 2023,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -4402,8 +4426,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://assets.elplanteo.com/wp-content/uploads/2024/05/03134216/gta-villero-1100x619.png?crop=smart",
+      "capturas": [],
+      "portada_fuente": "elplanteo"
     },
     "metadatos": {
       "idiomas": [
@@ -4459,7 +4484,7 @@
       "accion",
       "aventura"
     ],
-    "descripcion": "Open world con Palermo, San Telmo, Obelisco, subte y truco porteño.",
+    "descripcion": "Aventura de mundo abierto en una Buenos Aires caricaturizada, con barrios como Palermo y San Telmo, el Obelisco, el subte y referencias al truco porteño.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -4511,13 +4536,14 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "la-salamanca",
     "titulo": "La Salamanca",
     "titulo_original": "La Salamanca",
-    "anio": null,
+    "anio": 2025,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -4693,7 +4719,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "flora-ceibo-seeds",
@@ -4779,13 +4806,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "proceres-san-martin",
     "titulo": "PRÓCERES: San Martín",
     "titulo_original": "PRÓCERES: San Martín",
-    "anio": null,
+    "anio": 2022,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -4868,7 +4896,8 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "itch"
   },
   {
     "id": "gran-malvina",
@@ -5004,8 +5033,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://www.gitgud.com.ar/wp-content/uploads/2025/02/MixCollage-04-Feb-2025-05-08-PM-1062.jpg",
+      "capturas": [],
+      "portada_fuente": "gitgud"
     },
     "metadatos": {
       "idiomas": [
@@ -5080,13 +5110,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://lutris.net/games/aconcagua/"
       ],
       "web_oficial": "https://lutris.net/games/aconcagua/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://lutris.net/media/igdb/cover_big/co1oj0.jpg",
+      "capturas": [],
+      "portada_fuente": "lutris"
     },
     "metadatos": {
       "idiomas": [
@@ -5246,13 +5278,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://store.steampowered.com/app/4980/Syndicate/"
       ],
       "steam": "https://store.steampowered.com/app/4980/Syndicate/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/111498-syndicate-windows-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -5308,7 +5342,7 @@
       "accion",
       "sigilo"
     ],
-    "descripcion": "Nivel de espionaje ambientado en el puerto de Buenos Aires.",
+    "descripcion": "Juego de acción y sigilo que incluye una misión ambientada en el puerto de Buenos Aires, usado como escenario internacional de espionaje dentro de la campaña.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -5325,13 +5359,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://www.gog.com/game/chameleon_deluxe_opera"
       ],
       "web_oficial": "https://www.gog.com/game/chameleon_deluxe_opera"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/57553-chameleon-windows-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -5468,7 +5504,7 @@
       "shooter",
       "accion"
     ],
-    "descripcion": "Misión de sigilo en los Andes patagónicos de Argentina.",
+    "descripcion": "Misión de sigilo de Call of Duty: Ghosts situada en los Andes patagónicos de Argentina; el vínculo local funciona como escenario puntual dentro de una campaña global.",
     "contexto_argentino": {
       "regiones": [
         "Patagonia"
@@ -5569,13 +5605,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://www.mobygames.com/game/57553/fifa-street-3/"
       ],
       "web_oficial": "https://www.mobygames.com/game/57553/fifa-street-3/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/57553-fifa-street-3-playstation-3-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -5651,13 +5689,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://store.steampowered.com/app/243070/Fast_Furious_Showdown/"
       ],
       "steam": "https://store.steampowered.com/app/243070/Fast_Furious_Showdown/"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://cdn.mobygames.com/covers/65345-fast-furious-showdown-windows-front-cover.jpg",
+      "capturas": [],
+      "portada_fuente": "mobygames"
     },
     "metadatos": {
       "idiomas": [
@@ -5774,7 +5814,7 @@
     "id": "civ6-mod-argentina",
     "titulo": "Civilization VI — Mod Argentina (Leugi)",
     "titulo_original": "Civilization VI — Mod Argentina (Leugi)",
-    "anio": null,
+    "anio": 2017,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -5860,7 +5900,8 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "steam_workshop"
   },
   {
     "id": "golazo-soccer-league",
@@ -6019,8 +6060,9 @@
       "archive": "https://www.abandonsocios.org/index.php?topic=15458.0"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "capturas": [],
+      "portada_fuente": "archive.org"
     },
     "metadatos": {
       "idiomas": [
@@ -6213,7 +6255,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "delta-kayak-parque-del-delta",
@@ -6299,7 +6342,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "desvelado-2024",
@@ -6414,7 +6458,7 @@
       "aventura",
       "puzzle"
     ],
-    "descripcion": "Thriller narrativo de puzzles con identidad platense.",
+    "descripcion": "Thriller narrativo de puzzles desarrollado en La Plata, con una identidad visual y urbana asociada a la ciudad bonaerense y a su escena indie.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6589,7 +6633,7 @@
       "estrategia",
       "simulacion"
     ],
-    "descripcion": "Estrategia 4X con Eva Perón como líder jugable de Argentina.",
+    "descripcion": "Estrategia 4X donde Eva Perón aparece como líder jugable de Argentina, una referencia histórica menor pero visible dentro del sistema de civilizaciones y gobernantes.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -6700,8 +6744,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://play-lh.googleusercontent.com/-NPA_PQLFdG6uR2M5r6Ql6S4RLAyfiEfbjMcyWozuIzOb1p62e62UH6taw8sNwXSyOWXff4KIsfPwh9yxLKYCA",
+      "capturas": [],
+      "portada_fuente": "google_play"
     },
     "metadatos": {
       "idiomas": [
@@ -6731,7 +6776,7 @@
     "id": "slender-threads",
     "titulo": "Slender Threads",
     "titulo_original": "Slender Threads",
-    "anio": null,
+    "anio": 2025,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -6864,8 +6909,9 @@
       "web_oficial": "https://www.gta5-mods.com/maps/gta-rio-de-la-plata"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://fmfuego.com.ar/galeria/fotos/2022/06/04/m_1654361354.jpeg",
+      "capturas": [],
+      "portada_fuente": "fmfuego"
     },
     "metadatos": {
       "idiomas": [
@@ -6894,7 +6940,7 @@
     "id": "truco-blyts",
     "titulo": "Truco Blyts",
     "titulo_original": "Truco Blyts",
-    "anio": null,
+    "anio": 2014,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -6922,7 +6968,7 @@
       "cartas",
       "simulacion"
     ],
-    "descripcion": "Versión digital del truco argentino del estudio porteño Blyts.",
+    "descripcion": "Adaptación móvil del truco argentino realizada por el estudio porteño Blyts, centrada en una práctica lúdica popular de naipes, señas y picardía.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6937,7 +6983,8 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.extragamers.com.ar/2022/04/juegos-argentinos-ambientados-en-buenos-aires.html"
+        "https://www.extragamers.com.ar/2022/04/juegos-argentinos-ambientados-en-buenos-aires.html",
+        "https://apps.apple.com/us/app/truco-blyts/id732850167"
       ],
       "web_oficial": "https://truco.blyts.com/"
     },
@@ -6966,7 +7013,8 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "app_store"
   },
   {
     "id": "resistencia-en-obligado",
@@ -7055,7 +7103,7 @@
     "id": "mobbyt-provincias-capitales",
     "titulo": "República Argentina - Provincias y Capitales",
     "titulo_original": "República Argentina - Provincias y Capitales",
-    "anio": null,
+    "anio": 2020,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -7137,7 +7185,7 @@
     "id": "mobbyt-banderas-provincias",
     "titulo": "Banderas de las provincias de Argentina",
     "titulo_original": "Banderas de las provincias de Argentina",
-    "anio": null,
+    "anio": 2021,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -7164,7 +7212,7 @@
       "educativo",
       "puzzle"
     ],
-    "descripcion": "Memotest educativo de banderas provinciales argentinas.",
+    "descripcion": "Memotest educativo sobre las banderas provinciales argentinas, pensado para reconocer símbolos locales y reforzar aprendizaje escolar de geografía nacional.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -7274,8 +7322,9 @@
       "archive": "https://www.abandonsocios.org/index.php?topic=15458.0"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "capturas": [],
+      "portada_fuente": "archive.org"
     },
     "metadatos": {
       "idiomas": [
@@ -7339,7 +7388,7 @@
       "arcade",
       "aventura"
     ],
-    "descripcion": "Minijuego arcade con el personaje porteño Yo Matías.",
+    "descripcion": "Minijuego arcade protagonizado por Yo Matías, personaje de historieta de Sendra; suma al catálogo por su traslado de una figura porteña popular al formato interactivo.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -7359,8 +7408,9 @@
       "archive": "https://www.abandonsocios.org/index.php?topic=15458.0"
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "capturas": [],
+      "portada_fuente": "archive.org"
     },
     "metadatos": {
       "idiomas": [
@@ -7559,13 +7609,14 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "farol-del-diablo",
     "titulo": "Farol del Diablo",
     "titulo_original": "Farol del Diablo",
-    "anio": null,
+    "anio": 2026,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -7592,7 +7643,7 @@
       "terror",
       "aventura"
     ],
-    "descripcion": "Terror ambientado en el pueblo de Loma Quebrada, Argentina.",
+    "descripcion": "Aventura de terror ambientada en el pueblo ficticio de Loma Quebrada, Argentina, donde el paisaje regional y el misterio local sostienen la premisa narrativa.",
     "contexto_argentino": {
       "regiones": [
         "Noroeste"
@@ -7649,7 +7700,7 @@
     "id": "simuladron",
     "titulo": "SimuLadrón",
     "titulo_original": "SimuLadrón",
-    "anio": null,
+    "anio": 2025,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -7676,7 +7727,7 @@
       "simulacion",
       "aventura"
     ],
-    "descripcion": "Sátira sobre economía y política argentina contemporánea.",
+    "descripcion": "Simulación satírica sobre economía informal, delito y política argentina contemporánea, con humor social como eje de lectura del escenario nacional.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -7811,7 +7862,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "anahi-juego",
@@ -7871,11 +7923,14 @@
       ]
     },
     "enlaces": {
-      "fuentes_investigacion": []
+      "fuentes_investigacion": [
+        "https://guanacoestudio.itch.io/anahi"
+      ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://img.itch.zone/aW1nLzE3NjUwMDgxLmpwZw==/original/H9CXnG.jpg",
+      "capturas": [],
+      "portada_fuente": "itch"
     },
     "metadatos": {
       "idiomas": [
@@ -7905,7 +7960,7 @@
     "id": "tito-en-el-humedal",
     "titulo": "Tito en el Humedal",
     "titulo_original": "Tito en el Humedal",
-    "anio": null,
+    "anio": 2021,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -7932,7 +7987,7 @@
       "educativo",
       "trivia"
     ],
-    "descripcion": "Trivia educativa sobre el humedal de Melincué en Santa Fe.",
+    "descripcion": "Trivia educativa centrada en el humedal de Melincué, Santa Fe; combina preguntas ambientales y territorio local para divulgar el valor ecológico del ecosistema.",
     "contexto_argentino": {
       "regiones": [
         "Litoral"
@@ -7952,7 +8007,8 @@
     "enlaces": {
       "itch": "https://juegotito.itch.io/tito",
       "fuentes_investigacion": [
-        "https://www.lacapital.com.ar/educacion/para-aprender-del-humedal-la-guia-un-flamenco-n10000664.html"
+        "https://www.lacapital.com.ar/educacion/para-aprender-del-humedal-la-guia-un-flamenco-n10000664.html",
+        "https://juegotito.itch.io/tito"
       ]
     },
     "imagenes": {
@@ -7981,13 +8037,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "itch"
   },
   {
     "id": "argentina-y-sus-provincias",
     "titulo": "Argentina Y Sus Provincias",
     "titulo_original": "Argentina Y Sus Provincias",
-    "anio": null,
+    "anio": 2023,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -8032,7 +8089,8 @@
     "enlaces": {
       "itch": "https://themaxcraft1.itch.io/argentina-y-sus-provincias",
       "fuentes_investigacion": [
-        "https://devuego.lat/bd/fjuego/argentina-y-sus-provincias"
+        "https://devuego.lat/bd/fjuego/argentina-y-sus-provincias",
+        "https://themaxcraft1.itch.io/argentina-y-sus-provincias/devlog/588334/release-10"
       ]
     },
     "imagenes": {
@@ -8061,7 +8119,8 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "itch"
   },
   {
     "id": "cristina-vs-gorilas",
@@ -8308,8 +8367,9 @@
       ]
     },
     "imagenes": {
-      "portada": null,
-      "capturas": []
+      "portada": "https://pressover.news/wp-content/uploads/2018/06/Evita-y-Peron-contra-los-gorilas.jpg",
+      "capturas": [],
+      "portada_fuente": "pressover"
     },
     "metadatos": {
       "idiomas": [
@@ -8426,7 +8486,7 @@
     "id": "mobbyt-geografia-argentina",
     "titulo": "Mobbyt — Colección Geografía Argentina",
     "titulo_original": "Mobbyt — Colección Geografía Argentina",
-    "anio": null,
+    "anio": 2020,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -8471,7 +8531,8 @@
       "web_oficial": "https://mobbyt.com/videojuego/educativo/",
       "fuentes_investigacion": [
         "https://mobbyt.com/videojuego/educativo/?Id=77918",
-        "https://mobbyt.com/videojuego/educativo/?Id=262495"
+        "https://mobbyt.com/videojuego/educativo/?Id=262495",
+        "https://mobbyt.com/videojuego/educativo/"
       ]
     },
     "imagenes": {
@@ -8503,13 +8564,14 @@
     ],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "mobbyt"
   },
   {
     "id": "mobbyt-historia-argentina",
     "titulo": "Mobbyt — Colección Historia Argentina",
     "titulo_original": "Mobbyt — Colección Historia Argentina",
-    "anio": null,
+    "anio": 2020,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -8551,7 +8613,10 @@
       ]
     },
     "enlaces": {
-      "web_oficial": "https://mobbyt.com/videojuego/educativo/"
+      "web_oficial": "https://mobbyt.com/videojuego/educativo/",
+      "fuentes_investigacion": [
+        "https://mobbyt.com/videojuego/educativo/"
+      ]
     },
     "imagenes": {
       "portada": "https://mobbyt.com/mobbyt-platform.png",
@@ -8579,13 +8644,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "mobbyt"
   },
   {
     "id": "federacion-2073",
     "titulo": "Federación 2073",
     "titulo_original": "Federación 2073",
-    "anio": null,
+    "anio": 2003,
     "estado": "abandonware",
     "vinculo_argentina": {
       "escenario": {
@@ -8660,7 +8726,8 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "prensa"
   },
   {
     "id": "heroinas-independencia",
@@ -8855,13 +8922,14 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "el-gaucho-martin-fierro",
     "titulo": "El Gaucho Martín Fierro",
     "titulo_original": "El Gaucho Martín Fierro",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9045,7 +9113,7 @@
     "id": "fortnite-argentina-maps",
     "titulo": "Fortnite — Mapas turísticos",
     "titulo_original": "Fortnite — Mapas turísticos",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9100,7 +9168,8 @@
     "enlaces": {
       "web_oficial": "https://www.fortnite.com/",
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
+        "https://www.cancilleria.gob.ar/es/actualidad/noticias/revolucionando-la-promocion-turistica-argentina-en-fortnite"
       ]
     },
     "imagenes": {
@@ -9129,7 +9198,8 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "oficial"
   },
   {
     "id": "libertad-o-muerte",
@@ -9656,7 +9726,7 @@
     "id": "cebador",
     "titulo": "Cebador",
     "titulo_original": "Cebador",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9703,7 +9773,8 @@
       "google_play": "https://play.google.com/store/apps/details?id=com.cebatoriodejuegos.cebador",
       "fuentes_investigacion": [
         "https://cebadoreljuego.com/",
-        "https://apps.apple.com/ar/app/cebador/id6739545369"
+        "https://apps.apple.com/ar/app/cebador/id6739545369",
+        "https://devuego.lat/bd/lanzamiento/3316/cebador-android"
       ]
     },
     "imagenes": {
@@ -9732,13 +9803,14 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_fuente": "devuego"
   },
   {
     "id": "malon",
     "titulo": "Malón",
     "titulo_original": "Malón",
-    "anio": null,
+    "anio": 2026,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9828,7 +9900,7 @@
     "id": "aesir-online",
     "titulo": "AESIR Online",
     "titulo_original": "AESIR Online",
-    "anio": null,
+    "anio": 2023,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9911,7 +9983,7 @@
     "id": "qsvt-que-se-vayan-todos",
     "titulo": "QSVT: ¡Que se vayan todos!",
     "titulo_original": "QSVT: ¡Que se vayan todos!",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -9997,7 +10069,7 @@
     "id": "chacal",
     "titulo": "CHACAL",
     "titulo_original": "CHACAL",
-    "anio": null,
+    "anio": 2021,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -10085,7 +10157,7 @@
     "titulo": "Servicio de Funeraria Marquez Paz",
     "titulo_original": "Servicio de Funeraria Marquez Paz",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -10163,13 +10235,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "dead-world",
     "titulo": "Dead World",
     "titulo_original": "Dead World",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -10252,7 +10325,7 @@
     "id": "built-brick-by-brick",
     "titulo": "Built Brick by Brick",
     "titulo_original": "Built Brick by Brick",
-    "anio": null,
+    "anio": 2026,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -10336,7 +10409,7 @@
     "titulo": "Another's Memories",
     "titulo_original": "Another's Memories",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -10411,14 +10484,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "en-busca-de-la-libertad",
     "titulo": "En busca de la libertad",
     "titulo_original": "En busca de la libertad",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -10496,13 +10570,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "drident",
     "titulo": "Drident",
     "titulo_original": "Drident",
-    "anio": null,
+    "anio": 2026,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -10586,7 +10661,7 @@
     "titulo": "Gaucho: Subway Escape",
     "titulo_original": "Gaucho: Subway Escape",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -10665,14 +10740,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "tierras-infernales",
     "titulo": "Tierras Infernales",
     "titulo_original": "Tierras Infernales",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -10752,7 +10828,8 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "el-tango-de-la-muerte",
@@ -10846,7 +10923,7 @@
     "id": "yerba-mate-tycoon",
     "titulo": "Yerba Mate Tycoon",
     "titulo_original": "Yerba Mate Tycoon",
-    "anio": null,
+    "anio": 2021,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -10934,7 +11011,7 @@
     "id": "defensores-del-barrio",
     "titulo": "DEFENSORES DEL BARRIO",
     "titulo_original": "DEFENSORES DEL BARRIO",
-    "anio": null,
+    "anio": 2026,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -11018,7 +11095,7 @@
     "id": "pista-motorsport",
     "titulo": "PISTA Motorsport",
     "titulo_original": "PISTA Motorsport",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -11105,7 +11182,7 @@
     "titulo": "Panchofobia",
     "titulo_original": "Panchofobia",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -11184,7 +11261,8 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "take-a-hint",
@@ -11275,7 +11353,7 @@
     "titulo": "Zonda",
     "titulo_original": "Zonda",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -11354,13 +11432,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "tenebris-somnia",
     "titulo": "Tenebris Somnia",
     "titulo_original": "Tenebris Somnia",
-    "anio": null,
+    "anio": 2026,
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -11442,7 +11521,7 @@
     "id": "doorways-holy-mountains",
     "titulo": "Doorways: Holy Mountains of Flesh",
     "titulo_original": "Doorways: Holy Mountains of Flesh",
-    "anio": null,
+    "anio": 2016,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -11524,7 +11603,7 @@
     "id": "dcs-south-atlantic",
     "titulo": "DCS: South Atlantic",
     "titulo_original": "DCS: South Atlantic",
-    "anio": null,
+    "anio": 2022,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -11611,7 +11690,7 @@
     "id": "command-falklands",
     "titulo": "Command:MO - Falklands",
     "titulo_original": "Command:MO - Falklands",
-    "anio": null,
+    "anio": 2022,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -11879,7 +11958,7 @@
     "id": "wars-curupayti-1866",
     "titulo": "Wars Across The World: Curupayti 1866",
     "titulo_original": "Wars Across The World: Curupayti 1866",
-    "anio": null,
+    "anio": 2022,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -12140,7 +12219,7 @@
     "titulo": "The Almamula",
     "titulo_original": "The Almamula",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12221,14 +12300,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "avaroth-online",
     "titulo": "Avaroth Online",
     "titulo_original": "Avaroth Online",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12303,13 +12383,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "ethereal",
     "titulo": "ETHEREAL",
     "titulo_original": "ETHEREAL",
-    "anio": null,
+    "anio": 2019,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -12391,7 +12472,7 @@
     "titulo": "The Path Into The Abyss",
     "titulo_original": "The Path Into The Abyss",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12469,14 +12550,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "game-of-patios",
     "titulo": "Game Of Patios",
     "titulo_original": "Game Of Patios",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12554,14 +12636,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "envido",
     "titulo": "Envido",
     "titulo_original": "Envido",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12638,13 +12721,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "gaucho-and-the-grassland",
     "titulo": "Gaucho and the Grassland",
     "titulo_original": "Gaucho and the Grassland",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -12728,7 +12812,7 @@
     "id": "the-baron-got-you-again",
     "titulo": "The baron got you again",
     "titulo_original": "The baron got you again",
-    "anio": null,
+    "anio": 2017,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -12810,7 +12894,7 @@
     "titulo": "HELP NO BRAKE",
     "titulo_original": "HELP NO BRAKE",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12885,14 +12969,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "borealis-descent",
     "titulo": "Borealis Descent",
     "titulo_original": "Borealis Descent",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -12970,13 +13055,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "youra-the-game",
     "titulo": "Youra The Game",
     "titulo_original": "Youra The Game",
-    "anio": null,
+    "anio": 2025,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13058,7 +13144,7 @@
     "id": "rhythm-soccer",
     "titulo": "Rhythm Soccer",
     "titulo_original": "Rhythm Soccer",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13149,7 +13235,7 @@
     "titulo": "Havana Blood",
     "titulo_original": "Havana Blood",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -13224,13 +13310,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Próximamente"
   },
   {
     "id": "pampas-selene-maze-of-demons",
     "titulo": "Pampas & Selene: The Maze of Demons",
     "titulo_original": "Pampas & Selene: The Maze of Demons",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13312,7 +13399,7 @@
     "id": "piggo",
     "titulo": "PIGGO",
     "titulo_original": "PIGGO",
-    "anio": null,
+    "anio": 2026,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13395,7 +13482,7 @@
     "id": "warpzone-vs-the-dimension",
     "titulo": "WarpZone vs THE DIMENSION",
     "titulo_original": "WarpZone vs THE DIMENSION",
-    "anio": null,
+    "anio": 2019,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13422,7 +13509,7 @@
       "accion",
       "arcade"
     ],
-    "descripcion": "Beat'em up cooperativo con estética de los 90 y visión moderna.",
+    "descripcion": "Beat'em up cooperativo desarrollado por PampaFox, estudio de La Pampa; la ficha lo registra como referencia menor por origen productivo más que por escenario argentino.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -13477,7 +13564,7 @@
     "id": "hive-dive",
     "titulo": "Hive Dive",
     "titulo_original": "Hive Dive",
-    "anio": null,
+    "anio": 2024,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -13560,7 +13647,7 @@
     "titulo": "Curilemu",
     "titulo_original": "Curilemu",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -13636,14 +13723,15 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "arcana-ucsb",
     "titulo": "Arcana",
     "titulo_original": "Arcana",
     "anio": null,
-    "estado": "publicado",
+    "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
         "activo": true,
@@ -13716,13 +13804,14 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-09",
+    "anio_nota": "Por confirmarse"
   },
   {
     "id": "wanted-guns",
     "titulo": "Wanted Guns",
     "titulo_original": "Wanted Guns",
-    "anio": null,
+    "anio": 2023,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {

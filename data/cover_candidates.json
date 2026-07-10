@@ -1,0 +1,236 @@
+{
+  "generado": "2026-07-10",
+  "total_sin_portada": 24,
+  "aplicados": 2,
+  "pendientes_manual": 1,
+  "recuperables_revision": 11,
+  "sin_propuesta": 11,
+  "candidatos": [
+    {
+      "id": "don-ceferino-hazana",
+      "titulo": "Don Ceferino Hazaña",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "trucotron",
+      "titulo": "Trucotron",
+      "portada_actual": null,
+      "portada_propuesta": "https://i0.wp.com/oasisnerd.com/wp-content/uploads/2026/05/industria-videojuegos-argentina.webp?fit=1200%2C675&ssl=1",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "futbol-deluxe-2004",
+      "titulo": "Fútbol Deluxe",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "pes-2014-afa",
+      "titulo": "Pro Evolution Soccer 2014 (Licencia AFA)",
+      "portada_actual": null,
+      "portada_propuesta": "https://imagenes.hobbyconsolas.com/files/image_1920_1080/uploads/imagenes/2023/04/25/69019e04c1d14.jpeg",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "busqueda-interestelar",
+      "titulo": "Búsqueda Interestelar",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "bitacoras-patrias-remedios",
+      "titulo": "Bitácoras Patrias: Remedios del Valle",
+      "portada_actual": null,
+      "portada_propuesta": "https://img.itch.zone/aW1nLzIyMDQ0NTk3LnBuZw==/508x254%23mb/THO3W9.png",
+      "fuente": "itch",
+      "confianza": "alta",
+      "aplicado": true
+    },
+    {
+      "id": "perfil-de-riesgo-casos-federales",
+      "titulo": "Perfil de Riesgo: Casos Federales",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "yo-matias-suenos-peligrosos",
+      "titulo": "Yo Matías: Sueños Peligrosos",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "super-menem-bros",
+      "titulo": "Super Menem Bros",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false
+    },
+    {
+      "id": "truco-arbiser-1982",
+      "titulo": "Truco Arbiser",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "bienvenidos-a-la-matanza",
+      "titulo": "Bienvenidos a La Matanza",
+      "portada_actual": null,
+      "portada_propuesta": "https://assets.elplanteo.com/wp-content/uploads/2024/05/03134216/gta-villero-1100x619.png?crop=smart&height=506&width=900&w=1200&h=630&crop=1&quality=82",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "gaucho-liberacion",
+      "titulo": "Gaucho Liberación",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.gitgud.com.ar/wp-content/uploads/2025/02/MixCollage-04-Feb-2025-05-08-PM-1062.jpg",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "aconcagua-1999",
+      "titulo": "Aconcagua",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.infobae.com/resizer/v2/CWESD3OMVZD6ZESYUKUJOVB3TI.jpg?auth=ca862c81bdbabc1bdbe72d63bcfd47b2826a4c48aad96cedecde85fe2c1c1169&smart=true&width=1200&height=630&quality=85",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "syndicate-buenos-aires",
+      "titulo": "Syndicate (Buenos Aires 2069)",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.infobae.com/resizer/v2/CWESD3OMVZD6ZESYUKUJOVB3TI.jpg?auth=ca862c81bdbabc1bdbe72d63bcfd47b2826a4c48aad96cedecde85fe2c1c1169&smart=true&width=1200&height=630&quality=85",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "chameleon-buenos-aires",
+      "titulo": "Chameleon (Puerto de Buenos Aires)",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.infobae.com/resizer/v2/CWESD3OMVZD6ZESYUKUJOVB3TI.jpg?auth=ca862c81bdbabc1bdbe72d63bcfd47b2826a4c48aad96cedecde85fe2c1c1169&smart=true&width=1200&height=630&quality=85",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "fifa-street-caminito",
+      "titulo": "FIFA Street (Caminito)",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.infobae.com/resizer/v2/CWESD3OMVZD6ZESYUKUJOVB3TI.jpg?auth=ca862c81bdbabc1bdbe72d63bcfd47b2826a4c48aad96cedecde85fe2c1c1169&smart=true&width=1200&height=630&quality=85",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "fast-furious-showdown-aeroparque",
+      "titulo": "Fast & Furious: Showdown (Aeroparque)",
+      "portada_actual": null,
+      "portada_propuesta": "https://www.infobae.com/resizer/v2/CWESD3OMVZD6ZESYUKUJOVB3TI.jpg?auth=ca862c81bdbabc1bdbe72d63bcfd47b2826a4c48aad96cedecde85fe2c1c1169&smart=true&width=1200&height=630&quality=85",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "yo-matias-futbol-5",
+      "titulo": "Yo Matías: Fútbol 5",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "argentina-8-bit",
+      "titulo": "Argentina 8 Bit",
+      "portada_actual": null,
+      "portada_propuesta": "https://play-lh.googleusercontent.com/-NPA_PQLFdG6uR2M5r6Ql6S4RLAyfiEfbjMcyWozuIzOb1p62e62UH6taw8sNwXSyOWXff4KIsfPwh9yxLKYCA",
+      "fuente": "google_play",
+      "confianza": "alta",
+      "aplicado": true
+    },
+    {
+      "id": "gta-rio-de-la-plata",
+      "titulo": "GTA Río de la Plata",
+      "portada_actual": null,
+      "portada_propuesta": "https://fmfuego.com.ar/galeria/fotos/2022/06/04/m_1654361354.jpeg",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    },
+    {
+      "id": "yo-matias-viajeros-tiempo-1",
+      "titulo": "Yo Matías: Viajeros del Tiempo 1",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "yo-matias-cazador-golosinas",
+      "titulo": "Yo Matías: Cazador de Golosinas",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": false
+    },
+    {
+      "id": "anahi-juego",
+      "titulo": "Anahí",
+      "portada_actual": null,
+      "portada_propuesta": null,
+      "fuente": null,
+      "confianza": null,
+      "aplicado": false,
+      "pendiente_manual": true
+    },
+    {
+      "id": "evita-peron-contra-gorilas",
+      "titulo": "Evita y Perón contra los Gorilas",
+      "portada_actual": null,
+      "portada_propuesta": "https://pressover.news/wp-content/uploads/2018/06/Evita-y-Peron-contra-los-gorilas.jpg",
+      "fuente": "fuentes_investigacion",
+      "confianza": "media",
+      "aplicado": false
+    }
+  ]
+}

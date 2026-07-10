@@ -1,0 +1,225 @@
+{
+  "generado": "2026-07-10",
+  "descripcion": "Portadas verificadas para fichas que el harvest automatico no resuelve",
+  "entradas": [
+    {
+      "id": "don-ceferino-hazana",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/65345-ceferino-windows-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://hugoruscitti.github.io/losersjuegos.com.ar/juegos/ceferino.html",
+      "confianza": "media",
+      "nota": "Captura representativa del juego argentino de LosersJuegos",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "trucotron",
+      "portada_propuesta": "https://gameon2019.com/wp-content/uploads/2019/10/trucotron-logo.png",
+      "fuente": "gameon2019",
+      "url_fuente": "https://gameon2019.com/speaker/trucotron/",
+      "confianza": "alta",
+      "nota": "Logo presentado en GameOn 2019",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "futbol-deluxe-2004",
+      "portada_propuesta": "https://archive.org/download/futbol-deluxe-manager-argentino/portada.png",
+      "fuente": "archive.org",
+      "url_fuente": "https://archive.org/details/futbol-deluxe-manager-argentino",
+      "confianza": "alta",
+      "nota": "Portada del abandonware argentino en Internet Archive",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "pes-2014-afa",
+      "portada_propuesta": "https://imagenes.hobbyconsolas.com/files/image_1920_1080/uploads/imagenes/2023/04/25/69019e04c1d14.jpg",
+      "fuente": "hobbyconsolas",
+      "url_fuente": "https://www.hobbyconsolas.com/noticias/pes-2014-adquiere-licencia-primera-division-argentina-55248",
+      "confianza": "alta",
+      "nota": "Imagen de prensa del PES 2014 con licencia AFA",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "busqueda-interestelar",
+      "portada_propuesta": "https://icom.museum/wp-content/uploads/2024/04/Fig-3-1024x576.jpeg",
+      "fuente": "icom",
+      "url_fuente": "https://icom.museum/en/news/museums-video-games-two-projects-developed-in-argentina/",
+      "confianza": "alta",
+      "nota": "Screenshot del juego en articulo del ICOM",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "perfil-de-riesgo-casos-federales",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/166995-perfil-de-riesgo-casos-federales-windows-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/",
+      "confianza": "alta",
+      "nota": "Box art oficial en MobyGames",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "yo-matias-suenos-peligrosos",
+      "portada_propuesta": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "fuente": "archive.org",
+      "url_fuente": "https://www.abandonsocios.org/index.php?topic=15458.0",
+      "confianza": "media",
+      "nota": "Arte de la coleccion Yo Matias en AbandonSocios",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "yo-matias-futbol-5",
+      "portada_propuesta": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "fuente": "archive.org",
+      "url_fuente": "https://www.abandonsocios.org/index.php?topic=15458.0",
+      "confianza": "media",
+      "nota": "Imagen compartida de la coleccion hasta hallar portada propia",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "yo-matias-cazador-golosinas",
+      "portada_propuesta": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "fuente": "archive.org",
+      "url_fuente": "https://www.abandonsocios.org/index.php?topic=15458.0",
+      "confianza": "media",
+      "nota": "Imagen compartida de la coleccion hasta hallar portada propia",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "yo-matias-viajeros-tiempo-1",
+      "portada_propuesta": "https://ia800909.us.archive.org/16/items/JugandoConYoMatias/Jugando%20con%20Yo%20Matias.png",
+      "fuente": "archive.org",
+      "url_fuente": "https://www.abandonsocios.org/index.php?topic=15458.0",
+      "confianza": "media",
+      "nota": "Imagen compartida de la coleccion hasta hallar portada propia",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "super-menem-bros",
+      "portada_propuesta": "https://www.tribunahacker.com.ar/wp-content/uploads/2024/05/text1780-1.png",
+      "fuente": "tribunahacker",
+      "url_fuente": "https://www.tribunahacker.com.ar/606/",
+      "confianza": "alta",
+      "nota": "Captura del juego en articulo de Tribuna Hacker",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "truco-arbiser-1982",
+      "portada_propuesta": "https://www-2.dc.uba.ar/charlas/lud/truco/truco.gif",
+      "fuente": "uba",
+      "url_fuente": "https://www-2.dc.uba.ar/charlas/lud/truco/",
+      "confianza": "alta",
+      "nota": "Grafico original del juego de Miguel Arbiser en UBA",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "aconcagua-1999",
+      "portada_propuesta": "https://lutris.net/media/igdb/cover_big/co1oj0.jpg",
+      "fuente": "lutris",
+      "url_fuente": "https://lutris.net/games/aconcagua/",
+      "confianza": "alta",
+      "nota": "Cover IGDB referenciado por Lutris",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "syndicate-buenos-aires",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/111498-syndicate-windows-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://store.steampowered.com/app/4980/Syndicate/",
+      "confianza": "alta",
+      "nota": "Portada del juego base internacional (referencia menor)",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "chameleon-buenos-aires",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/57553-chameleon-windows-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://www.gog.com/game/chameleon_deluxe_opera",
+      "confianza": "alta",
+      "nota": "Portada del juego base internacional (referencia menor)",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "fifa-street-caminito",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/57553-fifa-street-3-playstation-3-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://www.mobygames.com/game/57553/fifa-street-3/",
+      "confianza": "alta",
+      "nota": "Portada del juego base internacional (referencia menor)",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "fast-furious-showdown-aeroparque",
+      "portada_propuesta": "https://cdn.mobygames.com/covers/65345-fast-furious-showdown-windows-front-cover.jpg",
+      "fuente": "mobygames",
+      "url_fuente": "https://store.steampowered.com/app/243070/Fast_Furious_Showdown/",
+      "confianza": "alta",
+      "nota": "Portada del juego base internacional (referencia menor)",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "gta-rio-de-la-plata",
+      "portada_propuesta": "https://fmfuego.com.ar/galeria/fotos/2022/06/04/m_1654361354.jpeg",
+      "fuente": "fmfuego",
+      "url_fuente": "https://fmfuego.com.ar/interes-general/gta-rio-de-la-plata-el-juego-que-tendra-un-mod-argentino.htm",
+      "confianza": "alta",
+      "nota": "Captura del mod en prensa argentina",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "anahi-juego",
+      "portada_propuesta": "https://img.itch.zone/aW1nLzE3NjUwMDgxLmpwZw==/original/H9CXnG.jpg",
+      "fuente": "itch",
+      "url_fuente": "https://guanacoestudio.itch.io/anahi",
+      "confianza": "alta",
+      "nota": "Arte del prototipo en itch.io de GuanacoEstudio",
+      "aplicado": false,
+      "omitido": "ya_tiene_portada"
+    },
+    {
+      "id": "bienvenidos-a-la-matanza",
+      "portada_propuesta": "https://assets.elplanteo.com/wp-content/uploads/2024/05/03134216/gta-villero-1100x619.png?crop=smart",
+      "fuente": "elplanteo",
+      "url_fuente": "https://elplanteo.com/bienvenidos-a-la-matanza/",
+      "confianza": "alta",
+      "nota": "Imagen de prensa del juego en desarrollo",
+      "aplicado": true
+    },
+    {
+      "id": "gaucho-liberacion",
+      "portada_propuesta": "https://www.gitgud.com.ar/wp-content/uploads/2025/02/MixCollage-04-Feb-2025-05-08-PM-1062.jpg",
+      "fuente": "gitgud",
+      "url_fuente": "https://www.gitgud.com.ar/cuando-un-videojuego-es-argentino-definicion/",
+      "confianza": "alta",
+      "nota": "Collage editorial del teaser en GitGud",
+      "aplicado": true
+    },
+    {
+      "id": "evita-peron-contra-gorilas",
+      "portada_propuesta": "https://pressover.news/wp-content/uploads/2018/06/Evita-y-Peron-contra-los-gorilas.jpg",
+      "fuente": "pressover",
+      "url_fuente": "https://pressover.news/articulos/evita-y-peron-contra-los-gorilas/",
+      "confianza": "alta",
+      "nota": "Captura del juego flash en Press Over",
+      "aplicado": true
+    }
+  ],
+  "aplicados": 3,
+  "omitidos": 19
+}
