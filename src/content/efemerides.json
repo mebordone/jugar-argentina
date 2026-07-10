@@ -3,7 +3,7 @@
     "slug": "independencia",
     "fecha": "07-09",
     "titulo": "Para jugar el Día de la Independencia",
-    "descripcion": "Juegos sobre próceres, milicias, gauchos e imaginarios de la independencia argentina.",
+    "descripcion": "Un recorrido por próceres, milicias, gauchos y ficciones que convierten la independencia argentina en estrategia, aventura o memoria jugable.",
     "temas": ["independencia", "historia", "proceres", "gauchesco"],
     "juegos_destacados": [
       "zupay-sombras-independencia",
@@ -21,7 +21,7 @@
     "slug": "malvinas",
     "fecha": "04-02",
     "titulo": "Videojuegos para pensar Malvinas",
-    "descripcion": "Obras que abordan las Islas Malvinas desde estrategia, memoria, acción o ficción histórica.",
+    "descripcion": "Obras que vuelven sobre Malvinas desde la estrategia, la memoria, la ficción histórica y las representaciones militares del Atlántico Sur.",
     "temas": ["malvinas", "memoria", "historia"],
     "juegos_destacados": [
       "malvinas-2032",
@@ -36,7 +36,7 @@
     "slug": "bandera-belgrano",
     "fecha": "06-20",
     "titulo": "Bandera, Belgrano e historia escolar",
-    "descripcion": "Juegos educativos y recorridos históricos para pensar símbolos nacionales.",
+    "descripcion": "Juegos educativos y experiencias escolares para recorrer bandera, provincias, geografía e historia nacional desde materiales jugables.",
     "temas": ["historia", "educativo", "geografia"],
     "juegos_destacados": [
       "mobbyt-geografia-argentina",
@@ -48,7 +48,7 @@
     "slug": "tradicion-gauchesca",
     "fecha": "11-10",
     "titulo": "Tradición, gauchos y juegos populares",
-    "descripcion": "Gauchos, truco, folclore rural y cultura popular jugable.",
+    "descripcion": "Gauchos, truco, pulperías, frontera y cultura popular rural: un mapa jugable de tradiciones que atraviesan la identidad argentina.",
     "temas": ["folclore", "juegos_tradicionales", "gauchesco"],
     "juegos_destacados": [
       "don-ceferino-hazana",
@@ -66,7 +66,7 @@
     "slug": "politica-satira",
     "fecha": "10-17",
     "titulo": "Política y sátira argentina",
-    "descripcion": "Videojuegos que juegan con presidentes, militancias, peronismo y humor político.",
+    "descripcion": "Sátiras, campañas, crisis y presidentes pixelados: videojuegos que procesan la política argentina desde el humor, la crítica o la ficción.",
     "temas": ["politica", "satira"],
     "juegos_destacados": [
       "super-menem-bros",
@@ -82,7 +82,7 @@
     "slug": "folclore-terror",
     "fecha": null,
     "titulo": "Folclore y terror argentino",
-    "descripcion": "Leyendas, criaturas y mitos regionales llevados al videojuego.",
+    "descripcion": "Leyendas, criaturas y mitos regionales donde el terror se cruza con paisajes, relatos orales y monstruos del imaginario argentino.",
     "temas": ["folclore", "terror"],
     "juegos_destacados": [
       "pomberito",
@@ -102,7 +102,7 @@
     "slug": "juegos-tradicionales",
     "fecha": null,
     "titulo": "Truco y juegos tradicionales",
-    "descripcion": "Naipes, arcade, tradición oral y cultura lúdica argentina.",
+    "descripcion": "Naipes, truco, mate, arcade y juegos populares: obras que transforman prácticas cotidianas en sistemas jugables.",
     "temas": ["juegos_tradicionales", "truco"],
     "juegos_destacados": [
       "trucotron",
@@ -118,7 +118,7 @@
     "slug": "recomendados",
     "fecha": null,
     "titulo": "Los mejores juegos del catálogo",
-    "descripcion": "Selección curada de obras con vínculo central con Argentina, buena disponibilidad para jugar hoy y peso cultural verificable.",
+    "descripcion": "Puerta de entrada al catálogo: obras con vínculo argentino fuerte, buena disponibilidad actual y valor cultural o histórico para empezar a explorar.",
     "temas": [],
     "juegos_destacados": [
       "atuel-2022",
