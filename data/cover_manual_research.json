@@ -134,11 +134,11 @@
     },
     {
       "id": "syndicate-buenos-aires",
-      "portada_propuesta": "https://cdn.mobygames.com/covers/111498-syndicate-windows-front-cover.jpg",
-      "fuente": "mobygames",
-      "url_fuente": "https://store.steampowered.com/app/4980/Syndicate/",
+      "portada_propuesta": "https://static.wikia.nocookie.net/syndicate/images/a/a2/Argentina.png/revision/latest/scale-to-width-down/1000?cb=20190722172921",
+      "fuente": "fandom",
+      "url_fuente": "https://syndicate.fandom.com/wiki/Argentina",
       "confianza": "alta",
-      "nota": "Portada del juego base internacional (referencia menor)",
+      "nota": "Briefing del nivel Buenos Aires 2069 en Syndicate Wiki",
       "aplicado": false,
       "omitido": "ya_tiene_portada"
     },
