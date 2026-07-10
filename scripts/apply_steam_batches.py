@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agrega lotes Steam 5 y 6 a data/games.json si aún no existen."""
+"""Agrega lotes Steam 5, 6 y 7 a data/games.json si aún no existen."""
 from __future__ import annotations
 
 import json
@@ -12,6 +12,7 @@ DATA = ROOT / "data" / "games.json"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from games_steam_batch5 import STEAM_BATCH5_GAMES  # noqa: E402
 from games_steam_batch6 import STEAM_BATCH6_GAMES  # noqa: E402
+from games_steam_batch7 import STEAM_BATCH7_GAMES  # noqa: E402
 
 
 def main() -> int:
@@ -19,7 +20,7 @@ def main() -> int:
     by_id = {game["id"] for game in games}
     added = 0
 
-    for entry in [*STEAM_BATCH5_GAMES, *STEAM_BATCH6_GAMES]:
+    for entry in [*STEAM_BATCH5_GAMES, *STEAM_BATCH6_GAMES, *STEAM_BATCH7_GAMES]:
         if entry["id"] in by_id:
             print(f"SKIP {entry['id']} (ya existe)")
             continue
@@ -29,7 +30,7 @@ def main() -> int:
         print(f"OK   {entry['id']}")
 
     DATA.write_text(json.dumps(games, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    total = len(STEAM_BATCH5_GAMES) + len(STEAM_BATCH6_GAMES)
+    total = len(STEAM_BATCH5_GAMES) + len(STEAM_BATCH6_GAMES) + len(STEAM_BATCH7_GAMES)
     print(f"\nAgregados: {added}/{total}")
     return 0
 

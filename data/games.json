@@ -12134,5 +12134,1671 @@
     "disponibilidad": "a_la_venta",
     "verificado": true,
     "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "the-almamula",
+    "titulo": "The Almamula",
+    "titulo_original": "The Almamula",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Gaucho Forge",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "supervivencia"
+    ],
+    "descripcion": "Survival cooperativo en el litoral argentino: los gauchos deben cazar al Almamula mientras una maldición azota la región.",
+    "contexto_argentino": {
+      "regiones": [
+        "Noreste",
+        "Pampeana"
+      ],
+      "provincias": [
+        "Chaco",
+        "Corrientes"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "folclore",
+        "gauchesco",
+        "terror"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3219760/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3219760/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219760/4b159349bf64d20a77530bf587897ffa775b8982/header.jpg?t=1775955394",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219760/b7e95383b5b20d0ee660915a6e9d02e78facaea3/ss_b7e95383b5b20d0ee660915a6e9d02e78facaea3.1920x1080.jpg?t=1775955394",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219760/685596eb88d7219a7b67e3762196ba530c85a7de/ss_685596eb88d7219a7b67e3762196ba530c85a7de.1920x1080.jpg?t=1775955394",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219760/5be4a6b8838e8ed13ff5e92f56af79e9f88e91b2/ss_5be4a6b8838e8ed13ff5e92f56af79e9f88e91b2.1920x1080.jpg?t=1775955394",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219760/b26791cfa12b3613c18a3dee412c9535c7f5e4e5/ss_b26791cfa12b3613c18a3dee412c9535c7f5e4e5.1920x1080.jpg?t=1775955394"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "avaroth-online",
+    "titulo": "Avaroth Online",
+    "titulo_original": "Avaroth Online",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "IWG Studio / Luis Merino SR",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "mmorpg",
+      "rpg"
+    ],
+    "descripcion": "MMORPG de mundo abierto con PvP y progresión en tierras inspiradas en Argentina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "cultura_popular"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2784670/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2784670/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784670/c9ff8a13eccbf20c40056c07e3fb51e61ad24e5b/header.jpg?t=1780190512",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784670/a5d8e22f9eedc7c2a25be5e5123ac7c8991a8541/ss_a5d8e22f9eedc7c2a25be5e5123ac7c8991a8541.1920x1080.jpg?t=1780190512",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784670/f9505ed47bad0c605c378b3e9e16a0f24eca1d58/ss_f9505ed47bad0c605c378b3e9e16a0f24eca1d58.1920x1080.jpg?t=1780190512",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784670/e69eaa048dde55403379a4854719bf1681fea2ab/ss_e69eaa048dde55403379a4854719bf1681fea2ab.1920x1080.jpg?t=1780190512",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784670/52f5d3d026eb6bd1484d33da5cd5bece26f13fc3/ss_52f5d3d026eb6bd1484d33da5cd5bece26f13fc3.1920x1080.jpg?t=1780190512"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "historia"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "ethereal",
+    "titulo": "ETHEREAL",
+    "titulo_original": "ETHEREAL",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Nicolás Recabarren / Tomás Batista",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "puzzle",
+      "aventura"
+    ],
+    "descripcion": "Puzles atmosféricos en un mundo misterioso, desarrollado por el dúo argentino Recabarren y Batista.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "arte",
+        "indie"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/751220/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/751220/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751220/header.jpg?t=1556113441",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751220/ss_884b0d0adf4e5d31e23b7f1a3eb67a0a68e3973a.1920x1080.jpg?t=1556113441",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751220/ss_dbdd9b2b4eba22acb025929da51c3a4e2083697a.1920x1080.jpg?t=1556113441",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751220/ss_eac78047f089b007bb936134cdee58e401245ed3.1920x1080.jpg?t=1556113441",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751220/ss_2ddf5d920235ff906b8915313490d6e3328c5978.1920x1080.jpg?t=1556113441"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "the-path-into-the-abyss",
+    "titulo": "The Path Into The Abyss",
+    "titulo_original": "The Path Into The Abyss",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "MXR Productions",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "supervivencia"
+    ],
+    "descripcion": "Shooter de supervivencia en primera persona ambientado en Buenos Aires con horror cósmico y combate hardcore.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "terror",
+        "cultura_urbana"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3000460/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3000460/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3000460/header.jpg?t=1765825788",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3000460/ss_d606f18cd9b7d862d1547f97dab7c3f8efabef3c.1920x1080.jpg?t=1765825788",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3000460/ss_94172d790002fe5114184e65a72f390fe68f27fa.1920x1080.jpg?t=1765825788",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3000460/ss_000f7301529b272bde0d4ea0d98499765e7580a7.1920x1080.jpg?t=1765825788",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3000460/ss_19e4125b7d2db5a99794957ace56209c15270e6d.1920x1080.jpg?t=1765825788"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "game-of-patios",
+    "titulo": "Game Of Patios",
+    "titulo_original": "Game Of Patios",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Córdoba Digital Lab",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "simulacion"
+    ],
+    "descripcion": "Teo vuelve a su barrio cordobés para ayudar a su abuela en el concurso de patios: regar, decorar y resolver enigmas.",
+    "contexto_argentino": {
+      "regiones": [
+        "Centro"
+      ],
+      "provincias": [
+        "Córdoba"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "cultura_urbana",
+        "folclore"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3387790/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3387790/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387790/b02f0fa23fc5b6b5227949e280dc63b4023b6ef0/header.jpg?t=1762171346",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387790/003ac640bbd03d02eaf7942bd4b88ae4bd90f3ba/ss_003ac640bbd03d02eaf7942bd4b88ae4bd90f3ba.1920x1080.jpg?t=1762171346",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387790/b579ea5d4288c55bc947c1f2045c993ea98685b2/ss_b579ea5d4288c55bc947c1f2045c993ea98685b2.1920x1080.jpg?t=1762171346",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387790/803c07d6a1ea26310e64675c55087623fe0e5647/ss_803c07d6a1ea26310e64675c55087623fe0e5647.1920x1080.jpg?t=1762171346",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387790/65f27302278cc460de1056db8be67421f8265f67/ss_65f27302278cc460de1056db8be67421f8265f67.1920x1080.jpg?t=1762171346"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "envido",
+    "titulo": "Envido",
+    "titulo_original": "Envido",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Gaucho Forge",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "cartas"
+    ],
+    "descripcion": "Juego de cartas argentino con almas en pena, pulpería y macumbas: bluff, estrategia y folklore gauchesco.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "juegos_tradicionales",
+        "gauchesco",
+        "folclore"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3872160/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3872160/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872160/24d93d462daf5f9320362a8bb6939e469b877fb0/header.jpg?t=1783016487",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872160/46ea68dd12c820962fc3f288b3fa51da91d4e69e/ss_46ea68dd12c820962fc3f288b3fa51da91d4e69e.1920x1080.jpg?t=1783016487",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872160/eaa1429f311c63b34b2d217ac4a01a42c5a580a1/ss_eaa1429f311c63b34b2d217ac4a01a42c5a580a1.1920x1080.jpg?t=1783016487",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872160/fd32a28b82c1029e4de63214c47c4e5b23cc1cb4/ss_fd32a28b82c1029e4de63214c47c4e5b23cc1cb4.1920x1080.jpg?t=1783016487",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3872160/6180911fe58077189c5998cb06364711e10bd2a1/ss_6180911fe58077189c5998cb06364711e10bd2a1.1920x1080.jpg?t=1783016487"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "gaucho-and-the-grassland",
+    "titulo": "Gaucho and the Grassland",
+    "titulo_original": "Gaucho and the Grassland",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Epopeia Games",
+    "pais_desarrollo": "Brasil",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "simulacion"
+    ],
+    "descripcion": "Aventura acogedora como vaquero latinoamericano: explorar la pradera, ayudar a la comunidad y convivir con seres místicos.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana",
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "gauchesco",
+        "folclore"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/1670830/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/1670830/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670830/9f21a0ecf942c1cffe4caaa81ec90716fb55c9df/header.jpg?t=1783110660",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670830/3a207acc1ad8cf7afefe5eec566bbad5ac94ee1c/ss_3a207acc1ad8cf7afefe5eec566bbad5ac94ee1c.1920x1080.jpg?t=1783110660",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670830/df22f5bbb43ab999ac7a4ff9b12601c260dc89d3/ss_df22f5bbb43ab999ac7a4ff9b12601c260dc89d3.1920x1080.jpg?t=1783110660",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670830/c3911a7d02a175a89acecf328b5d5d0c90459360/ss_c3911a7d02a175a89acecf328b5d5d0c90459360.1920x1080.jpg?t=1783110660",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670830/0b54a3157d7e02e2d7b61478aa005f1d6428d28d/ss_0b54a3157d7e02e2d7b61478aa005f1d6428d28d.1920x1080.jpg?t=1783110660"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "the-baron-got-you-again",
+    "titulo": "The baron got you again",
+    "titulo_original": "The baron got you again",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "XXII GROUP",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "aventura"
+    ],
+    "descripcion": "Escape room de acción: sos un agente secreto prisionero en una base del Barón Von Rimmel en el interior de Argentina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "accion",
+        "humor"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/538050/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/538050/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538050/header.jpg?t=1501761466",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538050/ss_08bf2de82a0feb2d4142b3f0a4803e091b8876f1.1920x1080.jpg?t=1501761466",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538050/ss_e3f1d1a045f6967118e760121af0d6e249481f8c.1920x1080.jpg?t=1501761466",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538050/ss_581a4cee58907162dd8baa89d654246d619089af.1920x1080.jpg?t=1501761466",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538050/ss_47ac7dd4790a88c9b06aedc411cd79a5055ed8bf.1920x1080.jpg?t=1501761466"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "help-no-brake",
+    "titulo": "HELP NO BRAKE",
+    "titulo_original": "HELP NO BRAKE",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Edgar Mendoza",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "plataformas",
+      "accion"
+    ],
+    "descripcion": "Plataformas frenéticas: manejá sin frenos y llegá al final de cada nivel sin explotar el auto.",
+    "contexto_argentino": {
+      "regiones": [
+        "Cuyo"
+      ],
+      "provincias": [
+        "Mendoza"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "arcade"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2531960/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2531960/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531960/header.jpg?t=1718326546",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531960/ss_ed7032da760640a2020a9e3988f30b453a56e67d.1920x1080.jpg?t=1718326546",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531960/ss_1145b85d32999157764280585111c73d0d37e711.1920x1080.jpg?t=1718326546",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531960/ss_0273193ae6fe8cadfbefdcb3c7f2136050ac9d3e.1920x1080.jpg?t=1718326546",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531960/ss_67010fb80b651247b56c63dc1a704b8474b52c50.1920x1080.jpg?t=1718326546"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "borealis-descent",
+    "titulo": "Borealis Descent",
+    "titulo_original": "Borealis Descent",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Zabdiel Mendoza",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "terror"
+    ],
+    "descripcion": "Shooter de extracción en tercera persona en un mundo postapocalíptico solarpunk con atmósfera contaminada.",
+    "contexto_argentino": {
+      "regiones": [
+        "Cuyo"
+      ],
+      "provincias": [
+        "Mendoza"
+      ],
+      "periodo_historico": [
+        "futurista"
+      ],
+      "temas": [
+        "terror",
+        "ciencia_ficcion"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2161980/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2161980/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161980/header.jpg?t=1686365703",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161980/ss_83aab7759a6f5b52911a02106b9dcf71f7eeeabe.1920x1080.jpg?t=1686365703",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161980/ss_51453a5836c3b14ca56ba4ef67426fddc778d5f9.1920x1080.jpg?t=1686365703",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161980/ss_e5e29ca0c8bcd7b046b6401b394f426981b50fde.1920x1080.jpg?t=1686365703",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161980/ss_445e200884101fa1b3c63b38436455da479a0d3a.1920x1080.jpg?t=1686365703"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "youra-the-game",
+    "titulo": "Youra The Game",
+    "titulo_original": "Youra The Game",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Julio Carmona / Jose Mendoza / Derek Krull",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "rpg"
+    ],
+    "descripcion": "RPG de acción sobre destino, poderes elementales y la lucha entre luz y oscuridad.",
+    "contexto_argentino": {
+      "regiones": [
+        "Cuyo"
+      ],
+      "provincias": [
+        "Mendoza"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "fantasia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2724180/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2724180/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2724180/45110161de98020c8ec13b3f1cc53ff01eef00e2/header.jpg?t=1763587409",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2724180/ss_6c06e7c0ecd9649d065699ffc8ce89b103c64d31.1920x1080.jpg?t=1763587409",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2724180/ss_805b6eb1a8580648fc3c2b3b04836c6cc149806d.1920x1080.jpg?t=1763587409",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2724180/6925eb72fa1dfb9191fe6e271c852c24f21c6a03/ss_6925eb72fa1dfb9191fe6e271c852c24f21c6a03.1920x1080.jpg?t=1763587409",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2724180/faebf64ee04dbd9882755551924cd8530588fd51/ss_faebf64ee04dbd9882755551924cd8530588fd51.1920x1080.jpg?t=1763587409"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "rhythm-soccer",
+    "titulo": "Rhythm Soccer",
+    "titulo_original": "Rhythm Soccer",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": true,
+        "presencia": "principal",
+        "subtipo": "futbol"
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": {
+      "deporte": "futbol",
+      "competicion": [
+        "Copa internacional"
+      ],
+      "equipos_destacados": [
+        "Selección Argentina"
+      ],
+      "modo": "ritmo"
+    },
+    "desarrollador": "One More Play",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "deportes",
+      "ritmo"
+    ],
+    "descripcion": "Juego de ritmo con selecciones de Brasil, Argentina, Italia y Alemania: acertá la nota para pasar y disparar.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "deporte"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2368200/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2368200/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2368200/header.jpg?t=1705791859",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2368200/ss_49e9a5b98aa4e6b6c87981fc2c8477e7c0e86479.1920x1080.jpg?t=1705791859",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2368200/ss_996f4543869fb20732f36191e7ad20f95c6b1c6a.1920x1080.jpg?t=1705791859",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2368200/ss_84fcb07866f426235cd1ba65c816ee6db5e7484b.1920x1080.jpg?t=1705791859",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2368200/ss_fb91db48e471d5e43cd3eab628cffa4cc758cb08.1920x1080.jpg?t=1705791859"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "havana-blood",
+    "titulo": "Havana Blood",
+    "titulo_original": "Havana Blood",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "BRYPER INDUSTRIES",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "aventura"
+    ],
+    "descripcion": "Shooter noir de crimen ambientado en La Habana y Miami; el protagonista se llama Héctor Mendoza.",
+    "contexto_argentino": {
+      "regiones": [
+        "Cuyo"
+      ],
+      "provincias": [
+        "Mendoza"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "accion"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/4361180/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/4361180/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4361180/d330d1d1c690d50c5a5cf0b11c0247c5305c0759/header.jpg?t=1777310415",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4361180/c073c79c1546288ca0b54a2b60894e51facdd640/ss_c073c79c1546288ca0b54a2b60894e51facdd640.1920x1080.jpg?t=1777310415",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4361180/ed3703cb2c129db23261d717dcd112b74df9ebd2/ss_ed3703cb2c129db23261d717dcd112b74df9ebd2.1920x1080.jpg?t=1777310415",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4361180/0a24b58018736c252471c8d63d42261f67f4e133/ss_0a24b58018736c252471c8d63d42261f67f4e133.1920x1080.jpg?t=1777310415",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4361180/fab1464a65ab7d4e32492afc2ef9f68a606a1ffe/ss_fab1464a65ab7d4e32492afc2ef9f68a606a1ffe.1920x1080.jpg?t=1777310415"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "pampas-selene-maze-of-demons",
+    "titulo": "Pampas & Selene: The Maze of Demons",
+    "titulo_original": "Pampas & Selene: The Maze of Demons",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "@unepic_fran",
+    "pais_desarrollo": "España",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "plataformas",
+      "aventura"
+    ],
+    "descripcion": "Metroidvania estilo MSX2 del creador de Unepic; título evoca la pampa aunque el estudio es español.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "La Pampa"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "retro"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/1966220/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/1966220/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966220/header.jpg?t=1733382932",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966220/ss_20ce02ab6e991ba641d6e44bc0f42f3071759755.1920x1080.jpg?t=1733382932",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966220/ss_8ef96b827c32278261fb59bde269c07ae1c7e312.1920x1080.jpg?t=1733382932",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966220/ss_161c92e417c9580e539356554715aabe32c885df.1920x1080.jpg?t=1733382932",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966220/ss_ed74c7d158120ce344b3aed17a55d363551be029.1920x1080.jpg?t=1733382932"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "piggo",
+    "titulo": "PIGGO",
+    "titulo_original": "PIGGO",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "PampaWorks",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "party",
+      "cartas"
+    ],
+    "descripcion": "Party multijugador de cartas caótico: reuní cuatro iguales, engañá a tus amigos y reaccioná al instante.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "La Pampa"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "humor",
+        "juegos_tradicionales"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/4597790/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/4597790/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597790/d42d9bdc425fe2974c51d0cfcb8ec93cd1ec88c6/header.jpg?t=1779660396",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597790/c00c8b08437029234aedf630dccb7bb23e61d299/ss_c00c8b08437029234aedf630dccb7bb23e61d299.1920x1080.jpg?t=1779660396",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597790/90f7d0f4f5ed234a7901a945a5a7c9417dc5276f/ss_90f7d0f4f5ed234a7901a945a5a7c9417dc5276f.1920x1080.jpg?t=1779660396",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597790/f146e0fbaee15f549e7e1702515ae8993f3c905e/ss_f146e0fbaee15f549e7e1702515ae8993f3c905e.1920x1080.jpg?t=1779660396",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597790/f71d7c5797a2a1706187f0aee26b9e8a15b36601/ss_f71d7c5797a2a1706187f0aee26b9e8a15b36601.1920x1080.jpg?t=1779660396"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "warpzone-vs-the-dimension",
+    "titulo": "WarpZone vs THE DIMENSION",
+    "titulo_original": "WarpZone vs THE DIMENSION",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "PampaFox",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "arcade"
+    ],
+    "descripcion": "Beat'em up cooperativo con estética de los 90 y visión moderna.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "La Pampa"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "arcade"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/1088060/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/1088060/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088060/header.jpg?t=1604685422",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088060/ss_961306561c8626a0a909e51616e9a9efbb8ffbcd.1920x1080.jpg?t=1604685422",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088060/ss_8d9700c275e939ffa43301df021b73ea5d514688.1920x1080.jpg?t=1604685422",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088060/ss_717db5c6a4fa3b2ab1b55c2b26a02f64a172369e.1920x1080.jpg?t=1604685422",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088060/ss_4a236e5eb39f0bfb3890d3c256b3220775a51092.1920x1080.jpg?t=1604685422"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "en"
+      ],
+      "multijugador": true,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "hive-dive",
+    "titulo": "Hive Dive",
+    "titulo_original": "Hive Dive",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "PewPew Studio",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "arcade"
+    ],
+    "descripcion": "Shooter on-rails infinito pilotando un dron por paisajes de la Patagonia argentina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Patagonia"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "geografia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2707380/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2707380/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707380/header.jpg?t=1750195495",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707380/ss_0199c6f45ab68006dae00281b6fce5d1fe98bc29.1920x1080.jpg?t=1750195495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707380/ss_a2b07b5b61987df8d8a1445772139653ef281c8a.1920x1080.jpg?t=1750195495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707380/ss_0bd845a565305040537ec1d9c765cb53721c928b.1920x1080.jpg?t=1750195495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707380/ss_a0a1a0b5c868ade15185a8bbd5b017507dc6dc06.1920x1080.jpg?t=1750195495"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "geografia"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "curilemu",
+    "titulo": "Curilemu",
+    "titulo_original": "Curilemu",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Austral Games / Abstract Digital",
+    "pais_desarrollo": "Chile",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura",
+      "terror"
+    ],
+    "descripcion": "Horror de aventura inspirado en mitos de la Patagonia chilena y horrores lovecraftianos.",
+    "contexto_argentino": {
+      "regiones": [
+        "Patagonia"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "folclore",
+        "terror"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2362780/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2362780/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362780/header.jpg?t=1729367624",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362780/ss_33ac7db0358208d7a7f099a12f1ded9012735e75.1920x1080.jpg?t=1729367624",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362780/ss_2f94a3669b24afe42f11f41049c8ac01f9a30a11.1920x1080.jpg?t=1729367624",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362780/ss_ef2907246629073e68dc21837c0ba793524e027e.1920x1080.jpg?t=1729367624",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362780/ss_8d73a13dd317c0408f19b36e197b309559297b2a.1920x1080.jpg?t=1729367624"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "arcana-ucsb",
+    "titulo": "Arcana",
+    "titulo_original": "Arcana",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "UCSB Gaucho Game Lab",
+    "pais_desarrollo": "Estados Unidos",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "rpg"
+    ],
+    "descripcion": "Roguelike de magia y oleadas de enemigos; el estudio universitario usa el apodo Gaucho sin vínculo con Argentina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "fantasia"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/3037740/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/3037740/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3037740/header.jpg?t=1741368645",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3037740/ss_61204a40b60f386d8a372b146ac9289e41063cc7.1920x1080.jpg?t=1741368645",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3037740/ss_98e7cbb742cf3a693530214a9116588fbcdc4c77.1920x1080.jpg?t=1741368645",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3037740/ss_196f41c6942322632d49e88de163f21a9e584926.1920x1080.jpg?t=1741368645",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3037740/ss_76981a99a2b2d0649bb0ec65c7d5935c9bf43333.1920x1080.jpg?t=1741368645"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
+  },
+  {
+    "id": "wanted-guns",
+    "titulo": "Wanted Guns",
+    "titulo_original": "Wanted Guns",
+    "anio": null,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "referencia_menor"
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Iridon Interactive / Nerlaska Studios",
+    "pais_desarrollo": "España",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "aventura"
+    ],
+    "descripcion": "Western donde el reverendo Devlin enfrenta el retorno de Los Gauchos, una banda mexicana de forajidos.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "siglo_xix"
+      ],
+      "temas": [
+        "gauchesco",
+        "western"
+      ]
+    },
+    "enlaces": {
+      "steam": "https://store.steampowered.com/app/2462230/",
+      "fuentes_investigacion": [
+        "https://store.steampowered.com/app/2462230/"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462230/header.jpg?t=1690483555",
+      "capturas": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462230/ss_2ddf30627a3251947c2c645edf327c248a486920.1920x1080.jpg?t=1690483555",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462230/ss_9b6371c1144a42466baf8a0ebb4afe838286e0de.1920x1080.jpg?t=1690483555",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462230/ss_7e2ef8d3e408f4d736667ae594c8eef50979564e.1920x1080.jpg?t=1690483555",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462230/ss_ee7daddceeb9e5175f0c2269093099e76dcdcdee.1920x1080.jpg?t=1690483555"
+      ]
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": null,
+      "rating": {},
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "folclore"
+    ],
+    "tipo_obra": "indie",
+    "grado_relevancia_argentina": "menor",
+    "calidad_fuente": "tienda",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "a_la_venta",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-09"
   }
 ]
