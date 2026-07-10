@@ -2603,6 +2603,7 @@
     "titulo": "Perfil de Riesgo: Casos Federales",
     "titulo_original": "Perfil de Riesgo: Casos Federales",
     "anio": 2008,
+    "anio_fuente": "fandom",
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -2610,26 +2611,34 @@
         "presencia": "principal"
       },
       "protagonista": {
-        "activo": false,
-        "presencia": null
+        "activo": true,
+        "presencia": "principal"
       },
       "deporte_argentino": {
         "activo": false,
         "presencia": null
       }
     },
-    "personajes_argentinos": [],
+    "personajes_argentinos": [
+      {
+        "nombre": "Martina",
+        "tipo": "arquetipo",
+        "rol": "protagonista",
+        "descripcion": "Investigadora federal protagonista de las doce misiones del juego"
+      }
+    ],
     "deporte_argentino": null,
-    "desarrollador": "Nucleosys / Sabarasa (comisión AFIP)",
+    "desarrollador": "Nucleosys",
     "pais_desarrollo": "Argentina",
     "plataformas": [
       "PC"
     ],
     "generos": [
       "aventura",
-      "educativo"
+      "educativo",
+      "point_and_click"
     ],
-    "descripcion": "Aventura point-and-click encargada por la AFIP donde Martina recorre regiones argentinas resolviendo casos vinculados a impuestos y cultura tributaria.",
+    "descripcion": "Aventura gráfica point-and-click desarrollada por Nucleosys y publicada por Sabarasa, lanzada el 29 de agosto de 2008 para Windows a pedido de la AFIP. A través de doce misiones, la investigadora Martina recorre cuatro regiones argentinas —ciudad, montaña, desierto y selva— resolviendo casos de evasión, contrabando y trabajo informal, con doblaje argentino completo.",
     "contexto_argentino": {
       "regiones": [
         "Patagonia",
@@ -2650,14 +2659,15 @@
     "enlaces": {
       "mobygames": "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/",
       "fuentes_investigacion": [
+        "https://doblaje.fandom.com/es/wiki/Perfil_de_Riesgo:_Casos_Federales",
         "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/"
       ],
       "web_oficial": "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/"
     },
     "imagenes": {
-      "portada": "https://cdn.mobygames.com/covers/166995-perfil-de-riesgo-casos-federales-windows-front-cover.jpg",
+      "portada": "https://static.wikia.nocookie.net/doblaje/images/2/2e/Casos-federales-cover.jpg/revision/latest?cb=20251022054130&path-prefix=es",
       "capturas": [],
-      "portada_fuente": "mobygames"
+      "portada_fuente": "fandom"
     },
     "metadatos": {
       "idiomas": [
@@ -2681,7 +2691,7 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "tango-the-adventure-game",

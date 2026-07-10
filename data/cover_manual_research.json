@@ -54,11 +54,11 @@
     },
     {
       "id": "perfil-de-riesgo-casos-federales",
-      "portada_propuesta": "https://cdn.mobygames.com/covers/166995-perfil-de-riesgo-casos-federales-windows-front-cover.jpg",
-      "fuente": "mobygames",
-      "url_fuente": "https://www.mobygames.com/game/50720/perfil-de-riesgo-casos-federales/",
+      "portada_propuesta": "https://static.wikia.nocookie.net/doblaje/images/2/2e/Casos-federales-cover.jpg/revision/latest?cb=20251022054130&path-prefix=es",
+      "fuente": "fandom",
+      "url_fuente": "https://doblaje.fandom.com/es/wiki/Perfil_de_Riesgo:_Casos_Federales",
       "confianza": "alta",
-      "nota": "Box art oficial en MobyGames",
+      "nota": "Portada de la ficha en Doblaje Wiki (AFIP / Nucleosys / Sabarasa)",
       "aplicado": false,
       "omitido": "ya_tiene_portada"
     },
