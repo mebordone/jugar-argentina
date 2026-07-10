@@ -1042,6 +1042,241 @@
       "jurisdiccion": null,
       "app_ids": [],
       "count": 0
+    },
+    "la plata": {
+      "group": "F",
+      "jurisdiccion": "Buenos Aires",
+      "app_ids": [
+        "2591240",
+        "1174420",
+        "2434120",
+        "3720530"
+      ],
+      "count": 4
+    },
+    "mar del plata": {
+      "group": "F",
+      "jurisdiccion": "Buenos Aires",
+      "app_ids": [],
+      "count": 0
+    },
+    "bariloche": {
+      "group": "F",
+      "jurisdiccion": "Río Negro",
+      "app_ids": [],
+      "count": 0
+    },
+    "purmamarca": {
+      "group": "F",
+      "jurisdiccion": "Jujuy",
+      "app_ids": [],
+      "count": 0
+    },
+    "gran buenos aires": {
+      "group": "F",
+      "jurisdiccion": "Buenos Aires",
+      "app_ids": [
+        "1867270"
+      ],
+      "count": 1
+    },
+    "catamarca argentina": {
+      "group": "F",
+      "jurisdiccion": "Catamarca",
+      "app_ids": [],
+      "count": 0
+    },
+    "jujuy argentina": {
+      "group": "F",
+      "jurisdiccion": "Jujuy",
+      "app_ids": [],
+      "count": 0
+    },
+    "patagonia argentina": {
+      "group": "F",
+      "jurisdiccion": null,
+      "app_ids": [
+        "1528370",
+        "3462960"
+      ],
+      "count": 2
+    },
+    "south america strategy": {
+      "group": "F",
+      "jurisdiccion": null,
+      "app_ids": [
+        "1238440",
+        "2751450",
+        "3233630",
+        "1819410",
+        "2160570",
+        "2591240",
+        "916440",
+        "3219700",
+        "3473820",
+        "4700",
+        "2346830",
+        "3333420",
+        "3333670",
+        "235584",
+        "2144481",
+        "2419042",
+        "2897800",
+        "2695150",
+        "2740080",
+        "4780",
+        "3217240",
+        "3585230",
+        "3886420",
+        "884140",
+        "338160",
+        "2259440",
+        "4198590",
+        "4062930",
+        "1953680",
+        "3124810",
+        "1375760",
+        "423600",
+        "1174420",
+        "1845920",
+        "2707280",
+        "306541",
+        "46710",
+        "2702080",
+        "1873540",
+        "2564320",
+        "4534350",
+        "1358710",
+        "2020070",
+        "2150300",
+        "3062550",
+        "643370",
+        "80200",
+        "1433860",
+        "1370940",
+        "2715410",
+        "2615630",
+        "319230",
+        "306260",
+        "3344360",
+        "2277720",
+        "839910",
+        "4782610",
+        "1875310",
+        "1609870",
+        "465660",
+        "2328780",
+        "2935400",
+        "1682840",
+        "3733920",
+        "3367990",
+        "4783350",
+        "4604010",
+        "4338640",
+        "3087310",
+        "3373970",
+        "634810",
+        "3369860",
+        "4741440",
+        "687340",
+        "3204870",
+        "755140",
+        "1182308",
+        "858720",
+        "2585540",
+        "3662530",
+        "4789470",
+        "46840",
+        "2918110",
+        "2962760",
+        "2728210",
+        "1369310",
+        "620630",
+        "2159200",
+        "1996050",
+        "2282510",
+        "4862400",
+        "1681420",
+        "2964010",
+        "1760951",
+        "1935040",
+        "985630",
+        "1077360",
+        "818340",
+        "723880",
+        "1393060",
+        "589080"
+      ],
+      "count": 101
+    },
+    "rosario": {
+      "group": "F",
+      "jurisdiccion": "Santa Fe",
+      "app_ids": [
+        "1376960",
+        "2864300",
+        "2434120",
+        "1367270",
+        "2670280",
+        "1749770",
+        "3025180",
+        "402220",
+        "2141010",
+        "3801030",
+        "3894070",
+        "1446470",
+        "3326040",
+        "3901500",
+        "1483070"
+      ],
+      "count": 15
+    },
+    "ushuaia": {
+      "group": "F",
+      "jurisdiccion": "Tierra del Fuego",
+      "app_ids": [
+        "888010"
+      ],
+      "count": 1
+    },
+    "iguazu": {
+      "group": "F",
+      "jurisdiccion": "Misiones",
+      "app_ids": [
+        "2829680",
+        "2614690",
+        "933840"
+      ],
+      "count": 3
+    },
+    "perito moreno": {
+      "group": "F",
+      "jurisdiccion": "Santa Cruz",
+      "app_ids": [],
+      "count": 0
+    },
+    "caminito": {
+      "group": "F",
+      "jurisdiccion": "Ciudad Autónoma de Buenos Aires",
+      "app_ids": [],
+      "count": 0
+    },
+    "salta argentina": {
+      "group": "F",
+      "jurisdiccion": "Salta",
+      "app_ids": [
+        "383930",
+        "1528370"
+      ],
+      "count": 2
+    },
+    "mendoza argentina": {
+      "group": "F",
+      "jurisdiccion": "Mendoza",
+      "app_ids": [
+        "2324940"
+      ],
+      "count": 1
     }
   },
   "apps": {
@@ -1154,10 +1389,12 @@
       "titulo": "Country Pack - Hearts of Iron IV: Trial of Allegiance",
       "url_steam": "https://store.steampowered.com/app/2695150/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1180,10 +1417,12 @@
       "titulo": "Cities: Skylines - Content Creator Pack: Skyscrapers",
       "url_steam": "https://store.steampowered.com/app/2144481/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1279,10 +1518,12 @@
       "titulo": "Pro Basketball Manager 2026",
       "url_steam": "https://store.steampowered.com/app/3585230/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1292,10 +1533,12 @@
       "titulo": "HUMANKIND™ - Cultures of Latin America Pack",
       "url_steam": "https://store.steampowered.com/app/1819410/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1306,13 +1549,16 @@
       "url_steam": "https://store.steampowered.com/app/3025180/",
       "terminos_busqueda": [
         "argentina",
+        "rosario",
         "santiago del estero"
       ],
       "grupos": [
         "A",
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
+        "Santa Fe",
         "Santiago del Estero"
       ],
       "en_catalogo": true
@@ -1323,14 +1569,20 @@
       "url_steam": "https://store.steampowered.com/app/2434120/",
       "terminos_busqueda": [
         "argentina",
-        "rio de la plata"
+        "la plata",
+        "rio de la plata",
+        "rosario"
       ],
       "grupos": [
         "A",
-        "D"
+        "D",
+        "F"
       ],
-      "jurisdicciones": [],
-      "en_catalogo": false
+      "jurisdicciones": [
+        "Buenos Aires",
+        "Santa Fe"
+      ],
+      "en_catalogo": true
     },
     "3987420": {
       "app_id": "3987420",
@@ -1365,17 +1617,19 @@
       "terminos_busqueda": [
         "argentina",
         "entre rios",
+        "rosario",
         "santa fe"
       ],
       "grupos": [
         "A",
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
         "Entre Ríos",
         "Santa Fe"
       ],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "4297760": {
       "app_id": "4297760",
@@ -1438,10 +1692,12 @@
       "titulo": "Strategic Command: American Civil War - Wars in the Americas",
       "url_steam": "https://store.steampowered.com/app/2259440/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1542,16 +1798,19 @@
       "terminos_busqueda": [
         "argentina",
         "patagonia",
-        "salta"
+        "patagonia argentina",
+        "salta",
+        "salta argentina"
       ],
       "grupos": [
         "A",
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
         "Salta"
       ],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "383930": {
       "app_id": "383930",
@@ -1559,16 +1818,18 @@
       "url_steam": "https://store.steampowered.com/app/383930/",
       "terminos_busqueda": [
         "argentina",
-        "salta"
+        "salta",
+        "salta argentina"
       ],
       "grupos": [
         "A",
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
         "Salta"
       ],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "1507530": {
       "app_id": "1507530",
@@ -1702,16 +1963,18 @@
       "url_steam": "https://store.steampowered.com/app/2324940/",
       "terminos_busqueda": [
         "argentina",
-        "mendoza"
+        "mendoza",
+        "mendoza argentina"
       ],
       "grupos": [
         "A",
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
         "Mendoza"
       ],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "4568220": {
       "app_id": "4568220",
@@ -1876,10 +2139,12 @@
       "titulo": "Pro Basketball Manager 2022",
       "url_steam": "https://store.steampowered.com/app/1609870/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1889,10 +2154,12 @@
       "titulo": "Pro Basketball Manager 2023",
       "url_steam": "https://store.steampowered.com/app/1875310/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1928,10 +2195,12 @@
       "titulo": "Pro Basketball Manager 2025",
       "url_steam": "https://store.steampowered.com/app/2935400/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1980,10 +2249,12 @@
       "titulo": "Pro Basketball Manager 2024",
       "url_steam": "https://store.steampowered.com/app/2328780/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -1996,15 +2267,17 @@
         "argentina",
         "gaucho",
         "pampa",
-        "patagonia"
+        "patagonia",
+        "patagonia argentina"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [
         "La Pampa"
       ],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "2784670": {
       "app_id": "2784670",
@@ -2116,13 +2389,17 @@
       "url_steam": "https://store.steampowered.com/app/2141010/",
       "terminos_busqueda": [
         "argentina",
-        "falklands"
+        "falklands",
+        "rosario"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
-      "jurisdicciones": [],
-      "en_catalogo": false
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": true
     },
     "2702680": {
       "app_id": "2702680",
@@ -2208,13 +2485,15 @@
       "titulo": "Wars Across The World: Curupayti 1866",
       "url_steam": "https://store.steampowered.com/app/1996050/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
-      "en_catalogo": false
+      "en_catalogo": true
     },
     "2368200": {
       "app_id": "2368200",
@@ -2351,12 +2630,16 @@
       "titulo": "World Enduro Rally",
       "url_steam": "https://store.steampowered.com/app/933840/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "iguazu"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
-      "jurisdicciones": [],
+      "jurisdicciones": [
+        "Misiones"
+      ],
       "en_catalogo": false
     },
     "2728210": {
@@ -2364,10 +2647,12 @@
       "titulo": "Fantasy Grounds - Latin American Monsters",
       "url_steam": "https://store.steampowered.com/app/2728210/",
       "terminos_busqueda": [
-        "argentina"
+        "argentina",
+        "south america strategy"
       ],
       "grupos": [
-        "A"
+        "A",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -5147,13 +5432,16 @@
       "titulo": "Tango: The Adventure Game",
       "url_steam": "https://store.steampowered.com/app/888010/",
       "terminos_busqueda": [
-        "tango"
+        "tango",
+        "ushuaia"
       ],
       "grupos": [
-        "B"
+        "B",
+        "F"
       ],
       "jurisdicciones": [
-        "Ciudad Autónoma de Buenos Aires"
+        "Ciudad Autónoma de Buenos Aires",
+        "Tierra del Fuego"
       ],
       "en_catalogo": true
     },
@@ -6758,10 +7046,12 @@
       "titulo": "Sid Meier's Civilization® VII: Simón Bolívar Pack",
       "url_steam": "https://store.steampowered.com/app/3087310/",
       "terminos_busqueda": [
-        "libertador"
+        "libertador",
+        "south america strategy"
       ],
       "grupos": [
-        "B"
+        "B",
+        "F"
       ],
       "jurisdicciones": [],
       "en_catalogo": false
@@ -6784,10 +7074,12 @@
       "titulo": "CW: Chaco War",
       "url_steam": "https://store.steampowered.com/app/634810/",
       "terminos_busqueda": [
-        "chaco"
+        "chaco",
+        "south america strategy"
       ],
       "grupos": [
-        "C"
+        "C",
+        "F"
       ],
       "jurisdicciones": [
         "Chaco"
@@ -9225,12 +9517,17 @@
       "titulo": "Victoria 3: Colossus of the South - Region Pack",
       "url_steam": "https://store.steampowered.com/app/2591240/",
       "terminos_busqueda": [
-        "rio de la plata"
+        "la plata",
+        "rio de la plata",
+        "south america strategy"
       ],
       "grupos": [
-        "D"
+        "D",
+        "F"
       ],
-      "jurisdicciones": [],
+      "jurisdicciones": [
+        "Buenos Aires"
+      ],
       "en_catalogo": false
     },
     "2936420": {
@@ -9296,6 +9593,1365 @@
         "E"
       ],
       "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1174420": {
+      "app_id": "1174420",
+      "titulo": "Libertad o Muerte!",
+      "url_steam": "https://store.steampowered.com/app/1174420/",
+      "terminos_busqueda": [
+        "la plata",
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Buenos Aires"
+      ],
+      "en_catalogo": true
+    },
+    "3720530": {
+      "app_id": "3720530",
+      "titulo": "Operation: Followthrough",
+      "url_steam": "https://store.steampowered.com/app/3720530/",
+      "terminos_busqueda": [
+        "la plata"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Buenos Aires"
+      ],
+      "en_catalogo": false
+    },
+    "1867270": {
+      "app_id": "1867270",
+      "titulo": "MeteoHeroes",
+      "url_steam": "https://store.steampowered.com/app/1867270/",
+      "terminos_busqueda": [
+        "gran buenos aires"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Buenos Aires"
+      ],
+      "en_catalogo": false
+    },
+    "1238440": {
+      "app_id": "1238440",
+      "titulo": "Planet Zoo: South America Pack",
+      "url_steam": "https://store.steampowered.com/app/1238440/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2751450": {
+      "app_id": "2751450",
+      "titulo": "Global Farmer - South America",
+      "url_steam": "https://store.steampowered.com/app/2751450/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3233630": {
+      "app_id": "3233630",
+      "titulo": "South America Gold Rush",
+      "url_steam": "https://store.steampowered.com/app/3233630/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2160570": {
+      "app_id": "2160570",
+      "titulo": "Latin America Empire 2027",
+      "url_steam": "https://store.steampowered.com/app/2160570/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "916440": {
+      "app_id": "916440",
+      "titulo": "Anno 1800",
+      "url_steam": "https://store.steampowered.com/app/916440/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3219700": {
+      "app_id": "3219700",
+      "titulo": "Age of Empires II: DE – The Last Chieftains",
+      "url_steam": "https://store.steampowered.com/app/3219700/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3473820": {
+      "app_id": "3473820",
+      "titulo": "Planet Zoo: Americas Animal Pack",
+      "url_steam": "https://store.steampowered.com/app/3473820/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4700": {
+      "app_id": "4700",
+      "titulo": "Total War: MEDIEVAL II – Definitive Edition",
+      "url_steam": "https://store.steampowered.com/app/4700/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2346830": {
+      "app_id": "2346830",
+      "titulo": "Planet Zoo: Tropical Pack",
+      "url_steam": "https://store.steampowered.com/app/2346830/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3333420": {
+      "app_id": "3333420",
+      "titulo": "Workers & Resources: Soviet Republic - World Maps",
+      "url_steam": "https://store.steampowered.com/app/3333420/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3333670": {
+      "app_id": "3333670",
+      "titulo": "Mr. President",
+      "url_steam": "https://store.steampowered.com/app/3333670/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "235584": {
+      "app_id": "235584",
+      "titulo": "Civilization V - Scrambled Continents Map Pack",
+      "url_steam": "https://store.steampowered.com/app/235584/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2419042": {
+      "app_id": "2419042",
+      "titulo": "Spirit Island - Promo Pack 2: Feather",
+      "url_steam": "https://store.steampowered.com/app/2419042/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2897800": {
+      "app_id": "2897800",
+      "titulo": "Jurassic World Evolution 2: Park Managers' Collection Pack",
+      "url_steam": "https://store.steampowered.com/app/2897800/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2740080": {
+      "app_id": "2740080",
+      "titulo": "Strategic Command WWII: War in the Pacific",
+      "url_steam": "https://store.steampowered.com/app/2740080/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4780": {
+      "app_id": "4780",
+      "titulo": "Medieval II: Total War™ Kingdoms",
+      "url_steam": "https://store.steampowered.com/app/4780/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3217240": {
+      "app_id": "3217240",
+      "titulo": "Soccer Manager 2026",
+      "url_steam": "https://store.steampowered.com/app/3217240/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3886420": {
+      "app_id": "3886420",
+      "titulo": "ICBM: Escalation - United States of Annihilation",
+      "url_steam": "https://store.steampowered.com/app/3886420/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "884140": {
+      "app_id": "884140",
+      "titulo": "Railway Empire - Crossing the Andes",
+      "url_steam": "https://store.steampowered.com/app/884140/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "338160": {
+      "app_id": "338160",
+      "titulo": "Expansion - Europa Universalis IV: El Dorado",
+      "url_steam": "https://store.steampowered.com/app/338160/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4198590": {
+      "app_id": "4198590",
+      "titulo": "Age of Resistance",
+      "url_steam": "https://store.steampowered.com/app/4198590/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4062930": {
+      "app_id": "4062930",
+      "titulo": "International Basketball Manager 26",
+      "url_steam": "https://store.steampowered.com/app/4062930/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1953680": {
+      "app_id": "1953680",
+      "titulo": "Mao's Legacy: Homeland or Death",
+      "url_steam": "https://store.steampowered.com/app/1953680/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3124810": {
+      "app_id": "3124810",
+      "titulo": "Guess the Flag!",
+      "url_steam": "https://store.steampowered.com/app/3124810/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1375760": {
+      "app_id": "1375760",
+      "titulo": "Tropicalia: a Brazilian Game",
+      "url_steam": "https://store.steampowered.com/app/1375760/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "423600": {
+      "app_id": "423600",
+      "titulo": "Adelantado Trilogy. Book one",
+      "url_steam": "https://store.steampowered.com/app/423600/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1845920": {
+      "app_id": "1845920",
+      "titulo": "Transport INC - Map Pack",
+      "url_steam": "https://store.steampowered.com/app/1845920/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2707280": {
+      "app_id": "2707280",
+      "titulo": "Wargame Construction Set III: Age of Rifles 1846-1905",
+      "url_steam": "https://store.steampowered.com/app/2707280/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "306541": {
+      "app_id": "306541",
+      "titulo": "Medieval II: Total War Kingdoms",
+      "url_steam": "https://store.steampowered.com/app/306541/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "46710": {
+      "app_id": "46710",
+      "titulo": "Ironclads: High Seas",
+      "url_steam": "https://store.steampowered.com/app/46710/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2702080": {
+      "app_id": "2702080",
+      "titulo": "Great Naval Battles: The Final Fury",
+      "url_steam": "https://store.steampowered.com/app/2702080/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1873540": {
+      "app_id": "1873540",
+      "titulo": "World Empire 2027",
+      "url_steam": "https://store.steampowered.com/app/1873540/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2564320": {
+      "app_id": "2564320",
+      "titulo": "Private Military Manager: Tactical Auto Battler",
+      "url_steam": "https://store.steampowered.com/app/2564320/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4534350": {
+      "app_id": "4534350",
+      "titulo": "Radar Identified",
+      "url_steam": "https://store.steampowered.com/app/4534350/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1358710": {
+      "app_id": "1358710",
+      "titulo": "Battle Cry of Freedom",
+      "url_steam": "https://store.steampowered.com/app/1358710/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2020070": {
+      "app_id": "2020070",
+      "titulo": "Fire and Maneuver | Expansion: American Civil War",
+      "url_steam": "https://store.steampowered.com/app/2020070/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2150300": {
+      "app_id": "2150300",
+      "titulo": "SGS We The People",
+      "url_steam": "https://store.steampowered.com/app/2150300/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3062550": {
+      "app_id": "3062550",
+      "titulo": "Hail Britannia",
+      "url_steam": "https://store.steampowered.com/app/3062550/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "643370": {
+      "app_id": "643370",
+      "titulo": "eSports Manager",
+      "url_steam": "https://store.steampowered.com/app/643370/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "80200": {
+      "app_id": "80200",
+      "titulo": "Fate of the World",
+      "url_steam": "https://store.steampowered.com/app/80200/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1433860": {
+      "app_id": "1433860",
+      "titulo": "The Amazing American Circus",
+      "url_steam": "https://store.steampowered.com/app/1433860/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1370940": {
+      "app_id": "1370940",
+      "titulo": "NovaMundi",
+      "url_steam": "https://store.steampowered.com/app/1370940/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2715410": {
+      "app_id": "2715410",
+      "titulo": "The HELL",
+      "url_steam": "https://store.steampowered.com/app/2715410/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2615630": {
+      "app_id": "2615630",
+      "titulo": "Global Farmer",
+      "url_steam": "https://store.steampowered.com/app/2615630/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "319230": {
+      "app_id": "319230",
+      "titulo": "Gold Rush! Anniversary",
+      "url_steam": "https://store.steampowered.com/app/319230/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "306260": {
+      "app_id": "306260",
+      "titulo": "Selknam Defense",
+      "url_steam": "https://store.steampowered.com/app/306260/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3344360": {
+      "app_id": "3344360",
+      "titulo": "Convict Team Tactics",
+      "url_steam": "https://store.steampowered.com/app/3344360/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2277720": {
+      "app_id": "2277720",
+      "titulo": "Red Glare",
+      "url_steam": "https://store.steampowered.com/app/2277720/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "839910": {
+      "app_id": "839910",
+      "titulo": "Mythgard",
+      "url_steam": "https://store.steampowered.com/app/839910/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4782610": {
+      "app_id": "4782610",
+      "titulo": "Panzer Corps 2: Elite - All American",
+      "url_steam": "https://store.steampowered.com/app/4782610/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "465660": {
+      "app_id": "465660",
+      "titulo": "Franchise Hockey Manager 3",
+      "url_steam": "https://store.steampowered.com/app/465660/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1682840": {
+      "app_id": "1682840",
+      "titulo": "Evorales",
+      "url_steam": "https://store.steampowered.com/app/1682840/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3733920": {
+      "app_id": "3733920",
+      "titulo": "The HELL Prologue",
+      "url_steam": "https://store.steampowered.com/app/3733920/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3367990": {
+      "app_id": "3367990",
+      "titulo": "Delicious - Taste of Truth",
+      "url_steam": "https://store.steampowered.com/app/3367990/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4783350": {
+      "app_id": "4783350",
+      "titulo": "Retro Football",
+      "url_steam": "https://store.steampowered.com/app/4783350/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4604010": {
+      "app_id": "4604010",
+      "titulo": "BEAST",
+      "url_steam": "https://store.steampowered.com/app/4604010/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4338640": {
+      "app_id": "4338640",
+      "titulo": "BALSEO: The Sea Beyond",
+      "url_steam": "https://store.steampowered.com/app/4338640/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3373970": {
+      "app_id": "3373970",
+      "titulo": "ANTD",
+      "url_steam": "https://store.steampowered.com/app/3373970/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3369860": {
+      "app_id": "3369860",
+      "titulo": "Sid Meier's Civilization® VII: Tides of Power Collection",
+      "url_steam": "https://store.steampowered.com/app/3369860/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4741440": {
+      "app_id": "4741440",
+      "titulo": "Tower! Simulator 3 - SBGR Airport",
+      "url_steam": "https://store.steampowered.com/app/4741440/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "687340": {
+      "app_id": "687340",
+      "titulo": "SPYHACK: Episode 1",
+      "url_steam": "https://store.steampowered.com/app/687340/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3204870": {
+      "app_id": "3204870",
+      "titulo": "Guess the Flag! Demo",
+      "url_steam": "https://store.steampowered.com/app/3204870/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "755140": {
+      "app_id": "755140",
+      "titulo": "Air Dash",
+      "url_steam": "https://store.steampowered.com/app/755140/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1182308": {
+      "app_id": "1182308",
+      "titulo": "Command:MO LIVE - The King of the Border",
+      "url_steam": "https://store.steampowered.com/app/1182308/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "858720": {
+      "app_id": "858720",
+      "titulo": "Wildlife Park 3 - Amazonas",
+      "url_steam": "https://store.steampowered.com/app/858720/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2585540": {
+      "app_id": "2585540",
+      "titulo": "Tower! Simulator 3 - KSFO Airport",
+      "url_steam": "https://store.steampowered.com/app/2585540/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "3662530": {
+      "app_id": "3662530",
+      "titulo": "Train Sim World® 6: Clinchfield Railroad: Elkhorn - Dante Route Add-On",
+      "url_steam": "https://store.steampowered.com/app/3662530/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4789470": {
+      "app_id": "4789470",
+      "titulo": "Age of Resistance Demo",
+      "url_steam": "https://store.steampowered.com/app/4789470/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "46840": {
+      "app_id": "46840",
+      "titulo": "Ironclads: Chincha Islands War 1866",
+      "url_steam": "https://store.steampowered.com/app/46840/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2918110": {
+      "app_id": "2918110",
+      "titulo": "Tower! Simulator 3 - LPPT Airport",
+      "url_steam": "https://store.steampowered.com/app/2918110/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2962760": {
+      "app_id": "2962760",
+      "titulo": "Fantasy Grounds - Savage Rifts(R): Land of a Thousand Islands",
+      "url_steam": "https://store.steampowered.com/app/2962760/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1369310": {
+      "app_id": "1369310",
+      "titulo": "Tower!3D - KSEA airport",
+      "url_steam": "https://store.steampowered.com/app/1369310/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "620630": {
+      "app_id": "620630",
+      "titulo": "Civil War: 1865",
+      "url_steam": "https://store.steampowered.com/app/620630/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2159200": {
+      "app_id": "2159200",
+      "titulo": "Asia Empire 2027",
+      "url_steam": "https://store.steampowered.com/app/2159200/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2282510": {
+      "app_id": "2282510",
+      "titulo": "Fantasy Grounds - Savage Rifts: Blood and Banes",
+      "url_steam": "https://store.steampowered.com/app/2282510/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "4862400": {
+      "app_id": "4862400",
+      "titulo": "Sim: World Cup Manager",
+      "url_steam": "https://store.steampowered.com/app/4862400/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1681420": {
+      "app_id": "1681420",
+      "titulo": "Fantasy Grounds - Masks of Nyarlathotep",
+      "url_steam": "https://store.steampowered.com/app/1681420/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2964010": {
+      "app_id": "2964010",
+      "titulo": "Private Military Manager: Tactical Auto Battler Demo",
+      "url_steam": "https://store.steampowered.com/app/2964010/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1760951": {
+      "app_id": "1760951",
+      "titulo": "Pixel Puzzles WW2 Jigsaw - Pack: USS Massachusetts",
+      "url_steam": "https://store.steampowered.com/app/1760951/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1935040": {
+      "app_id": "1935040",
+      "titulo": "Terminal Conflict Soundtrack",
+      "url_steam": "https://store.steampowered.com/app/1935040/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "985630": {
+      "app_id": "985630",
+      "titulo": "LOGistICAL 2 - Suriname (Xmas 2018)",
+      "url_steam": "https://store.steampowered.com/app/985630/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1077360": {
+      "app_id": "1077360",
+      "titulo": "Sub Chase Online",
+      "url_steam": "https://store.steampowered.com/app/1077360/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "818340": {
+      "app_id": "818340",
+      "titulo": "Fantasy Grounds - Mythic Monsters #36: Mesoamerica (PFRPG)",
+      "url_steam": "https://store.steampowered.com/app/818340/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "723880": {
+      "app_id": "723880",
+      "titulo": "New World: The Tupis",
+      "url_steam": "https://store.steampowered.com/app/723880/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "1393060": {
+      "app_id": "1393060",
+      "titulo": "Fantasy Grounds - Terror Australis - 2nd Edition",
+      "url_steam": "https://store.steampowered.com/app/1393060/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "589080": {
+      "app_id": "589080",
+      "titulo": "Enigma Sphere :Enhanced Edition",
+      "url_steam": "https://store.steampowered.com/app/589080/",
+      "terminos_busqueda": [
+        "south america strategy"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [],
+      "en_catalogo": false
+    },
+    "2864300": {
+      "app_id": "2864300",
+      "titulo": "Zombodesert",
+      "url_steam": "https://store.steampowered.com/app/2864300/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "1367270": {
+      "app_id": "1367270",
+      "titulo": "BATTLESCAR: Punk Was Invented By Girls",
+      "url_steam": "https://store.steampowered.com/app/1367270/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "2670280": {
+      "app_id": "2670280",
+      "titulo": "BLEED RUNNER",
+      "url_steam": "https://store.steampowered.com/app/2670280/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "1749770": {
+      "app_id": "1749770",
+      "titulo": "Twofold",
+      "url_steam": "https://store.steampowered.com/app/1749770/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "402220": {
+      "app_id": "402220",
+      "titulo": "Lift It",
+      "url_steam": "https://store.steampowered.com/app/402220/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "3801030": {
+      "app_id": "3801030",
+      "titulo": "One Last Journey",
+      "url_steam": "https://store.steampowered.com/app/3801030/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "3894070": {
+      "app_id": "3894070",
+      "titulo": "A Pirate Game About Digging For Treasure And Getting Drunk",
+      "url_steam": "https://store.steampowered.com/app/3894070/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "1446470": {
+      "app_id": "1446470",
+      "titulo": "Dome Discover",
+      "url_steam": "https://store.steampowered.com/app/1446470/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "3326040": {
+      "app_id": "3326040",
+      "titulo": "Nazireu 1.0",
+      "url_steam": "https://store.steampowered.com/app/3326040/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "3901500": {
+      "app_id": "3901500",
+      "titulo": "A Pirate Game About Digging For Treasure And Getting Drunk Demo",
+      "url_steam": "https://store.steampowered.com/app/3901500/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "1483070": {
+      "app_id": "1483070",
+      "titulo": "Dome Discover Soundtrack",
+      "url_steam": "https://store.steampowered.com/app/1483070/",
+      "terminos_busqueda": [
+        "rosario"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Santa Fe"
+      ],
+      "en_catalogo": false
+    },
+    "2829680": {
+      "app_id": "2829680",
+      "titulo": "Millennia: Ancient Worlds",
+      "url_steam": "https://store.steampowered.com/app/2829680/",
+      "terminos_busqueda": [
+        "iguazu"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Misiones"
+      ],
+      "en_catalogo": false
+    },
+    "2614690": {
+      "app_id": "2614690",
+      "titulo": "Around the World: Travel to Brazil",
+      "url_steam": "https://store.steampowered.com/app/2614690/",
+      "terminos_busqueda": [
+        "iguazu"
+      ],
+      "grupos": [
+        "F"
+      ],
+      "jurisdicciones": [
+        "Misiones"
+      ],
       "en_catalogo": false
     }
   }

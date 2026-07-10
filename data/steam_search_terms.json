@@ -70,6 +70,27 @@
         {"term": "superliga", "jurisdiccion": null},
         {"term": "futbol argentino", "jurisdiccion": null}
       ]
+    },
+    "F": {
+      "label": "Fase 2 — alias y ciudades",
+      "terms": [
+        {"term": "la plata", "jurisdiccion": "Buenos Aires"},
+        {"term": "mar del plata", "jurisdiccion": "Buenos Aires"},
+        {"term": "bariloche", "jurisdiccion": "Río Negro"},
+        {"term": "purmamarca", "jurisdiccion": "Jujuy"},
+        {"term": "gran buenos aires", "jurisdiccion": "Buenos Aires"},
+        {"term": "catamarca argentina", "jurisdiccion": "Catamarca"},
+        {"term": "jujuy argentina", "jurisdiccion": "Jujuy"},
+        {"term": "patagonia argentina", "jurisdiccion": null},
+        {"term": "south america strategy", "jurisdiccion": null},
+        {"term": "rosario", "jurisdiccion": "Santa Fe"},
+        {"term": "ushuaia", "jurisdiccion": "Tierra del Fuego"},
+        {"term": "iguazu", "jurisdiccion": "Misiones"},
+        {"term": "perito moreno", "jurisdiccion": "Santa Cruz"},
+        {"term": "caminito", "jurisdiccion": "Ciudad Autónoma de Buenos Aires"},
+        {"term": "salta argentina", "jurisdiccion": "Salta"},
+        {"term": "mendoza argentina", "jurisdiccion": "Mendoza"}
+      ]
     }
   }
 }
