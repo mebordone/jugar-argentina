@@ -44,6 +44,11 @@ export const LABELS: Record<string, string> = {
   abandonware: "Abandonware",
   perdido: "Perdido",
   desconocido: "Sin dato",
+  publicado: "Publicado",
+  en_desarrollo: "En desarrollo",
+  early_access: "Early access",
+  prototipo: "Prototipo",
+  cancelado: "Cancelado",
   ...TIPO_OBRA_LABELS,
 };
 

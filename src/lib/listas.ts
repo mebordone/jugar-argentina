@@ -5,6 +5,7 @@ import {
   type Candidate,
   type GameView,
 } from "./games";
+import { gameReleasePrimary } from "./release";
 
 export type ListaStatKey =
   | "total"
@@ -32,7 +33,7 @@ export type ListaDef = {
 
 function gameItem(game: GameView): ListaItem {
   const meta = [
-    game.anio ? String(game.anio) : "Sin fecha",
+    gameReleasePrimary(game),
     game.plataformas.slice(0, 2).join(", "),
   ]
     .filter(Boolean)
@@ -51,7 +52,7 @@ export const listas: ListaDef[] = [
     statLabel: "juegos verificados",
     titulo: "Juegos verificados",
     descripcion:
-      "Los 100 juegos del catálogo curado con vínculo argentino documentado.",
+      "Todas las fichas publicadas del catálogo: obras con vínculo argentino documentado, ordenadas alfabéticamente para consulta rápida.",
     getItems: () =>
       [...games]
         .sort((a, b) => a.titulo.localeCompare(b.titulo, "es"))
@@ -63,7 +64,7 @@ export const listas: ListaDef[] = [
     statLabel: "candidatos rastreados",
     titulo: "Candidatos rastreados",
     descripcion:
-      "Títulos detectados en fuentes abiertas que aún no entraron al catálogo.",
+      "Títulos detectados en fuentes abiertas que todavía necesitan verificación editorial, descarte o pase a ficha publicada.",
     getItems: () =>
       getCandidates()
         .sort((a, b) => a.titulo.localeCompare(b.titulo, "es"))
@@ -86,7 +87,7 @@ export const listas: ListaDef[] = [
     statLabel: "con escenario argentino",
     titulo: "Con escenario argentino",
     descripcion:
-      "Juegos donde Argentina aparece como mapa, nivel o ambientación jugable.",
+      "Juegos donde Argentina aparece como territorio jugable: mapas, niveles, ciudades, regiones, paisajes o escenarios históricos.",
     getItems: () =>
       games
         .filter((game) => game.vinculo_argentina.escenario.activo)
@@ -99,7 +100,7 @@ export const listas: ListaDef[] = [
     statLabel: "con protagonistas argentinos",
     titulo: "Con protagonistas argentinos",
     descripcion:
-      "Juegos con personajes, arquetipos o figuras argentinas como eje central.",
+      "Juegos donde personajes, figuras históricas, arquetipos culturales o identidades argentinas sostienen parte central de la experiencia.",
     getItems: () =>
       games
         .filter((game) => game.vinculo_argentina.protagonista.activo)
@@ -112,7 +113,7 @@ export const listas: ListaDef[] = [
     statLabel: "con deporte argentino",
     titulo: "Con deporte argentino",
     descripcion:
-      "Juegos donde ligas, equipos o deportes argentinos son eje central de la experiencia.",
+      "Juegos donde ligas, equipos, selecciones, estadios o prácticas deportivas argentinas aparecen como contenido relevante.",
     getItems: () =>
       games
         .filter((game) => game.vinculo_argentina.deporte_argentino.activo)
@@ -125,7 +126,7 @@ export const listas: ListaDef[] = [
     statLabel: "descartes explicados",
     titulo: "Descartes explicados",
     descripcion:
-      "Casos evaluados que no entraron al catálogo, con el motivo documentado.",
+      "Casos ya revisados que quedaron fuera del catálogo, conservados con motivo de exclusión para evitar duplicar investigaciones.",
     getItems: () =>
       discarded.map((item) => ({
         titulo: item.titulo,

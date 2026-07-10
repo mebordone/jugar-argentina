@@ -3,6 +3,7 @@ import Badge from "./Badge.astro";
 import GameAccess from "./GameAccess.astro";
 import GameCover from "./GameCover.astro";
 import { humanize, tipoObraTone } from "../lib/filters";
+import { gameReleasePrimary } from "../lib/release";
 import { sitePath } from "../lib/links";
 import { reportGameUrl } from "../lib/report";
 import type { GameView } from "../lib/games";
@@ -24,7 +25,7 @@ const place =
   <GameCover game={game} />
   <div class="game-card-content">
     <p class="eyebrow">
-      {game.anio ?? "Sin fecha"} · {game.plataformas.slice(0, 3).join(", ")}
+      {gameReleasePrimary(game)} · {game.plataformas.slice(0, 3).join(", ")}
     </p>
     <h3><a href={fichaHref}>{game.titulo}</a></h3>
     <p>{game.culturalSummary || game.descripcion}</p>

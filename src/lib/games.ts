@@ -22,6 +22,8 @@ export type Game = {
   titulo: string;
   titulo_original: string;
   anio: number | null;
+  anio_nota?: string | null;
+  anio_fuente?: string | null;
   estado: string;
   vinculo_argentina: {
     escenario: Vinculo;

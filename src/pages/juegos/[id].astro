@@ -7,6 +7,7 @@ import GameCard from "../../components/GameCard.astro";
 import ShareBlock from "../../components/ShareBlock.astro";
 import { activeVinculos, games, relatedGames } from "../../lib/games";
 import { buildComoJugarSteps, sensibilidadNotice } from "../../lib/comoJugar";
+import { gameReleaseEyebrow } from "../../lib/release";
 import { humanize, tipoObraTone } from "../../lib/filters";
 import { absoluteUrl, sitePath } from "../../lib/links";
 import { recorridosForGame } from "../../lib/recorridos";
@@ -74,14 +75,15 @@ function getPresencia(vinculo: string) {
     <header class="detail-hero">
       <GameCover game={game} class="detail-cover" />
       <a class="back-link" href={backHref}>{backLabel}</a>
-      <p class="eyebrow">
-        {game.anio ?? "Sin fecha"} · {game.estado.replaceAll("_", " ")}
-      </p>
+      <p class="eyebrow">{gameReleaseEyebrow(game)}</p>
       <h1>{game.titulo}</h1>
       <p>{game.culturalSummary || game.descripcion}</p>
       <div class="badge-row">
         <Badge label={humanize(game.tipo_obra)} tone={tipoObraTone(game.tipo_obra)} />
         {game.badges.slice(1).map((badge) => <Badge label={badge} />)}
+        {!game.anio && (game.anio_nota || game.estado === "en_desarrollo" || game.estado === "early_access" || game.estado === "prototipo") && (
+          <Badge label={game.anio_nota || humanize(game.estado)} tone="warm" />
+        )}
         <Badge label={humanize(game.disponibilidad)} tone="warm" />
         {!game.isPlayableToday && <Badge label="Sin link de juego" tone="muted" />}
       </div>
