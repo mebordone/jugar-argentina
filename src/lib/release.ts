@@ -16,9 +16,6 @@ export function gameReleaseEyebrow(game: Game): string {
 
   if (game.anio) return `${primary} · ${estadoLabel}`;
   if (game.anio_nota) return `${primary} · ${estadoLabel}`;
-  if (primary !== "Sin fecha" && primary !== estadoLabel) {
-    return `${primary} · ${estadoLabel}`;
-  }
   if (primary !== "Sin fecha") return primary;
   return estadoLabel || "Sin fecha";
 }
