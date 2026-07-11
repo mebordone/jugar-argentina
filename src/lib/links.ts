@@ -129,9 +129,10 @@ export function collectActions(
 
   const archiveUrl = enlaces.archive;
   if (typeof archiveUrl === "string" && archiveUrl) {
+    const isAbandonware = disponibilidad === "abandonware";
     actions.push({
-      type: "archive",
-      label: "Ver archivo",
+      type: isAbandonware ? "download" : "archive",
+      label: isAbandonware ? "Buscar descarga" : "Ver archivo",
       url: archiveUrl,
       source: labelFromKey("archive"),
     });
@@ -145,18 +146,6 @@ export function collectActions(
         label: key === "apkpure" ? "Descargar APK" : "Descargar",
         url,
         source: labelFromKey(key),
-      });
-    }
-  }
-
-  if (disponibilidad === "abandonware") {
-    const archive = enlaces.archive;
-    if (typeof archive === "string" && archive) {
-      actions.push({
-        type: "download",
-        label: "Buscar descarga",
-        url: archive,
-        source: "Preservación",
       });
     }
   }
