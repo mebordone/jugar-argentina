@@ -1,6 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { GameView } from "../lib/games";
 import {
+  countActiveFilters,
+  FILTERS_OPEN_KEY,
+  FILTER_LABELS,
+  formatFilterValue,
+  isSearchOnlyChange,
+  joinBase,
+  readFiltersOpenPreference,
+  scrollToResultsAndFocus,
+} from "../lib/catalogUi";
+import {
   EMPTY_CATALOG_FILTERS,
   filterGames,
   type CatalogFilters,
@@ -10,24 +20,6 @@ import { gameReleasePrimary } from "../lib/release";
 import { reportGameUrl } from "../lib/report";
 
 const PAGE_SIZE = 24;
-const FILTERS_OPEN_KEY = "catalog-filters-open";
-
-const FILTER_LABELS: Partial<Record<keyof CatalogFilters, string>> = {
-  q: "Búsqueda",
-  eje: "Eje cultural",
-  tipo_obra: "Tipo de obra",
-  jugable: "Jugable hoy",
-  vinculo: "Vínculo",
-  plataforma: "Plataforma",
-  provincia: "Provincia/región",
-  disponibilidad: "Disponibilidad",
-  sensibilidad: "Sensibilidad",
-  tema: "Tema",
-};
-
-const FILTER_VALUE_LABELS: Partial<Record<keyof CatalogFilters, Record<string, string>>> = {
-  jugable: { si: "Sí", no: "Sin link de juego" },
-};
 
 type Options = {
   ejes: string[];
@@ -45,39 +37,6 @@ type Props = {
   basePath: string;
   initialFilters?: CatalogFilters;
 };
-
-function readFiltersOpenPreference(): boolean {
-  if (typeof window === "undefined") return true;
-  const stored = window.localStorage.getItem(FILTERS_OPEN_KEY);
-  if (stored === "false") return false;
-  if (stored === "true") return true;
-  return true;
-}
-
-function scrollToResults() {
-  const el = document.getElementById("catalog-results");
-  if (!el) return;
-  const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const top = el.getBoundingClientRect().top + window.scrollY - 16;
-  window.scrollTo({ top, behavior: prefersReduced ? "auto" : "smooth" });
-}
-
-function countActiveFilters(filters: CatalogFilters): number {
-  return Object.values(filters).filter(Boolean).length;
-}
-
-function formatFilterValue(key: keyof CatalogFilters, value: string): string {
-  return FILTER_VALUE_LABELS[key]?.[value] || humanize(value);
-}
-
-function isSearchOnlyChange(previous: CatalogFilters, next: CatalogFilters) {
-  return (
-    previous.q !== next.q &&
-    (Object.keys(previous) as Array<keyof CatalogFilters>).every(
-      (key) => key === "q" || previous[key] === next[key],
-    )
-  );
-}
 
 export default function GameFilters({
   games,
@@ -108,8 +67,7 @@ export default function GameFilters({
     if (isSearchOnlyChange(previous, filters)) {
       return;
     }
-    scrollToResults();
-    resultsRef.current?.focus({ preventScroll: true });
+    scrollToResultsAndFocus(resultsRef);
   }, [filters]);
 
   useEffect(() => {
@@ -117,8 +75,7 @@ export default function GameFilters({
       skipPageScrollRef.current = false;
       return;
     }
-    scrollToResults();
-    resultsRef.current?.focus({ preventScroll: true });
+    scrollToResultsAndFocus(resultsRef);
   }, [page]);
 
   useEffect(() => {
@@ -420,7 +377,3 @@ function Select({
   );
 }
 
-function joinBase(basePath: string, path: string) {
-  const cleanBase = basePath.endsWith("/") ? basePath.slice(0, -1) : basePath;
-  return `${cleanBase}${path}`;
-}
