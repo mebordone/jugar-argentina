@@ -70,6 +70,15 @@ function formatFilterValue(key: keyof CatalogFilters, value: string): string {
   return FILTER_VALUE_LABELS[key]?.[value] || humanize(value);
 }
 
+function isSearchOnlyChange(previous: CatalogFilters, next: CatalogFilters) {
+  return (
+    previous.q !== next.q &&
+    (Object.keys(previous) as Array<keyof CatalogFilters>).every(
+      (key) => key === "q" || previous[key] === next[key],
+    )
+  );
+}
+
 export default function GameFilters({
   games,
   options,
@@ -82,14 +91,21 @@ export default function GameFilters({
   const resultsRef = useRef<HTMLDivElement>(null);
   const skipFilterScrollRef = useRef(true);
   const skipPageScrollRef = useRef(true);
+  const previousFiltersRef = useRef(initialFilters);
 
   useEffect(() => {
     setPage(1);
   }, [filters]);
 
   useEffect(() => {
+    const previous = previousFiltersRef.current;
+    previousFiltersRef.current = filters;
+
     if (skipFilterScrollRef.current) {
       skipFilterScrollRef.current = false;
+      return;
+    }
+    if (isSearchOnlyChange(previous, filters)) {
       return;
     }
     scrollToResults();
