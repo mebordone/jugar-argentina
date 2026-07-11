@@ -1946,14 +1946,15 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
         "https://www.hobbyconsolas.com/noticias/pes-2014-adquiere-licencia-primera-division-argentina-55248"
       ],
       "web_oficial": "https://www.konami.com/games/efootball/"
     },
     "imagenes": {
-      "portada": "https://imagenes.hobbyconsolas.com/files/image_1920_1080/uploads/imagenes/2023/04/25/69019e04c1d14.jpg",
+      "portada": "https://www.infobae.com/resizer/v2/H44BDKA5MFFLZMGZ3KPY3OOSFU?auth=8e743bcfa7b3843ea5b73913c26900f79b86b006a141a0d5634abafc90453fba&smart=true&width=1200&height=675&quality=85",
       "capturas": [],
-      "portada_fuente": "hobbyconsolas"
+      "portada_fuente": "infobae"
     },
     "metadatos": {
       "idiomas": [
