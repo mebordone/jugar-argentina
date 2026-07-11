@@ -71,6 +71,8 @@ Objetivo: mejorar la claridad del sitio sin cambiar todavia la arquitectura de d
 
 Un catalogo mas legible y confiable, con menos ruido editorial y mejores seniales para decidir que pulir despues.
 
+**Estado: completado (v1.2, 2026-07-11).** Backlog editorial central/importante resuelto; reporte en [`data/quality_report.md`](data/quality_report.md). Pendiente para releases posteriores: capturas (65), provincias (80), años TBD (40).
+
 ## Release 2: Administracion basica de fichas
 
 Objetivo: facilitar el alta y edicion de juegos sin obligar a escribir estructuras largas a mano.

@@ -1,6 +1,6 @@
 # Base de datos — Videojuegos vinculados a Argentina
 
-## Criterios de inclusión (v1.1)
+## Criterios de inclusión (v1.2)
 
 Un juego entra si cumple al menos una condición:
 
@@ -37,24 +37,26 @@ Un juego entra si cumple al menos una condición:
 
 Keywords por eje: `peronismo juego`, `gorila game`, `lobizón`, `gauchito gil`, `truco android`, `pc futbol argentina`, `conurbano gta`, `malvinas juego`.
 
-## Estadísticas (v1.1)
+## Estadísticas (v1.2)
 
 | Métrica | Valor |
 |---------|-------|
-| Juegos verificados | 100 |
-| Pendientes de verificar | 0 |
-| Descartados documentados | 4 |
+| Juegos verificados | 161 |
+| Sin link jugable | 0 |
+| Sin portada | 0 |
+| Backlog editorial (central/importante) | 0 |
+| Sin capturas | 65 |
+| Sin provincia | 80 |
 | Candidatos en CSV | 169 |
-| CSV en triage candidato | 163 |
-| Con vínculo escenario | 72 |
-| Con vínculo protagonista | 39 |
-| Con vínculo deporte | 15 |
+| Con vínculo escenario | 132 |
+| Con vínculo protagonista | 78 |
+| Con vínculo deporte | 16 |
 
 ### Por grado de relevancia
 
-- central: 93
-- importante: 5
-- menor: 2
+- central: 117
+- importante: 8
+- menor: 36
 
 ### Por eje cultural (top)
 
@@ -102,4 +104,4 @@ Keywords por eje: `peronismo juego`, `gorila game`, `lobizón`, `gauchito gil`, 
 - `raw_candidates.csv` — candidatos con columnas de triage
 - `CHANGELOG.md` — historial de versiones
 
-Actualizado: 2026-07-09
+Actualizado: 2026-07-11

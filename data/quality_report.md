@@ -1,6 +1,6 @@
 # Reporte de calidad editorial
 
-Generado: 2026-07-10
+Generado: 2026-07-11
 
 ## Resumen
 
@@ -8,14 +8,14 @@ Generado: 2026-07-10
 - Sin portada: 0
 - Sin capturas: 65
 - Sin anio: 40
-- Sin link jugable: 4
+- Sin link jugable: 0
 - Sin provincia: 80
 - Sin eje cultural: 17
-- Descripciones cortas totales: 46
+- Descripciones cortas totales: 17
 - Descripciones cortas aceptables (referencia menor): 17
-- Descripciones cortas prioritarias: 29
-- Descripciones vagas prioritarias: 12
-- Backlog editorial de descripciones: 41
+- Descripciones cortas prioritarias: 0
+- Descripciones vagas prioritarias: 0
+- Backlog editorial de descripciones: 0
 - Pares de descripciones similares: 0
 - Referencias menores con alta visibilidad: 35
 
@@ -98,36 +98,7 @@ Generado: 2026-07-10
 
 ### Descripciones prioritarias a revisar
 
-- `noir-storm` - Noir Storm (s/f) - 71 caracteres
-- `resistencia-en-obligado` - Resistencia en Obligado (s/f) - 71 caracteres
-- `reversion-the-meeting` - Reversion: The Meeting (2014) - 72 caracteres
-- `argentina-y-sus-provincias` - Argentina Y Sus Provincias (2023) - 73 caracteres
-- `pc-futbol-70-argentina` - PC Fútbol 7.0 Argentina (1998) - 73 caracteres
-- `reversion-the-return` - Reversion: The Return (2020) - 73 caracteres
-- `bienvenidos-a-la-matanza` - Bienvenidos a La Matanza (s/f) - 77 caracteres
-- `delta-kayak-parque-del-delta` - Parque del Delta (Delta Kayak) (s/f) - 77 caracteres
-- `pes-2017-afa` - Pro Evolution Soccer 2017 (Licencia AFA ampliada) (2016) - 81 caracteres
-- `gaucho-liberacion` - Gaucho Liberación (s/f) - 85 caracteres
-- `gran-malvina` - Gran Malvina (s/f) - 87 caracteres
-- `pc-futbol-50-apertura-97-argentina` - PC Fútbol 5.0 Apertura 97 (Argentina) (1997) - 87 caracteres
-- `la-salamanca` - La Salamanca (2025) - 90 caracteres
-- `operacion-rosario` - Operación Rosario (2022) - 90 caracteres
-- `conur-life` - Conur Life (2023) - 92 caracteres
-- `aconcagua-1999` - Aconcagua (1999) - 93 caracteres
-- `pc-futbol-60-argentina` - PC Fútbol 6.0 Argentina (1998) - 96 caracteres
-- `el-gaucho-martin-fierro` - El Gaucho Martín Fierro (2025) - 99 caracteres
-- `pes-2014-afa` - Pro Evolution Soccer 2014 (Licencia AFA) (2013) - 101 caracteres
-- `reversion-the-escape` - Reversion: The Escape (2014) - 101 caracteres
-- `gaucho-power` - GAUCHO POWER (s/f) - 102 caracteres
-- `gta-rio-de-la-plata` - GTA Río de la Plata (2019) - 102 caracteres
-- `pc-futbol-argentina-clausura-95` - PC Fútbol Argentina Clausura 95 (1995) - 102 caracteres
-- `envido` - Envido (s/f) - 105 caracteres
-- `pc-futbol-argentina-40-apertura-96` - PC Fútbol Argentina 4.0 Apertura 96 (1996) - 105 caracteres
-- `truco-arbiser-1982` - Truco Arbiser (1982) - 105 caracteres
-- `zonda` - Zonda (s/f) - 105 caracteres
-- `pista-motorsport` - PISTA Motorsport (2024) - 107 caracteres
-- `tierras-infernales` - Tierras Infernales (s/f) - 108 caracteres
-- `game-of-patios` - Game Of Patios (s/f) - 116 caracteres (vaga)
+- Sin casos.
 
 ### Descripciones cortas aceptables (referencia menor)
 
@@ -280,10 +251,7 @@ Generado: 2026-07-10
 
 ### Sin link jugable
 
-- `bienvenidos-a-la-matanza` - Bienvenidos a La Matanza (s/f)
-- `gaucho-liberacion` - Gaucho Liberación (s/f)
-- `anahi-juego` - Anahí (s/f)
-- `federacion-2073` - Federación 2073 (2003)
+- Sin casos.
 
 ### Sin provincia
 
