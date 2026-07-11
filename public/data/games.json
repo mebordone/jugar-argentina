@@ -2992,7 +2992,7 @@
       }
     ],
     "deporte_argentino": null,
-    "desarrollador": "Super Bit (revista)",
+    "desarrollador": "Historia Interactiva",
     "pais_desarrollo": "Argentina",
     "plataformas": [
       "PC"
@@ -3001,7 +3001,7 @@
       "plataformas",
       "arcade"
     ],
-    "descripcion": "Parodia argentina de Super Mario Bros protagonizada por Carlos Menem y enemigos de la política de los 90.",
+    "descripcion": "Parodia argentina de Super Mario Bros para DOS (1993), protagonizada por Carlos Menem y enemigos de la política de los 90. Desarrollado por Historia Interactiva y publicado por SuperBit (revista).",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -3018,14 +3018,57 @@
     },
     "enlaces": {
       "fuentes_investigacion": [
-        "https://www.tribunahacker.com.ar/606/"
+        "https://www.tribunahacker.com.ar/606/",
+        "https://www.old-games.ru/game/screenshots/9255.html"
       ],
       "archive": "https://www.old-games.ru/game/download/9255.html"
     },
     "imagenes": {
-      "portada": "https://www.tribunahacker.com.ar/wp-content/uploads/2024/05/text1780-1.png",
-      "capturas": [],
-      "portada_fuente": "tribunahacker"
+      "portada": "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b383821de.png",
+      "capturas": [
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b369aaec7.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b37704707.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b37c89473.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b383821de.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3897c97a.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b39020da5.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3966357e.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3a0be719.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3b05fd6f.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3b087a9d.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3b0ae802.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3bce2407.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c48cf47.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c49dd70.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c4b8d73.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c4bba64.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c66949a.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c66e432.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c66f32e.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3c66fe97.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3c0867.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3cffee.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3d1ac5.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3d203d.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3da5d0.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3dcacc.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3eeb8d.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3eef65.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3d3ef14c.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e295ea3.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e2986dd.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e298e01.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e2ba6d9.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e2bd4b6.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3e73f409.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3ed48e9b.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3f456f58.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b3fa84877.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b400c41be.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b4072ddf6.png",
+        "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b40d355ca.png"
+      ],
+      "portada_fuente": "old-games.ru"
     },
     "metadatos": {
       "idiomas": [
@@ -3050,7 +3093,7 @@
     "relacionado_con": [],
     "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "hitman-3-mendoza",

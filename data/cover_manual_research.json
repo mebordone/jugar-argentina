@@ -104,13 +104,13 @@
     },
     {
       "id": "super-menem-bros",
-      "portada_propuesta": "https://www.tribunahacker.com.ar/wp-content/uploads/2024/05/text1780-1.png",
-      "fuente": "tribunahacker",
-      "url_fuente": "https://www.tribunahacker.com.ar/606/",
+      "portada_propuesta": "https://www.old-games.ru/games/pc/super_menem_bros/screenshots/9255_5e88b383821de.png",
+      "fuente": "old-games.ru",
+      "url_fuente": "https://www.old-games.ru/game/screenshots/9255.html",
       "confianza": "alta",
-      "nota": "Captura del juego en articulo de Tribuna Hacker",
-      "aplicado": false,
-      "omitido": "ya_tiene_portada"
+      "nota": "Pantalla de titulo del juego (Old-Games.RU)",
+      "aplicado": true,
+      "omitido": null
     },
     {
       "id": "truco-arbiser-1982",
