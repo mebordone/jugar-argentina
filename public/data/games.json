@@ -5124,7 +5124,7 @@
     "id": "aconcagua-1999",
     "titulo": "Aconcagua",
     "titulo_original": "Aconcagua",
-    "anio": 1999,
+    "anio": 2000,
     "estado": "publicado",
     "vinculo_argentina": {
       "escenario": {
@@ -5142,16 +5142,17 @@
     },
     "personajes_argentinos": [],
     "deporte_argentino": null,
-    "desarrollador": "SCEI / Japan Studio",
+    "desarrollador": "WACWAC! / Sony Computer Entertainment",
     "pais_desarrollo": "Japón",
     "plataformas": [
       "PlayStation"
     ],
     "generos": [
       "aventura",
-      "supervivencia"
+      "supervivencia",
+      "aventura gráfica"
     ],
-    "descripcion": "Aventura de supervivencia en una Mendoza ficticia tras un accidente de avión en el Aconcagua: título comercial con escenario cordillerano argentino, frío extremo y rescate en los Andes.",
+    "descripcion": "Aventura cinematográfica de Sony para PlayStation, exclusiva de Japón (2000). Tras el accidente de un avión en el Aconcagua, cinco supervivientes bajan la montaña en el país ficticio de Meruza, con intriga política y unas 80 minutos de escenas en video. Sony grabó voces en inglés y español que nunca se publicaron fuera de Japón; desde 2022 existe un parche comunitario al inglés (Hilltop).",
     "contexto_argentino": {
       "regiones": [
         "Cuyo"
@@ -5168,11 +5169,17 @@
       ]
     },
     "enlaces": {
+      "igdb": "https://www.igdb.com/games/aconcagua",
+      "mobygames": "https://www.mobygames.com/game/134932/aconcagua/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aconcagua_(video_game)",
+      "archive": "https://coolrom.com/roms/psx/a/",
+      "traduccion_ingles": "https://www.patreon.com/hilltopworks/posts/aconcagua-patch-68930991",
       "fuentes_investigacion": [
-        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/",
-        "https://lutris.net/games/aconcagua/"
-      ],
-      "web_oficial": "https://lutris.net/games/aconcagua/"
+        "https://www.anaitgames.com/noticias/aconcagua-traduccion-ingles-parche",
+        "https://www.patreon.com/hilltopworks/posts/aconcagua-patch-68930991",
+        "https://www.igdb.com/games/aconcagua",
+        "https://www.infobae.com/gaming/2021/01/17/9-videojuegos-con-niveles-ambientados-en-argentina-y-la-eleccion-de-mendoza-para-hitman-3/"
+      ]
     },
     "imagenes": {
       "portada": "https://lutris.net/media/igdb/cover_big/co1oj0.jpg",
@@ -5181,7 +5188,8 @@
     },
     "metadatos": {
       "idiomas": [
-        "es"
+        "ja",
+        "en"
       ],
       "multijugador": false,
       "precio": null,
@@ -5198,9 +5206,9 @@
     "serie": null,
     "edicion": null,
     "relacionado_con": [],
-    "disponibilidad": "gratis",
+    "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-11"
   },
   {
     "id": "bloodrayne-argentina",

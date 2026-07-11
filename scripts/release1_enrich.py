@@ -150,9 +150,12 @@ DESCRIPTION_PATCHES: dict[str, str] = {
         "y desembarco con foco en el conflicto del Atlántico Sur."
     ),
     "aconcagua-1999": (
-        "Aventura de supervivencia en una Mendoza ficticia tras un accidente de "
-        "avión en el Aconcagua: título comercial con escenario cordillerano "
-        "argentino, frío extremo y rescate en los Andes."
+        "Aventura cinematográfica de Sony para PlayStation, exclusiva de Japón "
+        "(2000). Tras el accidente de un avión en el Aconcagua, cinco "
+        "supervivientes bajan la montaña en el país ficticio de Meruza, con "
+        "intriga política y unas 80 minutos de escenas en video. Sony grabó "
+        "voces en inglés y español que nunca se publicaron fuera de Japón; "
+        "desde 2022 existe un parche comunitario al inglés (Hilltop)."
     ),
     "el-gaucho-martin-fierro": (
         "Videojuego argentino inspirado en el poema de José Hernández, ambientado "

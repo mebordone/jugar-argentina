@@ -92,7 +92,7 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
         "archive": "https://www.myabandonware.com/game/malvinas-2032-e5m",
     },
     "aconcagua-1999": {
-        "web_oficial": "https://lutris.net/games/aconcagua/",
+        "archive": "https://coolrom.com/roms/psx/a/",
     },
     "futbol-deluxe-2004": {
         "archive": "https://redump.org/disc/99941/",
