@@ -6,12 +6,16 @@ Generado: 2026-07-10
 
 - Juegos analizados: 161
 - Sin portada: 0
-- Sin capturas: 66
+- Sin capturas: 65
 - Sin anio: 40
-- Sin link jugable: 5
+- Sin link jugable: 4
 - Sin provincia: 80
 - Sin eje cultural: 17
-- Descripciones cortas: 74
+- Descripciones cortas totales: 46
+- Descripciones cortas aceptables (referencia menor): 17
+- Descripciones cortas prioritarias: 29
+- Descripciones vagas prioritarias: 12
+- Backlog editorial de descripciones: 41
 - Pares de descripciones similares: 0
 - Referencias menores con alta visibilidad: 35
 
@@ -92,33 +96,58 @@ Generado: 2026-07-10
 
 ## Backlog editorial prioritario
 
-### Descripciones cortas
+### Descripciones prioritarias a revisar
+
+- `noir-storm` - Noir Storm (s/f) - 71 caracteres
+- `resistencia-en-obligado` - Resistencia en Obligado (s/f) - 71 caracteres
+- `reversion-the-meeting` - Reversion: The Meeting (2014) - 72 caracteres
+- `argentina-y-sus-provincias` - Argentina Y Sus Provincias (2023) - 73 caracteres
+- `pc-futbol-70-argentina` - PC Fútbol 7.0 Argentina (1998) - 73 caracteres
+- `reversion-the-return` - Reversion: The Return (2020) - 73 caracteres
+- `bienvenidos-a-la-matanza` - Bienvenidos a La Matanza (s/f) - 77 caracteres
+- `delta-kayak-parque-del-delta` - Parque del Delta (Delta Kayak) (s/f) - 77 caracteres
+- `pes-2017-afa` - Pro Evolution Soccer 2017 (Licencia AFA ampliada) (2016) - 81 caracteres
+- `gaucho-liberacion` - Gaucho Liberación (s/f) - 85 caracteres
+- `gran-malvina` - Gran Malvina (s/f) - 87 caracteres
+- `pc-futbol-50-apertura-97-argentina` - PC Fútbol 5.0 Apertura 97 (Argentina) (1997) - 87 caracteres
+- `la-salamanca` - La Salamanca (2025) - 90 caracteres
+- `operacion-rosario` - Operación Rosario (2022) - 90 caracteres
+- `conur-life` - Conur Life (2023) - 92 caracteres
+- `aconcagua-1999` - Aconcagua (1999) - 93 caracteres
+- `pc-futbol-60-argentina` - PC Fútbol 6.0 Argentina (1998) - 96 caracteres
+- `el-gaucho-martin-fierro` - El Gaucho Martín Fierro (2025) - 99 caracteres
+- `pes-2014-afa` - Pro Evolution Soccer 2014 (Licencia AFA) (2013) - 101 caracteres
+- `reversion-the-escape` - Reversion: The Escape (2014) - 101 caracteres
+- `gaucho-power` - GAUCHO POWER (s/f) - 102 caracteres
+- `gta-rio-de-la-plata` - GTA Río de la Plata (2019) - 102 caracteres
+- `pc-futbol-argentina-clausura-95` - PC Fútbol Argentina Clausura 95 (1995) - 102 caracteres
+- `envido` - Envido (s/f) - 105 caracteres
+- `pc-futbol-argentina-40-apertura-96` - PC Fútbol Argentina 4.0 Apertura 96 (1996) - 105 caracteres
+- `truco-arbiser-1982` - Truco Arbiser (1982) - 105 caracteres
+- `zonda` - Zonda (s/f) - 105 caracteres
+- `pista-motorsport` - PISTA Motorsport (2024) - 107 caracteres
+- `tierras-infernales` - Tierras Infernales (s/f) - 108 caracteres
+- `game-of-patios` - Game Of Patios (s/f) - 116 caracteres (vaga)
+
+### Descripciones cortas aceptables (referencia menor)
 
 - `civ6-buenos-aires` - Civilization VI — Buenos Aires (city-state) (2016) - 67 caracteres
 - `fifa-street-caminito` - FIFA Street (Caminito) (2005) - 70 caracteres
 - `fast-furious-showdown-aeroparque` - Fast & Furious: Showdown (Aeroparque) (2013) - 70 caracteres
-- `yo-matias-futbol-5` - Yo Matías: Fútbol 5 (2003) - 70 caracteres
-- `caba-demo-hypnos` - C.A.B.A. (demo) (s/f) - 70 caracteres
 - `syndicate-buenos-aires` - Syndicate (Buenos Aires 2069) (2012) - 71 caracteres
-- `noir-storm` - Noir Storm (s/f) - 71 caracteres
-- `resistencia-en-obligado` - Resistencia en Obligado (s/f) - 71 caracteres
-- `reversion-the-meeting` - Reversion: The Meeting (2014) - 72 caracteres
-- `argentina-8-bit` - Argentina 8 Bit (2020) - 72 caracteres
-- `mobbyt-provincias-capitales` - República Argentina - Provincias y Capitales (2020) - 72 caracteres
-- `anahi-juego` - Anahí (s/f) - 72 caracteres
-- `pc-futbol-70-argentina` - PC Fútbol 7.0 Argentina (1998) - 73 caracteres
-- `reversion-the-return` - Reversion: The Return (2020) - 73 caracteres
-- `argentina-y-sus-provincias` - Argentina Y Sus Provincias (2023) - 73 caracteres
-- `yo-matias-viajeros-tiempo-1` - Yo Matías: Viajeros del Tiempo 1 (2002) - 74 caracteres
-- `the-lost-land-bahia-blanca` - The Lost Land of Bahía Blanca (s/f) - 76 caracteres
-- `slender-threads` - Slender Threads (2025) - 76 caracteres
-- `bienvenidos-a-la-matanza` - Bienvenidos a La Matanza (s/f) - 77 caracteres
-- `delta-kayak-parque-del-delta` - Parque del Delta (Delta Kayak) (s/f) - 77 caracteres
-- `stellar-mess-princess-conundrum` - Stellar Mess: The Princess Conundrum (2023) - 80 caracteres
-- `xplorite` - Xplorite (s/f) - 80 caracteres
-- `avaroth-online` - Avaroth Online (s/f) - 80 caracteres
-- `pes-2017-afa` - Pro Evolution Soccer 2017 (Licencia AFA ampliada) (2016) - 81 caracteres
-- `youra-the-game` - Youra The Game (2025) - 82 caracteres
+- `hive-dive` - Hive Dive (2024) - 83 caracteres
+- `civ6-mod-argentina` - Civilization VI — Mod Argentina (Leugi) (2017) - 91 caracteres
+- `bloodrayne-argentina` - BloodRayne (Argentina) (2002) - 96 caracteres
+- `command-falklands` - Command:MO - Falklands (2022) - 98 caracteres
+- `aws-argentina-wingshooting` - AWS Argentina Wingshooting Simulator (2017) - 99 caracteres
+- `battlefield-bad-company-2-andes` - Battlefield: Bad Company 2 (Andes) (2010) - 99 caracteres
+- `pampas-selene-maze-of-demons` - Pampas & Selene: The Maze of Demons (2024) - 99 caracteres
+- `wanted-guns` - Wanted Guns (2023) - 102 caracteres
+- `dirt-rally-2-argentina` - DiRT Rally 2.0 (2019) - 103 caracteres
+- `golazo-soccer-league` - Golazo! Soccer League (2020) - 103 caracteres
+- `hitman-3-mendoza` - Hitman 3 — Mendoza (2021) - 104 caracteres
+- `golazo-2` - Golazo! 2 (2022) - 108 caracteres
+- `rhythm-soccer` - Rhythm Soccer (2024) - 109 caracteres
 
 ### Posibles descripciones repetidas
 
@@ -183,7 +212,6 @@ Generado: 2026-07-10
 - `mapampa` - Mapampa (2000)
 - `perfil-de-riesgo-casos-federales` - Perfil de Riesgo: Casos Federales (2008)
 - `yo-matias-suenos-peligrosos` - Yo Matías: Sueños Peligrosos (1999)
-- `super-menem-bros` - Super Menem Bros (1993)
 - `gaucho-runner` - Gaucho Runner (s/f)
 - `gaucho-power` - GAUCHO POWER (s/f)
 - `el-intruso-82` - El Intruso 82 (2026)
@@ -205,6 +233,7 @@ Generado: 2026-07-10
 - `syndicate-buenos-aires` - Syndicate (Buenos Aires 2069) (2012)
 - `chameleon-buenos-aires` - Chameleon (Puerto de Buenos Aires) (2006)
 - `battlefield-bad-company-2-andes` - Battlefield: Bad Company 2 (Andes) (2010)
+- `fifa-street-caminito` - FIFA Street (Caminito) (2005)
 
 ### Sin anio
 
@@ -251,7 +280,6 @@ Generado: 2026-07-10
 
 ### Sin link jugable
 
-- `trucotron` - Trucotron (1991)
 - `bienvenidos-a-la-matanza` - Bienvenidos a La Matanza (s/f)
 - `gaucho-liberacion` - Gaucho Liberación (s/f)
 - `anahi-juego` - Anahí (s/f)
