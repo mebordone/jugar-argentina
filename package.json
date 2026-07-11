@@ -11,8 +11,11 @@
     "validate:links": "python3 scripts/validate_links.py",
     "validate:external": "python3 scripts/validate_external_links.py",
     "validate": "npm run validate:data && npm run validate:links",
-    "test:filters": "npx tsx scripts/test_filters.ts",
-    "test:summaries": "npx tsx scripts/test_cultural_summary.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:filters": "vitest run src/lib/filterGames.test.ts src/lib/recorridos.test.ts",
+    "test:summaries": "vitest run src/lib/culturalSummary.test.ts src/lib/games.test.ts",
     "data:report": "python3 scripts/report_quality.py",
     "data:years": "python3 scripts/harvest_years.py --apply",
     "data:years:apply-pending": "python3 scripts/apply_year_candidates.py",
@@ -42,7 +45,15 @@
     "typescript": "latest"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^26.1.1",
-    "pagefind": "^1.5.2"
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/coverage-v8": "^4.1.10",
+    "jsdom": "^29.1.1",
+    "pagefind": "^1.5.2",
+    "vitest": "^4.1.10"
   }
 }
