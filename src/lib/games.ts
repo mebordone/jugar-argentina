@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import rawGames from "../../data/games.json";
 import descartados from "../../data/descartados.json";
+import { buildCulturalSummary } from "./culturalSummary";
 import { humanize, normalizeText } from "./filters";
 import {
   collectActions,
@@ -129,7 +130,7 @@ export function enrichGame(game: Game): GameView {
     isPlayableToday: hasPlayableLink(game.enlaces),
     badges: Array.from(new Set(badges)),
     searchText: normalizeText(searchParts.join(" ")),
-    culturalSummary: buildSummary(game),
+    culturalSummary: buildCulturalSummary(game),
   };
 }
 
@@ -203,19 +204,6 @@ export function relatedGames(game: GameView) {
   return game.relacionado_con
     .map((id) => gameById.get(id))
     .filter((item): item is GameView => Boolean(item));
-}
-
-function buildSummary(game: Game) {
-  const temas = [
-    ...game.ejes_culturales.map(humanize),
-    ...game.contexto_argentino.temas.slice(0, 2).map(humanize),
-  ].filter(Boolean);
-  const place =
-    game.contexto_argentino.provincias[0] || game.contexto_argentino.regiones[0];
-  const prefix = temas.length ? `${temas.slice(0, 2).join(" y ")}.` : "";
-  return [prefix, place ? `Para jugar una Argentina desde ${place}.` : ""]
-    .filter(Boolean)
-    .join(" ");
 }
 
 function parseCsv(csv: string) {
