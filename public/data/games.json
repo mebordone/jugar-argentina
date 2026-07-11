@@ -2915,7 +2915,7 @@
       "plataformas",
       "aventura"
     ],
-    "descripcion": "Aventura basada en el personaje de la tira cómica argentina Yo Matías creada por Sendra.",
+    "descripcion": "Primera aventura interactiva de la saga Yo Matías (1999) basada en la tira de Roberto Sendra. Matías atraviesa sueños peligrosos en un edutainment argentino para PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -2961,7 +2961,7 @@
     "relacionado_con": [],
     "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "super-menem-bros",
@@ -4382,7 +4382,7 @@
       "rpg",
       "visual_novel"
     ],
-    "descripcion": "Aventura gráfica fantástica sobre Bahía Blanca bajo una dictadura vampírica.",
+    "descripcion": "Aventura gráfica fantástica de Libromancy Studios ambientada en Bahía Blanca bajo una dictadura vampírica. Ficción pampeana en desarrollo con tono político.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -4429,7 +4429,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "bienvenidos-a-la-matanza",
@@ -4726,7 +4726,7 @@
       "aventura",
       "plataformas"
     ],
-    "descripcion": "Demo donde el jugador encarna a la Luz Mala, leyenda rioplatense que aparece en los campos.",
+    "descripcion": "Demo de terror de Sandro Wainmaier donde encarnás a la Luz Mala, leyenda rioplatense de los campos pampeanos. Prototipo argentino con perspectiva del monstruo.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana",
@@ -4776,7 +4776,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Próximamente"
   },
   {
@@ -4810,7 +4810,7 @@
       "aventura",
       "educativo"
     ],
-    "descripcion": "Aventura 3D sobre leyendas originarias argentinas y problemática ambiental del ceibo.",
+    "descripcion": "Aventura 3D de Alejandro Andes y Amilcar Kippes (Argentina) sobre leyendas originarias y la problemática ambiental del ceibo nacional. Early access en Steam.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -4863,7 +4863,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Por confirmarse"
   },
   {
@@ -4904,7 +4904,7 @@
       "educativo",
       "estrategia"
     ],
-    "descripcion": "Juego educativo web sobre el Cruce de los Andes y la batalla de Maipú con José de San Martín.",
+    "descripcion": "Juego educativo web de SETENTIA Studios sobre el Cruce de los Andes y la batalla de Maipú con José de San Martín. Recurso interactivo para aula argentina (2022).",
     "contexto_argentino": {
       "regiones": [
         "Cuyo",
@@ -4953,7 +4953,7 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_fuente": "itch"
   },
   {
@@ -6096,7 +6096,7 @@
     "generos": [
       "deportes"
     ],
-    "descripcion": "Juego de fútbol 5 con el personaje Matías de la tira cómica argentina.",
+    "descripcion": "Simulador de fútbol 5 con Matías, el personaje de la tira cómica de Sendra. Edición argentina de 2003 de la saga Yo Matías para PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6143,7 +6143,7 @@
     "relacionado_con": [],
     "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "yo-matias-fantasmas-calabazas",
@@ -6183,7 +6183,7 @@
       "plataformas",
       "aventura"
     ],
-    "descripcion": "Segunda entrega de la saga Yo Matías con aventuras oníricas del personaje cómico argentino.",
+    "descripcion": "Segunda entrega de la saga Yo Matías con aventuras oníricas del personaje de Sendra. Ficción interactiva argentina de principios de los 2000 para PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6227,7 +6227,7 @@
     "relacionado_con": [],
     "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "noir-storm",
@@ -6433,7 +6433,7 @@
       "plataformas",
       "aventura"
     ],
-    "descripcion": "Plataformero 2D con estética argentina sobre un vampiro infantil que debe volver antes del amanecer.",
+    "descripcion": "Plataformero 2D de estudio argentino con estética nacional: un vampiro infantil debe volver a casa antes del amanecer en un relato nocturno para PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6482,7 +6482,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "deep-beyond-2024",
@@ -6599,7 +6599,7 @@
       "aventura",
       "point_and_click"
     ],
-    "descripcion": "Aventura point-and-click con protagonista de tienda de cómics del sur argentino.",
+    "descripcion": "Point-and-click de Sekiz Bitz (Argentina) con una protagonista dueña de una tienda de cómics del sur del país. Aventura local publicada en 2023.",
     "contexto_argentino": {
       "regiones": [
         "Patagonia"
@@ -6649,7 +6649,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "ara-history-untold-evita",
@@ -6776,7 +6776,7 @@
       "trivia",
       "educativo"
     ],
-    "descripcion": "Trivia social con Plaza de Mayo virtual, museos y cultura pop argentina.",
+    "descripcion": "Trivia social para Android e iOS con Plaza de Mayo virtual, museos porteños y cultura pop argentina. Recorrido gamificado por hitos de CABA y el país.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6827,7 +6827,7 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "slender-threads",
@@ -6860,7 +6860,7 @@
       "aventura",
       "suspense"
     ],
-    "descripcion": "Aventura de suspenso ambientada en Villa Ventana, provincia de Buenos Aires.",
+    "descripcion": "Aventura de suspenso de Blyts (Argentina), en desarrollo para PC y Steam. Historias entrelazadas ambientadas en Villa Ventana, en la sierra bonaerense.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -6911,7 +6911,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "gta-rio-de-la-plata",
@@ -7187,7 +7187,7 @@
       "educativo",
       "trivia"
     ],
-    "descripcion": "Trivia educativa para identificar provincias argentinas y sus capitales.",
+    "descripcion": "Trivia educativa de la plataforma Mobbyt para identificar provincias argentinas y sus capitales. Parte de la colección escolar de geografía de Argentina.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -7236,7 +7236,7 @@
     ],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "mobbyt-banderas-provincias",
@@ -7358,7 +7358,7 @@
       "aventura",
       "educativo"
     ],
-    "descripcion": "Aventura educativa con el personaje de la tira cómica argentina Yo Matías.",
+    "descripcion": "Aventura educativa de Caimán Co. (2002) con Matías, el niño de la tira de Roberto Sendra. Viajes en el tiempo para aprender historia argentina en PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -7405,7 +7405,7 @@
     "relacionado_con": [],
     "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "yo-matias-cazador-golosinas",
@@ -7615,7 +7615,7 @@
     "generos": [
       "terror"
     ],
-    "descripcion": "Demo de terror retro ambientada en la Ciudad Autónoma de Buenos Aires.",
+    "descripcion": "Demo de terror retro del Hypnos Team (Argentina) ambientada en la Ciudad Autónoma de Buenos Aires. Prototipo con estética clásica y suspenso urbano.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -7666,7 +7666,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Próximamente"
   },
   {
@@ -7869,7 +7869,7 @@
       "metroidvania",
       "aventura"
     ],
-    "descripcion": "Metroidvania 2D con identidad latinoamericana y exploración de mitos regionales.",
+    "descripcion": "Metroidvania 2D de Alejandro Andes y Amilcar Kippes (Argentina) que combate criaturas mitológicas del folclore regional en un mundo interconectado. En desarrollo en Steam.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -7919,7 +7919,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Por confirmarse"
   },
   {
@@ -7961,7 +7961,7 @@
       "aventura",
       "educativo"
     ],
-    "descripcion": "Juego sobre la leyenda de Anahí y cultura guaraní del Litoral argentino.",
+    "descripcion": "Juego narrativo sobre la leyenda guaraní de Anahí en el Litoral argentino (Corrientes y Misiones). Explora mitos, memoria indígena y cultura regional en web y PC.",
     "contexto_argentino": {
       "regiones": [
         "Noreste",
@@ -8011,7 +8011,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "tito-en-el-humedal",
@@ -9984,7 +9984,7 @@
       "mmorpg",
       "rpg"
     ],
-    "descripcion": "MMORPG desarrollado en Godot por un equipo argentino, inspirado en Argentum Online de finales de los 90.",
+    "descripcion": "MMORPG hecho en Godot por un equipo argentino, inspirado en Argentum Online de los 90. Mundo persistente, clases y combate online; disponible en Steam desde 2023.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -10034,7 +10034,7 @@
     "relacionado_con": [],
     "disponibilidad": "gratis",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "qsvt-que-se-vayan-todos",
@@ -11523,7 +11523,7 @@
       "terror",
       "aventura"
     ],
-    "descripcion": "Survival horror 2D con actores reales y acertijos, en desarrollo por el estudio argentino Saibot (Doorways).",
+    "descripcion": "Survival horror 2D de Saibot Studios (Argentina) con actores reales y acertijos, ambientado en Buenos Aires. Secuela espiritual del estudio de Doorways; lanzamiento 2026.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -11572,7 +11572,7 @@
     "relacionado_con": [],
     "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "doorways-holy-mountains",
@@ -12391,7 +12391,7 @@
       "mmorpg",
       "rpg"
     ],
-    "descripcion": "MMORPG de mundo abierto con PvP y progresión en tierras inspiradas en Argentina.",
+    "descripcion": "MMORPG de mundo abierto de IWG Studio (Argentina), con PvP, progresión de personaje y paisajes inspirados en territorios nacionales. Proyecto argentino en Steam.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -12440,7 +12440,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Por confirmarse"
   },
   {
@@ -12474,7 +12474,7 @@
       "puzzle",
       "aventura"
     ],
-    "descripcion": "Puzles atmosféricos en un mundo misterioso, desarrollado por el dúo argentino Recabarren y Batista.",
+    "descripcion": "Puzles atmosféricos de Recabarren y Batista (Argentina) en un mundo silencioso y misterioso. Experiencia contemplativa indie publicada en 2019 para PC.",
     "contexto_argentino": {
       "regiones": [
         "Nacional"
@@ -12522,7 +12522,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "the-path-into-the-abyss",
@@ -12555,7 +12555,7 @@
       "accion",
       "supervivencia"
     ],
-    "descripcion": "Shooter de supervivencia en primera persona ambientado en Buenos Aires con horror cósmico y combate hardcore.",
+    "descripcion": "Shooter de supervivencia en primera persona de MXR Productions, ambientado en Buenos Aires con horror cósmico y combate exigente. Proyecto argentino en desarrollo.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -12607,7 +12607,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Por confirmarse"
   },
   {
@@ -12977,7 +12977,7 @@
       "plataformas",
       "accion"
     ],
-    "descripcion": "Plataformas frenéticas: manejá sin frenos y llegá al final de cada nivel sin explotar el auto.",
+    "descripcion": "Plataformero frenético de Edgar Mendoza (Argentina): manejá un auto sin frenos por niveles en Mendoza y llegá a la meta sin explotar. En desarrollo para PC.",
     "contexto_argentino": {
       "regiones": [
         "Cuyo"
@@ -13026,7 +13026,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Próximamente"
   },
   {
@@ -13060,7 +13060,7 @@
       "accion",
       "terror"
     ],
-    "descripcion": "Shooter de extracción en tercera persona en un mundo postapocalíptico solarpunk con atmósfera contaminada.",
+    "descripcion": "Shooter de extracción en tercera persona de Zabdiel Mendoza (Argentina), con estética solarpunk postapocalíptica y atmósfera contaminada. Proyecto mendocino en Steam.",
     "contexto_argentino": {
       "regiones": [
         "Cuyo"
@@ -13112,7 +13112,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Próximamente"
   },
   {
@@ -13146,7 +13146,7 @@
       "aventura",
       "rpg"
     ],
-    "descripcion": "RPG de acción sobre destino, poderes elementales y la lucha entre luz y oscuridad.",
+    "descripcion": "RPG de acción indie desarrollado en Mendoza por un equipo argentino. Combina poderes elementales y combate en tercera persona; disponible en Steam.",
     "contexto_argentino": {
       "regiones": [
         "Cuyo"
@@ -13195,7 +13195,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "rhythm-soccer",
@@ -13295,12 +13295,12 @@
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
-        "activo": true,
-        "presencia": "referencia_menor"
+        "activo": false,
+        "presencia": null
       },
       "protagonista": {
         "activo": true,
-        "presencia": "principal"
+        "presencia": "referencia_menor"
       },
       "deporte_argentino": {
         "activo": false,
@@ -13318,7 +13318,7 @@
       "accion",
       "aventura"
     ],
-    "descripcion": "Shooter noir de crimen ambientado en La Habana y Miami; el protagonista se llama Héctor Mendoza.",
+    "descripcion": "Shooter noir de crimen de BRYPER INDUSTRIES (Argentina) ambientado en La Habana y Miami. El vínculo catalogado es el protagonista Héctor Mendoza y el desarrollo local.",
     "contexto_argentino": {
       "regiones": [
         "Cuyo"
@@ -13367,7 +13367,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Próximamente"
   },
   {
@@ -13483,7 +13483,7 @@
       "party",
       "cartas"
     ],
-    "descripcion": "Party multijugador de cartas caótico: reuní cuatro iguales, engañá a tus amigos y reaccioná al instante.",
+    "descripcion": "Party multijugador caótico de cartas desarrollado por PampaWorks (Argentina): reuní cuatro iguales, engañá a tus amigos y reaccioná al instante. Disponible en PC.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -13533,7 +13533,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "warpzone-vs-the-dimension",
@@ -13730,7 +13730,7 @@
       "aventura",
       "terror"
     ],
-    "descripcion": "Horror de aventura inspirado en mitos de la Patagonia chilena y horrores lovecraftianos.",
+    "descripcion": "Horror de aventura chileno de Austral Games inspirado en mitos patagónicos y lovecraftianos. Referencia menor: comparte paisaje andino con la Patagonia argentina.",
     "contexto_argentino": {
       "regiones": [
         "Patagonia"
@@ -13780,7 +13780,7 @@
     "relacionado_con": [],
     "disponibilidad": "a_la_venta",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09",
+    "fecha_actualizacion": "2026-07-10",
     "anio_nota": "Por confirmarse"
   },
   {
