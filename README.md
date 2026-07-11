@@ -21,6 +21,15 @@ npm run validate:data     # solo games.json
 npm run validate:links    # solo enlaces de tienda
 ```
 
+## Tests unitarios
+
+```bash
+npm test                  # suite completa
+npm run test:coverage     # con cobertura (umbral 95%)
+```
+
+Detalle de alcance, fixtures y CI en [`docs/TESTING.md`](docs/TESTING.md).
+
 ## Build
 
 ```bash
@@ -45,7 +54,7 @@ PUBLIC_SITE_URL=https://mebordone.github.io PUBLIC_BASE_PATH=/jugar-argentina/ n
 | `PUBLIC_SITE_URL` | `https://mebordone.github.io` |
 | `PUBLIC_BASE_PATH` | `/jugar-argentina/` |
 
-4. Push a `main` dispara el workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+4. Push a `main` dispara el workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) (validación de datos, tests con cobertura, build y publicación).
 
 Atajo (requiere `gh auth login` una vez):
 
@@ -67,3 +76,4 @@ Usá [Issues con el template “Sugerir juego”](https://github.com/mebordone/j
 | `data/games.json` | Base de 100 juegos verificados |
 | `scripts/` | Generación, validación y curaduría |
 | `src/` | Sitio Astro |
+| `docs/TESTING.md` | Guía de tests unitarios (Vitest) |
