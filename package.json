@@ -12,6 +12,7 @@
     "validate:external": "python3 scripts/validate_external_links.py",
     "validate": "npm run validate:data && npm run validate:links",
     "test:filters": "npx tsx scripts/test_filters.ts",
+    "test:summaries": "npx tsx scripts/test_cultural_summary.ts",
     "data:report": "python3 scripts/report_quality.py",
     "data:years": "python3 scripts/harvest_years.py --apply",
     "data:years:apply-pending": "python3 scripts/apply_year_candidates.py",
