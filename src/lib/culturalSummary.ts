@@ -21,8 +21,6 @@ const REGION_LABELS: Record<string, string> = {
   Nacional: "Nacional",
 };
 
-const BROAD_LABELS = new Set(["Geografía", "Deporte", "Historia", "Educativo", "Folclore"]);
-
 const THEME_ALIASES: Record<string, string> = {
   malvinas: "guerra_de_malvinas",
 };
@@ -49,34 +47,41 @@ function uniqueThemeSlugs(game: Game) {
   return slugs;
 }
 
+function buildVinculoSuffix(game: Game): string {
+  const { escenario, protagonista, deporte_argentino } = game.vinculo_argentina;
+
+  if (protagonista.activo) {
+    return "Protagonistas y figuras argentinas.";
+  }
+  if (deporte_argentino.activo) {
+    return "Deporte y cultura argentina.";
+  }
+  if (escenario.activo && escenario.presencia === "principal") {
+    return "Escenario argentino.";
+  }
+  if (escenario.activo) {
+    return "Referencia a Argentina.";
+  }
+  return "";
+}
+
 function buildThemeSentence(game: Game, labels: string[]) {
   if (!labels.length) return "";
 
   if (labels.length >= 2) {
-    return `${labels.slice(0, 2).join(" y ")}.`;
+    const prefix = `${labels.slice(0, 2).join(" y ")}.`;
+    const suffix = buildVinculoSuffix(game);
+    return suffix ? `${prefix} ${suffix}` : prefix;
   }
 
   const tema = labels[0];
-  const { escenario, protagonista, deporte_argentino } = game.vinculo_argentina;
 
   if (game.tipo_obra === "educativo") {
     return `Experiencia educativa sobre ${tema.charAt(0).toLowerCase()}${tema.slice(1)}.`;
   }
 
-  if (protagonista.activo) {
-    return `${tema}. Protagonistas y figuras argentinas.`;
-  }
-  if (deporte_argentino.activo) {
-    return `${tema}. Deporte y cultura argentina.`;
-  }
-  if (escenario.activo && escenario.presencia === "principal") {
-    return `${tema}. Escenario argentino.`;
-  }
-  if (escenario.activo) {
-    return `${tema}. Referencia a Argentina.`;
-  }
-
-  return `${tema}.`;
+  const suffix = buildVinculoSuffix(game);
+  return suffix ? `${tema}. ${suffix}` : `${tema}.`;
 }
 
 function buildPlacePhrase(game: Game) {
@@ -122,23 +127,10 @@ function hasVinculoEnrichment(themeSentence: string) {
   );
 }
 
-function isTooGeneric(summary: string, themeSentence: string, placePhrase: string) {
+function isTooGeneric(summary: string, themeSentence: string, _placePhrase: string) {
   if (!summary.trim()) return true;
   if (hasVinculoEnrichment(themeSentence)) return false;
   if (summary.length < 40) return true;
-
-  const themeOnly = themeSentence.trim();
-  const firstLabel = themeOnly.split(".")[0]?.trim() || "";
-
-  if (
-    BROAD_LABELS.has(firstLabel) &&
-    !placePhrase &&
-    !hasVinculoEnrichment(themeSentence) &&
-    !themeOnly.includes(" y ")
-  ) {
-    return true;
-  }
-
   return false;
 }
 
@@ -160,10 +152,6 @@ export function buildCulturalSummary(game: Game) {
   const summary = [themeSentence, placePhrase].filter(Boolean).join(" ");
 
   if (isTooGeneric(summary, themeSentence, placePhrase) && game.descripcion.trim()) {
-    return truncateDescription(game.descripcion);
-  }
-
-  if (!summary.trim() && game.descripcion.trim()) {
     return truncateDescription(game.descripcion);
   }
 
