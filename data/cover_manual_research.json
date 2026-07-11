@@ -14,11 +14,11 @@
     },
     {
       "id": "trucotron",
-      "portada_propuesta": "https://gameon2019.com/wp-content/uploads/2019/10/trucotron-logo.png",
-      "fuente": "gameon2019",
-      "url_fuente": "https://gameon2019.com/speaker/trucotron/",
+      "portada_propuesta": "https://adb.arcadeitalia.net/media/mame.current/titles/truco.png?release=209",
+      "fuente": "arcadeitalia",
+      "url_fuente": "https://adb.arcadeitalia.net/dettaglio_mame.php?game_name=truco",
       "confianza": "alta",
-      "nota": "Logo presentado en GameOn 2019",
+      "nota": "Pantalla de título MAME (Truco-Tron / Playtronic)",
       "aplicado": false,
       "omitido": "ya_tiene_portada"
     },

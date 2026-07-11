@@ -1258,7 +1258,7 @@
   {
     "id": "trucotron",
     "titulo": "Trucotron",
-    "titulo_original": "Trucotron",
+    "titulo_original": "Truco-Tron",
     "anio": 1991,
     "estado": "publicado",
     "vinculo_argentina": {
@@ -1284,7 +1284,7 @@
       }
     ],
     "deporte_argentino": null,
-    "desarrollador": "Gustavo Abella, Ricardo Gayoso",
+    "desarrollador": "Playtronic SRL",
     "pais_desarrollo": "Argentina",
     "plataformas": [
       "Arcade"
@@ -1294,7 +1294,7 @@
       "cartas",
       "simulacion"
     ],
-    "descripcion": "Primer arcade diseñado íntegramente en Argentina. Permite jugar al truco contra la máquina con hardware y software nacionales.",
+    "descripcion": "Truco-Tron, el primer arcade fabricado en Argentina (Playtronic SRL, década de 1980). Simula partidas de truco en formato tabletop: joystick vertical, tres botones y pantalla 256×192. Se produjeron unas 500 unidades; hoy se puede jugar vía emulación MAME en Internet Archive.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
@@ -1311,15 +1311,18 @@
       ]
     },
     "enlaces": {
+      "archive": "https://archive.org/details/arcade_truco",
       "fuentes_investigacion": [
+        "https://adb.arcadeitalia.net/dettaglio_mame.php?game_name=truco",
+        "https://archive.org/details/arcade_truco",
         "https://gameon2019.com/speaker/trucotron/",
         "https://oasisnerd.com/2026/06/16/industria-videojuegos-argentina/"
       ]
     },
     "imagenes": {
-      "portada": "https://gameon2019.com/wp-content/uploads/2019/10/trucotron-logo.png",
+      "portada": "https://adb.arcadeitalia.net/media/mame.current/titles/truco.png?release=209",
       "capturas": [],
-      "portada_fuente": "gameon2019"
+      "portada_fuente": "arcadeitalia"
     },
     "metadatos": {
       "idiomas": [
@@ -1341,9 +1344,9 @@
     "serie": null,
     "edicion": null,
     "relacionado_con": [],
-    "disponibilidad": "perdido",
+    "disponibilidad": "abandonware",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-09"
+    "fecha_actualizacion": "2026-07-10"
   },
   {
     "id": "pc-futbol-argentina-clausura-95",
