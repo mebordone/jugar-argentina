@@ -14,6 +14,7 @@ PLAY_KEYS = {
     "archive",
     "apkpure",
     "google_play",
+    "uptodown",
     "steam_workshop",
 }
 
@@ -38,9 +39,9 @@ def infer_disponibilidad(game: dict) -> str:
             return "gratis"
         return "a_la_venta"
 
-    if enlaces.get("itch") or enlaces.get("apkpure") or enlaces.get("google_play"):
+    if enlaces.get("itch") or enlaces.get("apkpure") or enlaces.get("google_play") or enlaces.get("uptodown"):
         precio = game.get("metadatos", {}).get("precio")
-        if precio == "gratuito" or enlaces.get("itch") or enlaces.get("google_play"):
+        if precio == "gratuito" or enlaces.get("itch") or enlaces.get("google_play") or enlaces.get("uptodown"):
             return "gratis"
 
     has_playable = any(

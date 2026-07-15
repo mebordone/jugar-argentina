@@ -3598,6 +3598,179 @@
     "anio_fuente": "gamejam"
   },
   {
+    "id": "counter-strike-malvinas",
+    "titulo": "Counter Strike: Malvinas",
+    "titulo_original": "Counter Strike: Malvinas",
+    "anio": 2013,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Dattatec",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "shooter",
+      "mod"
+    ],
+    "descripcion": "Mapa/mod argentino de Counter-Strike ambientado en las Islas Malvinas, desarrollado por Dattatec en 2013. Recrea puntos emblemáticos como Puerto Argentino, la catedral, Penguin News y el cementerio de Darwin, con soldados argentinos como fuerza policial e ingleses como bando terrorista dentro de la estructura clásica del shooter.",
+    "contexto_argentino": {
+      "regiones": [
+        "Atlántico Sur"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "siglo_xx"
+      ],
+      "temas": [
+        "guerra_de_malvinas",
+        "memoria"
+      ]
+    },
+    "enlaces": {
+      "uptodown": "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+      "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682",
+      "fuentes_investigacion": [
+        "https://www.infobae.com/2013/03/26/702792-un-nuevo-mapa-del-juego-counter-strike-permite-recuperar-las-islas-malvinas/",
+        "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://stc.utdstc.com/img/mediakit/download-generic-icon.svg",
+      "capturas": [],
+      "portada_fuente": "uptodown"
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": true,
+      "precio": "gratuito",
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "historia",
+      "memoria"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "importante",
+    "calidad_fuente": "prensa",
+    "sensibilidad": "media",
+    "serie": "Counter-Strike",
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-14",
+    "anio_fuente": "prensa"
+  },
+  {
+    "id": "cambalache-buenos-aires",
+    "titulo": "Cambalache - Buenos Aires",
+    "titulo_original": "Cambalache - Buenos Aires",
+    "anio": 2021,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "protagonista": {
+        "activo": false,
+        "presencia": null
+      },
+      "deporte_argentino": {
+        "activo": false,
+        "presencia": null
+      }
+    },
+    "personajes_argentinos": [],
+    "deporte_argentino": null,
+    "desarrollador": "Roku y colaboradores",
+    "pais_desarrollo": "Comunidad",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "shooter",
+      "supervivencia",
+      "terror",
+      "mod"
+    ],
+    "descripcion": "Campaña de Steam Workshop para Left 4 Dead 2 ambientada en Buenos Aires y el área metropolitana. Los sobrevivientes deben escapar de la ciudad durante la gripe verde en mapas inspirados en el sur del conurbano y Capital Federal, con cultura argentina cotidiana, música local, props propios y armas como una Tramontina.",
+    "contexto_argentino": {
+      "regiones": [
+        "Pampeana"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires",
+        "Buenos Aires"
+      ],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "cultura_urbana",
+        "supervivencia",
+        "terror"
+      ]
+    },
+    "enlaces": {
+      "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2512279903",
+      "fuentes_investigacion": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2512279903"
+      ]
+    },
+    "imagenes": {
+      "portada": null,
+      "capturas": [],
+      "portada_fuente": null
+    },
+    "metadatos": {
+      "idiomas": [
+        "es",
+        "en"
+      ],
+      "multijugador": true,
+      "precio": "gratuito",
+      "rating": {},
+      "tipo": "mod"
+    },
+    "ejes_culturales": [
+      "cultura_urbana"
+    ],
+    "tipo_obra": "mod",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "oficial",
+    "sensibilidad": "baja",
+    "serie": "Left 4 Dead 2",
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-15",
+    "anio_fuente": "steam_workshop"
+  },
+  {
     "id": "argentina-recicla",
     "titulo": "Argentina Recicla",
     "titulo_original": "Argentina Recicla",
@@ -12541,6 +12714,7 @@
     "titulo": "The Path Into The Abyss",
     "titulo_original": "The Path Into The Abyss",
     "anio": null,
+    "anio_nota": "Por confirmarse",
     "estado": "en_desarrollo",
     "vinculo_argentina": {
       "escenario": {
@@ -12548,8 +12722,8 @@
         "presencia": "principal"
       },
       "protagonista": {
-        "activo": true,
-        "presencia": "principal"
+        "activo": false,
+        "presencia": null
       },
       "deporte_argentino": {
         "activo": false,
@@ -12565,28 +12739,34 @@
     ],
     "generos": [
       "accion",
-      "supervivencia"
+      "shooter",
+      "supervivencia",
+      "terror"
     ],
-    "descripcion": "Shooter de supervivencia en primera persona de MXR Productions, ambientado en Buenos Aires con horror cósmico y combate exigente. Proyecto argentino en desarrollo.",
+    "descripcion": "Shooter de supervivencia en primera persona y mundo abierto de MXR Productions, ambientado en Buenos Aires y sus alrededores tras una invasión alienígena que inunda la ciudad. Mezcla esencia criolla porteña —con un sistema de crafteo de mates que recupera al personaje— con ciencia ficción lovecraftiana, combate hardcore e IA dinámica. Proyecto argentino en desarrollo con demo pre-alfa gratis en Steam; voz en español latinoamericano.",
     "contexto_argentino": {
       "regiones": [
         "Pampeana"
       ],
       "provincias": [
-        "Ciudad Autónoma de Buenos Aires"
+        "Ciudad Autónoma de Buenos Aires",
+        "Buenos Aires"
       ],
       "periodo_historico": [
         "contemporaneo"
       ],
       "temas": [
-        "terror",
-        "cultura_urbana"
+        "ciencia_ficcion",
+        "cultura_urbana",
+        "supervivencia",
+        "terror"
       ]
     },
     "enlaces": {
-      "steam": "https://store.steampowered.com/app/3000460/",
+      "steam": "https://store.steampowered.com/app/3000460/The_Path_Into_The_Abyss/",
       "fuentes_investigacion": [
-        "https://store.steampowered.com/app/3000460/"
+        "https://store.steampowered.com/app/3000460/The_Path_Into_The_Abyss/",
+        "https://store.steampowered.com/app/3725100/"
       ]
     },
     "imagenes": {
@@ -12600,7 +12780,8 @@
     },
     "metadatos": {
       "idiomas": [
-        "es"
+        "es",
+        "en"
       ],
       "multijugador": false,
       "precio": null,
@@ -12608,19 +12789,18 @@
       "tipo": "juego"
     },
     "ejes_culturales": [
-      "folclore"
+      "cultura_urbana"
     ],
     "tipo_obra": "indie",
     "grado_relevancia_argentina": "central",
-    "calidad_fuente": "prensa",
+    "calidad_fuente": "tienda",
     "sensibilidad": "baja",
-    "serie": null,
+    "serie": "Abyss Universe",
     "edicion": null,
     "relacionado_con": [],
-    "disponibilidad": "a_la_venta",
+    "disponibilidad": "perdido",
     "verificado": true,
-    "fecha_actualizacion": "2026-07-10",
-    "anio_nota": "Por confirmarse"
+    "fecha_actualizacion": "2026-07-11"
   },
   {
     "id": "game-of-patios",

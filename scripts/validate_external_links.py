@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 GAMES_PATH = ROOT / "data" / "games.json"
 
-CHECK_KEYS = ["itch", "web_oficial", "archive", "apkpure", "google_play", "kongregate"]
+CHECK_KEYS = ["itch", "web_oficial", "archive", "apkpure", "google_play", "kongregate", "uptodown"]
 SKIP_HOSTS = {"itch.io", "www.itch.io"}
 
 

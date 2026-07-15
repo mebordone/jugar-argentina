@@ -122,9 +122,11 @@ describe("collectActions", () => {
     const actions = collectActions({
       nintendo: "https://nintendo.com/game",
       google_play: "https://play.google.com/store/apps/details?id=1",
+      uptodown: "https://example.uptodown.com/windows/descargar",
     });
     expect(actions.find((a) => a.type === "buy")?.label).toBe("Ver en tienda");
     expect(actions.find((a) => a.type === "download")?.label).toBe("Descargar");
+    expect(actions.find((a) => a.source === "Uptodown")?.type).toBe("download");
   });
 
   it("clasifica MobyGames y Fandom como fuentes especializadas", () => {

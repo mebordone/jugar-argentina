@@ -98,7 +98,7 @@ def validate():
     play_keys = {
         "steam", "itch", "gog", "epic", "archive", "abandonware",
         "google_play", "apkpure", "web_oficial", "descarga_directa",
-        "steam_workshop",
+        "steam_workshop", "uptodown",
     }
     with_cover = sum(1 for g in games if g.get("imagenes", {}).get("portada"))
     with_play = sum(

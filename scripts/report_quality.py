@@ -26,6 +26,7 @@ PLAY_KEYS = {
     "abandonware",
     "google_play",
     "apkpure",
+    "uptodown",
     "web_oficial",
     "descarga_directa",
     "steam_workshop",

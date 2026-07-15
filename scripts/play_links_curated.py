@@ -122,6 +122,13 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
     "gta-rio-de-la-plata": {
         "web_oficial": "https://www.gta5-mods.com/maps/gta-rio-de-la-plata",
     },
+    "counter-strike-malvinas": {
+        "uptodown": "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+        "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682",
+    },
+    "cambalache-buenos-aires": {
+        "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2512279903",
+    },
     # Lote 2: 25 juegos que aún no tenían link jugable
     "golazo-2": {
         "steam": "https://store.steampowered.com/app/1499700/Golazo_2/",
@@ -255,7 +262,7 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
     "the-almamula": {"steam": "https://store.steampowered.com/app/3219760/"},
     "avaroth-online": {"steam": "https://store.steampowered.com/app/2784670/"},
     "ethereal": {"steam": "https://store.steampowered.com/app/751220/"},
-    "the-path-into-the-abyss": {"steam": "https://store.steampowered.com/app/3000460/"},
+    "the-path-into-the-abyss": {"steam": "https://store.steampowered.com/app/3000460/The_Path_Into_The_Abyss/"},
     "game-of-patios": {"steam": "https://store.steampowered.com/app/3387790/"},
     "envido": {"steam": "https://store.steampowered.com/app/3872160/"},
     "gaucho-and-the-grassland": {"steam": "https://store.steampowered.com/app/1670830/"},

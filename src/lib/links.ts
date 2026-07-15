@@ -14,7 +14,7 @@ export type LinkAction = {
 };
 
 const PLAY_KEYS = ["itch", "web_oficial", "kongregate"];
-const DOWNLOAD_KEYS = ["apkpure", "google_play"];
+const DOWNLOAD_KEYS = ["apkpure", "google_play", "uptodown"];
 const STORE_KEYS = ["steam", "nintendo", "playstation", "xbox"];
 const PRESS_HOSTS = new Set([
   "infobae.com",
@@ -75,6 +75,7 @@ export function labelFromKey(key: string) {
     kongregate: "Kongregate",
     apkpure: "APKPure",
     google_play: "Google Play",
+    uptodown: "Uptodown",
   };
   return labels[key] || key.replaceAll("_", " ");
 }
