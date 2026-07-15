@@ -30,6 +30,12 @@ npm run test:coverage     # con cobertura (umbral 95%)
 
 Detalle de alcance, fixtures y CI en [`docs/TESTING.md`](docs/TESTING.md).
 
+## Curaduría y taxonomía
+
+El catálogo incluye juegos y contenidos jugables con vínculo argentino verificable. No alcanza con que el desarrollador sea argentino si la obra no contiene una dimensión argentina reconocible.
+
+La guía editorial completa está en [`docs/CURADURIA.md`](docs/CURADURIA.md). Resume criterios de entrada/salida, diferencia entre `formato` y `tipo_obra`, capas públicas de tarjeta, datos editoriales y sensibilidad.
+
 ## Build
 
 ```bash
@@ -73,7 +79,8 @@ Usá [Issues con el template “Sugerir juego”](https://github.com/mebordone/j
 
 | Ruta | Contenido |
 |---|---|
-| `data/games.json` | Base de 100 juegos verificados |
+| `data/games.json` | Base principal de juegos verificados |
 | `scripts/` | Generación, validación y curaduría |
 | `src/` | Sitio Astro |
+| `docs/CURADURIA.md` | Guía editorial, taxonomía y lectura de tarjetas |
 | `docs/TESTING.md` | Guía de tests unitarios (Vitest) |

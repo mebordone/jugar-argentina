@@ -9,15 +9,21 @@ const stats = getStats();
 
 <BaseLayout
   title="Curaduría"
-  description="Criterios de curaduría de Jugar Argentina."
+  description="Criterios de curaduría y guía para leer el catálogo de Jugar Argentina."
 >
   <section class="page-hero">
     <p class="eyebrow">Curaduría</p>
-    <h1>Qué entra, qué no entra y por qué</h1>
+    <h1>Cómo leer Jugar Argentina</h1>
     <p>
-      Jugar Argentina prioriza juegos donde Argentina aparece como territorio,
-      personaje, historia, deporte o cultura jugable. No alcanza con que el
-      estudio sea argentino.
+      El catálogo reúne juegos con vínculo argentino verificable: territorio,
+      historia, cultura, política, deporte, personajes, memoria o imaginarios
+      locales. No alcanza con que el estudio sea argentino si el juego no
+      contiene una dimensión argentina reconocible.
+    </p>
+    <p>
+      Las tarjetas muestran una lectura breve para explorar rápido. La ficha
+      completa conserva la mirada editorial, las fuentes y los matices de cada
+      caso.
     </p>
   </section>
 
@@ -25,43 +31,214 @@ const stats = getStats();
     <article class="panel">
       <h2>Entra si...</h2>
       <ul class="check-list">
-        <li>tiene mapas, niveles o ambientación jugable en Argentina;</li>
-        <li>incluye protagonistas de historia, cultura, folclore o política argentina;</li>
-        <li>usa ligas o equipos argentinos como eje central;</li>
-        <li>trabaja ejes como memoria, folclore, truco, conurbano o educación argentina.</li>
+        <li>tiene mapas, niveles, campañas o ambientación jugable en Argentina;</li>
+        <li>incluye protagonistas, figuras históricas, políticas, deportivas o culturales argentinas;</li>
+        <li>usa ligas, equipos, estadios o deportes argentinos como eje relevante;</li>
+        <li>trabaja ejes como Malvinas, folclore, conurbano, tango, truco, fútbol, dictadura, independencia o educación argentina;</li>
+        <li>es un mod, mapa, DLC, campaña o contenido licenciado con vínculo argentino claro.</li>
       </ul>
     </article>
     <article class="panel">
       <h2>No entra si...</h2>
       <ul class="check-list">
-        <li>Argentina aparece solo como selección entre muchas;</li>
         <li>la única relación es que el desarrollador sea argentino;</li>
-        <li>hay una referencia mínima sin peso jugable o cultural;</li>
+        <li>Argentina aparece solo como país seleccionable entre muchos sin peso cultural;</li>
+        <li>hay una referencia decorativa o mínima sin peso jugable, narrativo o cultural;</li>
         <li>no hay una fuente razonable para verificarlo.</li>
       </ul>
     </article>
   </section>
 
   <section class="section panel">
-    <h2>Relevancia y sensibilidad</h2>
+    <h2>Cómo leer una tarjeta</h2>
+    <p>
+      Cada tarjeta resume la ficha en dos niveles: chips para reconocer qué es
+      y de qué trata, y una línea de contexto para entender por qué entra al
+      catálogo y cómo se puede jugar.
+    </p>
+    <div class="panel">
+      <div class="badge-row">
+        <Badge label="Campaña" tone="alert" />
+        <Badge label="Cultura urbana" />
+        <Badge label="Terror" />
+      </div>
+      <p class="notice">
+        Buenos Aires · Ambientado en Argentina · Steam Workshop
+      </p>
+    </div>
     <div class="mini-grid">
       <article>
-        <Badge label="Central" tone="warm" />
-        <p>Argentina es el núcleo de la experiencia.</p>
+        <h3>Chips</h3>
+        <p>El primer chip indica el formato o tipo visible. Los siguientes muestran los temas principales.</p>
       </article>
       <article>
-        <Badge label="Importante" tone="cool" />
-        <p>El vínculo argentino pesa, aunque convive con otros ejes.</p>
+        <h3>Línea de contexto</h3>
+        <p>Resume lugar, vínculo argentino y forma de acceso: por ejemplo, descarga, Workshop o preservación.</p>
       </article>
       <article>
-        <Badge label="Referencia menor" />
-        <p>Argentina aparece, pero no organiza la experiencia principal.</p>
+        <h3>Avisos</h3>
+        <p>La sensibilidad solo aparece cuando hace falta contexto adicional: guerra, dictadura, memoria o violencia política.</p>
       </article>
     </div>
     <p>
-      Malvinas, dictadura o política partidaria pueden marcarse con sensibilidad
-      media o alta para contextualizar mejor la recomendación.
+      Etiquetas editoriales como <strong>central</strong>, <strong>escenario</strong>
+      o <strong>protagonista</strong> no se muestran crudas en la tarjeta: se
+      traducen a frases como “Ambientado en Argentina” o “Protagonista argentino”.
     </p>
+  </section>
+
+  <section class="section panel">
+    <h2>Capas de información</h2>
+    <p>
+      La taxonomía separa datos pensados para explorar de datos curatoriales
+      que explican el criterio detrás de cada ficha.
+    </p>
+    <div class="mini-grid">
+      <article>
+        <Badge label="Formato" tone="cool" />
+        <p>Qué tipo de contenido es: juego base, mod, mapa, campaña, DLC, prototipo o colección.</p>
+      </article>
+      <article>
+        <Badge label="Tema" tone="cool" />
+        <p>De qué trata: historia, Malvinas, folclore, cultura urbana, geografía, deporte o terror.</p>
+      </article>
+      <article>
+        <Badge label="Lugar" tone="cool" />
+        <p>Dónde aparece Argentina: provincia, región, Atlántico Sur o escala nacional.</p>
+      </article>
+      <article>
+        <Badge label="Vínculo argentino" tone="cool" />
+        <p>Por qué entra: ambientación argentina, protagonista argentino, deporte argentino o referencia argentina.</p>
+      </article>
+      <article>
+        <Badge label="Acceso" tone="warm" />
+        <p>Cómo acercarse hoy: gratis, a la venta, Steam Workshop, preservación o sin link actual.</p>
+      </article>
+      <article>
+        <Badge label="Datos editoriales" />
+        <p>Relevancia, calidad de fuente, verificación y fecha quedan en la ficha completa.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section panel">
+    <h2>No todo registro es un juego base</h2>
+    <p>
+      El catálogo puede incluir obras y contenidos jugables de distinto formato,
+      siempre que el vínculo argentino sea claro y verificable.
+    </p>
+    <div class="mini-grid">
+      <article>
+        <h3>Juego base</h3>
+        <p>Una obra independiente o comercial que se juega por sí misma.</p>
+      </article>
+      <article>
+        <h3>Mod, mapa o campaña</h3>
+        <p>Contenido comunitario que necesita un juego base, como Counter-Strike o Left 4 Dead 2.</p>
+      </article>
+      <article>
+        <h3>DLC o expansión</h3>
+        <p>Contenido oficial que agrega territorios, misiones, mapas o escenarios argentinos.</p>
+      </article>
+      <article>
+        <h3>Contenido licenciado</h3>
+        <p>Casos donde ligas, equipos, estadios o referencias argentinas son parte relevante del juego.</p>
+      </article>
+      <article>
+        <h3>Fan game o prototipo</h3>
+        <p>Obras derivadas, experimentales o incompletas que tienen valor cultural o histórico.</p>
+      </article>
+      <article>
+        <h3>Colección educativa</h3>
+        <p>Conjuntos de actividades o juegos escolares sobre geografía, historia o cultura argentina.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="detail-grid">
+    <article class="panel">
+      <h2>Relevancia editorial</h2>
+      <div class="mini-grid">
+        <article>
+          <Badge label="Central" tone="warm" />
+          <p>Argentina organiza la experiencia.</p>
+        </article>
+        <article>
+          <Badge label="Importante" tone="cool" />
+          <p>El vínculo argentino pesa, aunque convive con otros ejes.</p>
+        </article>
+        <article>
+          <Badge label="Referencia menor" />
+          <p>Argentina aparece de forma acotada, pero verificable.</p>
+        </article>
+      </div>
+    </article>
+    <article class="panel">
+      <h2>Sensibilidad</h2>
+      <p>
+        La sensibilidad no mide calidad ni importancia. Indica cuándo conviene
+        sumar contexto antes de recomendar o usar una ficha en educación.
+      </p>
+      <ul class="check-list">
+        <li><strong>Baja:</strong> no requiere advertencia especial.</li>
+        <li><strong>Media:</strong> conviene contextualizar temas como guerra, violencia política o memoria.</li>
+        <li><strong>Alta:</strong> requiere lectura cuidadosa por dictadura, terrorismo de Estado u otros temas delicados.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="section panel">
+    <h2>Ejemplos de lectura</h2>
+    <p>
+      Estos ejemplos muestran cómo una tarjeta condensa información sin exponer
+      todas las categorías editoriales.
+    </p>
+    <div class="mini-grid">
+      <article>
+        <h3>Cambalache - Buenos Aires</h3>
+        <div class="badge-row">
+          <Badge label="Campaña" tone="alert" />
+          <Badge label="Cultura urbana" />
+          <Badge label="Terror" />
+        </div>
+        <p>Buenos Aires · Ambientado en Argentina · Steam Workshop</p>
+      </article>
+      <article>
+        <h3>Counter Strike: Malvinas</h3>
+        <div class="badge-row">
+          <Badge label="Mapa" tone="alert" />
+          <Badge label="Guerra de Malvinas" />
+          <Badge label="Memoria" />
+        </div>
+        <p>Atlántico Sur · Ambientado en Argentina · Descarga</p>
+      </article>
+      <article>
+        <h3>Pro Evolution Soccer 2014</h3>
+        <div class="badge-row">
+          <Badge label="Contenido licenciado" tone="cool" />
+          <Badge label="Deporte" />
+        </div>
+        <p>Fútbol argentino · AFA, equipos y liga local como vínculo jugable.</p>
+      </article>
+      <article>
+        <h3>DCS: South Atlantic</h3>
+        <div class="badge-row">
+          <Badge label="DLC" tone="cool" />
+          <Badge label="Geografía" />
+          <Badge label="Guerra de Malvinas" />
+        </div>
+        <p>Atlántico Sur · Referencia argentina · A la venta</p>
+      </article>
+      <article>
+        <h3>Super Menem Bros</h3>
+        <div class="badge-row">
+          <Badge label="Fan game" tone="alert" />
+          <Badge label="Política" />
+          <Badge label="Sátira" />
+        </div>
+        <p>Protagonista argentino · Preservación · Contenido sensible</p>
+      </article>
+    </div>
   </section>
 
   <section class="section" id="descartados">
@@ -85,7 +262,11 @@ const stats = getStats();
 
   <section class="cta-band">
     <h2>¿Conocés un juego que debería estar?</h2>
-    <p>La base está viva. Podés proponer nuevos juegos con una fuente verificable.</p>
+    <p>
+      La base está viva. Podés proponer juegos base, mods, mapas, campañas,
+      DLCs o fan games si sumás una fuente verificable y una explicación breve
+      del vínculo argentino.
+    </p>
     <a class="button button-primary" href={sitePath("/sugerir")}>Sugerí un juego</a>
   </section>
 </BaseLayout>

@@ -1,5 +1,20 @@
 # Changelog — Base de videojuegos argentinos
 
+## v1.3 (2026-07-15) — Taxonomía pública y guía de lectura
+
+### Cambios principales
+- Nuevo campo `formato` para separar juego base, mod, mapa, campaña, DLC, expansión, contenido licenciado, demo, prototipo y colección.
+- Rediseño de tarjetas con chips públicos, línea contextual y sensibilidad visible solo cuando corresponde.
+- Nueva guía pública de curaduría en `/curaduria`, orientada a entender criterios de entrada, lectura de tarjetas y capas editoriales.
+- Documentación editorial en `docs/CURADURIA.md` para mantener criterios de inclusión, exclusión y taxonomía.
+- Nuevas entradas y ajustes recientes: Aconcagua, The Path Into The Abyss, Counter Strike: Malvinas y Cambalache - Buenos Aires.
+
+### Ajustes técnicos
+- Validación de datos actualizada para exigir `formato`.
+- Filtro nuevo por formato en el catálogo.
+- Helpers `cardMetadata` para centralizar etiquetas de formato, tema, lugar, vínculo argentino, acceso y sensibilidad.
+- Cobertura de tests para metadatos de tarjeta, filtros por formato, resumen cultural y comportamiento del catálogo.
+
 ## v1.2 (2026-07-11) — Release 1: Orden y calidad editorial
 
 ### Cambios principales

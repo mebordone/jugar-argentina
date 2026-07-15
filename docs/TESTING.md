@@ -17,6 +17,7 @@ Suite de tests con **Vitest** sobre la lógica TypeScript del frontend (`src/lib
 **Incluido**
 
 - `src/lib/**/*.ts` — filtros, juegos, enlaces, recorridos, listas, etc.
+- `src/lib/cardMetadata.ts` — chips, línea contextual, acceso y sensibilidad de tarjetas
 - `src/components/GameFilters.tsx` — catálogo interactivo (React)
 
 **Excluido**
@@ -43,6 +44,7 @@ vitest.config.ts       # thresholds de cobertura al 95%
 ## Convenciones
 
 - **Fixtures:** usar `baseGame()` y `baseGameView()` de `src/test/fixtures/game.ts` para lógica aislada; reservar datos reales de `games.json` solo para smoke/regresión.
+- **Taxonomía:** cubrir cambios de `formato`, `tipo_obra`, vínculo argentino y disponibilidad tanto en helpers (`cardMetadata`) como en filtros (`filterGames`, `GameFilters`).
 - **Componentes:** Testing Library + user-event; helpers de scroll/foco viven en `src/lib/catalogUi.ts`.
 - **Mocks:** `node:fs` en `games.test.ts` para CSV de candidatos; `vi.mock("./games")` en `listas.test.ts` y `recorridos.scoring.test.ts` cuando hace falta aislar datos.
 

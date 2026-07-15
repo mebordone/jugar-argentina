@@ -1,23 +1,27 @@
 # Base de datos — Videojuegos vinculados a Argentina
 
-## Criterios de inclusión (v1.2)
+## Criterios de inclusión (v1.3)
 
 Un juego entra si cumple al menos una condición:
 
 1. **Escenario argentino** — mapas, niveles o ambientación jugable en Argentina
 2. **Protagonista argentino** — figuras de historia, cultura, folclore o política
 3. **Deporte argentino** — ligas/equipos argentinos como eje central (ej. PC Fútbol Ed. Argentina)
+4. **Contenido derivado verificable** — mods, mapas, campañas, DLCs, expansiones o contenido licenciado con vínculo argentino claro
 
 **Excluido:** FIFA/PES genéricos donde Argentina es solo una selección; juegos con solo desarrollador argentino sin temática AR.
 
-### Campos editoriales v1.1
+### Campos editoriales v1.3
 
+- `formato` — juego_base, mod, mapa, campania, dlc, expansion, contenido_licenciado, demo, prototipo, coleccion
 - `ejes_culturales` — política, sátira, folclore, memoria, cultura urbana, etc.
-- `tipo_obra` — comercial, indie, educativo, jam, mod, promocional…
+- `tipo_obra` — comercial, indie, educativo, jam, fan_game, promocional, institucional…
 - `grado_relevancia_argentina` — central, importante, menor
 - `sensibilidad` — baja, media, alta (dictadura, Malvinas, política partidaria)
 - `serie` / `edicion` / `relacionado_con` — variantes y colecciones
 - `disponibilidad` — a_la_venta, gratis, abandonware, perdido
+
+`formato` describe qué se incorpora al catálogo. `tipo_obra` describe la naturaleza editorial o productiva de la obra. Por ejemplo, un mapa comunitario puede ser `formato: "mapa"` y `tipo_obra: "mod"`.
 
 ### Política educativos (mixto)
 
@@ -104,4 +108,4 @@ Keywords por eje: `peronismo juego`, `gorila game`, `lobizón`, `gauchito gil`, 
 - `raw_candidates.csv` — candidatos con columnas de triage
 - `CHANGELOG.md` — historial de versiones
 
-Actualizado: 2026-07-11
+Actualizado: 2026-07-15
