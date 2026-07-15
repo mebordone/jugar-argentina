@@ -14306,5 +14306,119 @@
     "verificado": true,
     "fecha_actualizacion": "2026-07-09",
     "formato": "juego_base"
+  },
+  {
+    "id": "semaforo-climber",
+    "titulo": "Semaforo Climber",
+    "titulo_original": "Semaforo Climber",
+    "anio": 2022,
+    "estado": "publicado",
+    "vinculo_argentina": {
+      "escenario": {
+        "activo": false,
+        "presencia": null
+      },
+      "protagonista": {
+        "activo": true,
+        "presencia": "principal"
+      },
+      "deporte_argentino": {
+        "activo": true,
+        "presencia": "principal",
+        "subtipo": "seleccion_futbol"
+      }
+    },
+    "personajes_argentinos": [
+      {
+        "nombre": "Lionel Messi",
+        "tipo": "deportista",
+        "rol": "referencia",
+        "descripcion": "Referencia central de la celebración por el campeonato mundial de Argentina"
+      },
+      {
+        "nombre": "Diego Maradona",
+        "tipo": "deportista",
+        "rol": "referencia",
+        "descripcion": "Aparición/referencia cultural dentro del imaginario futbolero argentino"
+      },
+      {
+        "nombre": "Dibu Martínez",
+        "tipo": "deportista",
+        "rol": "referencia",
+        "descripcion": "Referencia a la Selección Argentina campeona del mundo"
+      }
+    ],
+    "deporte_argentino": {
+      "deporte": "futbol",
+      "competencia": "Seleccion Argentina campeona del mundo 2022",
+      "licencia": "no_oficial"
+    },
+    "desarrollador": "CrabDog Games / BruBomb",
+    "pais_desarrollo": "Argentina",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "arcade",
+      "deportes",
+      "plataformas"
+    ],
+    "descripcion": "Arcade HTML5 creado para la Scaloneta Gamejam: una celebración jugable del campeonato mundial de Argentina donde se trepa un semáforo esquivando palomas y drones, con birra, fernet y referencias a Messi, Dibu y Maradona.",
+    "contexto_argentino": {
+      "regiones": [
+        "Nacional"
+      ],
+      "provincias": [],
+      "periodo_historico": [
+        "contemporaneo"
+      ],
+      "temas": [
+        "futbol",
+        "mundial_2022",
+        "seleccion_argentina",
+        "cultura_popular"
+      ]
+    },
+    "enlaces": {
+      "itch": "https://crabdogstudio.itch.io/semaforoclimber",
+      "fuentes_investigacion": [
+        "https://crabdogstudio.itch.io/semaforoclimber"
+      ]
+    },
+    "imagenes": {
+      "portada": "https://img.itch.zone/aW1nLzEwODc0MjY5LmdpZg==/original/XWsKHR.gif",
+      "capturas": [
+        "https://img.itch.zone/aW1hZ2UvMTg1MTc5My8xMDg3NjY5Ny5qcGVn/original/ZkQHa1.jpeg",
+        "https://img.itch.zone/aW1hZ2UvMTg1MTc5My8xMDg3NjY5OC5qcGVn/original/HL%2BWdK.jpeg",
+        "https://img.itch.zone/aW1hZ2UvMTg1MTc5My8xMDg3NjY5OS5qcGVn/original/H70gbN.jpeg"
+      ],
+      "portada_fuente": "itch.io"
+    },
+    "metadatos": {
+      "idiomas": [
+        "es"
+      ],
+      "multijugador": false,
+      "precio": 0,
+      "rating": {
+        "itch": 4.7
+      },
+      "tipo": "juego"
+    },
+    "ejes_culturales": [
+      "deporte",
+      "cultura_urbana"
+    ],
+    "tipo_obra": "jam",
+    "grado_relevancia_argentina": "central",
+    "calidad_fuente": "oficial",
+    "sensibilidad": "baja",
+    "serie": null,
+    "edicion": null,
+    "relacionado_con": [],
+    "disponibilidad": "gratis",
+    "verificado": true,
+    "fecha_actualizacion": "2026-07-15",
+    "formato": "juego_base"
   }
 ]
