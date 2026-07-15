@@ -3644,17 +3644,22 @@
       ]
     },
     "enlaces": {
-      "uptodown": "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+      "uptodown": "https://counter-strike-malvinas.en.uptodown.com/windows",
       "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682",
       "fuentes_investigacion": [
         "https://www.infobae.com/2013/03/26/702792-un-nuevo-mapa-del-juego-counter-strike-permite-recuperar-las-islas-malvinas/",
-        "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+        "https://counter-strike-malvinas.en.uptodown.com/windows",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682"
       ]
     },
     "imagenes": {
-      "portada": "https://stc.utdstc.com/img/mediakit/download-generic-icon.svg",
-      "capturas": [],
+      "portada": "https://img.utdstc.com/icon/5fc/b1b/5fcb1b2ce54c3c1be194181216e3cf4661fd73cf92e28c390a3cc511dd239973:600",
+      "capturas": [
+        "https://img.utdstc.com/screen/f85/346/f85346e522a73989e02455d8ce244473df788334fd31e2f495dc5223d46f4649",
+        "https://img.utdstc.com/screen/e98/4b9/e984b9e8195f387a0a9a65b4285f6751c316035131f683449d540fc917d4fddf",
+        "https://img.utdstc.com/screen/bd5/2c2/bd52c230fa4f165a1bb15862237fdb030435e2d350c9ec8e02fa6377af9309fd",
+        "https://img.utdstc.com/screen/d47/833/d478331afe09f8a88e1352b45ea4868479ae57f6483088bb55996c638ad33d36"
+      ],
       "portada_fuente": "uptodown"
     },
     "metadatos": {

@@ -123,7 +123,7 @@ PLAY_LINK_PATCHES: dict[str, dict[str, str]] = {
         "web_oficial": "https://www.gta5-mods.com/maps/gta-rio-de-la-plata",
     },
     "counter-strike-malvinas": {
-        "uptodown": "https://counter-strike-malvinas.uptodown.com/windows/descargar",
+        "uptodown": "https://counter-strike-malvinas.en.uptodown.com/windows",
         "steam_workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=134958682",
     },
     "cambalache-buenos-aires": {
