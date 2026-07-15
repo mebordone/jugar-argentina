@@ -16,6 +16,10 @@ TIPO_OBRA = {
     "comercial", "indie", "educativo", "jam", "mod", "fan_game",
     "abandonware", "prototipo", "promocional",
 }
+FORMATO = {
+    "juego_base", "mod", "mapa", "campania", "dlc", "expansion",
+    "contenido_licenciado", "demo", "prototipo", "coleccion",
+}
 GRADO = {"central", "importante", "menor"}
 CALIDAD = {"oficial", "tienda", "prensa", "wiki", "foro", "archive"}
 SENSIBILIDAD = {"baja", "media", "alta"}
@@ -52,6 +56,8 @@ def validate():
                 errors.append(f"{g['id']}: eje cultural inválido '{eje}'")
         if g.get("tipo_obra") and g["tipo_obra"] not in TIPO_OBRA:
             errors.append(f"{g['id']}: tipo_obra inválido")
+        if g.get("formato") not in FORMATO:
+            errors.append(f"{g['id']}: formato inválido")
         if g.get("grado_relevancia_argentina") not in GRADO:
             errors.append(f"{g['id']}: grado_relevancia_argentina inválido")
         if g.get("calidad_fuente") not in CALIDAD:

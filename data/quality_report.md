@@ -1,15 +1,15 @@
 # Reporte de calidad editorial
 
-Generado: 2026-07-11
+Generado: 2026-07-15
 
 ## Resumen
 
-- Juegos analizados: 161
-- Sin portada: 0
-- Sin capturas: 65
+- Juegos analizados: 163
+- Sin portada: 1
+- Sin capturas: 66
 - Sin anio: 40
 - Sin link jugable: 0
-- Sin provincia: 80
+- Sin provincia: 81
 - Sin eje cultural: 17
 - Descripciones cortas totales: 17
 - Descripciones cortas aceptables (referencia menor): 17
@@ -21,8 +21,8 @@ Generado: 2026-07-11
 
 ## Cobertura de fechas
 
-- Con anio publicado: 121 (75.2%)
-- Sin anio, en desarrollo/TBD: 40 (24.8%)
+- Con anio publicado: 123 (75.5%)
+- Sin anio, en desarrollo/TBD: 40 (24.5%)
 - Sin anio, desconocido: 0 (0.0%)
 - Cobertura categorizada: 100.0%
 
@@ -75,10 +75,14 @@ Generado: 2026-07-11
 
 ## Cobertura de portadas
 
-- Con portada: 161 (100.0%)
-- Sin portada, recuperable automatico: 0
+- Con portada: 162 (99.4%)
+- Sin portada, recuperable automatico: 1
 - Sin portada, pendiente manual: 0
-- Cobertura: 100.0%
+- Cobertura: 99.4%
+
+### Sin portada
+
+- `cambalache-buenos-aires` - Cambalache - Buenos Aires (2021)
 
 ### Candidatos pendientes de revision
 
@@ -161,7 +165,7 @@ Generado: 2026-07-11
 
 ### Sin portada
 
-- Sin casos.
+- `cambalache-buenos-aires` - Cambalache - Buenos Aires (2021)
 
 ### Sin capturas
 
@@ -187,6 +191,7 @@ Generado: 2026-07-11
 - `gaucho-power` - GAUCHO POWER (s/f)
 - `el-intruso-82` - El Intruso 82 (2026)
 - `operacion-rosario` - Operación Rosario (2022)
+- `cambalache-buenos-aires` - Cambalache - Buenos Aires (2021)
 - `argentina-recicla` - Argentina Recicla (2023)
 - `pc-futbol-60-argentina` - PC Fútbol 6.0 Argentina (1998)
 - `pc-futbol-70-argentina` - PC Fútbol 7.0 Argentina (1998)
@@ -200,11 +205,10 @@ Generado: 2026-07-11
 - `proceres-san-martin` - PRÓCERES: San Martín (2022)
 - `gran-malvina` - Gran Malvina (s/f)
 - `gaucho-liberacion` - Gaucho Liberación (s/f)
-- `aconcagua-1999` - Aconcagua (1999)
+- `aconcagua-1999` - Aconcagua (2000)
 - `syndicate-buenos-aires` - Syndicate (Buenos Aires 2069) (2012)
 - `chameleon-buenos-aires` - Chameleon (Puerto de Buenos Aires) (2006)
 - `battlefield-bad-company-2-andes` - Battlefield: Bad Company 2 (Andes) (2010)
-- `fifa-street-caminito` - FIFA Street (Caminito) (2005)
 
 ### Sin anio
 
@@ -276,6 +280,7 @@ Generado: 2026-07-11
 - `super-menem-bros` - Super Menem Bros (1993)
 - `el-intruso-82` - El Intruso 82 (2026)
 - `operacion-rosario` - Operación Rosario (2022)
+- `counter-strike-malvinas` - Counter Strike: Malvinas (2013)
 - `argentina-recicla` - Argentina Recicla (2023)
 - `pc-futbol-60-argentina` - PC Fútbol 6.0 Argentina (1998)
 - `pc-futbol-70-argentina` - PC Fútbol 7.0 Argentina (1998)
@@ -294,7 +299,6 @@ Generado: 2026-07-11
 - `yo-matias-fantasmas-calabazas` - Yo Matías: Fantasmas y Calabazas (2001)
 - `desvelado-2024` - Desvelado (2024)
 - `stellar-mess-princess-conundrum` - Stellar Mess: The Princess Conundrum (2023)
-- `ara-history-untold-evita` - Ara: History Untold — Eva Perón (2024)
 
 ### Sin eje cultural
 
@@ -320,9 +324,9 @@ Generado: 2026-07-11
 
 ### Provincias
 
-- Sin provincia: 80
-- Ciudad Autónoma de Buenos Aires: 33
-- Buenos Aires: 13
+- Sin provincia: 81
+- Ciudad Autónoma de Buenos Aires: 34
+- Buenos Aires: 15
 - Salta: 11
 - Mendoza: 8
 - Jujuy: 7
@@ -343,14 +347,14 @@ Generado: 2026-07-11
 
 ### Regiones
 
-- Pampeana: 65
+- Pampeana: 66
 - Nacional: 47
 - Patagonia: 20
 - Noroeste: 16
 - Sin region: 13
 - Cuyo: 11
 - Litoral: 8
-- Atlántico Sur: 5
+- Atlántico Sur: 6
 - Noreste: 5
 - Centro: 4
 - NOA: 1
@@ -359,35 +363,46 @@ Generado: 2026-07-11
 
 ### Ejes culturales
 
-- folclore: 50
-- historia: 41
+- folclore: 49
+- historia: 42
 - geografia: 32
 - deporte: 21
+- cultura_urbana: 18
 - educativo: 18
 - Sin eje: 17
-- cultura_urbana: 16
 - politica: 11
 - satira: 9
-- memoria: 6
+- memoria: 7
 - juegos_tradicionales: 5
 - literatura: 2
 - musica: 1
 
 ### Grados de relevancia
 
-- central: 117
+- central: 118
 - menor: 36
-- importante: 8
+- importante: 9
 
 ### Tipos de obra
 
 - comercial: 104
 - indie: 42
-- mod: 6
+- mod: 8
 - educativo: 5
 - jam: 2
 - fan_game: 1
 - abandonware: 1
+
+### Formatos
+
+- juego_base: 142
+- mod: 6
+- prototipo: 5
+- contenido_licenciado: 4
+- coleccion: 2
+- dlc: 2
+- mapa: 1
+- campania: 1
 
 ## Anos propuestos / pendientes
 

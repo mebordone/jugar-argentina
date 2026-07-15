@@ -14,6 +14,7 @@
     "descripcion",
     "contexto_argentino",
     "enlaces",
+    "formato",
     "verificado",
     "fecha_actualizacion"
   ],
@@ -156,6 +157,20 @@
         "abandonware",
         "prototipo",
         "promocional"
+      ]
+    },
+    "formato": {
+      "enum": [
+        "juego_base",
+        "mod",
+        "mapa",
+        "campania",
+        "dlc",
+        "expansion",
+        "contenido_licenciado",
+        "demo",
+        "prototipo",
+        "coleccion"
       ]
     },
     "grado_relevancia_argentina": {

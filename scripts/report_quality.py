@@ -112,6 +112,7 @@ def collect_distributions(games: list[dict]) -> dict[str, Counter]:
     ejes: Counter = Counter()
     grados: Counter = Counter()
     tipos: Counter = Counter()
+    formatos: Counter = Counter()
 
     for game in games:
         contexto = game.get("contexto_argentino", {})
@@ -120,6 +121,7 @@ def collect_distributions(games: list[dict]) -> dict[str, Counter]:
         ejes.update(game.get("ejes_culturales") or ["Sin eje"])
         grados.update([game.get("grado_relevancia_argentina") or "Sin grado"])
         tipos.update([game.get("tipo_obra") or "Sin tipo"])
+        formatos.update([game.get("formato") or "Sin formato"])
 
     return {
         "provincias": provincias,
@@ -127,6 +129,7 @@ def collect_distributions(games: list[dict]) -> dict[str, Counter]:
         "ejes": ejes,
         "grados": grados,
         "tipos": tipos,
+        "formatos": formatos,
     }
 
 
@@ -621,6 +624,10 @@ def build_report(games: list[dict]) -> str:
         "### Tipos de obra",
         "",
         *md_list(top_counter(distributions["tipos"])),
+        "",
+        "### Formatos",
+        "",
+        *md_list(top_counter(distributions["formatos"])),
         "",
         *build_year_section(year_candidates),
     ]

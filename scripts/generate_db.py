@@ -45,6 +45,7 @@ def game(
     metadatos=None,
     ejes_culturales=None,
     tipo_obra="comercial",
+    formato="juego_base",
     grado_relevancia_argentina="central",
     calidad_fuente="prensa",
     sensibilidad="baja",
@@ -80,6 +81,7 @@ def game(
         },
         "ejes_culturales": ejes_culturales or [],
         "tipo_obra": tipo_obra,
+        "formato": formato,
         "grado_relevancia_argentina": grado_relevancia_argentina,
         "calidad_fuente": calidad_fuente,
         "sensibilidad": sensibilidad,
@@ -1415,6 +1417,7 @@ def apply_v11_defaults(g):
     """Retrocompatibilidad: defaults editoriales v1.1."""
     g.setdefault("ejes_culturales", [])
     g.setdefault("tipo_obra", "comercial")
+    g.setdefault("formato", "juego_base")
     g.setdefault("grado_relevancia_argentina", "central")
     g.setdefault("calidad_fuente", "prensa")
     g.setdefault("sensibilidad", "baja")
