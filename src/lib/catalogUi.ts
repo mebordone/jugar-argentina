@@ -8,6 +8,7 @@ export const FILTER_LABELS: Partial<Record<keyof CatalogFilters, string>> = {
   q: "Búsqueda",
   eje: "Eje cultural",
   tipo_obra: "Tipo de obra",
+  formato: "Formato",
   jugable: "Jugable hoy",
   vinculo: "Vínculo",
   plataforma: "Plataforma",

@@ -9,11 +9,11 @@ export type ComoJugarStep = {
 export function buildComoJugarSteps(game: Game): ComoJugarStep[] {
   const steps: ComoJugarStep[] = [];
 
-  if (game.tipo_obra === "mod") {
+  if (["mod", "mapa", "campania", "dlc", "expansion"].includes(game.formato)) {
     steps.push({
       title: "Revisá el juego base",
       detail:
-        "Este registro es un mod o contenido de Workshop. Necesitás tener instalado el juego original antes de sumarlo.",
+        "Este registro depende de un juego base. Necesitás tener instalado el juego original antes de sumar este contenido.",
     });
   }
 

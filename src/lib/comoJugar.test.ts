@@ -4,7 +4,7 @@ import { baseGame } from "../test/fixtures/game";
 
 describe("buildComoJugarSteps", () => {
   it("agrega paso para mods", () => {
-    const steps = buildComoJugarSteps(baseGame({ tipo_obra: "mod" }));
+    const steps = buildComoJugarSteps(baseGame({ tipo_obra: "mod", formato: "mod" }));
     expect(steps[0].title).toBe("Revisá el juego base");
   });
 

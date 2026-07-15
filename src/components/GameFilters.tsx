@@ -18,6 +18,11 @@ import {
 import { humanize, placeholderClass, tipoObraTone } from "../lib/filters";
 import { gameReleasePrimary } from "../lib/release";
 import { reportGameUrl } from "../lib/report";
+import {
+  cardChipLabels,
+  cardMetaParts,
+  sensitivityCardLabel,
+} from "../lib/cardMetadata";
 
 const PAGE_SIZE = 24;
 
@@ -29,6 +34,7 @@ type Options = {
   disponibilidades: string[];
   sensibilidades: string[];
   tiposObra: string[];
+  formatos: string[];
 };
 
 type Props = {
@@ -152,6 +158,7 @@ export default function GameFilters({
         <div className="filters-advanced" id="filters-advanced">
           <Select label="Eje cultural" value={filters.eje} onChange={(v) => update("eje", v)} values={options.ejes} />
           <Select label="Tipo de obra" value={filters.tipo_obra} onChange={(v) => update("tipo_obra", v)} values={options.tiposObra} />
+          <Select label="Formato" value={filters.formato} onChange={(v) => update("formato", v)} values={options.formatos} />
           <Select label="Jugable hoy" value={filters.jugable} onChange={(v) => update("jugable", v)} values={["si", "no"]} labels={{ si: "Sí", no: "Sin link de juego" }} />
           <Select label="Vínculo" value={filters.vinculo} onChange={(v) => update("vinculo", v)} values={["escenario", "protagonista", "deporte"]} />
           <Select label="Plataforma" value={filters.plataforma} onChange={(v) => update("plataforma", v)} values={options.plataformas} />
@@ -277,6 +284,10 @@ function Pagination({
 }
 
 function GameCard({ game, basePath }: { game: GameView; basePath: string }) {
+  const chipLabels = cardChipLabels(game);
+  const metaParts = cardMetaParts(game);
+  const sensitivityLabel = sensitivityCardLabel(game);
+
   return (
     <article className="game-card">
       {game.imagenes?.portada ? (
@@ -302,19 +313,21 @@ function GameCard({ game, basePath }: { game: GameView; basePath: string }) {
         </h3>
         <p>{game.culturalSummary || game.descripcion}</p>
         <div className="badge-row">
-          <span className={`badge badge-${tipoObraTone(game.tipo_obra)}`}>
-            {humanize(game.tipo_obra)}
-          </span>
-          {game.badges.slice(0, 4).map((badge) => (
-            <span className="badge" key={badge}>{badge}</span>
+          {chipLabels.map((badge, index) => (
+            <span
+              className={`badge ${index === 0 ? `badge-${tipoObraTone(game.tipo_obra)}` : ""}`.trim()}
+              key={badge}
+            >
+              {badge}
+            </span>
           ))}
-          <span className="badge badge-warm">
-            {humanize(game.grado_relevancia_argentina)}
-          </span>
-          {!game.isPlayableToday && (
-            <span className="badge badge-muted">Sin link de juego</span>
+          {sensitivityLabel && (
+            <span className="badge badge-alert">{sensitivityLabel}</span>
           )}
         </div>
+        {metaParts.length > 0 && (
+          <p className="game-card-meta">{metaParts.join(" · ")}</p>
+        )}
       </div>
       <div className="game-card-actions">
         {game.primaryAction ? (

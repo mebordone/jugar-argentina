@@ -13,6 +13,7 @@ const options = {
   disponibilidades: ["gratis", "a_la_venta"],
   sensibilidades: ["baja", "alta"],
   tiposObra: ["indie", "comercial"],
+  formatos: ["juego_base", "mapa", "campania"],
 };
 
 const games = [
@@ -144,6 +145,7 @@ describe("GameFilters", () => {
         id: "con-portada",
         titulo: "Con portada",
         tipo_obra: "mod",
+        formato: "mapa",
         imagenes: { portada: "https://example.com/cover.jpg", capturas: [] },
         enlaces: { itch: "https://itch.io/con-portada" },
       }),
@@ -183,6 +185,7 @@ describe("GameFilters", () => {
       titulo: "Jugable PC",
       plataformas: ["PC"],
       tipo_obra: "indie",
+      formato: "juego_base",
       disponibilidad: "gratis",
       sensibilidad: "baja",
       enlaces: { itch: "https://itch.io/jugable" },
@@ -203,6 +206,7 @@ describe("GameFilters", () => {
       titulo: "Oculto",
       plataformas: ["Web"],
       tipo_obra: "comercial",
+      formato: "campania",
       disponibilidad: "a_la_venta",
       sensibilidad: "alta",
       enlaces: {},
@@ -217,6 +221,7 @@ describe("GameFilters", () => {
     );
 
     await user.selectOptions(screen.getByLabelText("Tipo de obra"), "indie");
+    await user.selectOptions(screen.getByLabelText("Formato"), "juego_base");
     await user.selectOptions(screen.getByLabelText("Jugable hoy"), "si");
     await user.selectOptions(screen.getByLabelText("Vínculo"), "escenario");
     await user.selectOptions(screen.getByLabelText("Plataforma"), "PC");

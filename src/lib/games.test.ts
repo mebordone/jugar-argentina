@@ -123,6 +123,7 @@ describe("getFilterOptions", () => {
     expect(options.disponibilidades.length).toBeGreaterThan(0);
     expect(options.sensibilidades.length).toBeGreaterThan(0);
     expect(options.tiposObra.length).toBeGreaterThan(0);
+    expect(options.formatos.length).toBeGreaterThan(0);
   });
 });
 

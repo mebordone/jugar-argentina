@@ -496,6 +496,13 @@ img.detail-cover {
   color: var(--muted);
 }
 
+.game-card .game-card-meta {
+  margin: 0.7rem 0 0;
+  color: #4f5d6a;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .game-card-actions,
 .access-box {
   display: flex;

@@ -10,6 +10,19 @@ export const TIPO_OBRA_LABELS: Record<string, string> = {
   promocional: "Promocional",
 };
 
+export const FORMATO_LABELS: Record<string, string> = {
+  juego_base: "Juego base",
+  mod: "Mod",
+  mapa: "Mapa",
+  campania: "Campaña",
+  dlc: "DLC",
+  expansion: "Expansión",
+  contenido_licenciado: "Contenido licenciado",
+  demo: "Demo",
+  prototipo: "Prototipo",
+  coleccion: "Colección",
+};
+
 export const QUICK_FILTERS = [
   { label: "Jugable hoy", query: "jugable", href: "/catalogo?jugable=si" },
   { label: "Independencia", query: "independencia", href: "/catalogo?tema=independencia" },
@@ -57,6 +70,7 @@ export const LABELS: Record<string, string> = {
   early_access: "Early access",
   prototipo: "Prototipo",
   cancelado: "Cancelado",
+  ...FORMATO_LABELS,
   ...TIPO_OBRA_LABELS,
 };
 

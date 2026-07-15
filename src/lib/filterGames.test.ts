@@ -17,6 +17,7 @@ const sampleGames = [
     disponibilidad: "gratis",
     sensibilidad: "baja",
     tipo_obra: "indie",
+    formato: "juego_base",
     vinculo_argentina: {
       escenario: { activo: true, presencia: "principal" },
       protagonista: { activo: false, presencia: null },
@@ -38,6 +39,7 @@ const sampleGames = [
     disponibilidad: "perdido",
     sensibilidad: "alta",
     tipo_obra: "comercial",
+    formato: "mapa",
     vinculo_argentina: {
       escenario: { activo: false, presencia: null },
       protagonista: { activo: true, presencia: "principal" },
@@ -59,6 +61,7 @@ const sampleGames = [
     disponibilidad: "a_la_venta",
     sensibilidad: "media",
     tipo_obra: "comercial",
+    formato: "contenido_licenciado",
     vinculo_argentina: {
       escenario: { activo: false, presencia: null },
       protagonista: { activo: false, presencia: null },
@@ -98,7 +101,7 @@ describe("filterGames", () => {
     expect(result.map((g) => g.id)).toEqual(["a"]);
   });
 
-  it("filtra por eje, plataforma y tipo de obra", () => {
+  it("filtra por eje, plataforma, tipo de obra y formato", () => {
     expect(
       filterGames(sampleGames, { ...EMPTY_CATALOG_FILTERS, eje: "deporte" }).length,
     ).toBe(1);
@@ -108,6 +111,9 @@ describe("filterGames", () => {
     expect(
       filterGames(sampleGames, { ...EMPTY_CATALOG_FILTERS, tipo_obra: "indie" }).length,
     ).toBe(1);
+    expect(
+      filterGames(sampleGames, { ...EMPTY_CATALOG_FILTERS, formato: "mapa" }).map((g) => g.id),
+    ).toEqual(["b"]);
   });
 
   it("filtra jugable si/no", () => {

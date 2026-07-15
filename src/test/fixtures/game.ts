@@ -30,6 +30,7 @@ export function baseGame(overrides: Partial<Game> = {}): Game {
     imagenes: { portada: null, capturas: [] },
     ejes_culturales: [],
     tipo_obra: "comercial",
+    formato: "juego_base",
     grado_relevancia_argentina: "importante",
     calidad_fuente: "prensa",
     sensibilidad: "baja",

@@ -123,8 +123,23 @@ function hasVinculoEnrichment(themeSentence: string) {
     themeSentence.includes("Protagonistas y figuras argentinas") ||
     themeSentence.includes("Deporte y cultura argentina") ||
     themeSentence.startsWith("Experiencia educativa sobre") ||
-    themeSentence.startsWith("Relectura argentina:")
+    themeSentence.startsWith("Relectura argentina:") ||
+    themeSentence.startsWith("Mapa:") ||
+    themeSentence.startsWith("Campaña:") ||
+    themeSentence.startsWith("Mod:") ||
+    themeSentence.startsWith("Contenido oficial:")
   );
+}
+
+function formatSummaryPrefix(game: Game) {
+  if (game.tipo_obra === "fan_game") return "Relectura argentina";
+  if (game.formato === "mapa") return "Mapa";
+  if (game.formato === "campania") return "Campaña";
+  if (game.formato === "mod") return "Mod";
+  if (game.formato === "dlc" || game.formato === "expansion") {
+    return "Contenido oficial";
+  }
+  return "";
 }
 
 function isTooGeneric(summary: string, themeSentence: string, _placePhrase: string) {
@@ -140,12 +155,9 @@ export function buildCulturalSummary(game: Game) {
 
   let themeSentence = buildThemeSentence(game, labels);
 
-  if (
-    (game.tipo_obra === "mod" || game.tipo_obra === "fan_game") &&
-    themeSentence &&
-    !themeSentence.startsWith("Relectura argentina:")
-  ) {
-    themeSentence = `Relectura argentina: ${themeSentence.replace(/\.$/, "")}.`;
+  const prefix = formatSummaryPrefix(game);
+  if (prefix && themeSentence && !themeSentence.startsWith(`${prefix}:`)) {
+    themeSentence = `${prefix}: ${themeSentence.replace(/\.$/, "")}.`;
   }
 
   const placePhrase = buildPlacePhrase(game);

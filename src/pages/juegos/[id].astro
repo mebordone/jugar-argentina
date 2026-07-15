@@ -13,6 +13,12 @@ import { absoluteUrl, sitePath } from "../../lib/links";
 import { recorridosForGame } from "../../lib/recorridos";
 import { reportGameUrl } from "../../lib/report";
 import GameCover from "../../components/GameCover.astro";
+import {
+  accessLabel,
+  cardChipLabels,
+  formatLabel,
+  sensitivityCardLabel,
+} from "../../lib/cardMetadata";
 
 export function getStaticPaths() {
   return games.map((game) => ({
@@ -36,6 +42,9 @@ const vinculoItems = activeVinculos(game).map((vinculo) => ({
 }));
 const playableActions = game.actions.filter((action) => action.type !== "source");
 const sourceActions = game.actions.filter((action) => action.type === "source");
+const chipLabels = cardChipLabels(game);
+const sensitivityLabel = sensitivityCardLabel(game);
+const detailAccessLabel = accessLabel(game);
 const fromRecorrido = Astro.url.searchParams.get("from");
 const backHref = fromRecorrido
   ? sitePath(`/recorridos/${fromRecorrido}`)
@@ -79,13 +88,14 @@ function getPresencia(vinculo: string) {
       <h1>{game.titulo}</h1>
       <p>{game.culturalSummary || game.descripcion}</p>
       <div class="badge-row">
-        <Badge label={humanize(game.tipo_obra)} tone={tipoObraTone(game.tipo_obra)} />
-        {game.badges.slice(1).map((badge) => <Badge label={badge} />)}
+        {chipLabels.map((badge, index) => (
+          <Badge label={badge} tone={index === 0 ? tipoObraTone(game.tipo_obra) : "neutral"} />
+        ))}
         {!game.anio && (game.anio_nota || game.estado === "en_desarrollo" || game.estado === "early_access" || game.estado === "prototipo") && (
           <Badge label={game.anio_nota || humanize(game.estado)} tone="warm" />
         )}
-        <Badge label={humanize(game.disponibilidad)} tone="warm" />
-        {!game.isPlayableToday && <Badge label="Sin link de juego" tone="muted" />}
+        <Badge label={detailAccessLabel} tone="warm" />
+        {sensitivityLabel && <Badge label={sensitivityLabel} tone="alert" />}
       </div>
       <GameAccess
         actions={game.actions}
@@ -152,6 +162,10 @@ function getPresencia(vinculo: string) {
         <h2>Contexto argentino</h2>
         <dl class="meta-list">
           <div>
+            <dt>Tipo / formato</dt>
+            <dd>{humanize(game.tipo_obra)} · {formatLabel(game)}</dd>
+          </div>
+          <div>
             <dt>Provincia / región</dt>
             <dd>{places.length ? places.join(", ") : "Nacional o sin dato específico"}</dd>
           </div>
@@ -166,6 +180,18 @@ function getPresencia(vinculo: string) {
           <div>
             <dt>Sensibilidad</dt>
             <dd>{humanize(game.sensibilidad)}</dd>
+          </div>
+          <div>
+            <dt>Disponibilidad</dt>
+            <dd>{detailAccessLabel} · {humanize(game.disponibilidad)}</dd>
+          </div>
+          <div>
+            <dt>Relevancia editorial</dt>
+            <dd>{humanize(game.grado_relevancia_argentina)}</dd>
+          </div>
+          <div>
+            <dt>Fuente principal</dt>
+            <dd>{humanize(game.calidad_fuente)}</dd>
           </div>
         </dl>
       </section>

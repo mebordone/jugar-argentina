@@ -10,6 +10,7 @@ export type CatalogFilters = {
   disponibilidad: string;
   sensibilidad: string;
   tipo_obra: string;
+  formato: string;
   jugable: string;
   tema: string;
 };
@@ -23,6 +24,7 @@ export const EMPTY_CATALOG_FILTERS: CatalogFilters = {
   disponibilidad: "",
   sensibilidad: "",
   tipo_obra: "",
+  formato: "",
   jugable: "",
   tema: "",
 };
@@ -46,6 +48,7 @@ export function parseCatalogFilters(
     disponibilidad: get("disponibilidad"),
     sensibilidad: get("sensibilidad"),
     tipo_obra: get("tipo_obra"),
+    formato: get("formato"),
     jugable: get("jugable"),
     tema: get("tema"),
   };
@@ -57,6 +60,7 @@ export function filterGames(games: GameView[], filters: CatalogFilters) {
     if (textQuery && !game.searchText.includes(textQuery)) return false;
     if (filters.eje && !game.ejes_culturales.includes(filters.eje)) return false;
     if (filters.tipo_obra && game.tipo_obra !== filters.tipo_obra) return false;
+    if (filters.formato && game.formato !== filters.formato) return false;
     if (filters.jugable === "si" && !game.isPlayableToday) return false;
     if (filters.jugable === "no" && game.isPlayableToday) return false;
     if (filters.plataforma && !game.plataformas.includes(filters.plataforma)) return false;

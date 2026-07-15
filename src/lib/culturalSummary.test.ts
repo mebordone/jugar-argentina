@@ -120,6 +120,7 @@ describe("buildCulturalSummary", () => {
       buildCulturalSummary(
         baseGame({
           tipo_obra: "mod",
+          formato: "mod",
           ejes_culturales: ["politica"],
           vinculo_argentina: {
             escenario: { activo: true, presencia: "principal" },
@@ -128,7 +129,7 @@ describe("buildCulturalSummary", () => {
           },
         }),
       ),
-    ).toBe("Relectura argentina: Política. Escenario argentino.");
+    ).toBe("Mod: Política. Escenario argentino.");
   });
 
   it("prefija fan games como relectura argentina", () => {

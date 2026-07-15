@@ -51,6 +51,7 @@ export type Game = {
   };
   ejes_culturales: string[];
   tipo_obra: string;
+  formato: string;
   grado_relevancia_argentina: string;
   calidad_fuente: string;
   sensibilidad: string;
@@ -111,6 +112,7 @@ export function enrichGame(game: Game): GameView {
     game.descripcion,
     game.desarrollador,
     game.tipo_obra,
+    game.formato,
     game.plataformas.join(" "),
     game.generos.join(" "),
     game.ejes_culturales.join(" "),
@@ -172,6 +174,7 @@ export function getFilterOptions() {
   const disponibilidades = new Set<string>();
   const sensibilidades = new Set<string>();
   const tiposObra = new Set<string>();
+  const formatos = new Set<string>();
 
   for (const game of games) {
     game.ejes_culturales.forEach((value) => ejes.add(value));
@@ -181,6 +184,7 @@ export function getFilterOptions() {
     disponibilidades.add(game.disponibilidad);
     sensibilidades.add(game.sensibilidad);
     if (game.tipo_obra) tiposObra.add(game.tipo_obra);
+    if (game.formato) formatos.add(game.formato);
   }
 
   return {
@@ -191,6 +195,7 @@ export function getFilterOptions() {
     disponibilidades: [...disponibilidades].sort(),
     sensibilidades: [...sensibilidades].sort(),
     tiposObra: [...tiposObra].sort(),
+    formatos: [...formatos].sort(),
   };
 }
 
