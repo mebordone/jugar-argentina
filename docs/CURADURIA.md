@@ -36,6 +36,7 @@ Estas capas sostienen la curaduría y aparecen con más detalle en la ficha comp
 - `grado_relevancia_argentina`: central, importante o menor. Mide cuánto organiza Argentina la experiencia.
 - `calidad_fuente`: tipo de fuente principal disponible para verificar la ficha.
 - `verificado` y `fecha_actualizacion`: estado editorial de la entrada.
+- `fecha_alta`: cuándo ingresó la ficha al catálogo (ISO; se infiere desde el historial de git cuando es posible).
 - `tipo_obra`: origen o naturaleza editorial de la obra, por ejemplo comercial, indie, educativo, fan game o institucional.
 
 ## Diferencia entre `formato` y `tipo_obra`

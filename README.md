@@ -36,6 +36,8 @@ El catálogo incluye juegos y contenidos jugables con vínculo argentino verific
 
 La guía editorial completa está en [`docs/CURADURIA.md`](docs/CURADURIA.md). Resume criterios de entrada/salida, diferencia entre `formato` y `tipo_obra`, capas públicas de tarjeta, datos editoriales y sensibilidad.
 
+Los recorridos editoriales se documentan en [`docs/RECORRIDOS.md`](docs/RECORRIDOS.md). Las listas automáticas (incluido el orden por fecha de alta) en [`docs/LISTAS.md`](docs/LISTAS.md).
+
 ## Build
 
 ```bash
@@ -83,4 +85,6 @@ Usá [Issues con el template “Sugerir juego”](https://github.com/mebordone/j
 | `scripts/` | Generación, validación y curaduría |
 | `src/` | Sitio Astro |
 | `docs/CURADURIA.md` | Guía editorial, taxonomía y lectura de tarjetas |
+| `docs/RECORRIDOS.md` | Modelo y reglas de recorridos editoriales |
+| `docs/LISTAS.md` | Listas automáticas y ordenamiento |
 | `docs/TESTING.md` | Guía de tests unitarios (Vitest) |

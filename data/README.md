@@ -11,9 +11,10 @@ Un juego entra si cumple al menos una condición:
 
 **Excluido:** FIFA/PES genéricos donde Argentina es solo una selección; juegos con solo desarrollador argentino sin temática AR.
 
-### Campos editoriales v1.3
+### Campos editoriales v1.4
 
 - `formato` — juego_base, mod, mapa, campania, dlc, expansion, contenido_licenciado, demo, prototipo, coleccion
+- `fecha_alta` — ISO de ingreso al catálogo (con hora cuando viene de git). Distinta de `fecha_actualizacion` (última edición editorial)
 - `ejes_culturales` — política, sátira, folclore, memoria, cultura urbana, etc.
 - `tipo_obra` — comercial, indie, educativo, jam, fan_game, promocional, institucional…
 - `grado_relevancia_argentina` — central, importante, menor
@@ -22,6 +23,8 @@ Un juego entra si cumple al menos una condición:
 - `disponibilidad` — a_la_venta, gratis, abandonware, perdido
 
 `formato` describe qué se incorpora al catálogo. `tipo_obra` describe la naturaleza editorial o productiva de la obra. Por ejemplo, un mapa comunitario puede ser `formato: "mapa"` y `tipo_obra: "mod"`.
+
+`fecha_alta` se infiere al alta: primera aparición en el historial de `data/games.json` cuando existe; si la ficha aún no está commiteada, se usa `fecha_actualizacion` (y un orden relativo entre altas locales del mismo día).
 
 ### Política educativos (mixto)
 
@@ -41,63 +44,18 @@ Un juego entra si cumple al menos una condición:
 
 Keywords por eje: `peronismo juego`, `gorila game`, `lobizón`, `gauchito gil`, `truco android`, `pc futbol argentina`, `conurbano gta`, `malvinas juego`.
 
-## Estadísticas (v1.2)
+## Estadísticas (v1.4)
 
 | Métrica | Valor |
 |---------|-------|
-| Juegos verificados | 161 |
+| Juegos verificados | 199 |
 | Sin link jugable | 0 |
-| Sin portada | 0 |
-| Backlog editorial (central/importante) | 0 |
-| Sin capturas | 65 |
-| Sin provincia | 80 |
-| Candidatos en CSV | 169 |
-| Con vínculo escenario | 132 |
-| Con vínculo protagonista | 78 |
-| Con vínculo deporte | 16 |
+| Sin portada | 11 |
+| Sin capturas | ~95 |
+| Sin año | 44 |
+| Recorridos editoriales | 19 |
 
-### Por grado de relevancia
-
-- central: 117
-- importante: 8
-- menor: 36
-
-### Por eje cultural (top)
-
-- deporte: 10
-- politica: 5
-- satira: 5
-- folclore: 4
-- educativo: 4
-- juegos_tradicionales: 3
-- cultura_urbana: 3
-- geografia: 3
-- memoria: 2
-- historia: 2
-
-### Por plataforma (top)
-
-- PC: 81
-- Web: 18
-- PlayStation: 15
-- Xbox: 14
-- Android: 7
-- iOS: 4
-- Nintendo: 3
-- Linux: 1
-
-### Por género (top)
-
-- aventura: 43
-- accion: 25
-- educativo: 20
-- simulacion: 19
-- estrategia: 16
-- deportes: 16
-- terror: 12
-- plataformas: 10
-- puzzle: 8
-- shooter: 7
+Actualizar con `npm run data:report` → `data/quality_report.md` para el detalle editorial.
 
 ## Archivos
 
@@ -106,6 +64,7 @@ Keywords por eje: `peronismo juego`, `gorila game`, `lobizón`, `gauchito gil`, 
 - `pendientes.json` — entradas sin verificar
 - `descartados.json` — exclusiones documentadas
 - `raw_candidates.csv` — candidatos con columnas de triage
+- `candidates/` — manifiestos de investigación (p. ej. Release 2)
 - `CHANGELOG.md` — historial de versiones
 
 Actualizado: 2026-07-15

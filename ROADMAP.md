@@ -27,7 +27,7 @@ No son fichas publicadas. Necesitan otro flujo: deteccion, triage, score, notas,
 
 ### Recorridos
 
-Son piezas editoriales. Agrupan juegos por fecha, tema, territorio, memoria, tradicion o criterio cultural. Tienen titulo, descripcion, fecha opcional, criterios, destacados curados y relacionados automaticos.
+Son piezas editoriales. Agrupan juegos por fecha, tema, territorio, memoria, tradicion o criterio cultural. Tienen titulo, descripcion, fecha opcional, criterios y destacados curados con motivos explicitos.
 
 ### Listas
 
@@ -71,9 +71,70 @@ Objetivo: mejorar la claridad del sitio sin cambiar todavia la arquitectura de d
 
 Un catalogo mas legible y confiable, con menos ruido editorial y mejores seniales para decidir que pulir despues.
 
-**Estado: completado (v1.2, 2026-07-11).** Backlog editorial central/importante resuelto; reporte en [`data/quality_report.md`](data/quality_report.md). Pendiente para releases posteriores: capturas (65), provincias (80), años TBD (40).
+**Estado: completado (v1.3, 2026-07-15).** Backlog editorial central/importante resuelto; reporte en [`data/quality_report.md`](data/quality_report.md); taxonomia publica consolidada con `formato`; tarjetas del catalogo mas legibles; pagina [`/curaduria`](src/pages/curaduria.astro) convertida en guia de lectura; documentacion editorial en [`docs/CURADURIA.md`](docs/CURADURIA.md). Pendiente para releases posteriores: capturas, provincias, anios TBD y mejoras de flujo editorial.
 
-## Release 2: Administracion basica de fichas
+### Cierre consolidado
+
+- Descripciones y resumenes culturales mas claros para fichas centrales/importantes.
+- Reporte de calidad regenerable con distribuciones editoriales y de formato.
+- Separacion entre `formato` y `tipo_obra` para juego base, mod, mapa, campania, DLC, contenido licenciado, prototipo y coleccion.
+- Tarjetas con chips publicos, linea contextual de lugar/vinculo/acceso y sensibilidad visible solo cuando corresponde.
+- Ficha completa con mas datos curatoriales sin sobrecargar la tarjeta.
+- Guia publica de curaduria para explicar que entra, como se leen las tarjetas y como sugerir nuevas entradas.
+
+## Release 2: Recorridos como curaduria editorial
+
+Objetivo: tratar los recorridos como una capa editorial propia, no solo como una lista de IDs.
+
+### Alcance
+
+- Revisar recorridos existentes con juegos ya cargados.
+- Agregar descripcion editorial mas fuerte.
+- Definir criterios de inclusion por recorrido.
+- Hacer que los recorridos públicos cuenten y muestren solo destacados curados.
+- Evitar recorridos sobrecargados.
+- Permitir fechas exactas y ventanas temporales.
+- Pensar recorridos permanentes, efemerides, campanias y recorridos territoriales.
+
+### Modelo editorial deseable
+
+Cada recorrido deberia poder responder:
+
+1. Que tema, fecha o territorio propone?
+2. Por que estos juegos pertenecen al recorrido?
+3. Cuales son los destacados curados?
+4. Que juegos quedan fuera y por que?
+
+### Recorridos a fortalecer
+
+- Malvinas y memoria.
+- Folclore, monstruos y leyendas.
+- Politica, crisis y satira.
+- Gauchos, frontera y siglo XIX.
+- Patagonia jugable.
+- Buenos Aires como escenario.
+- Juegos hechos en provincias.
+- Videojuegos educativos argentinos.
+- Argentina en juegos internacionales.
+- Juegos argentinos disponibles hoy.
+
+### Resultado esperado
+
+Los recorridos deberian convertirse en una de las principales puertas de entrada al sitio: mas narrativos, compartibles y utiles para descubrir juegos.
+
+### Avance consolidado
+
+- Recorridos publicos ajustados para contar y mostrar solo destacados curados.
+- Capa editorial extendida con fechas, ventanas, tipos de recorrido, criterios, territorios y motivos por juego.
+- `Memoria, Verdad y Justicia` reenfocado en derechos humanos argentinos, con memoria politica previa a 1976 cuando la obra lo justifica.
+- `Politica y satira argentina` convertido en recorrido permanente.
+- `Independencia`, `Soberania`, `Folclore` y `Tradicion gauchesca` refinados para evitar mezclas entre independencia, defensa territorial, turismo deportivo, terror general, truco y gauchesca.
+- El 12 de octubre queda como efemeride critica de diversidad cultural, conquista y resistencias.
+- Se crea el recorrido permanente `Pueblos originarios, territorios y memorias vivas` para culturas, lenguas, territorios, mitologias y memorias indigenas con vinculo argentino verificable.
+- Investigación de candidatos extendida a Steam, itch.io, MobyGames, RAWG, GOG, Metacritic y Giant Bomb; las referencias con evidencia insuficiente o encuadre sensible quedan documentadas como candidatos antes de publicarse.
+- Nuevos recorridos: `Patagonia jugable`, `Provincias argentinas en juego` y `Videojuegos educativos argentinos`, alimentados con fichas verificadas de Ushuaia, Neuquén, Salta, Mendoza, patrimonio, fauna y geografía federal.
+
+## Release 3: Administracion basica de fichas
 
 Objetivo: facilitar el alta y edicion de juegos sin obligar a escribir estructuras largas a mano.
 
@@ -94,12 +155,15 @@ Objetivo: facilitar el alta y edicion de juegos sin obligar a escribir estructur
 - Referencia menor.
 - Educativo.
 - Mod.
+- Mapa o campania.
+- DLC o contenido licenciado.
 - Abandonware.
 - Candidato sin verificar.
 
 ### Campos importantes para editar
 
 - Datos basicos.
+- Formato y tipo de obra.
 - Vinculo argentino.
 - Contexto argentino.
 - Enlaces y fuentes.
@@ -114,46 +178,6 @@ Objetivo: facilitar el alta y edicion de juegos sin obligar a escribir estructur
 ### Resultado esperado
 
 Agregar juegos nuevos deberia ser mas facil, mas consistente y menos propenso a errores de formato.
-
-## Release 3: Recorridos como curaduria editorial
-
-Objetivo: tratar los recorridos como una capa editorial propia, no solo como una lista de IDs.
-
-### Alcance
-
-- Revisar recorridos existentes con juegos ya cargados.
-- Agregar descripcion editorial mas fuerte.
-- Definir criterios de inclusion por recorrido.
-- Separar destacados curados de relacionados automaticos.
-- Evitar recorridos sobrecargados.
-- Permitir fechas exactas y ventanas temporales.
-- Pensar recorridos permanentes, efemerides, campanias y recorridos territoriales.
-
-### Modelo editorial deseable
-
-Cada recorrido deberia poder responder:
-
-1. Que tema, fecha o territorio propone?
-2. Por que estos juegos pertenecen al recorrido?
-3. Cuales son los destacados curados?
-4. Que juegos relacionados se pueden completar automaticamente?
-
-### Recorridos a fortalecer
-
-- Malvinas y memoria.
-- Folclore, monstruos y leyendas.
-- Politica, crisis y satira.
-- Gauchos, frontera y siglo XIX.
-- Patagonia jugable.
-- Buenos Aires como escenario.
-- Juegos hechos en provincias.
-- Videojuegos educativos argentinos.
-- Argentina en juegos internacionales.
-- Juegos argentinos disponibles hoy.
-
-### Resultado esperado
-
-Los recorridos deberian convertirse en una de las principales puertas de entrada al sitio: mas narrativos, compartibles y utiles para descubrir juegos.
 
 ## Release 4: Listas automaticas y vistas rapidas
 
@@ -187,6 +211,12 @@ Las listas no deberian competir con los recorridos. Una lista responde "mostrame
 ### Resultado esperado
 
 Vistas rapidas mas claras, utiles para exploracion, investigacion y mantenimiento del catalogo.
+
+### Avance parcial
+
+- Lista de juegos verificados ordenable por titulo, fecha de alta y anio.
+- Campo `fecha_alta` en fichas, visible en `/listas/juegos-verificados`.
+- Criterio de cada lista ya expuesto en la pagina correspondiente.
 
 ## Release 5: Home editorial
 

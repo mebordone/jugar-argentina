@@ -1,5 +1,26 @@
 # Changelog — Base de videojuegos argentinos
 
+## v1.4 (2026-07-15) — Recorridos Release 2, fecha de alta y listas ordenables
+
+### Cambios principales
+- Campo `fecha_alta` en cada ficha (ISO con hora cuando viene del historial git).
+- Lista `/listas/juegos-verificados` ordenable por título, fecha de alta y año, con la fecha visible en cada fila.
+- Recorridos Release 2: refinamiento de fechas patrias, `politica-satira` permanente, 12 de octubre crítico, nuevo `pueblos-originarios-memorias-vivas`, más `patagonia-jugable`, `provincias-argentinas-en-juego` y `videojuegos-educativos-argentinos`.
+- Altas verificadas asociadas a memoria, Patagonia, provincias y educativos (p. ej. Kokena, Sub-Namuncurá, Industria Argentina, Semaforo Climber y batch Release 2).
+- Validación `npm run validate:recorridos` integrada en `npm run validate`.
+- Documentación en `docs/RECORRIDOS.md`, `docs/LISTAS.md` y avance en `ROADMAP.md`.
+
+### Conteos
+| Métrica | v1.3 | v1.4 |
+|---------|------|------|
+| Verificados | ~164 | **199** |
+| Recorridos | ~12 | **19** |
+
+### Ajustes técnicos
+- Schema y `generate_db.py` exigen `fecha_alta`.
+- Orden de listas en `listaSort.ts` + script Astro (sin island React).
+- Candidatos de investigación en `data/candidates/`.
+
 ## v1.3 (2026-07-15) — Taxonomía pública y guía de lectura
 
 ### Cambios principales
