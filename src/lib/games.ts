@@ -59,6 +59,9 @@ export type Game = {
   edicion: string | null;
   relacionado_con: string[];
   disponibilidad: string;
+  verificado: boolean;
+  fecha_alta: string;
+  fecha_actualizacion: string;
   metadatos?: {
     idiomas?: string[];
     multijugador?: boolean;

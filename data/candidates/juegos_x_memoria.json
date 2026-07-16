@@ -1,0 +1,546 @@
+[
+  {
+    "id": "adiviname",
+    "titulo": "ADIVINAME",
+    "url": "https://pazrozen.itch.io/adiviname",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "revolucion-mayo",
+    "decision": "publicado",
+    "desarrollador": "Paz Rozen, KuraraH, Cecilia Verino",
+    "estado": "publicado",
+    "plataformas": [
+      "Web",
+      "PC",
+      "Linux",
+      "iOS"
+    ],
+    "generos": [
+      "cartas",
+      "educativo",
+      "puzzle"
+    ],
+    "ejes_culturales": [
+      "historia",
+      "educativo"
+    ],
+    "sensibilidad": "baja",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "sombras-de-salta",
+    "titulo": "Sombras de Salta",
+    "url": "https://algieba15.itch.io/sombras-de-salta",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "independencia",
+    "decision": "publicado",
+    "desarrollador": "Cecilia Verino, manuq, lueegue, Lobitos, Manu Elle",
+    "estado": "publicado",
+    "plataformas": [
+      "PC",
+      "Linux"
+    ],
+    "generos": [
+      "puzzle",
+      "sigilo",
+      "aventura"
+    ],
+    "ejes_culturales": [
+      "historia"
+    ],
+    "sensibilidad": "baja",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "nos-vemos-a-las-dos-1976",
+    "titulo": "Nos vemos a las dos (1976)",
+    "url": "https://maguix.itch.io/nos-vemos-a-las-dos",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "ya_cargado",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Maguix, camu, newenpy",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "narrativo",
+      "simulacion",
+      "ficcion_interactiva"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ya existía en la base; se actualizó fuente de colección.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "falcon-76",
+    "titulo": "Falcon 76",
+    "url": "https://cuculicchio.itch.io/falcon-76",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "ya_cargado",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Cucu, brunobrus, Felma.io, AndroRyoma, RoMuArt",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "ficcion_interactiva",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ya existía en la base; se actualizó fuente de colección.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "defensores-de-la-patria",
+    "titulo": "Defensores de la Patria",
+    "url": "https://codesigngames.itch.io/defensores-de-la-patria",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "revolucion-mayo",
+    "decision": "publicado",
+    "desarrollador": "Codesign Games",
+    "estado": "publicado",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "accion",
+      "beat_em_up",
+      "educativo"
+    ],
+    "ejes_culturales": [
+      "historia",
+      "educativo"
+    ],
+    "sensibilidad": "media",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "cronista-del-bombardeo",
+    "titulo": "Cronista del bombardeo",
+    "url": "https://pazrozen.itch.io/cronista-del-bombardeo",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Paz Rozen, Fransantillan",
+    "estado": "en_desarrollo",
+    "plataformas": [
+      "Web",
+      "PC"
+    ],
+    "generos": [
+      "educativo",
+      "narrativo",
+      "fotografia"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "resistencia-en-obligado",
+    "titulo": "Resistencia en Obligado",
+    "url": "https://pazrozen.itch.io/resistenciaenobligado",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "ya_cargado",
+    "recorrido_sugerido": "soberania-nacional",
+    "decision": "publicado",
+    "desarrollador": "Paz Rozen",
+    "estado": "prototipo",
+    "plataformas": [
+      "Web",
+      "PC"
+    ],
+    "generos": [
+      "estrategia",
+      "educativo"
+    ],
+    "ejes_culturales": [
+      "historia",
+      "geografia"
+    ],
+    "sensibilidad": "media",
+    "notas": "Ya existía en la base; se actualizó fuente de colección.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "tortas-fritas-de-mayo",
+    "titulo": "Tortas fritas de Mayo",
+    "url": "https://pazrozen.itch.io/tortasfritasdemayo",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "revolucion-mayo",
+    "decision": "publicado",
+    "desarrollador": "Paz Rozen, Cecilia Verino, Amadis",
+    "estado": "publicado",
+    "plataformas": [
+      "Web",
+      "PC",
+      "Linux",
+      "iOS"
+    ],
+    "generos": [
+      "puzzle",
+      "crafting",
+      "educativo"
+    ],
+    "ejes_culturales": [
+      "historia",
+      "educativo",
+      "juegos_tradicionales"
+    ],
+    "sensibilidad": "baja",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "la-bandida-martina-chapanay",
+    "titulo": "La Bandida - Martina Chapanay",
+    "url": "https://bruno-ismael-encina.itch.io/la-bandida",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "san-martin",
+    "decision": "publicado",
+    "desarrollador": "Bruno Encina, Nataya Flores, Federico Viel, Mish",
+    "estado": "publicado",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "sigilo",
+      "aventura",
+      "isometrico"
+    ],
+    "ejes_culturales": [
+      "historia"
+    ],
+    "sensibilidad": "media",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "cronicas-de-juana-azurduy",
+    "titulo": "LAS CRÓNICAS DE JUANA AZURDUY",
+    "url": "https://pamkat444.itch.io/las-crnicas-de-juana-azurduy",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "independencia",
+    "decision": "publicado",
+    "desarrollador": "Pamela Lanfranco, Natalia Florencia",
+    "estado": "publicado",
+    "plataformas": [
+      "PC",
+      "Android"
+    ],
+    "generos": [
+      "accion",
+      "aventura"
+    ],
+    "ejes_culturales": [
+      "historia"
+    ],
+    "sensibilidad": "media",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "costureras-de-la-patria",
+    "titulo": "Costureras de la Patria (En proceso)",
+    "url": "https://algieba15.itch.io/costurerasdelapatria",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "bandera-belgrano",
+    "decision": "publicado",
+    "desarrollador": "Cecilia Verino, xatay, Paz Rozen, Amadis, Aixa Piemonti",
+    "estado": "en_desarrollo",
+    "plataformas": [
+      "Web",
+      "PC",
+      "Linux",
+      "iOS"
+    ],
+    "generos": [
+      "puzzle",
+      "educativo"
+    ],
+    "ejes_culturales": [
+      "historia",
+      "educativo"
+    ],
+    "sensibilidad": "baja",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "memoria-en-marcha-24m",
+    "titulo": "24M - La Memoria en Marcha",
+    "url": "https://women-in-games-argentina.itch.io/lamemoriaenmarcha",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Women in Games Argentina, KuraraH, Vale ZumZum",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "puzzle",
+      "educativo",
+      "experimental"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "educativo"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2025,
+    "anio_fuente": "campaña 49 años del golpe"
+  },
+  {
+    "id": "floreceran-panuelos",
+    "titulo": "Floreceran Pañuelos",
+    "url": "https://pazrozen.itch.io/floreceran-panuelos",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Paz Rozen",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "educativo",
+      "experimental"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "educativo"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2026,
+    "anio_fuente": null
+  },
+  {
+    "id": "rodolfo-walsh-esa-mujer",
+    "titulo": "Rodolfo Walsh - Esa mujer",
+    "url": "https://martiver.itch.io/rodolfo-walsh-esa-mujer",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Marti.Ver",
+    "estado": "prototipo",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "educativo",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "literatura",
+      "educativo"
+    ],
+    "sensibilidad": "media",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2024,
+    "anio_fuente": "20 años del Espacio para la Memoria ex-ESMA"
+  },
+  {
+    "id": "construyendo-memoria",
+    "titulo": "Construyendo Memoria",
+    "url": "https://valezumzum.itch.io/construyendo-memoria",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Vale ZumZum",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "puzzle",
+      "educativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "educativo"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2024,
+    "anio_fuente": "20 años del Espacio para la Memoria ex-ESMA"
+  },
+  {
+    "id": "ahora-mas-que-nunca",
+    "titulo": "Ahora Más Que Nunca",
+    "url": "https://aiimii.itch.io/ahora-mas-que-nunca",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "AiiMii, theITgay",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "educativo",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "educativo"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2023,
+    "anio_fuente": "Ex-ESMA JAM por los 40 años de democracia"
+  },
+  {
+    "id": "ecos-ex-esma",
+    "titulo": "Ecos",
+    "url": "https://elithne.itch.io/ecos",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Elithne, tamagoru, Ana, Agos, Paz Rozen, Zejbo32, Cecilia Verino",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "aventura_grafica",
+      "point_and_click",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2023,
+    "anio_fuente": "Ex-ESMA JAM por los 40 años de democracia"
+  },
+  {
+    "id": "jardin-de-la-memoria",
+    "titulo": "El Jardín de la Memoria",
+    "url": "https://hecatew.itch.io/jardindelamemoria",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "hecatew",
+    "estado": "en_desarrollo",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "aventura_grafica",
+      "educativo",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "educativo"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2023,
+    "anio_fuente": "Ex-ESMA JAM por los 40 años de democracia"
+  },
+  {
+    "id": "un-mundo-sin-vos",
+    "titulo": "Un mundo sin vos (ES)",
+    "url": "https://lildeer.itch.io/un-mundo-sin-vos",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Laura Palavecino",
+    "estado": "publicado",
+    "plataformas": [
+      "Web"
+    ],
+    "generos": [
+      "ficcion_interactiva",
+      "narrativo",
+      "experimental"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2023,
+    "anio_fuente": "Ex-ESMA JAM por los 40 años de democracia"
+  },
+  {
+    "id": "nana-historia-vida-militancia",
+    "titulo": "Naná - Una historia de vida, amor y militancia.",
+    "url": "https://martiver.itch.io/ex-esma-jam",
+    "coleccion_origen": "https://itch.io/c/3674002/juegos-x-la-memoria",
+    "estado_analisis": "agregar",
+    "recorrido_sugerido": "memoria-verdad-justicia",
+    "decision": "publicado",
+    "desarrollador": "Marti.Ver, laPurpura",
+    "estado": "prototipo",
+    "plataformas": [
+      "PC"
+    ],
+    "generos": [
+      "aventura_grafica",
+      "point_and_click",
+      "narrativo"
+    ],
+    "ejes_culturales": [
+      "memoria",
+      "historia"
+    ],
+    "sensibilidad": "alta",
+    "notas": "Ficha creada desde itch.io y clasificada por contenido argentino verificable.",
+    "anio": 2023,
+    "anio_fuente": "Ex-ESMA JAM por los 40 años de democracia"
+  }
+]

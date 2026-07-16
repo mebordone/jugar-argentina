@@ -38,6 +38,9 @@ export function baseGame(overrides: Partial<Game> = {}): Game {
     edicion: null,
     relacionado_con: [],
     disponibilidad: "gratis",
+    verificado: true,
+    fecha_alta: "2026-07-09T16:00:56-03:00",
+    fecha_actualizacion: "2026-07-09",
     ...overrides,
   };
 }

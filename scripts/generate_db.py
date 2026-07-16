@@ -90,6 +90,7 @@ def game(
         "relacionado_con": relacionado_con or [],
         "disponibilidad": disponibilidad,
         "verificado": verificado,
+        "fecha_alta": TODAY,
         "fecha_actualizacion": TODAY,
     }
 
@@ -1273,6 +1274,7 @@ def build_schema():
             "contexto_argentino",
             "enlaces",
             "verificado",
+            "fecha_alta",
             "fecha_actualizacion",
         ],
         "properties": {
@@ -1356,6 +1358,7 @@ def build_schema():
                 ]
             },
             "verificado": {"type": "boolean"},
+            "fecha_alta": {"type": "string"},
             "fecha_actualizacion": {"type": "string"},
         },
     }

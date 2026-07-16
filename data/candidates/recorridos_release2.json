@@ -1,0 +1,319 @@
+[
+  {
+    "id": "b-horror-subway",
+    "titulo": "B-Horror: Subway",
+    "url": "https://store.steampowered.com/app/2277960/BHorror_Subway/",
+    "fuentes": [
+      "https://store.steampowered.com/app/2277960/BHorror_Subway/"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "buenos-aires-escenario"
+    ],
+    "vinculo_argentino": "El subte de la Ciudad de Buenos Aires organiza el escenario de la investigación.",
+    "confianza": "alta",
+    "sensibilidad": "alta",
+    "decision": "publicar"
+  },
+  {
+    "id": "antarctic-adventure-untdf",
+    "titulo": "Antarctic Adventure",
+    "url": "https://store.steampowered.com/app/2053280/Antarctic_Adventure/",
+    "fuentes": [
+      "https://store.steampowered.com/app/2053280/Antarctic_Adventure/"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable",
+      "juegos-hechos-en-provincias",
+      "videojuegos-educativos"
+    ],
+    "vinculo_argentino": "La Universidad Nacional de Tierra del Fuego desarrolló una experiencia VR de divulgación sobre el patrimonio natural y cultural de Ushuaia y Tierra del Fuego.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "estancia-protocol-zero",
+    "titulo": "Estancia Protocol Zero",
+    "url": "https://store.steampowered.com/app/4679730/Estancia_Protocol_Zero/",
+    "fuentes": [
+      "https://store.steampowered.com/app/4679730/Estancia_Protocol_Zero/"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable"
+    ],
+    "vinculo_argentino": "Survival horror situado explícitamente en Neuquén, Patagonia argentina.",
+    "confianza": "alta",
+    "sensibilidad": "alta",
+    "decision": "publicar"
+  },
+  {
+    "id": "turbo-playa",
+    "titulo": "Turbo Playa",
+    "url": "https://ireneporro.itch.io/turbo-playa",
+    "fuentes": [
+      "https://ireneporro.itch.io/turbo-playa"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable"
+    ],
+    "vinculo_argentino": "Carreras por costas argentinas con circuitos que incluyen playas patagónicas y Santa Cruz.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "paleontorun",
+    "titulo": "PaleontoRUN",
+    "url": "https://fransabba.itch.io/paleontorun",
+    "fuentes": [
+      "https://fransabba.itch.io/paleontorun"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable"
+    ],
+    "vinculo_argentino": "Expedición de búsqueda de fósiles en la Patagonia argentina, producida en la Patagonia Game Jam.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "sub-namuncura",
+    "titulo": "Sub-Namuncurá",
+    "url": "https://chofitet.itch.io/subnamuncura",
+    "fuentes": [
+      "https://chofitet.itch.io/subnamuncura",
+      "https://ampargentina.org/areas/namuncura-banco-burdwood-i/"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable",
+      "malvinas"
+    ],
+    "vinculo_argentino": "Cartografía el Área Marina Protegida Namuncurá-Banco Burdwood, al sur de Malvinas, desde la temática Mar Argentino.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "la-piedra-vampirica",
+    "titulo": "La Piedra Vampírica",
+    "url": "https://rofler97.itch.io/la-piedra-vamprica",
+    "fuentes": [
+      "https://rofler97.itch.io/la-piedra-vamprica"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable",
+      "juegos-hechos-en-provincias"
+    ],
+    "vinculo_argentino": "Ficción situada en el norte neuquino, alrededor de Gregorio Álvarez, leyendas locales y el volcán.",
+    "confianza": "alta",
+    "sensibilidad": "media",
+    "decision": "publicar"
+  },
+  {
+    "id": "ritmo-piedra-encantada",
+    "titulo": "El ritmo de la piedra encantada",
+    "url": "https://yonsu23.itch.io/el-ritmo-de-la-piedra-encantada",
+    "fuentes": [
+      "https://yonsu23.itch.io/el-ritmo-de-la-piedra-encantada"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "patagonia-jugable",
+      "pueblos-originarios-memorias-vivas"
+    ],
+    "vinculo_argentino": "Recorrido de ritmo y enigmas por el norte neuquino, el Domuyo, tradiciones y saberes de pueblos originarios.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "kokena",
+    "titulo": "Kokena",
+    "url": "https://dieriks.itch.io/kokena",
+    "fuentes": [
+      "https://dieriks.itch.io/kokena"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "pueblos-originarios-memorias-vivas"
+    ],
+    "vinculo_argentino": "Leyenda de los cerros salteños creada por un grupo de San Carlos perteneciente a la comunidad indígena diaguita calchaquí.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "repartidosya",
+    "titulo": "RepartidosYa",
+    "url": "https://diamonjet.itch.io/repartidosya",
+    "fuentes": [
+      "https://diamonjet.itch.io/repartidosya"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "juegos-hechos-en-provincias"
+    ],
+    "vinculo_argentino": "Recorrido urbano por la calle San Martín de Mendoza durante los carruseles de Vendimia.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "reservorio",
+    "titulo": "Reservorio",
+    "url": "https://rughnar.itch.io/reservorio",
+    "fuentes": [
+      "https://rughnar.itch.io/reservorio"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "juegos-hechos-en-provincias"
+    ],
+    "vinculo_argentino": "Aventura de guardabosque en una reserva de Aconcagua, Mendoza, con fauna y referencias culturales argentinas.",
+    "confianza": "alta",
+    "sensibilidad": "media",
+    "decision": "publicar"
+  },
+  {
+    "id": "de-regreso-al-habitat",
+    "titulo": "De Regreso Al Hábitat",
+    "url": "https://deivid-deivis.itch.io/de-regreso-al-habitat",
+    "fuentes": [
+      "https://deivid-deivis.itch.io/de-regreso-al-habitat"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "videojuegos-educativos",
+      "juegos-hechos-en-provincias"
+    ],
+    "vinculo_argentino": "Juego educativo sobre fauna de Argentina y las zonas geográficas que habita, desarrollado por An Otter Game Studio.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "aventuras-maritimas",
+    "titulo": "Aventuras Marítimas: la historia de la moneda de plata",
+    "url": "https://bicho-raro.itch.io/aventuras-maritimas",
+    "fuentes": [
+      "https://bicho-raro.itch.io/aventuras-maritimas",
+      "https://bichorarogames.com/index_es.html"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "videojuegos-educativos"
+    ],
+    "vinculo_argentino": "Juego educativo del Museo Histórico y Numismático Héctor Carlos Janson, desarrollado bajo Código Cultura de Wikimedia Argentina.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "industria-argentina",
+    "titulo": "Industria Argentina",
+    "url": "https://cuis-digital.itch.io/industria-argentina",
+    "fuentes": [
+      "https://cuis-digital.itch.io/industria-argentina"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "videojuegos-educativos"
+    ],
+    "vinculo_argentino": "Juego de abastecimiento por ferrocarril que enseña provincias, recursos e industria nacional.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "vuelo-federal",
+    "titulo": "Vuelo Federal",
+    "url": "https://playlaika.itch.io/vuelofederal",
+    "fuentes": [
+      "https://playlaika.itch.io/vuelofederal",
+      "https://www.argentina.gob.ar/noticias/se-conocieron-los-ganadores-de-crear-juegos-federal"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "videojuegos-educativos"
+    ],
+    "vinculo_argentino": "Juego educativo de exploración aérea de las provincias argentinas, seleccionado por CREAR Argentina.",
+    "confianza": "alta",
+    "sensibilidad": "baja",
+    "decision": "publicar"
+  },
+  {
+    "id": "valerosa",
+    "titulo": "Valerosa",
+    "url": "https://store.steampowered.com/app/2560960/Valerosa/",
+    "fuentes": [
+      "https://store.steampowered.com/app/2560960/Valerosa/",
+      "https://play.google.com/store/apps/details?id=com.ojerasteam.valerosa"
+    ],
+    "estado_analisis": "alta",
+    "recorridos_sugeridos": [
+      "videojuegos-educativos"
+    ],
+    "vinculo_argentino": "Estrategia educativa sobre hitos de los derechos de las mujeres en Argentina: sufragio, divorcio y aborto.",
+    "confianza": "alta",
+    "sensibilidad": "media",
+    "decision": "publicar"
+  },
+  {
+    "id": "falklands-82",
+    "titulo": "Falklands 82",
+    "url": "https://www.mobygames.com/game/24228/falklands-82/",
+    "fuentes": [
+      "https://www.mobygames.com/game/24228/falklands-82/"
+    ],
+    "estado_analisis": "requiere_verificacion",
+    "recorridos_sugeridos": [
+      "malvinas",
+      "argentina-internacional"
+    ],
+    "vinculo_argentino": "Wargame internacional sobre operaciones de 1982 en las islas.",
+    "confianza": "media",
+    "sensibilidad": "alta",
+    "decision": "documentar_sin_publicar"
+  },
+  {
+    "id": "assault-on-port-stanley",
+    "titulo": "Assault on Port Stanley",
+    "url": "https://www.mobygames.com/game/58715/assault-on-port-stanley/",
+    "fuentes": [
+      "https://www.mobygames.com/game/58715/assault-on-port-stanley/"
+    ],
+    "estado_analisis": "requiere_verificacion",
+    "recorridos_sugeridos": [
+      "malvinas",
+      "argentina-internacional"
+    ],
+    "vinculo_argentino": "Juego de acción sobre el conflicto de 1982 desde un encuadre militar británico.",
+    "confianza": "media",
+    "sensibilidad": "alta",
+    "decision": "documentar_sin_publicar"
+  },
+  {
+    "id": "mario-is-missing",
+    "titulo": "Mario is Missing!",
+    "url": "https://www.mobygames.com/game/7106/mario-is-missing/",
+    "fuentes": [
+      "https://www.mobygames.com/game/7106/mario-is-missing/"
+    ],
+    "estado_analisis": "requiere_verificacion",
+    "recorridos_sugeridos": [
+      "argentina-internacional",
+      "buenos-aires-escenario"
+    ],
+    "vinculo_argentino": "Aventura educativa internacional con una etapa en Buenos Aires.",
+    "confianza": "media",
+    "sensibilidad": "baja",
+    "decision": "documentar_sin_publicar"
+  }
+]
