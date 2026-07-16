@@ -35,6 +35,26 @@ vi.mock("./games", async (importOriginal) => {
         enlaces: { itch: "https://itch.io/peor" },
       }),
     ),
+    actual.enrichGame(
+      baseGame({
+        id: "sin-link",
+        titulo: "Sin link",
+        grado_relevancia_argentina: "central",
+        disponibilidad: "perdido",
+        ejes_culturales: ["historia"],
+        enlaces: {},
+      }),
+    ),
+    actual.enrichGame(
+      baseGame({
+        id: "referencia-menor",
+        titulo: "Referencia menor",
+        grado_relevancia_argentina: "menor",
+        disponibilidad: "gratis",
+        ejes_culturales: ["historia"],
+        enlaces: { itch: "https://itch.io/menor" },
+      }),
+    ),
   ];
 
   return {
@@ -44,7 +64,7 @@ vi.mock("./games", async (importOriginal) => {
   };
 });
 
-import { getRecomendadosRecorrido, relatedForRecorrido } from "./recorridos";
+import { getRecomendadosRecorrido, relatedForRecorrido, type Recorrido } from "./recorridos";
 
 describe("qualityScore via recomendados", () => {
   beforeEach(() => {
@@ -54,5 +74,30 @@ describe("qualityScore via recomendados", () => {
   it("ordena juegos jugables priorizando mejor puntaje compuesto", () => {
     const related = relatedForRecorrido(getRecomendadosRecorrido());
     expect(related.map((game) => game.id)).toEqual(["mejor-puntaje", "peor-puntaje"]);
+  });
+
+  it("descarta no jugables y referencias menores cuando el recorrido lo pide", () => {
+    const recorrido: Recorrido = {
+      slug: "historia-jugable",
+      tipo: "permanente",
+      fecha: null,
+      titulo: "Historia jugable",
+      bajada: "Bajada",
+      descripcion: "Descripción",
+      criterio: "Criterio",
+      temas: ["historia"],
+      territorios: ["Nacional"],
+      destacados_editoriales: [],
+      relacionados: {
+        temas: ["historia"],
+        ejes: ["historia"],
+        solo_jugables: true,
+        excluir_relevancia_menor: true,
+      },
+    };
+
+    expect(relatedForRecorrido(recorrido).map((game) => game.id)).toEqual([
+      "mejor-puntaje",
+    ]);
   });
 });

@@ -2,34 +2,38 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import GameCard from "../../components/GameCard.astro";
 import {
+  countsForRecorrido,
   destacadosForRecorrido,
-  formatRecorridoFecha,
-  gamesForRecorrido,
+  formatRecorridoTipo,
   getTodayRecorrido,
+  recorridoFechaLabel,
   recorridos,
 } from "../../lib/recorridos";
+import { humanize } from "../../lib/filters";
 import { sitePath } from "../../lib/links";
 
 const today = getTodayRecorrido();
-const todayTotal = gamesForRecorrido(today).length;
+const todayCounts = countsForRecorrido(today);
 const todayPreview = destacadosForRecorrido(today).slice(0, 4);
 const recorridosConConteo = recorridos.map((recorrido) => ({
   ...recorrido,
-  juegos: gamesForRecorrido(recorrido).length,
-  fechaLabel: formatRecorridoFecha(recorrido.fecha),
+  conteo: countsForRecorrido(recorrido),
+  fechaLabel: recorridoFechaLabel(recorrido),
+  tipoLabel: formatRecorridoTipo(recorrido.tipo),
 }));
 ---
 
 <BaseLayout
   title="Recorridos"
-  description="Recorridos temáticos por efemérides y ejes culturales argentinos."
+  description="Recorridos editoriales por fechas patrias, territorios y ejes culturales argentinos."
 >
   <section class="page-hero">
-    <p class="eyebrow">Efemérides y recorridos</p>
-    <h1>Recorridos para jugar Argentina por tema</h1>
+    <p class="eyebrow">Fechas patrias y recorridos</p>
+    <h1>Puertas editoriales para jugar Argentina</h1>
     <p>
-      Cada recorrido agrupa juegos por una fecha, un eje cultural o un momento
-      histórico. Elegí uno y compartilo.
+      Cada recorrido explica un criterio de lectura: una fecha patria, un
+      territorio, un eje cultural o una forma de entrar al catálogo. Los
+      juegos que ves en cada recorrido fueron elegidos y ordenados a mano.
     </p>
   </section>
 
@@ -38,10 +42,11 @@ const recorridosConConteo = recorridos.map((recorrido) => ({
       <div>
         <p class="eyebrow">Hoy</p>
         <h2>{today.titulo}</h2>
-        <p class="section-subtitle">{today.descripcion}</p>
+        <p class="section-subtitle">{today.bajada || today.descripcion}</p>
+        <p class="section-subtitle">{today.criterio}</p>
       </div>
       <a href={sitePath(`/recorridos/${today.slug}`)}>
-        Ver los {todayTotal} juegos
+        Ver {todayCounts.destacados} destacados curados
       </a>
     </div>
     <div class="game-grid">
@@ -53,20 +58,20 @@ const recorridosConConteo = recorridos.map((recorrido) => ({
     {
       recorridosConConteo.map((recorrido) => (
         <a class="panel recorrido-card" href={sitePath(`/recorridos/${recorrido.slug}`)}>
-          {recorrido.fechaLabel ? (
-            <p class="recorrido-date">{recorrido.fechaLabel}</p>
-          ) : (
-            <p class="recorrido-date recorrido-date-muted">Todo el año</p>
-          )}
+          <p class="recorrido-date">
+            {recorrido.tipoLabel}
+            {recorrido.fechaLabel ? ` · ${recorrido.fechaLabel}` : " · Todo el año"}
+          </p>
           <h2>{recorrido.titulo}</h2>
-          <p>{recorrido.descripcion}</p>
+          <p>{recorrido.bajada || recorrido.descripcion}</p>
+          <p class="recorrido-criteria">{recorrido.criterio}</p>
           <div class="chip-row">
             {recorrido.temas.slice(0, 3).map((tema) => (
-              <span class="chip">{tema.replaceAll("_", " ")}</span>
+              <span class="chip">{humanize(tema)}</span>
             ))}
           </div>
           <p class="recorrido-meta">
-            {recorrido.juegos} juego{recorrido.juegos === 1 ? "" : "s"}
+            {recorrido.conteo.destacados} destacado{recorrido.conteo.destacados === 1 ? "" : "s"} curado{recorrido.conteo.destacados === 1 ? "" : "s"}
           </p>
         </a>
       ))

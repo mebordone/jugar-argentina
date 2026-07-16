@@ -1,144 +1,1309 @@
 [
   {
-    "slug": "independencia",
-    "fecha": "07-09",
-    "titulo": "Para jugar el Día de la Independencia",
-    "descripcion": "Un recorrido por próceres, milicias, gauchos y ficciones que convierten la independencia argentina en estrategia, aventura o memoria jugable.",
-    "temas": ["independencia", "historia", "proceres", "gauchesco"],
-    "juegos_destacados": [
-      "zupay-sombras-independencia",
-      "la-furia-de-las-trenzas",
-      "proceres-san-martin",
-      "resistencia-en-obligado",
-      "cronicas-libertadores",
-      "heroinas-independencia",
-      "libertad-o-muerte",
-      "el-gaucho-martin-fierro",
-      "tierras-infernales"
-    ]
+    "slug": "memoria-verdad-justicia",
+    "tipo": "fecha_patria",
+    "fecha": "03-24",
+    "ventana": {
+      "inicio": "03-18",
+      "fin": "03-24",
+      "etiqueta": "Semana de la Memoria"
+    },
+    "titulo": "Memoria, Verdad y Justicia",
+    "bajada": "Para el Día Nacional de la Memoria por la Verdad y la Justicia.",
+    "descripcion": "Un recorrido por videojuegos que trabajan la perspectiva argentina de derechos humanos: terrorismo de Estado, desaparición forzada, identidad, censura, archivos, organismos, violencia política previa y transmisión colectiva de memoria.",
+    "criterio": "Incluye obras donde memoria, verdad y justicia no aparecen como decorado: organizan la experiencia desde archivos, testimonios, objetos, sitios de memoria, identidades restituidas, luchas de organismos de derechos humanos o memorias políticas previas a 1976.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "memoria",
+      "dictadura",
+      "derechos_humanos",
+      "identidad",
+      "censura",
+      "violencia_politica"
+    ],
+    "territorios": [
+      "Nacional",
+      "Ciudad Autónoma de Buenos Aires",
+      "Buenos Aires",
+      "Santa Fe",
+      "Jujuy",
+      "Mar del Plata"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "falcon-76",
+        "motivo": "Incorpora una obra de jam dedicada explícitamente a narrar la represión de la dictadura de 1976."
+      },
+      {
+        "id": "avenida-del-silencio",
+        "motivo": "Ubica la experiencia en la ESMA y trabaja centros clandestinos desde una aventura gráfica breve."
+      },
+      {
+        "id": "indice-de-abuelidad",
+        "motivo": "Aborda identidad, nietos recuperados y transmisión familiar de la memoria."
+      },
+      {
+        "id": "nos-vemos-a-las-dos-1976",
+        "motivo": "Usa llamadas telefónicas para reconstruir una historia de vida cotidiana y desaparición durante la dictadura."
+      },
+      {
+        "id": "estudiante-en-dictadura-v03",
+        "motivo": "Suma una mirada educativa sobre ser estudiante en dictadura desde un prototipo de ficción interactiva."
+      },
+      {
+        "id": "donde-deberia-estar",
+        "motivo": "Forma parte de la Game Jam por la Memoria y amplía el corpus de obras creadas para pensar memoria, verdad y justicia."
+      },
+      {
+        "id": "fuego-recorte-silencio",
+        "motivo": "Trabaja la censura durante la dictadura y la memoria cultural desde referencias literarias y musicales."
+      },
+      {
+        "id": "memoria-en-marcha-24m",
+        "motivo": "Conecta directamente con el 24M y la campaña de Abuelas de Plaza de Mayo desde una acción colectiva jugable."
+      },
+      {
+        "id": "floreceran-panuelos",
+        "motivo": "Trabaja el pañuelo como símbolo de memoria y continuidad del reclamo por verdad y justicia."
+      },
+      {
+        "id": "rodolfo-walsh-esa-mujer",
+        "motivo": "Suma a Rodolfo Walsh y la literatura argentina como puerta de entrada a memoria, política y denuncia."
+      },
+      {
+        "id": "construyendo-memoria",
+        "motivo": "Usa fotos e información real del Espacio para la Memoria ex-ESMA como rompecabezas documental."
+      },
+      {
+        "id": "ahora-mas-que-nunca",
+        "motivo": "Pone en el centro la búsqueda de nietes apropiados y el trabajo de Abuelas de Plaza de Mayo."
+      },
+      {
+        "id": "ecos-ex-esma",
+        "motivo": "Explora memoria familiar, silencios y vida cotidiana en dictadura desde una aventura gráfica."
+      },
+      {
+        "id": "jardin-de-la-memoria",
+        "motivo": "Plantea una alegoría sobre identidad e historia en un mundo que intenta borrar los recuerdos."
+      },
+      {
+        "id": "un-mundo-sin-vos",
+        "motivo": "Aborda desaparición forzada y Mundial 1978 desde un punto de vista íntimo y no humano."
+      },
+      {
+        "id": "nana-historia-vida-militancia",
+        "motivo": "Reconstruye la historia de Adri Lewi y de sus padres desaparecidos mediante objetos, archivo y memoria familiar."
+      },
+      {
+        "id": "cronista-del-bombardeo",
+        "motivo": "Amplía el recorrido hacia memorias de violencia política previas a la dictadura, con foco documental en Mar del Plata."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "dictadura",
+        "derechos_humanos",
+        "identidad",
+        "censura",
+        "esma",
+        "desaparecidos",
+        "24m",
+        "abuelas_de_plaza_de_mayo",
+        "centros_clandestinos",
+        "violencia_politica",
+        "nietos_recuperados"
+      ],
+      "excluir_ids": [
+        "echoes-of-the-city",
+        "buenos-aires-mirror-line",
+        "malvinas-la-ultima-carta",
+        "anahi-juego"
+      ],
+      "limite": 17
+    }
   },
   {
     "slug": "malvinas",
+    "tipo": "fecha_patria",
     "fecha": "04-02",
+    "ventana": {
+      "inicio": "03-28",
+      "fin": "04-02",
+      "etiqueta": "Semana de Malvinas"
+    },
     "titulo": "Videojuegos para pensar Malvinas",
+    "bajada": "Para el Día del Veterano y de los Caídos en la Guerra de Malvinas.",
     "descripcion": "Obras que vuelven sobre Malvinas desde la estrategia, la memoria, la ficción histórica y las representaciones militares del Atlántico Sur.",
-    "temas": ["malvinas", "memoria", "historia"],
-    "juegos_destacados": [
-      "malvinas-2032",
-      "malvinas-la-ultima-carta",
-      "el-intruso-82",
-      "operacion-rosario",
-      "counter-strike-malvinas",
-      "command-falklands",
-      "dcs-south-atlantic"
-    ]
+    "criterio": "Prioriza juegos donde Malvinas es escenario, conflicto, memoria o referencia geopolítica con peso propio.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "malvinas",
+      "memoria",
+      "historia",
+      "guerra_de_malvinas"
+    ],
+    "territorios": [
+      "Atlántico Sur",
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "malvinas-2032",
+        "motivo": "Una referencia temprana de videojuego argentino centrado en la recuperación ficticia de las islas."
+      },
+      {
+        "id": "malvinas-la-ultima-carta",
+        "motivo": "Aborda la guerra desde una memoria explícitamente argentina."
+      },
+      {
+        "id": "el-intruso-82",
+        "motivo": "Condensa Malvinas en un prototipo memorial desde la mirada del conscripto."
+      },
+      {
+        "id": "operacion-rosario",
+        "motivo": "Trabaja el episodio histórico desde una forma jugable breve y directa."
+      },
+      {
+        "id": "counter-strike-malvinas",
+        "motivo": "Muestra cómo Malvinas también circula como mapa/mod comunitario."
+      },
+      {
+        "id": "command-falklands",
+        "motivo": "Permite comparar la representación internacional del conflicto."
+      },
+      {
+        "id": "dcs-south-atlantic",
+        "motivo": "Expone el Atlántico Sur como escenario oficial de simulación militar contemporánea."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "malvinas",
+        "guerra_de_malvinas",
+        "atlántico sur",
+        "atlantico sur"
+      ],
+      "ejes": [
+        "memoria",
+        "historia"
+      ],
+      "vinculos": [
+        "escenario"
+      ]
+    }
+  },
+  {
+    "slug": "revolucion-mayo",
+    "tipo": "fecha_patria",
+    "fecha": "05-25",
+    "ventana": {
+      "inicio": "05-20",
+      "fin": "05-25",
+      "etiqueta": "Semana de Mayo"
+    },
+    "titulo": "Revolución de Mayo y primeros relatos nacionales",
+    "bajada": "Para el 25 de Mayo.",
+    "descripcion": "Un recorrido por juegos educativos, ficciones históricas y campañas que permiten entrar a los primeros imaginarios de la nación argentina.",
+    "criterio": "Como no todos los juegos distinguen Mayo de Independencia, reúne obras escolares e históricas que abren el ciclo revolucionario y las guerras posteriores.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "historia",
+      "independencia",
+      "proceres",
+      "educativo"
+    ],
+    "territorios": [
+      "Nacional",
+      "Pampeana",
+      "Noroeste"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "mobbyt-historia-argentina",
+        "motivo": "Funciona como puerta escolar a hechos y próceres de la historia nacional."
+      },
+      {
+        "id": "proceres-san-martin",
+        "motivo": "Conecta el ciclo revolucionario con la figura de San Martín y la pedagogía histórica."
+      },
+      {
+        "id": "cronicas-libertadores",
+        "motivo": "Trabaja la independencia latinoamericana como campaña estratégica."
+      },
+      {
+        "id": "heroinas-independencia",
+        "motivo": "Amplía el relato patrio hacia protagonistas mujeres del norte y el Alto Perú."
+      },
+      {
+        "id": "adiviname",
+        "motivo": "Introduce heroínas de la independencia como juego educativo de preguntas y descarte."
+      },
+      {
+        "id": "defensores-de-la-patria",
+        "motivo": "Sitúa la defensa de Buenos Aires durante las Invasiones Inglesas como antecedente de los relatos patrios."
+      },
+      {
+        "id": "tortas-fritas-de-mayo",
+        "motivo": "Mira la Semana de Mayo desde cultura popular, trabajo cotidiano y transformaciones políticas."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "historia",
+        "independencia",
+        "proceres",
+        "revolucion"
+      ],
+      "ejes": [
+        "historia",
+        "educativo"
+      ],
+      "vinculos": [
+        "protagonista",
+        "escenario"
+      ]
+    }
   },
   {
     "slug": "bandera-belgrano",
+    "tipo": "fecha_patria",
     "fecha": "06-20",
+    "ventana": {
+      "inicio": "06-15",
+      "fin": "06-20",
+      "etiqueta": "Semana de la Bandera"
+    },
     "titulo": "Bandera, Belgrano e historia escolar",
+    "bajada": "Para el Día de la Bandera.",
     "descripcion": "Juegos educativos y experiencias escolares para recorrer bandera, provincias, geografía e historia nacional desde materiales jugables.",
-    "temas": ["historia", "educativo", "geografia"],
-    "juegos_destacados": [
-      "mobbyt-geografia-argentina",
-      "mobbyt-historia-argentina",
-      "argentina-y-sus-provincias"
-    ]
+    "criterio": "Agrupa juegos que vuelven jugables los símbolos nacionales, la geografía federal y la historia escolar argentina.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "historia",
+      "educativo",
+      "geografia",
+      "bandera"
+    ],
+    "territorios": [
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "mobbyt-geografia-argentina",
+        "motivo": "Aporta una entrada escolar a provincias, capitales y mapas."
+      },
+      {
+        "id": "mobbyt-historia-argentina",
+        "motivo": "Concentra trivias y minijuegos sobre historia nacional."
+      },
+      {
+        "id": "argentina-y-sus-provincias",
+        "motivo": "Convierte la división provincial argentina en ejercicio jugable."
+      },
+      {
+        "id": "costureras-de-la-patria",
+        "motivo": "Visibiliza a Catalina Echeverría y a las mujeres que confeccionaron la bandera argentina."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "bandera",
+        "belgrano",
+        "geografia",
+        "historia"
+      ],
+      "ejes": [
+        "educativo",
+        "geografia",
+        "historia"
+      ],
+      "regiones": [
+        "Nacional"
+      ]
+    }
   },
   {
-    "slug": "tradicion-gauchesca",
-    "fecha": "11-10",
-    "titulo": "Tradición, gauchos y juegos populares",
-    "descripcion": "Gauchos, truco, pulperías, frontera y cultura popular rural: un mapa jugable de tradiciones que atraviesan la identidad argentina.",
-    "temas": ["folclore", "juegos_tradicionales", "gauchesco"],
-    "juegos_destacados": [
-      "don-ceferino-hazana",
-      "trucotron",
-      "truco-arbiser-1982",
-      "gauchos-inmortales",
-      "malon",
-      "el-tango-de-la-muerte",
-      "gaucho-subway-escape",
-      "envido",
-      "gaucho-and-the-grassland"
-    ]
+    "slug": "independencia",
+    "tipo": "fecha_patria",
+    "fecha": "07-09",
+    "ventana": {
+      "inicio": "07-04",
+      "fin": "07-09",
+      "etiqueta": "Semana de la Independencia"
+    },
+    "titulo": "Independencia y campañas libertadoras",
+    "bajada": "Para el 9 de Julio.",
+    "descripcion": "Un recorrido por juegos que trabajan el proceso independentista: guerras, campañas libertadoras, protagonistas, redes de espionaje y conflictos políticos del ciclo iniciado en Mayo.",
+    "criterio": "Prioriza obras donde la independencia y sus participantes directos estructuran la experiencia, dejando fuera soberanías posteriores, gauchesca literaria sin vínculo verificable y ficciones históricas demasiado laterales.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "independencia",
+      "historia",
+      "proceres",
+      "san_martin",
+      "juana_azurduy",
+      "martina_chapanay"
+    ],
+    "territorios": [
+      "Nacional",
+      "Noroeste",
+      "Pampeana",
+      "Cuyo"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "zupay-sombras-independencia",
+        "motivo": "Cruza folclore y guerra de independencia desde una ficción argentina ubicada en ese ciclo histórico."
+      },
+      {
+        "id": "la-furia-de-las-trenzas",
+        "motivo": "Propone acción histórica alrededor de milicias y defensa patriota dentro del proceso independentista."
+      },
+      {
+        "id": "proceres-san-martin",
+        "motivo": "Pone a San Martín en el centro de una experiencia educativa."
+      },
+      {
+        "id": "cronicas-libertadores",
+        "motivo": "Representa campañas libertadoras sudamericanas en clave estratégica."
+      },
+      {
+        "id": "heroinas-independencia",
+        "motivo": "Reubica a las mujeres del proceso independentista como protagonistas."
+      },
+      {
+        "id": "libertad-o-muerte",
+        "motivo": "Ofrece una mirada estratégica sobre guerras y proyectos políticos del siglo XIX temprano."
+      },
+      {
+        "id": "sombras-de-salta",
+        "motivo": "Recupera la red de espionaje de Las Bomberas y el rol de mujeres salteñas en la independencia."
+      },
+      {
+        "id": "cronicas-de-juana-azurduy",
+        "motivo": "Pone a Juana Azurduy como protagonista de acción en el ciclo independentista."
+      },
+      {
+        "id": "la-bandida-martina-chapanay",
+        "motivo": "Lleva a Martina Chapanay y el Cuyo sanmartiniano a una mecánica de sigilo."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "independencia",
+        "proceres",
+        "san_martin",
+        "juana_azurduy",
+        "martina_chapanay"
+      ],
+      "ejes": [
+        "historia",
+        "educativo"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista"
+      ]
+    }
+  },
+  {
+    "slug": "san-martin",
+    "tipo": "fecha_patria",
+    "fecha": "08-17",
+    "ventana": {
+      "inicio": "08-12",
+      "fin": "08-17",
+      "etiqueta": "Semana Sanmartiniana"
+    },
+    "titulo": "San Martín y campañas libertadoras",
+    "bajada": "Para el Paso a la Inmortalidad del General José de San Martín.",
+    "descripcion": "Recorrido por juegos donde San Martín, las campañas libertadoras y la independencia sudamericana aparecen como pedagogía, estrategia o ficción histórica.",
+    "criterio": "Destaca obras con protagonistas, campañas o contextos vinculados a San Martín y a la independencia regional.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "san_martin",
+      "independencia",
+      "proceres",
+      "historia"
+    ],
+    "territorios": [
+      "Nacional",
+      "Cuyo",
+      "Noroeste"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "proceres-san-martin",
+        "motivo": "Es la ficha central para entrar a San Martín como figura jugable y educativa."
+      },
+      {
+        "id": "cronicas-libertadores",
+        "motivo": "Permite leer campañas libertadoras desde la estrategia."
+      },
+      {
+        "id": "heroinas-independencia",
+        "motivo": "Amplía la mirada sanmartiniana hacia otras figuras del proceso independentista."
+      },
+      {
+        "id": "zupay-sombras-independencia",
+        "motivo": "Lleva la guerra de independencia a una ficción gauchesca y sobrenatural."
+      },
+      {
+        "id": "libertad-o-muerte",
+        "motivo": "Trabaja guerras y decisiones políticas del siglo XIX en clave estratégica."
+      },
+      {
+        "id": "la-bandida-martina-chapanay",
+        "motivo": "Relaciona a Martina Chapanay con el cruce de información hacia San Martín en el Cuyo de 1817."
+      },
+      {
+        "id": "cronicas-de-juana-azurduy",
+        "motivo": "Conecta campañas libertadoras con una protagonista central de la independencia sudamericana."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "san martin",
+        "san_martin",
+        "independencia",
+        "libertadores",
+        "proceres"
+      ],
+      "ejes": [
+        "historia"
+      ],
+      "vinculos": [
+        "protagonista",
+        "escenario"
+      ]
+    }
+  },
+  {
+    "slug": "diversidad-cultural",
+    "tipo": "fecha_patria",
+    "fecha": "10-12",
+    "ventana": {
+      "inicio": "10-07",
+      "fin": "10-12",
+      "etiqueta": "Semana de la Diversidad Cultural"
+    },
+    "titulo": "Diversidad cultural, conquista y resistencias",
+    "bajada": "Para el Día del Respeto a la Diversidad Cultural.",
+    "descripcion": "Efeméride crítica para leer el 12 de octubre desde conquista, colonialismo, pueblos originarios, resistencias indígenas y revisión de la idea de descubrimiento.",
+    "criterio": "Mantiene solo obras que permiten discutir la conquista, la colonialidad, las memorias indígenas o sus resistencias desde una perspectiva argentina verificable.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "pueblos_originarios",
+      "conquista",
+      "colonialismo",
+      "resistencias_indigenas",
+      "memoria"
+    ],
+    "territorios": [
+      "Noroeste",
+      "Litoral",
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "runa-legado-chaikuru-2025",
+        "motivo": "Permite abrir la efeméride hacia imaginarios indígenas y territorios del NOA desde una aventura argentina contemporánea."
+      },
+      {
+        "id": "anahi-juego",
+        "motivo": "Vincula el 12 de octubre con una leyenda guaraní y una memoria indígena del Litoral, útil para revisar relatos escolares de descubrimiento."
+      },
+      {
+        "id": "flora-ceibo-seeds",
+        "motivo": "Trabaja leyendas originarias y el ceibo como símbolo cultural, conectando memoria indígena y ambiente."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "pueblos_originarios",
+        "conquista",
+        "colonialismo",
+        "resistencias_indigenas",
+        "folclore",
+        "leyenda"
+      ],
+      "ejes": [
+        "folclore",
+        "memoria",
+        "historia"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista"
+      ]
+    }
+  },
+  {
+    "slug": "pueblos-originarios-memorias-vivas",
+    "tipo": "permanente",
+    "fecha": null,
+    "titulo": "Pueblos originarios, territorios y memorias vivas",
+    "bajada": "Culturas indígenas argentinas más allá de una sola fecha.",
+    "descripcion": "Recorrido permanente para obras que trabajan pueblos, comunidades, lenguas, territorios, mitologías y memorias indígenas vinculadas a Argentina.",
+    "criterio": "Incluye fichas con contenido indígena argentino verificable, ya sea por protagonista, leyenda, territorio, memoria comunitaria o diálogo con culturas originarias contemporáneas.",
+    "temas": [
+      "pueblos_originarios",
+      "memorias_vivas",
+      "territorios_indigenas",
+      "folclore"
+    ],
+    "territorios": [
+      "Noroeste",
+      "Litoral",
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "runa-legado-chaikuru-2025",
+        "motivo": "Pone en primer plano un mundo inspirado en culturas originarias y territorios del NOA desde una aventura de producción argentina."
+      },
+      {
+        "id": "anahi-juego",
+        "motivo": "Convierte la leyenda guaraní de Anahí y el ceibo en relato jugable del Litoral."
+      },
+      {
+        "id": "flora-ceibo-seeds",
+        "motivo": "Relaciona leyendas originarias, ceibo nacional y problemática ambiental desde una aventura educativa."
+      },
+      {
+        "id": "kokena",
+        "motivo": "Lleva una leyenda de los cerros de Salta a una aventura creada por un colectivo diaguita calchaquí de San Carlos."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "pueblos_originarios",
+        "memorias_vivas",
+        "territorios_indigenas",
+        "folclore",
+        "leyenda"
+      ],
+      "ejes": [
+        "folclore",
+        "memoria",
+        "medio_ambiente"
+      ],
+      "vinculos": [
+        "protagonista",
+        "escenario"
+      ],
+      "excluir_ids": [
+        "atuel-2022"
+      ]
+    }
   },
   {
     "slug": "politica-satira",
-    "fecha": "10-17",
+    "tipo": "permanente",
+    "fecha": null,
     "titulo": "Política y sátira argentina",
+    "bajada": "Una entrada a crisis, presidentes, campañas y humor político.",
     "descripcion": "Sátiras, campañas, crisis y presidentes pixelados: videojuegos que procesan la política argentina desde el humor, la crítica o la ficción.",
-    "temas": ["politica", "satira"],
-    "juegos_destacados": [
-      "super-menem-bros",
-      "cristina-vs-gorilas",
-      "menem-la-hizo",
-      "evita-peron-contra-gorilas",
-      "qsvt-que-se-vayan-todos",
-      "chacal",
-      "en-busca-de-la-libertad"
-    ]
+    "criterio": "Agrupa juegos donde política argentina, partidos, crisis o figuras públicas son parte central de la experiencia.",
+    "temas": [
+      "politica",
+      "satira"
+    ],
+    "territorios": [
+      "Nacional",
+      "Pampeana"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "super-menem-bros",
+        "motivo": "Un fan game histórico para leer sátira política y cultura digital argentina."
+      },
+      {
+        "id": "cristina-vs-gorilas",
+        "motivo": "Condensa polarización política en una pieza popular para móviles."
+      },
+      {
+        "id": "menem-la-hizo",
+        "motivo": "Trabaja la figura de Menem desde una aventura satírica de jam."
+      },
+      {
+        "id": "evita-peron-contra-gorilas",
+        "motivo": "Cruza peronismo, zombis y manifestación en clave arcade."
+      },
+      {
+        "id": "qsvt-que-se-vayan-todos",
+        "motivo": "Lleva la crisis y la consigna política al centro de una obra contemporánea."
+      },
+      {
+        "id": "chacal",
+        "motivo": "Aporta una mirada de violencia, crisis y thriller local."
+      },
+      {
+        "id": "en-busca-de-la-libertad",
+        "motivo": "Aborda política y libertad desde una ficción argentina reciente."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "politica",
+        "satira",
+        "crisis"
+      ],
+      "ejes": [
+        "politica",
+        "satira"
+      ],
+      "vinculos": [
+        "protagonista",
+        "escenario"
+      ]
+    }
+  },
+  {
+    "slug": "tradicion-gauchesca",
+    "tipo": "efemeride",
+    "fecha": "11-10",
+    "ventana": {
+      "inicio": "11-06",
+      "fin": "11-10",
+      "etiqueta": "Semana de la Tradición"
+    },
+    "titulo": "Gauchesca, frontera y tradición rural",
+    "bajada": "Para recorrer gauchos, frontera, pulperías y cultura popular rural.",
+    "descripcion": "Gauchos, frontera, pulperías, literatura y cultura popular rural: un mapa jugable de la tradición gauchesca argentina separado del truco y otros juegos tradicionales.",
+    "criterio": "Incluye obras donde gauchos, frontera, ruralidad o imaginarios gauchescos tienen peso cultural o narrativo propio; el truco, el envido, el mate y la yerba quedan principalmente en juegos tradicionales.",
+    "temas": [
+      "gauchesco",
+      "frontera",
+      "tradicion_rural",
+      "folclore"
+    ],
+    "territorios": [
+      "Pampeana",
+      "Noroeste",
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "don-ceferino-hazana",
+        "motivo": "Una entrada histórica a la gauchesca humorística en videojuegos argentinos."
+      },
+      {
+        "id": "el-gaucho-martin-fierro",
+        "motivo": "Conecta videojuego, literatura gauchesca y tradición nacional desde una figura central del canon argentino."
+      },
+      {
+        "id": "gauchos-inmortales",
+        "motivo": "Reimagina gauchos y terror rural desde acción contemporánea."
+      },
+      {
+        "id": "malon",
+        "motivo": "Cruza imaginarios de frontera y conflicto histórico."
+      },
+      {
+        "id": "gaucho-subway-escape",
+        "motivo": "Traslada la figura del gaucho a una clave urbana y arcade, útil para ver cómo circula el arquetipo."
+      },
+      {
+        "id": "gaucho-and-the-grassland",
+        "motivo": "Relee la figura gauchesca desde aventura y paisaje."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "gauchesco",
+        "frontera",
+        "tradicion_rural",
+        "folclore"
+      ],
+      "ejes": [
+        "folclore"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista"
+      ]
+    }
+  },
+  {
+    "slug": "soberania-nacional",
+    "tipo": "fecha_patria",
+    "fecha": "11-20",
+    "ventana": {
+      "inicio": "11-16",
+      "fin": "11-20",
+      "etiqueta": "Semana de la Soberanía"
+    },
+    "titulo": "Soberanía, territorio y defensa",
+    "bajada": "Para el Día de la Soberanía Nacional.",
+    "descripcion": "Un recorrido por juegos donde defensa territorial, ríos, fronteras, Malvinas y disputas geopolíticas por el espacio argentino se vuelven materia jugable.",
+    "criterio": "Toma la Vuelta de Obligado como punto de partida y limita la selección a soberanía política o territorial: defensa fluvial, fronteras, Atlántico Sur, Malvinas y conflictos geopolíticos.",
+    "fuente_calendario": "https://www.argentina.gob.ar/feriados",
+    "temas": [
+      "soberania",
+      "historia",
+      "frontera",
+      "malvinas"
+    ],
+    "territorios": [
+      "Nacional",
+      "Pampeana",
+      "Atlántico Sur",
+      "Patagonia"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "resistencia-en-obligado",
+        "motivo": "Recrea el Combate de Vuelta de Obligado desde una estrategia jugable sobre defensa fluvial y soberanía."
+      },
+      {
+        "id": "malvinas-2032",
+        "motivo": "Traslada soberanía y disputa territorial a una ficción bélica argentina."
+      },
+      {
+        "id": "dcs-south-atlantic",
+        "motivo": "Muestra cómo el Atlántico Sur aparece como territorio de simulación internacional."
+      },
+      {
+        "id": "command-falklands",
+        "motivo": "Permite comparar la representación internacional de una disputa de soberanía sobre el Atlántico Sur."
+      },
+      {
+        "id": "counter-strike-malvinas",
+        "motivo": "Muestra cómo la soberanía sobre Malvinas también aparece en mapas y mods comunitarios argentinos."
+      },
+      {
+        "id": "operacion-rosario",
+        "motivo": "Toma el inicio del conflicto de Malvinas como episodio jugable de soberanía territorial."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "soberania",
+        "obligado",
+        "malvinas",
+        "territorio"
+      ],
+      "ejes": [
+        "historia",
+        "memoria"
+      ],
+      "vinculos": [
+        "escenario"
+      ]
+    }
   },
   {
     "slug": "folclore-terror",
+    "tipo": "permanente",
     "fecha": null,
-    "titulo": "Folclore y terror argentino",
-    "descripcion": "Leyendas, criaturas y mitos regionales donde el terror se cruza con paisajes, relatos orales y monstruos del imaginario argentino.",
-    "temas": ["folclore", "terror"],
-    "juegos_destacados": [
-      "pomberito-2024",
-      "la-salamanca",
-      "luz-mala",
-      "farol-del-diablo",
-      "tenebris-somnia",
-      "doorways-holy-mountains",
-      "anothers-memories",
-      "drident",
-      "the-almamula",
-      "borealis-descent",
-      "runa-legado-chaikuru-2025"
-    ]
+    "titulo": "Leyendas folclóricas y terror argentino",
+    "bajada": "Criaturas, mitos regionales y relatos populares inquietantes.",
+    "descripcion": "Leyendas, criaturas y mitos regionales donde el terror o la aventura se apoyan en relatos orales, monstruos y tradiciones populares argentinas.",
+    "criterio": "Agrupa solo juegos con fuente folclórica explícita: criaturas, leyendas, mitologías regionales o tradiciones populares reconocibles.",
+    "temas": [
+      "folclore",
+      "terror"
+    ],
+    "territorios": [
+      "Noroeste",
+      "Litoral",
+      "Pampeana",
+      "Patagonia"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "pomberito-2024",
+        "motivo": "Terror regional sostenido por el Pombero, criatura popular del imaginario guaraní y del NEA."
+      },
+      {
+        "id": "la-salamanca",
+        "motivo": "Construye horror desde una figura central del folclore norteño."
+      },
+      {
+        "id": "luz-mala",
+        "motivo": "Trabaja una leyenda rural muy reconocible."
+      },
+      {
+        "id": "farol-del-diablo",
+        "motivo": "Usa mito y paisaje rural para sostener una experiencia de terror ligada al relato popular."
+      },
+      {
+        "id": "the-almamula",
+        "motivo": "Recupera una criatura del folclore para la experiencia jugable."
+      },
+      {
+        "id": "runa-legado-chaikuru-2025",
+        "motivo": "Cruza aventura, territorio e imaginarios mitológicos locales con producción argentina contemporánea."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "folclore",
+        "terror",
+        "leyenda",
+        "mito"
+      ],
+      "ejes": [
+        "folclore"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista"
+      ]
+    }
   },
   {
     "slug": "juegos-tradicionales",
+    "tipo": "permanente",
     "fecha": null,
     "titulo": "Truco y juegos tradicionales",
+    "bajada": "Naipes, mate, arcade y prácticas cotidianas.",
     "descripcion": "Naipes, truco, mate, arcade y juegos populares: obras que transforman prácticas cotidianas en sistemas jugables.",
-    "temas": ["juegos_tradicionales", "truco"],
-    "juegos_destacados": [
-      "trucotron",
-      "truco-arbiser-1982",
-      "truco-blyts",
-      "cebador",
-      "yerba-mate-tycoon",
-      "envido",
-      "cebador"
-    ]
+    "criterio": "Incluye juegos donde prácticas populares argentinas son regla, tema o ritual jugable.",
+    "temas": [
+      "juegos_tradicionales",
+      "truco",
+      "mate"
+    ],
+    "territorios": [
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "trucotron",
+        "motivo": "Una adaptación directa del truco como juego digital."
+      },
+      {
+        "id": "truco-arbiser-1982",
+        "motivo": "Registro temprano de software argentino alrededor del truco."
+      },
+      {
+        "id": "truco-blyts",
+        "motivo": "Lleva el truco a plataformas móviles contemporáneas."
+      },
+      {
+        "id": "cebador",
+        "motivo": "Convierte el mate en sistema central de juego."
+      },
+      {
+        "id": "yerba-mate-tycoon",
+        "motivo": "Transforma la yerba mate en gestión y economía lúdica."
+      },
+      {
+        "id": "envido",
+        "motivo": "Recupera vocabulario y lógica del truco desde su título."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "truco",
+        "mate",
+        "juegos_tradicionales",
+        "yerba"
+      ],
+      "ejes": [
+        "juegos_tradicionales"
+      ],
+      "vinculos": [
+        "deporte",
+        "escenario",
+        "protagonista"
+      ]
+    }
+  },
+  {
+    "slug": "buenos-aires-escenario",
+    "tipo": "territorial",
+    "fecha": null,
+    "titulo": "Buenos Aires como escenario",
+    "bajada": "Ciudad, conurbano, puertos, estadios y distopías porteñas.",
+    "descripcion": "Recorrido por juegos donde Buenos Aires aparece como territorio jugable: ciudad, barrio, puerto, hospital, estadio, distopía o postal reconocible.",
+    "criterio": "Prioriza obras donde Buenos Aires organiza el escenario o la lectura cultural, no solo una mención lateral.",
+    "temas": [
+      "buenos_aires",
+      "cultura_urbana",
+      "geografia"
+    ],
+    "territorios": [
+      "Ciudad Autónoma de Buenos Aires",
+      "Buenos Aires",
+      "Pampeana"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "buenos-aires-mirror-line",
+        "motivo": "Hace de la ciudad el núcleo visual y narrativo del juego."
+      },
+      {
+        "id": "slender-threads",
+        "motivo": "Ambientación bonaerense explícita en una aventura contemporánea."
+      },
+      {
+        "id": "reversion-the-escape",
+        "motivo": "Imagina Buenos Aires devastada como motor narrativo."
+      },
+      {
+        "id": "cambalache-buenos-aires",
+        "motivo": "Convierte Buenos Aires en campaña comunitaria para Left 4 Dead 2."
+      },
+      {
+        "id": "the-path-into-the-abyss",
+        "motivo": "Sitúa ciencia ficción y supervivencia en una Buenos Aires futura."
+      },
+      {
+        "id": "syndicate-buenos-aires",
+        "motivo": "Representa Buenos Aires desde una franquicia internacional."
+      },
+      {
+        "id": "b-horror-subway",
+        "motivo": "Convierte el subte porteño en el espacio central de una investigación de terror."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "buenos aires",
+        "cultura_urbana",
+        "ciudad"
+      ],
+      "ejes": [
+        "cultura_urbana",
+        "geografia"
+      ],
+      "provincias": [
+        "Ciudad Autónoma de Buenos Aires",
+        "Buenos Aires"
+      ],
+      "vinculos": [
+        "escenario"
+      ]
+    }
+  },
+  {
+    "slug": "patagonia-jugable",
+    "tipo": "territorial",
+    "fecha": null,
+    "titulo": "Patagonia jugable",
+    "bajada": "Territorios australes, costa, ciencia y relatos situados.",
+    "descripcion": "Juegos que recorren Patagonia, Tierra del Fuego y el Atlántico Sur desde la ciencia, la exploración, el terror, la cartografía y el paisaje.",
+    "criterio": "Prioriza obras donde la Patagonia argentina o sus territorios australes organizan la experiencia, no solo una referencia geográfica incidental.",
+    "temas": [
+      "patagonia",
+      "geografia",
+      "medio_ambiente"
+    ],
+    "territorios": [
+      "Patagonia",
+      "Tierra del Fuego",
+      "Atlántico Sur",
+      "Santa Cruz",
+      "Neuquén"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "antarctic-adventure-untdf",
+        "motivo": "Vincula ciencia antártica, Ushuaia y patrimonio fueguino desde una experiencia educativa creada por la universidad provincial."
+      },
+      {
+        "id": "estancia-protocol-zero",
+        "motivo": "Sitúa de forma explícita un survival horror en Neuquén, dentro de la Patagonia argentina."
+      },
+      {
+        "id": "turbo-playa",
+        "motivo": "Recorre la costa argentina y llega a Santa Cruz, haciendo del desplazamiento patagónico su progresión jugable."
+      },
+      {
+        "id": "sub-namuncura",
+        "motivo": "Propone cartografiar un área marina protegida del Atlántico Sur desde la perspectiva del Mar Argentino."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "patagonia",
+        "ushuaia",
+        "santa_cruz",
+        "atlantico_sur",
+        "mar_argentino"
+      ],
+      "ejes": [
+        "geografia",
+        "educativo"
+      ],
+      "regiones": [
+        "Patagonia",
+        "Atlántico Sur"
+      ],
+      "vinculos": [
+        "escenario"
+      ]
+    }
+  },
+  {
+    "slug": "provincias-argentinas-en-juego",
+    "tipo": "territorial",
+    "fecha": null,
+    "titulo": "Provincias argentinas en juego",
+    "bajada": "Salta, Mendoza, Tierra del Fuego y otras geografías fuera del centro porteño.",
+    "descripcion": "Un recorrido por obras donde una provincia, sus ciudades, sus paisajes o sus prácticas culturales estructuran el contenido jugable.",
+    "criterio": "Incluye juegos con una provincia argentina identificable y relevante para el escenario, la historia o la experiencia cultural; no se limita a obras desarrolladas fuera de Buenos Aires.",
+    "temas": [
+      "geografia",
+      "cultura_urbana",
+      "folclore"
+    ],
+    "territorios": [
+      "Salta",
+      "Mendoza",
+      "Tierra del Fuego",
+      "Noroeste",
+      "Cuyo",
+      "Patagonia"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "kokena",
+        "motivo": "Parte de una leyenda de los cerros salteños creada por un colectivo diaguita calchaquí de San Carlos."
+      },
+      {
+        "id": "repartidosya",
+        "motivo": "Recorre la calle San Martín de Mendoza durante los carruseles de Vendimia."
+      },
+      {
+        "id": "antarctic-adventure-untdf",
+        "motivo": "Conecta Ushuaia y Tierra del Fuego con divulgación científica y patrimonio provincial."
+      }
+    ],
+    "relacionados": {
+      "ejes": [
+        "geografia",
+        "folclore",
+        "cultura_urbana"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista"
+      ]
+    }
+  },
+  {
+    "slug": "videojuegos-educativos-argentinos",
+    "tipo": "permanente",
+    "fecha": null,
+    "titulo": "Videojuegos educativos argentinos",
+    "bajada": "Historia, territorio, ciencia, patrimonio y aprendizaje jugable.",
+    "descripcion": "Una selección de juegos que usan sistemas jugables para enseñar y explorar contenidos argentinos: provincias, fauna, patrimonio, ciencia e infraestructura.",
+    "criterio": "Destaca obras donde el aprendizaje sobre Argentina forma parte central de la propuesta, con contenidos verificables y una mecánica que los vuelve jugables.",
+    "temas": [
+      "educativo",
+      "historia",
+      "geografia"
+    ],
+    "territorios": [
+      "Nacional",
+      "Tierra del Fuego"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "de-regreso-al-habitat",
+        "motivo": "Enseña a relacionar la fauna argentina con los hábitats y regiones donde vive."
+      },
+      {
+        "id": "aventuras-maritimas",
+        "motivo": "Convierte una colección del Museo Histórico y Numismático en una aventura de patrimonio y observación."
+      },
+      {
+        "id": "industria-argentina",
+        "motivo": "Usa una red ferroviaria para aprender sobre provincias, recursos e industria nacional."
+      },
+      {
+        "id": "vuelo-federal",
+        "motivo": "Propone explorar las provincias argentinas desde un juego de vuelo pensado para aprender geografía."
+      },
+      {
+        "id": "antarctic-adventure-untdf",
+        "motivo": "Acerca ciencia antártica y patrimonio fueguino mediante actividades de exploración en realidad virtual."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "educativo",
+        "geografia",
+        "historia",
+        "provincias"
+      ],
+      "ejes": [
+        "educativo",
+        "geografia",
+        "historia"
+      ]
+    }
+  },
+  {
+    "slug": "argentina-internacional",
+    "tipo": "permanente",
+    "fecha": null,
+    "titulo": "Argentina en juegos internacionales",
+    "bajada": "Cómo aparece el país cuando lo mira una producción de afuera.",
+    "descripcion": "Juegos extranjeros o franquicias globales donde Argentina entra como escenario, liga, mapa, conflicto, territorio deportivo o referencia cultural.",
+    "criterio": "Incluye obras no necesariamente desarrolladas en Argentina, pero con contenido argentino verificable y reconocible.",
+    "temas": [
+      "argentina_internacional",
+      "geografia",
+      "deporte",
+      "malvinas"
+    ],
+    "territorios": [
+      "Nacional",
+      "Mendoza",
+      "Ciudad Autónoma de Buenos Aires",
+      "Atlántico Sur"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "hitman-3-mendoza",
+        "motivo": "Una de las representaciones internacionales más visibles de Mendoza como nivel jugable."
+      },
+      {
+        "id": "pes-2014-afa",
+        "motivo": "Marca la entrada licenciada de la liga argentina a una franquicia global."
+      },
+      {
+        "id": "dcs-south-atlantic",
+        "motivo": "Representa el Atlántico Sur en un simulador internacional."
+      },
+      {
+        "id": "fifa-street-caminito",
+        "motivo": "Usa Caminito como postal jugable dentro de una saga deportiva."
+      },
+      {
+        "id": "prisoner-of-ice-argentina",
+        "motivo": "Ubica Argentina dentro de una aventura internacional de horror."
+      },
+      {
+        "id": "bloodrayne-argentina",
+        "motivo": "Incluye territorio argentino como escenario de acción."
+      },
+      {
+        "id": "civ6-buenos-aires",
+        "motivo": "Convierte Buenos Aires en ciudad-estado dentro de Civilization."
+      }
+    ],
+    "relacionados": {
+      "temas": [
+        "argentina",
+        "buenos aires",
+        "mendoza",
+        "malvinas",
+        "afa"
+      ],
+      "ejes": [
+        "geografia",
+        "deporte",
+        "memoria"
+      ],
+      "vinculos": [
+        "escenario",
+        "deporte"
+      ]
+    }
   },
   {
     "slug": "recomendados",
+    "tipo": "recomendado",
     "fecha": null,
     "titulo": "Los mejores juegos del catálogo",
-    "descripcion": "Puerta de entrada al catálogo: obras con vínculo argentino fuerte, buena disponibilidad actual y valor cultural o histórico para empezar a explorar.",
+    "bajada": "Puerta de entrada para empezar a explorar.",
+    "descripcion": "Puerta de entrada al catálogo: obras con vínculo argentino fuerte, representatividad cultural, interés histórico o calidad suficiente para empezar a explorar la colección.",
+    "criterio": "Selección editorial de obras valiosas por su vínculo argentino, su representatividad cultural, su calidad, su disponibilidad o su importancia histórica; no exige que todas estén jugables hoy.",
     "temas": [],
-    "juegos_destacados": [
-      "atuel-2022",
-      "zupay-sombras-independencia",
-      "la-furia-de-las-trenzas",
-      "los-infernales",
-      "pomberito-2024",
-      "malvinas-la-ultima-carta",
-      "echoes-of-the-city",
-      "sol-705-2020",
-      "slender-threads",
-      "runa-legado-chaikuru-2025",
-      "buenos-aires-mirror-line",
-      "desvelado-2024",
-      "malon",
-      "panchofobia",
-      "take-a-hint",
-      "aesir-online",
-      "dead-world"
-    ]
+    "territorios": [
+      "Nacional"
+    ],
+    "destacados_editoriales": [
+      {
+        "id": "atuel-2022",
+        "motivo": "Documental interactivo territorial y ambiental."
+      },
+      {
+        "id": "zupay-sombras-independencia",
+        "motivo": "Ficción histórica y folclórica de alto valor para el catálogo."
+      },
+      {
+        "id": "la-furia-de-las-trenzas",
+        "motivo": "Acción argentina con identidad histórica reconocible."
+      },
+      {
+        "id": "los-infernales",
+        "motivo": "Relectura jugable de milicias y territorio."
+      },
+      {
+        "id": "pomberito-2024",
+        "motivo": "Terror folclórico reciente y muy representativo."
+      },
+      {
+        "id": "malvinas-la-ultima-carta",
+        "motivo": "Memoria de Malvinas desde producción argentina."
+      },
+      {
+        "id": "echoes-of-the-city",
+        "motivo": "Memoria urbana y dictadura desde terror psicológico."
+      },
+      {
+        "id": "sol-705-2020",
+        "motivo": "Aventura argentina con identidad local y disponibilidad actual."
+      },
+      {
+        "id": "slender-threads",
+        "motivo": "Aventura con ambientación argentina clara."
+      },
+      {
+        "id": "runa-legado-chaikuru-2025",
+        "motivo": "Aventura con imaginarios culturales regionales."
+      },
+      {
+        "id": "buenos-aires-mirror-line",
+        "motivo": "Buenos Aires como núcleo visual del juego."
+      },
+      {
+        "id": "desvelado-2024",
+        "motivo": "Indie argentino disponible y accesible."
+      },
+      {
+        "id": "malon",
+        "motivo": "Frontera, memoria histórica y acción."
+      },
+      {
+        "id": "panchofobia",
+        "motivo": "Humor y cultura popular argentina contemporánea."
+      },
+      {
+        "id": "take-a-hint",
+        "motivo": "Producción local reciente y jugable."
+      },
+      {
+        "id": "aesir-online",
+        "motivo": "Representa producción argentina online contemporánea."
+      },
+      {
+        "id": "dead-world",
+        "motivo": "Muestra el catálogo de indies argentinos disponibles hoy."
+      }
+    ],
+    "relacionados": {
+      "ejes": [
+        "historia",
+        "folclore",
+        "memoria",
+        "cultura_urbana",
+        "geografia"
+      ],
+      "vinculos": [
+        "escenario",
+        "protagonista",
+        "deporte"
+      ],
+      "solo_jugables": true,
+      "excluir_relevancia_menor": true
+    }
   }
 ]
