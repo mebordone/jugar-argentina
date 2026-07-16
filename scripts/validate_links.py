@@ -93,10 +93,28 @@ def title_match(expected: str, actual: str, game_id: str = "") -> bool:
     return ratio >= 0.45
 
 
-def fetch_json(url: str) -> dict:
+def fetch_json(url: str, *, retries: int = 6) -> dict:
+    import time
+
     req = urllib.request.Request(url, headers={"User-Agent": "JugarArgentina/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.loads(response.read().decode())
+    last_exc: Exception | None = None
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as response:
+                return json.loads(response.read().decode())
+        except urllib.error.HTTPError as exc:
+            last_exc = exc
+            if exc.code != 429 or attempt == retries - 1:
+                raise
+            # Steam rate-limit: backoff agresivo
+            time.sleep(min(60, 3 * (2 ** attempt)))
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            last_exc = exc
+            if attempt == retries - 1:
+                raise
+            time.sleep(2)
+    assert last_exc is not None
+    raise last_exc
 
 
 def steam_store_name(app_id: str) -> str | None:
@@ -131,6 +149,13 @@ def validate_steam(game: dict) -> list[str]:
     app_id = app_match.group(1)
     try:
         store_name = steam_store_name(app_id)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 429:
+            # Steam rate-limit: no bloquear CI/local por cupo; el formato de URL ya se validó.
+            print(f"AVISO: {game['id']}: Steam app {app_id} omitida por HTTP 429")
+            return errors
+        errors.append(f"{game['id']}: no se pudo consultar Steam app {app_id}: {exc}")
+        return errors
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
         errors.append(f"{game['id']}: no se pudo consultar Steam app {app_id}: {exc}")
         return errors
@@ -166,8 +191,12 @@ def validate_workshop(game: dict) -> list[str]:
 def validate_links(games: list[dict], *, offline: bool = False) -> list[str]:
     if offline:
         return []
+    import time
+
     errors: list[str] = []
-    for game in games:
+    for index, game in enumerate(games):
+        if index and index % 5 == 0:
+            time.sleep(1.2)
         errors.extend(validate_steam(game))
         errors.extend(validate_workshop(game))
     return errors
