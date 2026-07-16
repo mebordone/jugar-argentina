@@ -1,6 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { listas } from "../../lib/listas";
+import {
+  DEFAULT_LISTA_SORT,
+  LISTA_SORT_OPTIONS,
+  listas,
+  type ListaItem,
+} from "../../lib/listas";
 import { sitePath } from "../../lib/links";
 
 export function getStaticPaths() {
@@ -12,6 +17,12 @@ export function getStaticPaths() {
 
 const { lista } = Astro.props;
 const items = lista.getItems();
+const showFechaAlta = lista.sortable;
+
+function itemHref(item: ListaItem) {
+  if (!item.href) return undefined;
+  return item.external ? item.href : sitePath(item.href);
+}
 ---
 
 <BaseLayout title={lista.titulo} description={lista.descripcion}>
@@ -24,32 +35,134 @@ const items = lista.getItems();
   </section>
 
   <section class="section">
-    <ol class="data-list">
-      {
-        items.map((item) => (
-          <li class="data-list-item">
-            {item.href ? (
-              <a
-                href={item.external ? item.href : sitePath(item.href)}
-                target={item.external ? "_blank" : undefined}
-                rel={item.external ? "noreferrer" : undefined}
+    {
+      lista.sortable ? (
+        <div class="lista-sortable">
+          <div class="lista-sort">
+            <label for="lista-sort-select">Ordenar por</label>
+            <select id="lista-sort-select" data-lista-sort>
+              {LISTA_SORT_OPTIONS.map((option) => (
+                <option
+                  value={option.value}
+                  selected={option.value === DEFAULT_LISTA_SORT}
+                >
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <ol class="data-list data-list--with-date" data-lista-items>
+            {items.map((item) => (
+              <li
+                class="data-list-item"
+                data-titulo={item.titulo}
+                data-fecha-alta={item.fecha_alta ?? ""}
+                data-anio={item.anio ?? ""}
               >
-                <span class="data-list-title">{item.titulo}</span>
-                {item.subtitulo ? (
-                  <span class="data-list-meta">{item.subtitulo}</span>
-                ) : null}
-              </a>
-            ) : (
-              <div>
-                <span class="data-list-title">{item.titulo}</span>
-                {item.subtitulo ? (
-                  <span class="data-list-meta">{item.subtitulo}</span>
-                ) : null}
-              </div>
-            )}
-          </li>
-        ))
-      }
-    </ol>
+                {item.href ? (
+                  <a
+                    href={itemHref(item)}
+                    target={item.external ? "_blank" : undefined}
+                    rel={item.external ? "noreferrer" : undefined}
+                  >
+                    <span class="data-list-main">
+                      <span class="data-list-title">{item.titulo}</span>
+                      {item.subtitulo ? (
+                        <span class="data-list-meta">{item.subtitulo}</span>
+                      ) : null}
+                    </span>
+                    {showFechaAlta && item.fecha_alta_label ? (
+                      <time class="data-list-date" datetime={item.fecha_alta}>
+                        <span class="data-list-date-label">Alta</span>
+                        {item.fecha_alta_label}
+                      </time>
+                    ) : null}
+                  </a>
+                ) : (
+                  <div>
+                    <span class="data-list-main">
+                      <span class="data-list-title">{item.titulo}</span>
+                      {item.subtitulo ? (
+                        <span class="data-list-meta">{item.subtitulo}</span>
+                      ) : null}
+                    </span>
+                    {showFechaAlta && item.fecha_alta_label ? (
+                      <time class="data-list-date" datetime={item.fecha_alta}>
+                        <span class="data-list-date-label">Alta</span>
+                        {item.fecha_alta_label}
+                      </time>
+                    ) : null}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ol>
+        </div>
+      ) : (
+        <ol class="data-list">
+          {items.map((item) => (
+            <li class="data-list-item">
+              {item.href ? (
+                <a
+                  href={itemHref(item)}
+                  target={item.external ? "_blank" : undefined}
+                  rel={item.external ? "noreferrer" : undefined}
+                >
+                  <span class="data-list-title">{item.titulo}</span>
+                  {item.subtitulo ? (
+                    <span class="data-list-meta">{item.subtitulo}</span>
+                  ) : null}
+                </a>
+              ) : (
+                <div>
+                  <span class="data-list-title">{item.titulo}</span>
+                  {item.subtitulo ? (
+                    <span class="data-list-meta">{item.subtitulo}</span>
+                  ) : null}
+                </div>
+              )}
+            </li>
+          ))}
+        </ol>
+      )
+    }
   </section>
 </BaseLayout>
+
+{
+  lista.sortable ? (
+    <script>
+      import {
+        sortListaItems,
+        type ListaSortKey,
+      } from "../../lib/listaSort";
+
+      function bindListaSort() {
+        const select = document.querySelector<HTMLSelectElement>("[data-lista-sort]");
+        const list = document.querySelector<HTMLOListElement>("[data-lista-items]");
+        if (!select || !list) return;
+
+        const applySort = () => {
+          const sortKey = select.value as ListaSortKey;
+          const rows = Array.from(list.querySelectorAll<HTMLLIElement>(":scope > li"));
+          const sorted = sortListaItems(
+            rows.map((row) => ({
+              row,
+              titulo: row.dataset.titulo ?? "",
+              fecha_alta: row.dataset.fechaAlta || undefined,
+              anio: row.dataset.anio ? Number(row.dataset.anio) : null,
+            })),
+            sortKey,
+          );
+          for (const item of sorted) {
+            list.appendChild(item.row);
+          }
+        };
+
+        select.addEventListener("change", applySort);
+      }
+
+      bindListaSort();
+    </script>
+  ) : null
+}

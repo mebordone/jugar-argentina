@@ -103,4 +103,12 @@ describe("listas", () => {
     expect(candidatos[1].external).toBe(false);
     expect(candidatos[1].href).toBeUndefined();
   });
+
+  it("marca juegos-verificados como sortable y expone fecha de alta", () => {
+    const lista = listaBySlug.get("juegos-verificados")!;
+    expect(lista.sortable).toBe(true);
+    const item = lista.getItems()[0];
+    expect(item.fecha_alta).toBeTruthy();
+    expect(item.fecha_alta_label).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+  });
 });

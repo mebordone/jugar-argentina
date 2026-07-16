@@ -5,6 +5,12 @@ import {
   type Candidate,
   type GameView,
 } from "./games";
+import {
+  DEFAULT_LISTA_SORT,
+  formatFechaAlta,
+  sortListaItems,
+  type ListaSortableFields,
+} from "./listaSort";
 import { gameReleasePrimary } from "./release";
 
 export type ListaStatKey =
@@ -15,11 +21,24 @@ export type ListaStatKey =
   | "deporte"
   | "descartados";
 
-export type ListaItem = {
-  titulo: string;
+export type {
+  ListaSortKey,
+  ListaSortableFields,
+} from "./listaSort";
+
+export {
+  DEFAULT_LISTA_SORT,
+  LISTA_SORT_OPTIONS,
+  formatFechaAlta,
+  sortListaItems,
+} from "./listaSort";
+
+export type ListaItem = ListaSortableFields & {
   subtitulo?: string;
   href?: string;
   external?: boolean;
+  fecha_alta_label?: string;
+  fecha_actualizacion?: string;
 };
 
 export type ListaDef = {
@@ -28,6 +47,7 @@ export type ListaDef = {
   statLabel: string;
   titulo: string;
   descripcion: string;
+  sortable?: boolean;
   getItems: () => ListaItem[];
 };
 
@@ -42,6 +62,10 @@ function gameItem(game: GameView): ListaItem {
     titulo: game.titulo,
     subtitulo: meta,
     href: `/juegos/${game.id}`,
+    fecha_alta: game.fecha_alta,
+    fecha_alta_label: formatFechaAlta(game.fecha_alta) || undefined,
+    anio: game.anio,
+    fecha_actualizacion: game.fecha_actualizacion,
   };
 }
 
@@ -52,11 +76,9 @@ export const listas: ListaDef[] = [
     statLabel: "juegos verificados",
     titulo: "Juegos verificados",
     descripcion:
-      "Todas las fichas publicadas del catálogo: obras con vínculo argentino documentado, ordenadas alfabéticamente para consulta rápida.",
-    getItems: () =>
-      [...games]
-        .sort((a, b) => a.titulo.localeCompare(b.titulo, "es"))
-        .map(gameItem),
+      "Todas las fichas publicadas del catálogo: obras con vínculo argentino documentado. Podés ordenarlas alfabéticamente o por fecha de alta.",
+    sortable: true,
+    getItems: () => sortListaItems(games.map(gameItem), DEFAULT_LISTA_SORT),
   },
   {
     slug: "candidatos",

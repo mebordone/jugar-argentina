@@ -626,6 +626,11 @@ img.detail-cover {
   font-size: 1.45rem;
 }
 
+.recorrido-criteria {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .recorrido-date {
   margin: 0 0 0.35rem;
   color: var(--red);
@@ -639,6 +644,25 @@ img.detail-cover {
   color: var(--muted);
 }
 
+.recorrido-featured {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.recorrido-featured .game-card {
+  height: 100%;
+}
+
+.recorrido-featured-reason {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff8e4;
+  color: var(--muted);
+  padding: 0.85rem 1rem;
+  font-size: 0.95rem;
+}
+
 .recorrido-meta {
   margin: 0.85rem 0 0;
   color: var(--muted);
@@ -650,6 +674,31 @@ img.detail-cover {
   margin: 0.75rem 0 0;
   color: var(--muted);
   font-weight: 700;
+}
+
+.lista-sort {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin: 0 0 1rem;
+}
+
+.lista-sort label {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.lista-sort select {
+  width: auto;
+  min-width: min(100%, 18rem);
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+  color: inherit;
+  font: inherit;
 }
 
 .data-list {
@@ -681,8 +730,22 @@ img.detail-cover {
   min-width: 0;
 }
 
+.data-list--with-date .data-list-item a,
+.data-list--with-date .data-list-item > div {
+  align-items: center;
+  gap: 0.85rem 1rem;
+}
+
 .data-list-item a:hover {
   background: rgba(116, 172, 223, 0.12);
+}
+
+.data-list-main {
+  display: flex;
+  flex: 1;
+  align-items: baseline;
+  gap: 0.5rem;
+  min-width: 0;
 }
 
 .data-list-title {
@@ -705,6 +768,45 @@ img.detail-cover {
   content: "·";
   margin-right: 0.5rem;
   color: var(--line);
+}
+
+.data-list-date {
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+  min-width: 6.5rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.data-list-date-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .data-list--with-date .data-list-item a,
+  .data-list--with-date .data-list-item > div {
+    flex-wrap: wrap;
+  }
+
+  .data-list-main {
+    flex: 1 1 100%;
+  }
+
+  .data-list-date {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 .screenshot-gallery {
