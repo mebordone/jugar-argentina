@@ -122,17 +122,23 @@ Cada recorrido deberia poder responder:
 
 Los recorridos deberian convertirse en una de las principales puertas de entrada al sitio: mas narrativos, compartibles y utiles para descubrir juegos.
 
-### Avance consolidado
+**Estado: completado (v1.4, 2026-08-03).** Capa editorial de recorridos cerrada; validacion `npm run validate:recorridos` en verde (19 recorridos, 8 fechas patrias); documentacion en [`docs/RECORRIDOS.md`](docs/RECORRIDOS.md).
 
-- Recorridos publicos ajustados para contar y mostrar solo destacados curados.
-- Capa editorial extendida con fechas, ventanas, tipos de recorrido, criterios, territorios y motivos por juego.
-- `Memoria, Verdad y Justicia` reenfocado en derechos humanos argentinos, con memoria politica previa a 1976 cuando la obra lo justifica.
-- `Politica y satira argentina` convertido en recorrido permanente.
-- `Independencia`, `Soberania`, `Folclore` y `Tradicion gauchesca` refinados para evitar mezclas entre independencia, defensa territorial, turismo deportivo, terror general, truco y gauchesca.
-- El 12 de octubre queda como efemeride critica de diversidad cultural, conquista y resistencias.
-- Se crea el recorrido permanente `Pueblos originarios, territorios y memorias vivas` para culturas, lenguas, territorios, mitologias y memorias indigenas con vinculo argentino verificable.
-- Investigación de candidatos extendida a Steam, itch.io, MobyGames, RAWG, GOG, Metacritic y Giant Bomb; las referencias con evidencia insuficiente o encuadre sensible quedan documentadas como candidatos antes de publicarse.
-- Nuevos recorridos: `Patagonia jugable`, `Provincias argentinas en juego` y `Videojuegos educativos argentinos`, alimentados con fichas verificadas de Ushuaia, Neuquén, Salta, Mendoza, patrimonio, fauna y geografía federal.
+### Cierre consolidado
+
+- Recorridos publicos cuentan y muestran solo destacados curados, con criterio, bajada, descripcion y motivo por juego.
+- Fechas exactas, ventanas temporales y tipos (`fecha_patria`, `efemeride`, `permanente`, `territorial`, `recomendado`) operativos.
+- Fechas patrias prioritarias cubiertas; `Politica y satira` permanente; 12 de octubre como efemeride critica; `Pueblos originarios, territorios y memorias vivas` como recorrido permanente.
+- Nuevos recorridos territoriales y tematicos: `Patagonia jugable`, `Provincias argentinas en juego`, `Videojuegos educativos argentinos`.
+- `Memoria, Verdad y Justicia` acotado a 10 destacados centrales de derechos humanos / memoria argentina.
+- Investigacion de candidatos documentada en `data/candidates/`; referencias sensibles o incompletas no se publican como ficha.
+
+### Diferidos
+
+- `Juegos argentinos disponibles hoy` → Release 4 como lista automatica por disponibilidad (no como recorrido editorial).
+- Candidatos R2 pendientes de alta o verificacion (`paleontorun`, `la-piedra-vampirica`, `ritmo-piedra-encantada`, `reservorio`, `valerosa`, `falklands-82`, `assault-on-port-stanley`, `mario-is-missing`) → investigacion / Release 3.
+- Volumen de destacados en `recomendados` (tipo `recomendado`) → aceptado; no aplica el criterio de sobrecarga tematica.
+- Campanas como tipo editorial y programacion de home → Release 5.
 
 ## Release 3: Administracion basica de fichas
 
@@ -199,7 +205,7 @@ Objetivo: ordenar las listas como vistas automaticas del catalogo, con criterios
 - Con protagonistas argentinos.
 - Con deporte argentino.
 - Descartes explicados.
-- Juegos disponibles para jugar hoy.
+- Juegos disponibles para jugar hoy (heredado de Release 2: no se implemento como recorrido; corresponde lista automatica por `disponibilidad`).
 - Juegos por provincia.
 - Juegos por eje cultural.
 - Referencias menores.
@@ -217,6 +223,7 @@ Vistas rapidas mas claras, utiles para exploracion, investigacion y mantenimient
 - Lista de juegos verificados ordenable por titulo, fecha de alta y anio.
 - Campo `fecha_alta` en fichas, visible en `/listas/juegos-verificados`.
 - Criterio de cada lista ya expuesto en la pagina correspondiente.
+- Pendiente de R2: exponer "juegos disponibles para jugar hoy" como vista automatica.
 
 ## Release 5: Home editorial
 
