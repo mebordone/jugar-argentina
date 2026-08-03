@@ -47,28 +47,12 @@
         "motivo": "Usa llamadas telefónicas para reconstruir una historia de vida cotidiana y desaparición durante la dictadura."
       },
       {
-        "id": "estudiante-en-dictadura-v03",
-        "motivo": "Suma una mirada educativa sobre ser estudiante en dictadura desde un prototipo de ficción interactiva."
-      },
-      {
-        "id": "donde-deberia-estar",
-        "motivo": "Forma parte de la Game Jam por la Memoria y amplía el corpus de obras creadas para pensar memoria, verdad y justicia."
-      },
-      {
-        "id": "fuego-recorte-silencio",
-        "motivo": "Trabaja la censura durante la dictadura y la memoria cultural desde referencias literarias y musicales."
-      },
-      {
         "id": "memoria-en-marcha-24m",
         "motivo": "Conecta directamente con el 24M y la campaña de Abuelas de Plaza de Mayo desde una acción colectiva jugable."
       },
       {
         "id": "floreceran-panuelos",
         "motivo": "Trabaja el pañuelo como símbolo de memoria y continuidad del reclamo por verdad y justicia."
-      },
-      {
-        "id": "rodolfo-walsh-esa-mujer",
-        "motivo": "Suma a Rodolfo Walsh y la literatura argentina como puerta de entrada a memoria, política y denuncia."
       },
       {
         "id": "construyendo-memoria",
@@ -79,24 +63,12 @@
         "motivo": "Pone en el centro la búsqueda de nietes apropiados y el trabajo de Abuelas de Plaza de Mayo."
       },
       {
-        "id": "ecos-ex-esma",
-        "motivo": "Explora memoria familiar, silencios y vida cotidiana en dictadura desde una aventura gráfica."
-      },
-      {
-        "id": "jardin-de-la-memoria",
-        "motivo": "Plantea una alegoría sobre identidad e historia en un mundo que intenta borrar los recuerdos."
-      },
-      {
         "id": "un-mundo-sin-vos",
         "motivo": "Aborda desaparición forzada y Mundial 1978 desde un punto de vista íntimo y no humano."
       },
       {
         "id": "nana-historia-vida-militancia",
         "motivo": "Reconstruye la historia de Adri Lewi y de sus padres desaparecidos mediante objetos, archivo y memoria familiar."
-      },
-      {
-        "id": "cronista-del-bombardeo",
-        "motivo": "Amplía el recorrido hacia memorias de violencia política previas a la dictadura, con foco documental en Mar del Plata."
       }
     ],
     "relacionados": {
@@ -119,7 +91,7 @@
         "malvinas-la-ultima-carta",
         "anahi-juego"
       ],
-      "limite": 17
+      "limite": 12
     }
   },
   {
