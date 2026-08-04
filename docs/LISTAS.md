@@ -7,13 +7,13 @@ Las listas son vistas automáticas del catálogo. No compiten con los recorridos
 | Ruta | Criterio |
 |------|----------|
 | `/listas/juegos-verificados` | Todas las fichas publicadas |
-| `/listas/candidatos` | Candidatos rastreados pendientes de triage |
+| `/listas/candidatos` | Candidatos abiertos (`candidato` / `en_revision`); excluye `publicado` y `descartado` |
 | `/listas/escenario-argentino` | `vinculo_argentina.escenario.activo` |
 | `/listas/protagonistas-argentinos` | `vinculo_argentina.protagonista.activo` |
 | `/listas/deporte-argentino` | `vinculo_argentina.deporte_argentino.activo` |
 | `/listas/descartados` | Exclusiones documentadas |
 
-La definición vive en `src/lib/listas.ts`.
+La definición vive en `src/lib/listas.ts`. Los estados de triage del CSV se normalizan en `src/lib/games.ts` (`normalizeCandidateStatus` / `getOpenCandidates`). El registro maestro es `data/raw_candidates.csv` con `ficha_id` para filas publicadas.
 
 ## Ordenamiento (juegos verificados)
 

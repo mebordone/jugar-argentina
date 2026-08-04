@@ -21,11 +21,23 @@ npm run validate:data     # solo games.json
 npm run validate:links    # solo enlaces de tienda
 ```
 
+## Alta de fichas (Release 3)
+
+```bash
+npm run ficha -- new --template escenario --titulo "Mi Juego"
+npm run ficha -- validate <id>
+npm run ficha -- publish <id>
+npm run test:fichas
+```
+
+Flujo completo en [`docs/FICHAS.md`](docs/FICHAS.md).
+
 ## Tests unitarios
 
 ```bash
 npm test                  # suite completa
 npm run test:coverage     # con cobertura (umbral 95%)
+npm run test:fichas       # CLI de fichas (Python)
 ```
 
 Detalle de alcance, fixtures y CI en [`docs/TESTING.md`](docs/TESTING.md).
@@ -36,7 +48,7 @@ El catálogo incluye juegos y contenidos jugables con vínculo argentino verific
 
 La guía editorial completa está en [`docs/CURADURIA.md`](docs/CURADURIA.md). Resume criterios de entrada/salida, diferencia entre `formato` y `tipo_obra`, capas públicas de tarjeta, datos editoriales y sensibilidad.
 
-Los recorridos editoriales se documentan en [`docs/RECORRIDOS.md`](docs/RECORRIDOS.md). Las listas automáticas (incluido el orden por fecha de alta) en [`docs/LISTAS.md`](docs/LISTAS.md).
+Los recorridos editoriales se documentan en [`docs/RECORRIDOS.md`](docs/RECORRIDOS.md). Las listas automáticas (incluido el orden por fecha de alta) en [`docs/LISTAS.md`](docs/LISTAS.md). El alta de fichas nuevas en [`docs/FICHAS.md`](docs/FICHAS.md).
 
 ## Build
 

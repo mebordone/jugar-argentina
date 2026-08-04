@@ -59,12 +59,18 @@ Actualizar con `npm run data:report` → `data/quality_report.md` para el detall
 
 ## Archivos
 
-- `games.json` — base principal verificada
+- `games.json` — catálogo publicado (fuente de contenido del sitio)
+- `raw_candidates.csv` — registro maestro de seguimiento editorial (`id`, `ficha_id`, estados canónicos)
+- `tracking_aliases.json` — aliases título → `ficha_id` para reconciliación
+- `consistency_report.md` — último reporte de reconciliación/consistencia
+- `drafts/` — borradores editoriales previos a publicación (`npm run ficha`)
 - `schema.json` — esquema de validación
-- `pendientes.json` — entradas sin verificar
 - `descartados.json` — exclusiones documentadas
-- `raw_candidates.csv` — candidatos con columnas de triage
-- `candidates/` — manifiestos de investigación (p. ej. Release 2)
+- `candidates/` — manifiestos de investigación
 - `CHANGELOG.md` — historial de versiones
 
-Actualizado: 2026-07-15
+Flujo de alta y consistencia: [`docs/FICHAS.md`](../docs/FICHAS.md).
+
+Invariante: filas `estado_triage=publicado` ↔ IDs de `games.json`.
+
+Actualizado: 2026-08-03

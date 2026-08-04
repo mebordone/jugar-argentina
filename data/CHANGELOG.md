@@ -1,5 +1,24 @@
 # Changelog — Base de videojuegos argentinos
 
+## v1.5 (2026-08-03) — Administración básica de fichas (Release 3)
+
+### Cambios principales
+- CLI `npm run ficha` / `scripts/fichas.py` con ciclo borrador → validación → publicación/descarte.
+- Plantillas editoriales y núcleo compartido en `scripts/ficha_model.py`.
+- Borradores en `data/drafts/`; publicación transaccional a `data/games.json`.
+- Registro de seguimiento canónico en `raw_candidates.csv` (`id`, `ficha_id`, estados).
+- Gate `validate:consistency` y reconciliación `data:reconcile` (publicados CSV ↔ fichas).
+- Paridad `descartados.json` ↔ filas CSV `descartado`; comando `ficha status` de cola/huecos/invariantes.
+- Lista pública de candidatos filtrada a estados abiertos.
+- Alta smoke E2E: **Olsedba** (prototipo retro de Córdoba Capital).
+- Documentación en `docs/FICHAS.md`.
+
+### Conteos
+| Métrica | v1.4 | v1.5 |
+|---------|------|------|
+| Verificados | 199 | **200** |
+| Descartes documentados | 291 | **561** (paridad CSV) |
+
 ## v1.4 (2026-07-15) — Recorridos Release 2, fecha de alta y listas ordenables
 
 ### Cambios principales

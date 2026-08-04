@@ -11,6 +11,7 @@ Suite de tests con **Vitest** sobre la lógica TypeScript del frontend (`src/lib
 | `npm run test:coverage` | Tests + cobertura v8 con umbral **95%** |
 | `npm run test:filters` | Regresión de filtros y recorridos |
 | `npm run test:summaries` | Regresión de resúmenes culturales |
+| `npm run test:fichas` | Tests Python del CLI de fichas y consistencia |
 
 ## Alcance
 
@@ -19,12 +20,13 @@ Suite de tests con **Vitest** sobre la lógica TypeScript del frontend (`src/lib
 - `src/lib/**/*.ts` — filtros, juegos, enlaces, recorridos, listas, etc.
 - `src/lib/cardMetadata.ts` — chips, línea contextual, acceso y sensibilidad de tarjetas
 - `src/components/GameFilters.tsx` — catálogo interactivo (React)
+- `scripts/tests/` — unittest del flujo de fichas y consistencia
 
 **Excluido**
 
 - Plantillas `.astro` y páginas estáticas
-- Scripts Python de `scripts/`
-- Validación de `data/games.json` (sigue en `npm run validate`)
+- Scripts Python de harvest/triage fuera del flujo de fichas/consistencia
+- Validación completa de enlaces externos (sigue en `npm run validate`)
 
 ## Estructura
 

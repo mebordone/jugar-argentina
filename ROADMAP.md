@@ -185,6 +185,24 @@ Objetivo: facilitar el alta y edicion de juegos sin obligar a escribir estructur
 
 Agregar juegos nuevos deberia ser mas facil, mas consistente y menos propenso a errores de formato.
 
+**Estado: completado (v1.5, 2026-08-03).** CLI de fichas, plantillas, borradores en `data/drafts/`, validacion editorial reutilizable, lista publica de candidatos filtrada y registro de seguimiento consistente (`ficha_id`). Documentacion en [`docs/FICHAS.md`](docs/FICHAS.md).
+
+### Cierre consolidado
+
+- Generador CLI (`npm run ficha`) con ciclo `new → validate → publish` / `discard` y reporte `status`.
+- Diez plantillas editoriales con defaults coherentes de formato, tipo, grado y vinculo.
+- Borradores en `data/drafts/`; publicacion transaccional hacia `data/games.json` + CSV.
+- Validacion compartida con errores bloqueantes y advertencias editoriales (estricta en borradores; catálogo historico sin regresiones artificiales).
+- Registro maestro `raw_candidates.csv` con `id`, `ficha_id` y estados canonicos; invariante `publicado ↔ games.json`.
+- Paridad `descartados.json` ↔ CSV `descartado`; gate `npm run validate:consistency` y reconciliacion `npm run data:reconcile`.
+- Lista `/listas/candidatos` y stats de home muestran solo candidatos abiertos (`candidato` / `en_revision`).
+- Smoke E2E: alta de Olsedba via CLI (200 fichas publicadas).
+### Diferidos
+
+- Separar `games.json` en archivos individuales y mini-admin local → Release 7.
+- Revision masiva de calidad del catalogo ya publicado bajo las reglas estrictas de borrador → backlog / reportes posteriores.
+- Lista "disponibles hoy" → Release 4.
+
 ## Release 4: Listas automaticas y vistas rapidas
 
 Objetivo: ordenar las listas como vistas automaticas del catalogo, con criterios transparentes.

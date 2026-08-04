@@ -18,7 +18,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: npm ci
-      - run: npm run validate:data
+      - run: npm run validate
+      - run: npm run test:fichas
       - run: npm run test:coverage
       - run: npm run build
         env:
