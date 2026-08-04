@@ -1,0 +1,14 @@
+{
+  "title_to_ficha_id": {
+    "Malvinas: Operación Rosario (expandido)": "operacion-rosario",
+    "GTA San Andreas — Mapa Buenos Aires": "gta-rio-de-la-plata",
+    "GGJ 2026 — El Intruso 82": "el-intruso-82",
+    "Tango Fury": "tango-the-adventure-game"
+  },
+  "notes": {
+    "Malvinas: Operación Rosario (expandido)": "Alias histórico del candidato; ficha publicada como operacion-rosario.",
+    "GTA San Andreas — Mapa Buenos Aires": "Alias histórico; ficha publicada como gta-rio-de-la-plata.",
+    "GGJ 2026 — El Intruso 82": "Alias de título de jam; ficha publicada como el-intruso-82.",
+    "Tango Fury": "Referencia histórica; ficha publicada como tango-the-adventure-game."
+  }
+}

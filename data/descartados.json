@@ -1,1748 +1,3368 @@
 [
   {
-    "id": "fifa-23",
-    "titulo": "FIFA 23",
-    "motivo_exclusion": "Argentina es una selección entre muchas; no cumple criterio deporte central",
-    "fecha_descarte": "2026-07-09"
+    "id": "100-cats-argentina",
+    "titulo": "100 Cats Argentina",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "efootball-pes-2021",
-    "titulo": "eFootball PES 2021",
-    "motivo_exclusion": "Selección argentina entre decenas de equipos internacionales; no es eje central",
-    "fecha_descarte": "2026-07-09"
+    "id": "100-orange-juice-extracurricular-pack",
+    "titulo": "100% Orange Juice - Extracurricular Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "roots-of-pacha",
-    "titulo": "Roots of Pacha",
-    "motivo_exclusion": "Desarrollado en Argentina pero sin escenario, protagonista ni temática argentina específica",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dark-rage-1997",
-    "titulo": "Dark Rage",
-    "motivo_exclusion": "Primer shoot'em up comercial argentino sin vínculo temático con Argentina (solo origen del desarrollo)",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dcs-mb-339",
-    "titulo": "DCS: MB-339",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pro-basketball-manager-2026",
-    "titulo": "Pro Basketball Manager 2026",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "motogptm14",
-    "titulo": "MotoGP™14",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "strategic-command-american-civil-war-wars-in-the-americas",
-    "titulo": "Strategic Command: American Civil War - Wars in the Americas",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dakar-18-desafio-ruta-40-rally",
-    "titulo": "Dakar 18 - Desafío Ruta 40 Rally",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "naval-action-hercules",
-    "titulo": "Naval Action - Hercules",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "wrc-5-season-pass",
-    "titulo": "WRC 5 - Season Pass",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "football-club-simulator-fcs-21",
-    "titulo": "Football Club Simulator - FCS #21",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pro-basketball-manager-2022",
-    "titulo": "Pro Basketball Manager 2022",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pro-basketball-manager-2023",
-    "titulo": "Pro Basketball Manager 2023",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pro-basketball-manager-2025",
-    "titulo": "Pro Basketball Manager 2025",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pro-basketball-manager-2024",
-    "titulo": "Pro Basketball Manager 2024",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "fsx-steam-edition-toposim-south-america",
-    "titulo": "FSX Steam Edition: Toposim South America",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "protocol-11-super-cute-alien-legacy-edition",
-    "titulo": "PROTOCOL 11 - SUPER Cute Alien Legacy Edition",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "fantasy-grounds-latin-american-monsters",
-    "titulo": "Fantasy Grounds - Latin American Monsters",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "lock-n-load-tactical-digital-heroes-of-the-falklands-battlepack-1",
-    "titulo": "Lock 'n Load Tactical Digital: Heroes of the Falklands Battlepack 1",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dcs-ch-47f",
-    "titulo": "DCS: CH-47F",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "command-mo-northern-inferno",
-    "titulo": "Command:MO - Northern Inferno",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "command-mo-live-commonwealth-collision",
-    "titulo": "Command:MO LIVE - Commonwealth Collision",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "thehunter-call-of-the-wildtm-parque-fernando",
-    "titulo": "theHunter: Call of the Wild™ - Parque Fernando",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "hunt-showdown-1896-la-luz-mala",
-    "titulo": "Hunt: Showdown 1896 - La Luz Mala",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mate",
-    "titulo": "Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "desktop-mate",
-    "titulo": "Desktop Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "wolf-mate",
-    "titulo": "Wolf Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mate-morphosis",
-    "titulo": "Mate'Morphosis",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "digital-mate",
-    "titulo": "Digital Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "chest-mate",
-    "titulo": "Chest Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "which-sausage-mate",
-    "titulo": "Which Sausage, Mate?",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "scholar-s-mate",
-    "titulo": "Scholar's Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-neon-mate",
-    "titulo": "The Neon Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "bside-desktop-mate",
-    "titulo": "Bside: Desktop Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "check-x-mate",
-    "titulo": "Check x Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "guitar-practice-mate",
-    "titulo": "Guitar Practice Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ka-mate",
-    "titulo": "Ka Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "old-mate-dave",
-    "titulo": "Old Mate Dave",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "rogue-mate",
-    "titulo": "Rogue Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "game-mate",
-    "titulo": "Game Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "desktop-mate-widgets",
-    "titulo": "電卓 - Desktop Mate Widgets",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "shadow-mate",
-    "titulo": "Shadow mate ~小さな竜と適合者~",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mateengine",
-    "titulo": "MateEngine",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "scholar-s-mate-first-move",
-    "titulo": "Scholar's Mate - First Move",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "r-mate",
-    "titulo": "R Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "across-the-desk-study-mate",
-    "titulo": "Across the Desk : Study Mate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "aikomate",
-    "titulo": "AikoMate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "minimate",
-    "titulo": "MiniMate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mate-in-eleven",
-    "titulo": "Mate in Eleven",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zen-chess-mate-in-one",
-    "titulo": "Zen Chess: Mate in One",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zen-chess-mate-in-two",
-    "titulo": "Zen Chess: Mate in Two",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zen-chess-mate-in-three",
-    "titulo": "Zen Chess: Mate in Three",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zen-chess-mate-in-four",
-    "titulo": "Zen Chess: Mate in Four",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "livemate",
-    "titulo": "LiveMate",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mobmate-whisptalk-zero-cloud-voice-chat-toolkit",
-    "titulo": "MobMate WhispTalk – Zero-Cloud Voice Chat Toolkit",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ark-survival-evolved",
-    "titulo": "ARK: Survival Evolved",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "brotato",
-    "titulo": "Brotato",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "kenshi",
-    "titulo": "Kenshi",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "yunyun-syndrome-rhythm-psychosis",
-    "titulo": "Yunyun Syndrome!? Rhythm Psychosis",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "last-pirates-die-together",
-    "titulo": "Last Pirates: Die Together",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "astlibra-revision",
-    "titulo": "ASTLIBRA Revision",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "wolfquest-anniversary-edition",
-    "titulo": "WolfQuest: Anniversary Edition",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ship-of-fools",
-    "titulo": "Ship of Fools",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "total-war-warhammer-ii-curse-of-the-vampire-coast",
-    "titulo": "Total War: WARHAMMER II - Curse of the Vampire Coast",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "saints-row",
-    "titulo": "Saints Row",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "shadow-gambit-the-cursed-crew",
-    "titulo": "Shadow Gambit: The Cursed Crew",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mama-s-sleeping-angels",
-    "titulo": "Mama's Sleeping Angels",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "warhammer-40-000-speed-freeks",
-    "titulo": "Warhammer 40,000: Speed Freeks",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "greedfall-the-dying-world",
-    "titulo": "GreedFall: The Dying World",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "warhammer-end-times-vermintide",
-    "titulo": "Warhammer: End Times - Vermintide",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zero-hour",
-    "titulo": "Zero Hour",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "buena-pizza-gran-pizza",
-    "titulo": "Buena pizza, gran pizza",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "door-kickers-action-squad",
-    "titulo": "Door Kickers: Action Squad",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "streets-of-rage-4-mr-x-nightmare",
-    "titulo": "Streets Of Rage 4 - Mr. X Nightmare",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "strange-brigade",
-    "titulo": "Strange Brigade",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ty-the-tasmanian-tiger",
-    "titulo": "TY the Tasmanian Tiger",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "blood-bowl-3",
-    "titulo": "Blood Bowl 3",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "binary-domain",
-    "titulo": "Binary Domain",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "steam-4056810",
-    "titulo": "东北往事",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "wee-tanks",
-    "titulo": "Wee Tanks!",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "soul-mates",
-    "titulo": "Soul Mates",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "infinite-tournament-paintball",
-    "titulo": "Infinite Tournament Paintball",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "section-13",
-    "titulo": "Section 13",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "worms-ultimate-mayhem",
-    "titulo": "Worms Ultimate Mayhem",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "speedball",
-    "titulo": "Speedball",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "thalassa-edge-of-the-abyss",
-    "titulo": "Thalassa: Edge of the Abyss",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "badlands-crew-drive-command-conquer",
-    "titulo": "Badlands Crew - Drive, Command, Conquer",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "space-engineers-sparks-of-the-future",
-    "titulo": "Space Engineers - Sparks of the Future",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "shardpunk",
-    "titulo": "Shardpunk",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "screencheat",
-    "titulo": "Screencheat",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-girl-from-arkanya",
-    "titulo": "The Girl from Arkanya",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dollhouse-of-dead",
-    "titulo": "Dollhouse of Dead",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "craftomation-101-programming-craft",
-    "titulo": "Craftomation 101: Programming & Craft",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "heavy-metal-death-can",
-    "titulo": "Heavy Metal Death Can",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-ditzy-demons-are-in-love-with-me",
-    "titulo": "The Ditzy Demons Are in Love With Me",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "halo-reach",
-    "titulo": "Halo: Reach",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "windward-horizon",
-    "titulo": "Windward Horizon",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "bapbap",
-    "titulo": "BAPBAP",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "golf-gang",
-    "titulo": "Golf Gang",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "infinity-battlescape",
-    "titulo": "Infinity: Battlescape",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "crate-mates",
-    "titulo": "Crate Mates",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "bugtopia",
-    "titulo": "Bugtopia",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ty-the-tasmanian-tiger-4",
-    "titulo": "TY the Tasmanian Tiger 4",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "rising-star-2",
-    "titulo": "Rising Star 2",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "cities-in-motion-2-marvellous-monorails",
-    "titulo": "Cities in Motion 2: Marvellous Monorails",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "call-of-duty-ghosts-digital-hardened-edition",
-    "titulo": "Call of Duty®: Ghosts - Digital Hardened Edition",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "virtual-families",
-    "titulo": "Virtual Families",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "totally-accurate-battlegrounds",
-    "titulo": "Totally Accurate Battlegrounds",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "far-cry-5-hours-of-darkness",
-    "titulo": "Far Cry® 5 - Hours of Darkness",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sniper-fury",
-    "titulo": "Sniper Fury",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "witchtastic",
-    "titulo": "Witchtastic",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "steam-3918410",
-    "titulo": "セミたちはどう生きるか",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "nature-life-drunk-on-nectar",
-    "titulo": "Nature & Life - Drunk On Nectar",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "somewhere-in-the-shadow",
-    "titulo": "Somewhere in the Shadow",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "finnish-army-simulator",
-    "titulo": "Finnish Army Simulator",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ignition",
-    "titulo": "Ignition",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "yet-another-zombie-defense-hd",
-    "titulo": "Yet Another Zombie Defense HD",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "autonauts-vs-piratebots",
-    "titulo": "Autonauts vs Piratebots",
-    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "operation-tango",
-    "titulo": "Operation: Tango",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "tango-fiesta",
-    "titulo": "Tango Fiesta",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "tango-district",
-    "titulo": "Tango District",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "warp-tango",
-    "titulo": "Warp Tango",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "constellation-tango",
-    "titulo": "Constellation Tango",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-legend-of-tango",
-    "titulo": "The Legend of Tango",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "operation-tango-friend-pass",
-    "titulo": "Operation: Tango - Friend Pass",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-adventures-of-tango-rio",
-    "titulo": "The Adventures of Tango Rio",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "crossout-assault-force-tango-1",
-    "titulo": "Crossout - Assault Force: Tango-1",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "tango-fiesta-fascism-fighters-4000",
-    "titulo": "Tango Fiesta - Fascism Fighters 4000",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ghostwire-tokyo",
-    "titulo": "Ghostwire: Tokyo",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "hi-fi-rush",
-    "titulo": "Hi-Fi RUSH",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within",
-    "titulo": "The Evil Within",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within-2",
-    "titulo": "The Evil Within 2",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "igtap-an-incremental-game-that-s-also-a-platformer",
-    "titulo": "IGTAP: an Incremental Game That's Also a Platformer",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "cat-god-ranch",
-    "titulo": "Cat God Ranch",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "las-caras-b-de-hi-fi-rush",
-    "titulo": "Las caras B de Hi-Fi RUSH",
-    "motivo_exclusion": "tipo Steam: music",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "blue-wednesday",
-    "titulo": "Blue Wednesday",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sven-plantando-nabos",
-    "titulo": "Sven - plantando nabos",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "serious-sam-vr-the-last-hope",
-    "titulo": "Serious Sam VR: The Last Hope",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "contractors-showdown-exfilzone-johnny-s-secret-stash",
-    "titulo": "Contractors Showdown : ExfilZone - Johnny's secret stash",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "chromagun",
-    "titulo": "ChromaGun",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "lost-in-prayer",
-    "titulo": "Lost in Prayer",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc",
-    "titulo": "Gremlins, Inc.",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "preludio-de-ghostwire-tokyo",
-    "titulo": "Preludio de Ghostwire: Tokyo",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sips-and-sonnets",
-    "titulo": "Sips and Sonnets",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "isekat-crushed-by-a-computer-my-beloved-kitten-is-transported-to-a-fantasy-world-where-its-typing-skills-save-the-kingdom",
-    "titulo": "Isekat: Crushed by a Computer, My Beloved Kitten is Transported to a Fantasy World where its Typing Skills Save the Kingdom!",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sesame-street-amigos-y-risas",
-    "titulo": "Sesame Street: Amigos y Risas",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "twin-hawk",
-    "titulo": "Twin Hawk",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "blue-wednesday-prologue",
-    "titulo": "Blue Wednesday: Prologue",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "stray-siege",
-    "titulo": "Stray Siege",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "scarlet-quest",
-    "titulo": "Scarlet Quest",
-    "motivo_exclusion": "Steam API sin datos",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within-the-executioner",
-    "titulo": "The Evil Within: The Executioner",
-    "motivo_exclusion": "Steam API sin datos",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within-season-pass",
-    "titulo": "The Evil Within Season Pass",
-    "motivo_exclusion": "Steam API sin datos",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "panic-in-puzzle-world",
-    "titulo": "Panic in Puzzle World",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-agents-of-chaos",
-    "titulo": "Gremlins, Inc. – Agents of Chaos",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-invitados-inesperados",
-    "titulo": "Gremlins, Inc. – Invitados inesperados",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dance-dance-detective",
-    "titulo": "Dance Dance Detective",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-figuras-famosas",
-    "titulo": "Gremlins, Inc. – Figuras famosas",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-apuestas-strales",
-    "titulo": "Gremlins, Inc. – Apuestas аstrales",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "out-in-space",
-    "titulo": "Out in Space",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-competidores-mecanicos",
-    "titulo": "Gremlins, Inc. – Competidores mecánicos",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "life-of-a-thug",
-    "titulo": "Life of a Thug",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within-the-consequence",
-    "titulo": "The Evil Within - The Consequence",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-evil-within-the-assignment",
-    "titulo": "The Evil Within: The Assignment",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "backspace-backspace-backspace",
-    "titulo": "Backspace Backspace Backspace",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "death-skid-marks",
-    "titulo": "Death Skid Marks",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-libro-de-arte",
-    "titulo": "Gremlins, Inc. – Libro de arte",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-dlc-con-el-juego-de-cartas-en-version-print-play",
-    "titulo": "Gremlins, Inc. – DLC CON EL JUEGO DE CARTAS EN VERSIÓN PRINT & PLAY",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "zombff",
-    "titulo": "ZomBFF",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "battlebox-pre-launch-music-application",
-    "titulo": "BATTLEBOX - Pre-Launch Music Application",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "spire-of-sorcery-character-generator",
-    "titulo": "Spire of Sorcery – Character Generator",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "shardbound-forge-your-path-master-your-strategy",
-    "titulo": "Shardbound: Forge Your Path, Master Your Strategy",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "orbital-patrol-the-lani-goodspeed-story",
-    "titulo": "Orbital Patrol: The Lani Goodspeed Story",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "spire-of-sorcery-prologue",
-    "titulo": "Spire of Sorcery: Prologue",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "close-encounter-vr",
-    "titulo": "Close Encounter VR",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "gremlins-inc-cards-projects",
-    "titulo": "Gremlins, Inc. – Cards & Projects",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "veils-of-the-past",
-    "titulo": "Veils of the Past",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sheepscape",
-    "titulo": "Sheepscape",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "infinite-bloom",
-    "titulo": "Infinite Bloom",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "steam-2867250",
-    "titulo": "きのこゲーム",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "soul-at-stake-glad-you-came-angie-s-dress",
-    "titulo": "灵魂筹码 - 安琪星辰夜幕礼服 Soul at Stake - \"Glad You Came\" Angie's Dress",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "aquarius-pinball",
-    "titulo": "Aquarius Pinball",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ballavita",
-    "titulo": "Ballavita",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "nix-ashes-of-the-phoenix",
-    "titulo": "Nix: Ashes of the Phoenix",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "vroom-kaboom-premium",
-    "titulo": "Vroom Kaboom Premium",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "detective-tales-a-study-in-scarlet",
-    "titulo": "Detective tales: A Study in Scarlet",
-    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "fifa-22",
-    "titulo": "FIFA 22",
-    "motivo_exclusion": "deporte internacional genérico sin foco AR",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sid-meier-s-civilization-vii-coleccion-encrucijadas-del-mundo",
-    "titulo": "Sid Meier's Civilization® VII: Colección Encrucijadas del mundo",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "cw-chaco-war",
-    "titulo": "CW: Chaco War",
-    "motivo_exclusion": "juego base; jurisdicción: Chaco",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "malavision-the-beginning",
-    "titulo": "Malavision: The Beginning",
-    "motivo_exclusion": "juego base; jurisdicción: Chaco",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "blueplanet-vr-v2",
-    "titulo": "Blueplanet VR v2",
-    "motivo_exclusion": "juego base; jurisdicción: Chaco",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "feodika",
-    "titulo": "Feodika",
-    "motivo_exclusion": "juego base; jurisdicción: Córdoba",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "itowngameplay-universe",
-    "titulo": "iTownGamePlay UNIVERSE",
-    "motivo_exclusion": "juego base; jurisdicción: Corrientes",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "who-are-you",
-    "titulo": "Who Are You!?",
-    "motivo_exclusion": "juego base; jurisdicción: Entre Ríos",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "echoes-of-formosa-agent-reborn",
-    "titulo": "鯤島行者 Echoes of Formosa: Agent Reborn",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "formosa-night-market-vr-arcade-by-taiwan",
-    "titulo": "Formosa Night Market VR Arcade(by Taiwan)",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-rainy-port-keelung",
-    "titulo": "The Rainy Port Keelung 雨港基隆",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
+    "id": "152-el-colectivo",
+    "titulo": "152: El Colectivo",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
   },
   {
     "id": "228-vampire-martina-bloody-day-2-28",
     "titulo": "血腥之日228-Vampire Martina-Bloody Day 2.28",
     "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "the-shimmering-horizon-and-cursed-blacksmith",
-    "titulo": "The Shimmering Horizon and Cursed Blacksmith",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
+    "id": "2dark-official-soundtrack-and-artbook",
+    "titulo": "2Dark Official Soundtrack and Artbook",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "maiden-city-the-last-collateral-damage",
-    "titulo": "Maiden City: The Last Collateral Damage",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
+    "id": "999-hidden-cats-argentina-together",
+    "titulo": "999 Hidden Cats: Argentina Together",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "scan-your-heart",
-    "titulo": "Scan Your Heart \"愛情限時批\"",
-    "motivo_exclusion": "juego base; jurisdicción: Formosa",
-    "fecha_descarte": "2026-07-09"
+    "id": "a-pirate-game-about-digging-for-treasure-and-getting-drunk-demo",
+    "titulo": "A Pirate Game About Digging For Treasure And Getting Drunk Demo",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "demo",
-    "titulo": "蒼色之光與魔劍鍛造師 Demo",
-    "motivo_exclusion": "tipo Steam: demo",
-    "fecha_descarte": "2026-07-09"
+    "id": "across-the-desk-study-mate",
+    "titulo": "Across the Desk : Study Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "big-adventure-trip-to-europe-3-collector-s-edition",
-    "titulo": "Big Adventure: Trip to Europe 3 - Collector's Edition",
-    "motivo_exclusion": "juego base; jurisdicción: La Rioja",
-    "fecha_descarte": "2026-07-09"
+    "id": "age-of-resistance-demo",
+    "titulo": "Age of Resistance Demo",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "battlefieldtm-hardline-edicion-ultimate",
-    "titulo": "Battlefield™ Hardline Edición Ultimate",
-    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "loser-named-hana",
-    "titulo": "Loser Named Hana",
-    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "automata-break",
-    "titulo": "Automata Break",
-    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "healer-phoenix",
-    "titulo": "Healer&Phoenix",
-    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "carambola",
-    "titulo": "CARAMBOLA",
-    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "superchicos",
-    "titulo": "SUPERCHICOS",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "back-to-hearth",
-    "titulo": "Back to Hearth",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "thunder-tank-escudo-de-hierro",
-    "titulo": "Thunder Tank: Escudo de hierro",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "small-hero",
-    "titulo": "Small Hero",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "marea-nocturna-defensa-de-la-luz",
-    "titulo": "Marea Nocturna: Defensa de la Luz",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "goose-evolution",
-    "titulo": "Goose Evolution",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "priceless-return",
-    "titulo": "Priceless Return",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "superviviente-oleada-no-muertos",
-    "titulo": "Superviviente: Oleada No muertos",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "tp2",
-    "titulo": "TP2",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "khemia",
-    "titulo": "Khemia",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "the-lost-nomad",
-    "titulo": "The Lost Nomad",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dead-by-wheel-battle-royal",
-    "titulo": "Dead by Wheel: Battle Royal",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "spear-and-armor",
-    "titulo": "SPEAR AND ARMOR",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "tech-invaders-td",
-    "titulo": "Tech Invaders TD",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "suero-zeus",
-    "titulo": "Suero Zeus",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "space-zombies-invasion",
-    "titulo": "Space Zombies Invasion",
-    "motivo_exclusion": "juego base; jurisdicción: Misiones",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mxgp-2019-the-official-motocross-videogame",
-    "titulo": "MXGP 2019 - The Official Motocross Videogame",
-    "motivo_exclusion": "juego base; jurisdicción: Neuquén",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "eon-altar",
-    "titulo": "Eon Altar",
-    "motivo_exclusion": "juego base; jurisdicción: Salta",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "marimomo",
-    "titulo": "Marimomo",
-    "motivo_exclusion": "juego base; jurisdicción: Salta",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-pacific-surfliner-la-san-diego-route",
-    "titulo": "Train Simulator: Pacific Surfliner® LA - San Diego Route",
-    "motivo_exclusion": "juego base; jurisdicción: San Juan",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "last-harbor",
-    "titulo": "Last Harbor",
-    "motivo_exclusion": "juego base; jurisdicción: San Juan",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "lego-pirates-of-the-caribbean-the-video-game",
-    "titulo": "LEGO® Pirates of the Caribbean: The Video Game",
-    "motivo_exclusion": "juego base; jurisdicción: San Juan",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "fsx-steam-edition-friday-harbor-kfhr-add-on",
-    "titulo": "FSX: Steam Edition - Friday Harbor (KFHR) Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "shadow-of-the-tomb-raider-the-grand-caiman",
-    "titulo": "Shadow of the Tomb Raider - The Grand Caiman",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-rio-grande-southern-placerville-rico-telluride-route-add-on",
-    "titulo": "Train Simulator: Rio Grande Southern: Placerville - Rico & Telluride Route Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "design-it-drive-it-speedboats",
-    "titulo": "Design it, Drive it : Speedboats",
-    "motivo_exclusion": "juego base; jurisdicción: San Juan",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "supermrket-petardos",
-    "titulo": "Supermrket: Petardos",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "disco-inferno-the-trammps",
-    "titulo": "Disco Inferno - The Trammps",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "commander-conquest-of-the-americas-colonial-navy",
-    "titulo": "Commander: Conquest of the Americas - Colonial Navy",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "vacation-adventures-park-ranger-14-collector-s-edition",
-    "titulo": "Vacation Adventures: Park Ranger 14 Collector's Edition",
-    "motivo_exclusion": "juego base; jurisdicción: San Juan",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "koatl-the-defender-ultimate",
-    "titulo": "Koatl The Defender ULTIMATE",
-    "motivo_exclusion": "juego base; jurisdicción: San Luis",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "sudden-strike-4-the-pacific-war",
-    "titulo": "Sudden Strike 4 - The Pacific War",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "carrier-battles-4-guadalcanal-guerra-naval-en-el-pacifico",
-    "titulo": "Carrier Battles 4 Guadalcanal - Guerra Naval en el Pacifico",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "skater-xl-the-ultimate-skateboarding-game",
-    "titulo": "Skater XL - The Ultimate Skateboarding Game",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "heart-of-enya",
-    "titulo": "Heart of Enya",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "markus-s-miasma",
-    "titulo": "Markus's Miasma",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dear-future",
-    "titulo": "Dear Future",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "carrier-battles-ww2-admiral-of-the-fleet",
-    "titulo": "Carrier Battles WW2: Admiral of the Fleet",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "mariachi-legends",
-    "titulo": "Mariachi Legends",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "pixel-horizons",
-    "titulo": "Pixel Horizons",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "battleships-and-carriers-pacific-war",
-    "titulo": "Battleships and Carriers - Pacific War",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "hidden-horizons-christmas-tour-collector-s-edition",
-    "titulo": "Hidden Horizons: Christmas Tour Collector's Edition",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "california-games-ii",
-    "titulo": "California Games II",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-santa-fe-super-fleet-gp60m",
-    "titulo": "Train Simulator: Santa Fe Super Fleet GP60M",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-3-santa-fe-f7-add-on",
-    "titulo": "Train Sim World® 3: Santa Fe F7 Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-6-santa-fe-f7-add-on",
-    "titulo": "Train Sim World® 6: Santa Fe F7 Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-5-santa-fe-f7-add-on",
-    "titulo": "Train Sim World® 5: Santa Fe F7 Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-4-santa-fe-f7-add-on",
-    "titulo": "Train Sim World® 4: Santa Fe F7 Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-6-santa-fe-on-cajon-pass-add-on",
-    "titulo": "Train Sim World® 6: Santa Fe on Cajon Pass Add-On ",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "id": "aikomate",
+    "titulo": "AikoMate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
   },
   {
     "id": "american-truck-simulator-new-mexico",
     "titulo": "American Truck Simulator - New Mexico",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-arizona-divide-winslow-williams-route-add-on",
-    "titulo": "Train Simulator: Arizona Divide: Winslow - Williams Route Add-on",
+    "id": "aprender-jugando-provincias-ar",
+    "titulo": "Aprender Jugando — Provincias AR",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "aquarius-pinball",
+    "titulo": "Aquarius Pinball",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-raton-pass-trinidad-raton-route-add-on",
-    "titulo": "Train Simulator: Raton Pass: Trinidad - Raton Route Add-On",
+    "id": "arcana-demo",
+    "titulo": "Arcana Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "arcor-el-reino-de-los-chocolates",
+    "titulo": "Arcor: El Reino de los Chocolates",
+    "motivo_exclusion": "tipo promocional; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "argentina-pelea",
+    "titulo": "Argentina Pelea",
+    "motivo_exclusion": "sensibilidad alta; verificar URL; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ark-survival-evolved",
+    "titulo": "ARK: Survival Evolved",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "assetto-corsa-red-pack",
+    "titulo": "Assetto Corsa - Red Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "astlibra-revision",
+    "titulo": "ASTLIBRA Revision",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "automata-break",
+    "titulo": "Automata Break",
+    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "autonauts-vs-piratebots",
+    "titulo": "Autonauts vs Piratebots",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "back-to-hearth",
+    "titulo": "Back to Hearth",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "backspace-backspace-backspace",
+    "titulo": "Backspace Backspace Backspace",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "backspace-backspace-backspace-soundtrack",
+    "titulo": "Backspace Backspace Backspace Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "badlands-crew-drive-command-conquer",
+    "titulo": "Badlands Crew - Drive, Command, Conquer",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "balancity-original-soundtrack",
+    "titulo": "BalanCity - Original Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: cordoba,tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ballavita",
+    "titulo": "Ballavita",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "banco-nacion-simulador-financiero",
+    "titulo": "Banco Nación — Simulador Financiero",
+    "motivo_exclusion": "promocional; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "bapbap",
+    "titulo": "BAPBAP",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "barredor-de-la-city",
+    "titulo": "Barredor de la City",
+    "motivo_exclusion": "archive.org; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "battlebox-pre-launch-music-application",
+    "titulo": "BATTLEBOX - Pre-Launch Music Application",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "battlefieldtm-hardline",
+    "titulo": "Battlefield™ Hardline",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "battlefieldtm-hardline-edicion-ultimate",
+    "titulo": "Battlefield™ Hardline Edición Ultimate",
+    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "battleships-and-carriers-pacific-war",
+    "titulo": "Battleships and Carriers - Pacific War",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "big-adventure-trip-to-europe-3-collector-s-edition",
+    "titulo": "Big Adventure: Trip to Europe 3 - Collector's Edition",
+    "motivo_exclusion": "juego base; jurisdicción: La Rioja",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "binary-domain",
+    "titulo": "Binary Domain",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "blood-bowl-3",
+    "titulo": "Blood Bowl 3",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "bloodrayne-argentina-descartado",
+    "titulo": "BloodRayne Argentina",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "blue-wednesday",
+    "titulo": "Blue Wednesday",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "blue-wednesday-prologue",
+    "titulo": "Blue Wednesday: Prologue",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "blueplanet-vr-v2",
+    "titulo": "Blueplanet VR v2",
+    "motivo_exclusion": "juego base; jurisdicción: Chaco",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "brazil-pack",
+    "titulo": "Brazil Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "brotato",
+    "titulo": "Brotato",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "bside-desktop-mate",
+    "titulo": "Bside: Desktop Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "buena-pizza-gran-pizza",
+    "titulo": "Buena pizza, gran pizza",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "bugtopia",
+    "titulo": "Bugtopia",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "bus-simulator-18-country-skin-decal-pack",
+    "titulo": "Bus Simulator 18 - Country Skin & Decal Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "calculator-desktop-mate-widgets",
+    "titulo": "Calculator - Desktop Mate Widgets",
+    "motivo_exclusion": "triage: juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "california-games-ii",
+    "titulo": "California Games II",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "call-of-duty-ghosts-digital-hardened-edition",
+    "titulo": "Call of Duty®: Ghosts - Digital Hardened Edition",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "call-of-duty-ghosts-flags-of-the-world-pack",
+    "titulo": "Call of Duty®: Ghosts -  Flags of the World Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "call-of-duty-leaguetm-paris-gentle-mates-team-pack-2026",
+    "titulo": "Call of Duty League™ - Paris Gentle Mates Team Pack 2026",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "campana-presidencial-2011",
+    "titulo": "Campaña Presidencial 2011",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "car-mechanic-simulator-2018-chrysler-dlc",
+    "titulo": "Car Mechanic Simulator 2018 - Chrysler DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: cordoba",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "car-mechanic-simulator-2021-dodge-plymouth-chrysler-remastered-dlc",
+    "titulo": "Car Mechanic Simulator 2021 - Dodge | Plymouth | Chrysler Remastered DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: cordoba",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "carambola",
+    "titulo": "CARAMBOLA",
+    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "carrier-battles-4-guadalcanal-guerra-naval-en-el-pacifico",
+    "titulo": "Carrier Battles 4 Guadalcanal - Guerra Naval en el Pacifico",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "carrier-battles-4-guadalcanal-pacific-war-naval-warfare",
+    "titulo": "Carrier Battles 4 Guadalcanal - Pacific War Naval Warfare",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "carrier-battles-ww2-admiral-of-the-fleet",
+    "titulo": "Carrier Battles WW2: Admiral of the Fleet",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "cartel-tycoon-soundtrack-vol-i",
+    "titulo": "Cartel Tycoon - Soundtrack Vol. I",
+    "motivo_exclusion": "steam auto-descartado; terminos: mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "cat-god-ranch",
+    "titulo": "Cat God Ranch",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "check-x-mate",
+    "titulo": "Check x Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "check-x-mate-demo",
+    "titulo": "Check x Mate Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "chess-infinity-mate-in-2-puzzle-pack",
+    "titulo": "Chess Infinity: Mate in 2 Puzzle Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "chess-infinity-mate-in-3-puzzle-pack",
+    "titulo": "Chess Infinity: Mate in 3 Puzzle Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "chest-mate",
+    "titulo": "Chest Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "chinchon-digital",
+    "titulo": "Chinchón Digital",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "chromagun",
+    "titulo": "ChromaGun",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "cicada",
+    "titulo": "CICADA",
+    "motivo_exclusion": "triage: juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "cities-in-motion-2-marvellous-monorails",
+    "titulo": "Cities in Motion 2: Marvellous Monorails",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-amtrak-sdp40f-loco-add-on",
-    "titulo": "Train Simulator: Amtrak SDP40F Loco Add-On",
+    "id": "cities-skylines-content-creator-pack-skyscrapers",
+    "titulo": "Cities: Skylines - Content Creator Pack: Skyscrapers",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "civilization-v-civ-and-scenario-double-pack-spain-and-inca",
+    "titulo": "Civilization V - Civ and Scenario Double Pack: Spain and Inca",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "civilization-v-scrambled-continents-map-pack",
+    "titulo": "Civilization V - Scrambled Continents Map Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "civilization-vi-buenos-aires",
+    "titulo": "Civilization VI Buenos Aires",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "close-encounter-vr",
+    "titulo": "Close Encounter VR",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "command-mo-live-commonwealth-collision",
+    "titulo": "Command:MO LIVE - Commonwealth Collision",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "helldorado",
-    "titulo": "Helldorado",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-gp9-loco-add-on",
-    "titulo": "Train Simulator: GP9 Loco Add-On",
+    "id": "command-mo-northern-inferno",
+    "titulo": "Command:MO - Northern Inferno",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "the-list",
-    "titulo": "The List",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-clinchfield-railroad-u36c-loco-add-on",
-    "titulo": "Train Simulator: Clinchfield Railroad U36C Loco Add-On",
+    "id": "commander-conquest-of-the-americas-colonial-navy",
+    "titulo": "Commander: Conquest of the Americas - Colonial Navy",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-bozeman-pass-livingston-three-forks-trident",
-    "titulo": "Train Simulator: Bozeman Pass: Livingston - Three Forks & Trident",
+    "id": "concerto-on-white-cajon-story-marimbeira-music-pack",
+    "titulo": "Concerto on White: Cajon Story - Marimbeira Music Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "constellation-tango",
+    "titulo": "Constellation Tango",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "contractors-showdown-exfilzone-johnny-s-secret-stash",
+    "titulo": "Contractors Showdown : ExfilZone - Johnny's secret stash",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "trs22-model-railroaders-edition",
-    "titulo": "TRS22 Model Railroaders Edition",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
-    "fecha_descarte": "2026-07-09"
+    "id": "country-pack-hearts-of-iron-iv-trial-of-allegiance",
+    "titulo": "Country Pack - Hearts of Iron IV: Trial of Allegiance",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-bnsf-sd75-loco-add-on",
-    "titulo": "Train Simulator: BNSF SD75 Loco Add-On",
+    "id": "craftomation-101-programming-craft",
+    "titulo": "Craftomation 101: Programming & Craft",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "crate-mates",
+    "titulo": "Crate Mates",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "crossout-assault-force-tango-1",
+    "titulo": "Crossout - Assault Force: Tango-1",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-cajon-pass-route-add-on",
-    "titulo": "Train Simulator: Cajon Pass Route Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "id": "cumbia-villera-el-ritmo",
+    "titulo": "Cumbia Villera: El Ritmo",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "train-simulator-tennessee-pass",
-    "titulo": "Train Simulator: Tennessee Pass",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "id": "cw-chaco-war",
+    "titulo": "CW: Chaco War",
+    "motivo_exclusion": "juego base; jurisdicción: Chaco",
+    "fecha_descarte": "2026-08-03"
   },
   {
-    "id": "fire-place",
-    "titulo": "Fire Place",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-union-pacific-gp50-loco-add-on",
-    "titulo": "Train Simulator: Union Pacific GP50 Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "rogue-planet-1",
-    "titulo": "Rogue Planet 1",
-    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-aerotrain-streamlined-train-add-on",
-    "titulo": "Train Simulator: Aerotrain Streamlined Train Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-great-northern-f7-empire-builder-loco-add-on",
-    "titulo": "Train Simulator: Great Northern F7 ‘Empire Builder’ Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-southern-pacific-sd45t-2-loco-add-on",
-    "titulo": "Train Simulator: Southern Pacific SD45T-2 Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-at-sf-sd45-2-loco-add-on",
-    "titulo": "Train Simulator: AT&SF SD45-2 Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-sim-world-6-bnsf-gp60m-gp60b-loco-add-on",
-    "titulo": "Train Sim World® 6: BNSF GP60M & GP60B Loco Add-On ",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-burlington-northern-u25",
-    "titulo": "Train Simulator: Burlington Northern U25",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "ts-marketplace-southern-pacific-cotton-belt-gp30-livery-add-on",
-    "titulo": "TS Marketplace: Southern Pacific/Cotton Belt GP30 Livery Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-burlington-northern-f45-loco-add-on",
-    "titulo": "Train Simulator: Burlington Northern F45 Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-csx-sd45-2-loco-add-on",
-    "titulo": "Train Simulator: CSX SD45-2 Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-norfolk-southern-gp50hh-loco-add-on",
-    "titulo": "Train Simulator: Norfolk Southern GP50HH Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "train-simulator-union-pacific-gp40x-loco-add-on",
-    "titulo": "Train Simulator: Union Pacific GP40X Loco Add-On",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dakar-desert-rally-usa-tour",
-    "titulo": "Dakar Desert Rally - USA Tour",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dakar-18-desafio-inca-rally",
-    "titulo": "Dakar 18 - Desafío Inca Rally",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dakar-desert-rally-season-pass",
-    "titulo": "Dakar Desert Rally - Season Pass",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
-  },
-  {
-    "id": "dakar-desert-rally-saudi-arabia-map-extension",
-    "titulo": "Dakar Desert Rally - Saudi Arabia Map Extension",
-    "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "id": "cw-chaco-war-demo",
+    "titulo": "CW: Chaco War Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: chaco",
+    "fecha_descarte": "2026-08-03"
   },
   {
     "id": "dakar-18-ari-vatanen-peugeot-205-turbo-16",
     "titulo": "Dakar 18 - Ari Vatanen / Peugeot 205 Turbo 16",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-18-desafio-inca-rally",
+    "titulo": "Dakar 18 - Desafío Inca Rally",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-18-desafio-ruta-40-rally",
+    "titulo": "Dakar 18 - Desafío Ruta 40 Rally",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
   },
   {
     "id": "dakar-desert-rally-audi-rs-q-e-tron-hybrid-car",
     "titulo": "Dakar Desert Rally - Audi RS Q e-tron Hybrid Car",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-classics-vehicle-pack-1",
+    "titulo": "Dakar Desert Rally - Classics Vehicle Pack #1",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-classics-vehicle-pack-2",
+    "titulo": "Dakar Desert Rally - Classics Vehicle Pack #2",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-hybrid-vehicle-pack",
+    "titulo": "Dakar Desert Rally - Hybrid Vehicle Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-legends-pack",
+    "titulo": "Dakar Desert Rally - Legends Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-saudi-arabia-map-extension",
+    "titulo": "Dakar Desert Rally - Saudi Arabia Map Extension",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-season-pass",
+    "titulo": "Dakar Desert Rally - Season Pass",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-snowrunner-cars-pack",
+    "titulo": "Dakar Desert Rally - SnowRunner Cars Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-snowrunner-trucks-pack",
+    "titulo": "Dakar Desert Rally - SnowRunner Trucks Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dakar-desert-rally-usa-tour",
+    "titulo": "Dakar Desert Rally - USA Tour",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dance-dance-detective",
+    "titulo": "Dance Dance Detective",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dance-dance-detective-demo",
+    "titulo": "Dance Dance Detective Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dark-rage",
+    "titulo": "Dark Rage",
+    "motivo_exclusion": "Primer shoot'em up comercial argentino sin vínculo temático con Argentina (solo origen del desarrollo)",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dark-rage-1997",
+    "titulo": "Dark Rage",
+    "motivo_exclusion": "Primer shoot'em up comercial argentino sin vínculo temático con Argentina (solo origen del desarrollo)",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dcs-ch-47f",
+    "titulo": "DCS: CH-47F",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dcs-mb-339",
+    "titulo": "DCS: MB-339",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dead-by-wheel-battle-royal",
+    "titulo": "Dead by Wheel: Battle Royal",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dear-future",
+    "titulo": "Dear Future",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "death-skid-marks",
+    "titulo": "Death Skid Marks",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "death-skid-marks-soundtrack",
+    "titulo": "Death Skid Marks Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "debate-mortal",
+    "titulo": "Debate Mortal",
+    "motivo_exclusion": "sensibilidad alta; verificar URL; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "demo",
+    "titulo": "蒼色之光與魔劍鍛造師 Demo",
+    "motivo_exclusion": "tipo Steam: demo",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "design-it-drive-it-speedboats",
+    "titulo": "Design it, Drive it : Speedboats",
+    "motivo_exclusion": "juego base; jurisdicción: San Juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate",
+    "titulo": "Desktop Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-cinnamoroll-dlc",
+    "titulo": "Desktop Mate CINNAMOROLL DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-gumi-dlc",
+    "titulo": "Desktop Mate GUMI DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-hanakuma-chifuyu-dlc",
+    "titulo": "Desktop Mate Hanakuma Chifuyu DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-hello-kitty-dlc",
+    "titulo": "Desktop Mate HELLO KITTY DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kagamine-len-dlc",
+    "titulo": "Desktop Mate Kagamine Len DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kagamine-rin-dlc",
+    "titulo": "Desktop Mate Kagamine Rin DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kaito-dlc",
+    "titulo": "Desktop Mate KAITO DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kasukabe-tsumugi-dlc",
+    "titulo": "Desktop Mate Kasukabe Tsumugi DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kizuna-ai-dlc",
+    "titulo": "Desktop Mate Kizuna AI DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kizuna-akari-dlc",
+    "titulo": "Desktop Mate Kizuna Akari DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kotonoha-akane-dlc",
+    "titulo": "Desktop Mate Kotonoha Akane DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kotonoha-aoi-dlc",
+    "titulo": "Desktop Mate Kotonoha Aoi DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-kuromi-dlc",
+    "titulo": "Desktop Mate KUROMI DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-meiko-dlc",
+    "titulo": "Desktop Mate MEIKO DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-my-melody-dlc",
+    "titulo": "Desktop Mate MY MELODY DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-needy-streamer-overload-ame-chan-dlc",
+    "titulo": "Desktop Mate NEEDY STREAMER OVERLOAD Ame-chan DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-needy-streamer-overload-omgkawaiiangel-dlc",
+    "titulo": "Desktop Mate NEEDY STREAMER OVERLOAD OMGkawaiiAngel DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-otomachi-una-dlc",
+    "titulo": "Desktop Mate Otomachi Una DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-pochacco-dlc",
+    "titulo": "Desktop Mate POCHACCO DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-pompompurin-dlc",
+    "titulo": "Desktop Mate POMPOMPURIN DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-snow-miku-2026-ver-dlc",
+    "titulo": "Desktop Mate SNOW MIKU 2026 Ver. DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-snow-miku-jr-tower-ver-dlc",
+    "titulo": "Desktop Mate SNOW MIKU JR Tower Ver. DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-touhou-project-hakurei-reimu-dlc",
+    "titulo": "Desktop Mate Touhou Project Hakurei Reimu DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-touhou-project-kirisame-marisa-dlc",
+    "titulo": "Desktop Mate Touhou Project Kirisame Marisa DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-touhou-project-yukkuri-marisa-dlc",
+    "titulo": "Desktop Mate Touhou Project Yukkuri Marisa DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-touhou-project-yukkuri-reimu-dlc",
+    "titulo": "Desktop Mate Touhou Project Yukkuri Reimu DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-widgets",
+    "titulo": "電卓 - Desktop Mate Widgets",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-work-cat-dlc",
+    "titulo": "Desktop Mate Work Cat DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "desktop-mate-yuzuki-yukari-dlc",
+    "titulo": "Desktop Mate Yuzuki Yukari DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "detective-tales-a-study-in-scarlet",
+    "titulo": "Detective tales: A Study in Scarlet",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "difunta-correa",
+    "titulo": "Difunta Correa",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "digital-mate",
+    "titulo": "Digital Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dirt-5-wild-spirits-pack",
+    "titulo": "DIRT 5 - Wild Spirits Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: dakar",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "disco-inferno-the-trammps",
+    "titulo": "Disco Inferno - The Trammps",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dollhouse-of-dead",
+    "titulo": "Dollhouse of Dead",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dome-discover-soundtrack",
+    "titulo": "Dome Discover Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "doom-survivor-horde-rush",
+    "titulo": "Doom Survivor: Horde Rush",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "door-kickers-action-squad",
+    "titulo": "Door Kickers: Action Squad",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dream-pinball-3d-soundtrack",
+    "titulo": "Dream Pinball 3D Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "dying-breed-soundtrack",
+    "titulo": "Dying Breed Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "echoes-of-formosa-agent-reborn",
+    "titulo": "鯤島行者 Echoes of Formosa: Agent Reborn",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "efootball-pes-2021",
+    "titulo": "eFootball PES 2021",
+    "motivo_exclusion": "Selección argentina entre decenas de equipos internacionales; no es eje central",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "el-eternauta",
+    "titulo": "El Eternauta",
+    "motivo_exclusion": "sensibilidad media; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "el-familiar",
+    "titulo": "El Familiar",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "el-gaucho-martin-fierro-demo",
+    "titulo": "El gaucho Martín Fierro Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "eon-altar",
+    "titulo": "Eon Altar",
+    "motivo_exclusion": "juego base; jurisdicción: Salta",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "escoba-del-15",
+    "titulo": "Escoba del 15",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "esma-memoria-virtual",
+    "titulo": "ESMA: Memoria Virtual",
+    "motivo_exclusion": "sensibilidad alta; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "estudiantes-camino-a-la-libertadores",
+    "titulo": "Estudiantes: Camino a la Libertadores",
+    "motivo_exclusion": "verificar; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "expansion-europa-universalis-iv-el-dorado",
+    "titulo": "Expansion - Europa Universalis IV: El Dorado",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fantasy-grounds-latin-american-monsters",
+    "titulo": "Fantasy Grounds - Latin American Monsters",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "far-cry-5-hours-of-darkness",
+    "titulo": "Far Cry® 5 - Hours of Darkness",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "farm-manager-world-flags-pack",
+    "titulo": "Farm Manager World - Flags Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "feodika",
+    "titulo": "Feodika",
+    "motivo_exclusion": "juego base; jurisdicción: Córdoba",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fifa-22",
+    "titulo": "FIFA 22",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fifa-23",
+    "titulo": "FIFA 23",
+    "motivo_exclusion": "Argentina es una selección entre muchas; no cumple criterio deporte central",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fifa-street-caminito-descartado",
+    "titulo": "FIFA Street Caminito",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "finnish-army-simulator",
+    "titulo": "Finnish Army Simulator",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fire-and-maneuver-expansion-american-civil-war",
+    "titulo": "Fire and Maneuver | Expansion: American Civil War",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fire-place",
+    "titulo": "Fire Place",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "flatspace-music-pack-2",
+    "titulo": "Flatspace Music Pack 2",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "football-club-simulator-fcs-21",
+    "titulo": "Football Club Simulator - FCS #21",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "formosa-night-market-vr-arcade-by-taiwan",
+    "titulo": "Formosa Night Market VR Arcade(by Taiwan)",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "four-elite-warriors-demo",
+    "titulo": "Four Elite Warriors Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fran-bow-original-soundtrack",
+    "titulo": "Fran Bow - Original Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fran-bow-soundtrack-remastered",
+    "titulo": "Fran Bow - Soundtrack Remastered",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "freeze-tag-fun-pack-1",
+    "titulo": "Freeze Tag Fun Pack #1",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fsx-steam-edition-friday-harbor-kfhr-add-on",
+    "titulo": "FSX: Steam Edition - Friday Harbor (KFHR) Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "fsx-steam-edition-toposim-south-america",
+    "titulo": "FSX Steam Edition: Toposim South America",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "futbol-5-j2me",
+    "titulo": "Fútbol 5 J2ME",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "game-mate",
+    "titulo": "Game Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gauchito-gil-el-santo-gaucho",
+    "titulo": "Gauchito Gil: El Santo Gaucho",
+    "motivo_exclusion": "verificar cuál incluir; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gaucho-and-the-grassland-demo",
+    "titulo": "Gaucho and the Grassland Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gaucho-and-the-grassland-soundtrack",
+    "titulo": "Gaucho and the Grassland Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "generala-online",
+    "titulo": "Generala Online",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ghostwire-tokyo",
+    "titulo": "Ghostwire: Tokyo",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ghostwire-tokyo-deluxe-upgrade",
+    "titulo": "Ghostwire: Tokyo - Deluxe Upgrade",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ghostwire-tokyo-original-game-soundtrack",
+    "titulo": "Ghostwire: Tokyo Original Game Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ghostwire-tokyo-prelude",
+    "titulo": "Ghostwire: Tokyo - Prelude",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ghostwire-tokyo-spider-s-thread-soundtrack",
+    "titulo": "Ghostwire: Tokyo - Spider's Thread Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "glass-original-soundtrack",
+    "titulo": "GLASS Original Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "golf-gang",
+    "titulo": "Golf Gang",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "good-pizza-great-pizza-cooking-simulator-game",
+    "titulo": "Good Pizza, Great Pizza - Cooking Simulator Game",
+    "motivo_exclusion": "triage: juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "goose-evolution",
+    "titulo": "Goose Evolution",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "greedfall-the-dying-world",
+    "titulo": "GreedFall: The Dying World",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc",
+    "titulo": "Gremlins, Inc.",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-agents-of-chaos",
+    "titulo": "Gremlins, Inc. – Agents of Chaos",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-apuestas-strales",
+    "titulo": "Gremlins, Inc. – Apuestas аstrales",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-astral-gamblers",
+    "titulo": "Gremlins, Inc. – Astral Gamblers",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-automated-competitors",
+    "titulo": "Gremlins, Inc. – Automated Competitors",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-card-game-print-play-set",
+    "titulo": "Gremlins, Inc. – Card Game, Print & Play Set",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-cards-projects",
+    "titulo": "Gremlins, Inc. – Cards & Projects",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-competidores-mecanicos",
+    "titulo": "Gremlins, Inc. – Competidores mecánicos",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-digital-artbook",
+    "titulo": "Gremlins, Inc. – Digital Artbook",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-dlc-con-el-juego-de-cartas-en-version-print-play",
+    "titulo": "Gremlins, Inc. – DLC CON EL JUEGO DE CARTAS EN VERSIÓN PRINT & PLAY",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-famous-figures",
+    "titulo": "Gremlins, Inc. – Famous Figures",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-figuras-famosas",
+    "titulo": "Gremlins, Inc. – Figuras famosas",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-invitados-inesperados",
+    "titulo": "Gremlins, Inc. – Invitados inesperados",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-libro-de-arte",
+    "titulo": "Gremlins, Inc. – Libro de arte",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-original-soundtrack",
+    "titulo": "Gremlins, Inc. – Original Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina,tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "gremlins-inc-uninvited-guests",
+    "titulo": "Gremlins, Inc. – Uninvited Guests",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "guess-the-flag-demo",
+    "titulo": "Guess the Flag! Demo",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "guitar-practice-mate",
+    "titulo": "Guitar Practice Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "guitar-practice-mate-demo",
+    "titulo": "Guitar Practice Mate Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "halo-reach",
+    "titulo": "Halo: Reach",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "haneholo-standard-edition-upgrade-dlc",
+    "titulo": "HANEHOLO! : Standard Edition Upgrade DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: san luis",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hatsune-miku-dlc",
+    "titulo": "Hatsune Miku DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hatsune-miku-magical-mirai-2025-ver-dlc",
+    "titulo": "Hatsune Miku MAGICAL MIRAI 2025 Ver. DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "head-basketball-first-pack",
+    "titulo": "Head Basketball - First Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "healer-phoenix",
+    "titulo": "Healer&Phoenix",
+    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "heart-of-enya",
+    "titulo": "Heart of Enya",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "heavy-metal-death-can",
+    "titulo": "Heavy Metal Death Can",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "helldorado",
+    "titulo": "Helldorado",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush",
+    "titulo": "Hi-Fi RUSH",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-b-sides",
+    "titulo": "Hi-Fi RUSH B-Sides",
+    "motivo_exclusion": "triage: tipo Steam: music",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-bossplay-costume-pack",
+    "titulo": "Hi-Fi RUSH: Bossplay Costume Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-deluxe-edition-upgrade-pack",
+    "titulo": "Hi-Fi RUSH Deluxe Edition Upgrade Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-original-game-soundtrack",
+    "titulo": "Hi-Fi RUSH Original Game Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-teamplay-costume-pack",
+    "titulo": "Hi-Fi RUSH: Teamplay Costume Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hi-fi-rush-traditional-garb-costume-pack",
+    "titulo": "Hi-Fi RUSH: Traditional Garb Costume Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hidden-horizons-christmas-tour-collector-s-edition",
+    "titulo": "Hidden Horizons: Christmas Tour Collector's Edition",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "huilliche-guardianes-del-sur",
+    "titulo": "Huilliche: Guardianes del Sur",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "humankindtm-cultures-of-latin-america-pack",
+    "titulo": "HUMANKIND™ - Cultures of Latin America Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "hunt-showdown-1896-la-luz-mala",
+    "titulo": "Hunt: Showdown 1896 - La Luz Mala",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ignition",
+    "titulo": "Ignition",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "igtap-an-incremental-game-that-s-also-a-platformer",
+    "titulo": "IGTAP: an Incremental Game That's Also a Platformer",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "igtap-an-incremental-game-that-s-also-a-platformer-demo",
+    "titulo": "IGTAP: an Incremental Game That's Also a Platformer Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "in-search-of-freedom-demo",
+    "titulo": "In Search of Freedom Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "infinite-bloom",
+    "titulo": "Infinite Bloom",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "infinite-tournament-paintball",
+    "titulo": "Infinite Tournament Paintball",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "infinity-battlescape",
+    "titulo": "Infinity: Battlescape",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "isekat-crushed-by-a-computer-my-beloved-kitten-is-transported-to-a-fantasy-world-where-its-typing-skills-save-the-kingdom",
+    "titulo": "Isekat: Crushed by a Computer, My Beloved Kitten is Transported to a Fantasy World where its Typing Skills Save the Kingdom!",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "itowngameplay-universe",
+    "titulo": "iTownGamePlay UNIVERSE",
+    "motivo_exclusion": "juego base; jurisdicción: Corrientes",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "itowngameplay-universe-pack-de-batalla",
+    "titulo": "iTowngameplay Universe «Pack de Batalla»",
+    "motivo_exclusion": "steam auto-descartado; terminos: evita",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "jigsaw-puzzle-pack-pixel-puzzles-ultimate-glaciers",
+    "titulo": "Jigsaw Puzzle Pack - Pixel Puzzles Ultimate: Glaciers",
+    "motivo_exclusion": "steam auto-descartado; terminos: patagonia",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "jigsaw-puzzle-pack-pixel-puzzles-ultimate-pp2-birds",
+    "titulo": "Jigsaw Puzzle Pack - Pixel Puzzles Ultimate: PP2 Birds",
+    "motivo_exclusion": "steam auto-descartado; terminos: falklands",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "jurassic-world-evolution-2-park-managers-collection-pack",
+    "titulo": "Jurassic World Evolution 2: Park Managers' Collection Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ka-mate",
+    "titulo": "Ka Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "kasane-teto-dlc",
+    "titulo": "Kasane Teto DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "kenshi",
+    "titulo": "Kenshi",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "khemia",
+    "titulo": "Khemia",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "king-arthur-s-gold-flags-of-the-world-heads-pack",
+    "titulo": "King Arthur's Gold: Flags of the World Heads Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "kiosco-simulator",
+    "titulo": "Kiosco Simulator",
+    "motivo_exclusion": "verificar existencia; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "kirchner-hero",
+    "titulo": "Kirchner Hero",
+    "motivo_exclusion": "verificar existencia; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "koatl-the-defender-ultimate",
+    "titulo": "Koatl The Defender ULTIMATE",
+    "motivo_exclusion": "juego base; jurisdicción: San Luis",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "kofi-quest-soundtrack",
+    "titulo": "Kofi Quest Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: cordoba",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "koharu-rikka-dlc",
+    "titulo": "Koharu Rikka DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ladykiller-in-a-bind-original-soundtrack",
+    "titulo": "Ladykiller in a Bind — Original Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "las-caras-b-de-hi-fi-rush",
+    "titulo": "Las caras B de Hi-Fi RUSH",
+    "motivo_exclusion": "tipo Steam: music",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "last-harbor",
+    "titulo": "Last Harbor",
+    "motivo_exclusion": "juego base; jurisdicción: San Juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "last-pirates-die-together",
+    "titulo": "Last Pirates: Die Together",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lego-pirates-of-the-caribbean-the-video-game",
+    "titulo": "LEGO® Pirates of the Caribbean: The Video Game",
+    "motivo_exclusion": "juego base; jurisdicción: San Juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "life-of-a-thug",
+    "titulo": "Life of a Thug",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lighthouse-of-the-souls-demo-lots",
+    "titulo": "Lighthouse Of The Souls Demo (LOTS)",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lilas-sky-ark-soundtrack",
+    "titulo": "Lila’s Sky Ark Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "livemate",
+    "titulo": "LiveMate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lobizon-la-bestia-del-full-moon",
+    "titulo": "Lobizón: La Bestia del Full Moon",
+    "motivo_exclusion": "varios prototipos posibles; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lock-n-load-tactical-digital-heroes-of-the-falklands-battlepack-1",
+    "titulo": "Lock 'n Load Tactical Digital: Heroes of the Falklands Battlepack 1",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "loser-named-hana",
+    "titulo": "Loser Named Hana",
+    "motivo_exclusion": "juego base; jurisdicción: Mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lost-in-prayer",
+    "titulo": "Lost in Prayer",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "lucius-iii-soundtrack",
+    "titulo": "Lucius III Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ludum-dare-gaucho-entries",
+    "titulo": "Ludum Dare — Gaucho entries",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "macri-bros",
+    "titulo": "Macri Bros",
+    "motivo_exclusion": "verificar existencia; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mafalda-el-videojuego",
+    "titulo": "Mafalda: El Videojuego",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mahjong-soul-chibi-ichihime-dlc",
+    "titulo": "Mahjong Soul Chibi Ichihime DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "maiden-city-the-last-collateral-damage",
+    "titulo": "Maiden City: The Last Collateral Damage",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "malavision-the-beginning",
+    "titulo": "Malavision: The Beginning",
+    "motivo_exclusion": "juego base; jurisdicción: Chaco",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "malvinas-mod-arma-3",
+    "titulo": "Malvinas Mod ARMA 3",
+    "motivo_exclusion": "tipo mod; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mama-s-sleeping-angels",
+    "titulo": "Mama's Sleeping Angels",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "manager-de-futbol-argentino",
+    "titulo": "Manager de Fútbol Argentino",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "maradona-en-napoles",
+    "titulo": "Maradona en Nápoles",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "marea-nocturna-defensa-de-la-luz",
+    "titulo": "Marea Nocturna: Defensa de la Luz",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mariachi-legends",
+    "titulo": "Mariachi Legends",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "marimomo",
+    "titulo": "Marimomo",
+    "motivo_exclusion": "juego base; jurisdicción: Salta",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "markus-s-miasma",
+    "titulo": "Markus's Miasma",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "martin-fierro-la-aventura",
+    "titulo": "Martín Fierro: La Aventura",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mate",
+    "titulo": "Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mate-in-eleven",
+    "titulo": "Mate in Eleven",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mate-morphosis",
+    "titulo": "Mate'Morphosis",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mate-morphosis-demo",
+    "titulo": "Mate'Morphosis Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mateengine",
+    "titulo": "MateEngine",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "matsutake-game",
+    "titulo": "Matsutake Game",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "megurine-luka-dlc",
+    "titulo": "Megurine Luka DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "minimate",
+    "titulo": "MiniMate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mobbyt-historia-argentina-descartado",
+    "titulo": "Mobbyt — Historia Argentina",
+    "motivo_exclusion": "entrada colección; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mobmate-gpu-acceleration-pack",
+    "titulo": "MobMate – GPU Acceleration Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mobmate-whisptalk-zero-cloud-voice-chat-toolkit",
+    "titulo": "MobMate WhispTalk – Zero-Cloud Voice Chat Toolkit",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mobmate-whisptalk-zero-cloud-voice-chat-toolkit-demo",
+    "titulo": "MobMate WhispTalk – Zero-Cloud Voice Chat Toolkit Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "motogptm14",
+    "titulo": "MotoGP™14",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mx-vs-atv-supercross-encore-supercross-track-pack-4",
+    "titulo": "MX vs. ATV Supercross Encore - Supercross Track Pack 4",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "mxgp-2019-the-official-motocross-videogame",
+    "titulo": "MXGP 2019 - The Official Motocross Videogame",
+    "motivo_exclusion": "juego base; jurisdicción: Neuquén",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "national-rugby-manager-southern-hemisphere-rugby-pack",
+    "titulo": "National Rugby Manager - Southern Hemisphere Rugby Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "natsuki-karin-dlc",
+    "titulo": "Natsuki Karin DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "nature-life-drunk-on-nectar",
+    "titulo": "Nature & Life - Drunk On Nectar",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "naval-action-hercules",
+    "titulo": "Naval Action - Hercules",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "nier-automata-yorha-no-2-type-b-dlc",
+    "titulo": "NieR:Automata YoRHa No.2 Type B DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "nix-ashes-of-the-phoenix",
+    "titulo": "Nix: Ashes of the Phoenix",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "nunca-mas-el-juego",
+    "titulo": "Nunca Más: El Juego",
+    "motivo_exclusion": "sensibilidad alta; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "old-mate-dave",
+    "titulo": "Old Mate Dave",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "one-piece-pirate-warriors-4-legend-dawn-pack",
+    "titulo": "ONE PIECE: PIRATE WARRIORS 4 Legend Dawn Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "operation-tango",
+    "titulo": "Operation: Tango",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "operation-tango-friend-pass",
+    "titulo": "Operation: Tango - Friend Pass",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "operation-tango-soundtrack",
+    "titulo": "Operation: Tango - Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "orbital-patrol-the-lani-goodspeed-story",
+    "titulo": "Orbital Patrol: The Lani Goodspeed Story",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "out-in-space",
+    "titulo": "Out in Space",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pampas-selene-pirate-software-s-ferret-sanctuary-dlc",
+    "titulo": "Pampas & Selene - Pirate Software's Ferret Sanctuary DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: pampa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pampas-selene-soundtrack",
+    "titulo": "Pampas & Selene - Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: pampa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pampas-selene-supporter-pack",
+    "titulo": "Pampas & Selene - Supporter Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: pampa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "panic-in-puzzle-world",
+    "titulo": "Panic in Puzzle World",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "patagonia-nazi-bloodrayne-mod",
+    "titulo": "Patagonia Nazi — BloodRayne mod",
+    "motivo_exclusion": "referencia menor; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "patoruzu",
+    "titulo": "Patoruzú",
+    "motivo_exclusion": "verificar ediciones; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "patria-chica-simulator",
+    "titulo": "Patria Chica Simulator",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pixel-horizons",
+    "titulo": "Pixel Horizons",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pixel-puzzles-ww2-jigsaw-pack-uss-massachusetts",
+    "titulo": "Pixel Puzzles WW2 Jigsaw - Pack: USS Massachusetts",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "planet-zoo-americas-animal-pack",
+    "titulo": "Planet Zoo: Americas Animal Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "planet-zoo-grasslands-animal-pack",
+    "titulo": "Planet Zoo: Grasslands Animal Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "planet-zoo-south-america-pack",
+    "titulo": "Planet Zoo: South America Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "planet-zoo-tropical-pack",
+    "titulo": "Planet Zoo: Tropical Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "planet-zoo-wetlands-animal-pack",
+    "titulo": "Planet Zoo: Wetlands Animal Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pool-argentino",
+    "titulo": "Pool Argentino",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "preludio-de-ghostwire-tokyo",
+    "titulo": "Preludio de Ghostwire: Tokyo",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "priceless-return",
+    "titulo": "Priceless Return",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "private-military-manager-tactical-auto-battler-demo",
+    "titulo": "Private Military Manager: Tactical Auto Battler Demo",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pro-basketball-manager-2022",
+    "titulo": "Pro Basketball Manager 2022",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pro-basketball-manager-2023",
+    "titulo": "Pro Basketball Manager 2023",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pro-basketball-manager-2024",
+    "titulo": "Pro Basketball Manager 2024",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pro-basketball-manager-2025",
+    "titulo": "Pro Basketball Manager 2025",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "pro-basketball-manager-2026",
+    "titulo": "Pro Basketball Manager 2026",
+    "motivo_exclusion": "deporte internacional genérico sin foco AR",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "proceres-san-martin-descartado",
+    "titulo": "Proceres San Martín",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "protocol-11-super-cute-alien-legacy-edition",
+    "titulo": "PROTOCOL 11 - SUPER Cute Alien Legacy Edition",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "r-mate",
+    "titulo": "R Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "radioactive-expansion-pack-2",
+    "titulo": "Radioactive Expansion Pack 2",
+    "motivo_exclusion": "steam auto-descartado; terminos: falklands",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "regnum-online-mobile-ar",
+    "titulo": "Regnum Online Mobile AR",
+    "motivo_exclusion": "verificar; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "reversion-trilogy",
+    "titulo": "Reversion trilogy",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "richman-7-soundtrack",
+    "titulo": "Richman 7 Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rising-star-2",
+    "titulo": "Rising Star 2",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rock-nacional-la-aventura",
+    "titulo": "Rock Nacional: La Aventura",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rogue-mate",
+    "titulo": "Rogue Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rogue-mate-demo",
+    "titulo": "Rogue Mate Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rogue-planet-1",
+    "titulo": "Rogue Planet 1",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "roots-of-pacha",
+    "titulo": "Roots of Pacha",
+    "motivo_exclusion": "Desarrollado en Argentina pero sin escenario, protagonista ni temática argentina específica",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rpg-maker-mv-heroine-character-pack-4",
+    "titulo": "RPG Maker MV - Heroine Character Pack 4",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "rpg-maker-mz-heroine-character-pack-4",
+    "titulo": "RPG Maker MZ - Heroine Character Pack 4",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "saints-row",
+    "titulo": "Saints Row",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scan-your-heart",
+    "titulo": "Scan Your Heart \"愛情限時批\"",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scarlet-quest",
+    "titulo": "Scarlet Quest",
+    "motivo_exclusion": "Steam API sin datos",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scholar-s-mate",
+    "titulo": "Scholar's Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scholar-s-mate-demo",
+    "titulo": "Scholar's Mate Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scholar-s-mate-first-move",
+    "titulo": "Scholar's Mate - First Move",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "screencheat",
+    "titulo": "Screencheat",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "scum-dance-pack",
+    "titulo": "SCUM Dance Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "section-13",
+    "titulo": "Section 13",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "serious-sam-vr-the-last-hope",
+    "titulo": "Serious Sam VR: The Last Hope",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sesame-street-amigos-y-risas",
+    "titulo": "Sesame Street: Amigos y Risas",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sesame-street-friends-fun",
+    "titulo": "Sesame Street: Friends & Fun",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "shadow-gambit-the-cursed-crew",
+    "titulo": "Shadow Gambit: The Cursed Crew",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "shadow-mate",
+    "titulo": "Shadow mate ~小さな竜と適合者~",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "shadow-of-the-tomb-raider-the-grand-caiman",
+    "titulo": "Shadow of the Tomb Raider - The Grand Caiman",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "shardbound-forge-your-path-master-your-strategy",
+    "titulo": "Shardbound: Forge Your Path, Master Your Strategy",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "shardpunk",
+    "titulo": "Shardpunk",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sheepscape",
+    "titulo": "Sheepscape",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ship-of-fools",
+    "titulo": "Ship of Fools",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sid-meier-s-civilization-vii-coleccion-encrucijadas-del-mundo",
+    "titulo": "Sid Meier's Civilization® VII: Colección Encrucijadas del mundo",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sid-meier-s-civilization-vii-crossroads-of-the-world-collection",
+    "titulo": "Sid Meier's Civilization® VII: Crossroads of the World Collection",
+    "motivo_exclusion": "triage: tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sid-meier-s-civilization-vii-simon-bolivar-pack",
+    "titulo": "Sid Meier's Civilization® VII: Simón Bolívar Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: libertador",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sin-titulo",
+    "titulo": "きのこゲーム",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sin-titulo-2",
+    "titulo": "セミたちはどう生きるか",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sin-titulo-3",
+    "titulo": "东北往事",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sips-and-sonnets",
+    "titulo": "Sips and Sonnets",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sips-and-sonnets-soundtrack",
+    "titulo": "Sips and Sonnets Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "skater-xl-the-ultimate-skateboarding-game",
+    "titulo": "Skater XL - The Ultimate Skateboarding Game",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Cruz",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "small-hero",
+    "titulo": "Small Hero",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sniper-fury",
+    "titulo": "Sniper Fury",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "somewhere-in-the-shadow",
+    "titulo": "Somewhere in the Shadow",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "soul-at-stake-glad-you-came-angie-s-dress",
+    "titulo": "灵魂筹码 - 安琪星辰夜幕礼服 Soul at Stake - \"Glad You Came\" Angie's Dress",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "soul-mates",
+    "titulo": "Soul Mates",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "soundtrack-el-tango-de-la-muerte",
+    "titulo": "SOUNDTRACK - El Tango de la Muerte",
+    "motivo_exclusion": "steam auto-descartado; terminos: evita,tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "space-engineers-sparks-of-the-future",
+    "titulo": "Space Engineers - Sparks of the Future",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "space-zombies-invasion",
+    "titulo": "Space Zombies Invasion",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spear-and-armor",
+    "titulo": "SPEAR AND ARMOR",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "speedball",
+    "titulo": "Speedball",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spire-of-sorcery-character-generator",
+    "titulo": "Spire of Sorcery – Character Generator",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spire-of-sorcery-demo",
+    "titulo": "Spire of Sorcery Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spire-of-sorcery-prologue",
+    "titulo": "Spire of Sorcery: Prologue",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spirit-city-lofi-sessions-cozy-kitchen-dlc",
+    "titulo": "Spirit City: Lofi Sessions - Cozy Kitchen DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "spirit-island-promo-pack-2-feather",
+    "titulo": "Spirit Island - Promo Pack 2: Feather",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "steam-2867250",
+    "titulo": "きのこゲーム",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "steam-3918410",
+    "titulo": "セミたちはどう生きるか",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "steam-4056810",
+    "titulo": "东北往事",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "strange-brigade",
+    "titulo": "Strange Brigade",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "strategic-command-american-civil-war-wars-in-the-americas",
+    "titulo": "Strategic Command: American Civil War - Wars in the Americas",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "stray-siege",
+    "titulo": "Stray Siege",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "streets-of-rage-4-mr-x-nightmare",
+    "titulo": "Streets Of Rage 4 - Mr. X Nightmare",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sube-simulator",
+    "titulo": "SUBE Simulator",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sudden-strike-4-the-pacific-war",
+    "titulo": "Sudden Strike 4 - The Pacific War",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "suero-zeus",
+    "titulo": "Suero Zeus",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "super-jigsaw-puzzle-generations-argentina",
+    "titulo": "Super Jigsaw Puzzle: Generations - Argentina",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "superchicos",
+    "titulo": "SUPERCHICOS",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "supermrket-expansion-san-juan-incluye-juego-original-expansion",
+    "titulo": "Supermrket: Expansion San Juan (Incluye Juego Original + Expansión)",
+    "motivo_exclusion": "steam auto-descartado; terminos: san juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "supermrket-petardos",
+    "titulo": "Supermrket: Petardos",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "superviviente-oleada-no-muertos",
+    "titulo": "Superviviente: Oleada No muertos",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sven-completely-screwed",
+    "titulo": "Sven - Completely Screwed",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "sven-plantando-nabos",
+    "titulo": "Sven - plantando nabos",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "syndicate-reboot-buenos-aires",
+    "titulo": "Syndicate reboot Buenos Aires",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tane-dlc-aerotrain",
+    "titulo": "TANE DLC: Aerotrain",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tane-dlc-atsf-gp38-2-santa-fe-2-pack",
+    "titulo": "TANE DLC: ATSF GP38-2 Santa FE (2 Pack)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tane-dlc-chicago-north-western-ge-dash-9-44cw",
+    "titulo": "TANE DLC: Chicago North Western GE Dash 9 44CW",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tane-dlc-dic-reefer-mechanical-refrigerator",
+    "titulo": "TANE DLC - DIC-Reefer (Mechanical Refrigerator)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tane-dlc-southern-pacific-ge-cw44-9",
+    "titulo": "TANE DLC: Southern Pacific GE CW44-9",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tango-district",
+    "titulo": "Tango District",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tango-district-demo",
+    "titulo": "Tango District Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tango-fiesta",
+    "titulo": "Tango Fiesta",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tango-fiesta-fascism-fighters-4000",
+    "titulo": "Tango Fiesta - Fascism Fighters 4000",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tech-invaders-td",
+    "titulo": "Tech Invaders TD",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "terminal-conflict-soundtrack",
+    "titulo": "Terminal Conflict Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "thalassa-edge-of-the-abyss",
+    "titulo": "Thalassa: Edge of the Abyss",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-adventures-of-tango-rio",
+    "titulo": "The Adventures of Tango Rio",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-adventures-of-tango-rio-demo",
+    "titulo": "The Adventures of Tango Rio Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-ditzy-demons-are-in-love-with-me",
+    "titulo": "The Ditzy Demons Are in Love With Me",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within",
+    "titulo": "The Evil Within",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-2",
+    "titulo": "The Evil Within 2",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-bundle",
+    "titulo": "The Evil Within Bundle",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-demo",
+    "titulo": "The Evil Within Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-season-pass",
+    "titulo": "The Evil Within Season Pass",
+    "motivo_exclusion": "Steam API sin datos",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-soundtrack",
+    "titulo": "The Evil Within - Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-the-assignment",
+    "titulo": "The Evil Within: The Assignment",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-the-consequence",
+    "titulo": "The Evil Within - The Consequence",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-evil-within-the-executioner",
+    "titulo": "The Evil Within: The Executioner",
+    "motivo_exclusion": "Steam API sin datos",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-girl-from-arkanya",
+    "titulo": "The Girl from Arkanya",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-legend-of-tango",
+    "titulo": "The Legend of Tango",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-list",
+    "titulo": "The List",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-lost-nomad",
+    "titulo": "The Lost Nomad",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-neon-mate",
+    "titulo": "The Neon Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-rainy-port-keelung",
+    "titulo": "The Rainy Port Keelung 雨港基隆",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-shimmering-horizon-and-cursed-blacksmith",
+    "titulo": "The Shimmering Horizon and Cursed Blacksmith",
+    "motivo_exclusion": "juego base; jurisdicción: Formosa",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-shimmering-horizon-and-cursed-blacksmith-trial",
+    "titulo": "The Shimmering Horizon and Cursed Blacksmith Trial",
+    "motivo_exclusion": "triage: tipo Steam: demo",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "the-simstm-4-werewolves-game-pack",
+    "titulo": "The Sims™ 4 Werewolves Game Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "thehunter-call-of-the-wildtm-parque-fernando",
+    "titulo": "theHunter: Call of the Wild™ - Parque Fernando",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "thehunter-call-of-the-wildtm-parque-fernando-cosmetic-pack",
+    "titulo": "theHunter: Call of the Wild™ - Parque Fernando Cosmetic Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: patagonia",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "thunder-tank-escudo-de-hierro",
+    "titulo": "Thunder Tank: Escudo de hierro",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "thunder-tank-iron-shield",
+    "titulo": "Thunder Tank: Iron Shield",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tooth-and-tail-official-soundtrack",
+    "titulo": "Tooth and Tail - Official Soundtrack",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "total-war-attila-age-of-charlemagne-campaign-pack",
+    "titulo": "Total War: ATTILA - Age of Charlemagne Campaign Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: cordoba",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "total-war-warhammer-ii-curse-of-the-vampire-coast",
+    "titulo": "Total War: WARHAMMER II - Curse of the Vampire Coast",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "totally-accurate-battlegrounds",
+    "titulo": "Totally Accurate Battlegrounds",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "tp2",
+    "titulo": "TP2",
+    "motivo_exclusion": "juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-3-santa-fe-f7-add-on",
+    "titulo": "Train Sim World® 3: Santa Fe F7 Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-4-santa-fe-f7-add-on",
+    "titulo": "Train Sim World® 4: Santa Fe F7 Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-5-santa-fe-f7-add-on",
+    "titulo": "Train Sim World® 5: Santa Fe F7 Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-6-bnsf-gp60m-gp60b-loco-add-on",
+    "titulo": "Train Sim World® 6: BNSF GP60M & GP60B Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-6-santa-fe-f7-add-on",
+    "titulo": "Train Sim World® 6: Santa Fe F7 Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-sim-world-6-santa-fe-on-cajon-pass-add-on",
+    "titulo": "Train Sim World® 6: Santa Fe on Cajon Pass Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-aerotrain-streamlined-train-add-on",
+    "titulo": "Train Simulator: Aerotrain Streamlined Train Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-amtrak-sdp40f-loco-add-on",
+    "titulo": "Train Simulator: Amtrak SDP40F Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-arizona-divide-winslow-williams-route-add-on",
+    "titulo": "Train Simulator: Arizona Divide: Winslow - Williams Route Add-on",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-at-sf-scenario-pack-01",
+    "titulo": "Train Simulator: AT&SF Scenario Pack 01",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-at-sf-sd45-2-loco-add-on",
+    "titulo": "Train Simulator: AT&SF SD45-2 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-bnsf-locomotive-pack-add-on",
+    "titulo": "Train Simulator: BNSF Locomotive Pack Add-On",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-bnsf-sd75-loco-add-on",
+    "titulo": "Train Simulator: BNSF SD75 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-bozeman-pass-livingston-three-forks-trident",
+    "titulo": "Train Simulator: Bozeman Pass: Livingston - Three Forks & Trident",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-burlington-northern-f45-loco-add-on",
+    "titulo": "Train Simulator: Burlington Northern F45 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-burlington-northern-u25",
+    "titulo": "Train Simulator: Burlington Northern U25",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-cajon-pass-route-add-on",
+    "titulo": "Train Simulator: Cajon Pass Route Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-clinchfield-railroad-u36c-loco-add-on",
+    "titulo": "Train Simulator: Clinchfield Railroad U36C Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-csx-sd45-2-loco-add-on",
+    "titulo": "Train Simulator: CSX SD45-2 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-gp9-loco-add-on",
+    "titulo": "Train Simulator: GP9 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-great-northern-f7-empire-builder-loco-add-on",
+    "titulo": "Train Simulator: Great Northern F7 ‘Empire Builder’ Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-norfolk-southern-gp50hh-loco-add-on",
+    "titulo": "Train Simulator: Norfolk Southern GP50HH Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-pacific-surfliner-la-san-diego-route",
+    "titulo": "Train Simulator: Pacific Surfliner® LA - San Diego Route",
+    "motivo_exclusion": "juego base; jurisdicción: San Juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-raton-pass-trinidad-raton-route-add-on",
+    "titulo": "Train Simulator: Raton Pass: Trinidad - Raton Route Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-rio-grande-southern-placerville-rico-telluride-route-add-on",
+    "titulo": "Train Simulator: Rio Grande Southern: Placerville - Rico & Telluride Route Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-santa-fe-classic-pack-01",
+    "titulo": "Train Simulator: Santa Fe Classic Pack 01",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-santa-fe-super-fleet-gp60m",
+    "titulo": "Train Simulator: Santa Fe Super Fleet GP60M",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-southern-pacific-sd45t-2-loco-add-on",
+    "titulo": "Train Simulator: Southern Pacific SD45T-2 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-tennessee-pass",
+    "titulo": "Train Simulator: Tennessee Pass",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-union-pacific-gp40x-loco-add-on",
+    "titulo": "Train Simulator: Union Pacific GP40X Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "train-simulator-union-pacific-gp50-loco-add-on",
+    "titulo": "Train Simulator: Union Pacific GP50 Loco Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-aerotrain",
+    "titulo": "Trainz 2019 DLC: Aerotrain",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-atsf-gp38-2-santa-fe-2-pack",
+    "titulo": "Trainz 2019 DLC: ATSF GP38-2 Santa FE (2 Pack)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-chicago-north-western-ge-dash-9-44cw",
+    "titulo": "Trainz 2019 DLC: Chicago North Western GE Dash 9 44CW",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-dic-reefer-mechanical-refrigerator",
+    "titulo": "Trainz 2019 DLC: DIC-Reefer (Mechanical Refrigerator)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-pro-train-atsf-f7a-b-warbonnet-loco-bundle",
+    "titulo": "Trainz 2019 DLC - Pro Train: ATSF F7A/B Warbonnet Loco Bundle",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-pro-train-sd40-2-loco-bundle-2",
+    "titulo": "Trainz 2019 DLC - Pro Train: SD40-2 Loco Bundle 2",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2019-dlc-southern-pacific-ge-cw44-9",
+    "titulo": "Trainz 2019 DLC: Southern Pacific GE CW44-9",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-aerotrain",
+    "titulo": "Trainz 2022 DLC - Aerotrain",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-atsf-b40-8w-500-559",
+    "titulo": "Trainz 2022 DLC - ATSF B40-8W 500-559",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-atsf-gp38-2-santa-fe-2-pack",
+    "titulo": "Trainz 2022 DLC - ATSF GP38-2 Santa FE (2 Pack)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-chicago-north-western-ge-dash-9-44cw",
+    "titulo": "Trainz 2022 DLC - Chicago North Western GE Dash 9 44CW",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-dic-reefer-mechanical-refrigerator",
+    "titulo": "Trainz 2022 DLC - DIC-Reefer (Mechanical Refrigerator)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-mojave-pack",
+    "titulo": "Trainz 2022 DLC - Mojave Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-pro-train-atsf-f7a-b-warbonnet-loco-bundle",
+    "titulo": "Trainz 2022 DLC - Pro Train: ATSF F7A/B Warbonnet Loco Bundle",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-pro-train-sd40-2-loco-bundle-2",
+    "titulo": "Trainz 2022 DLC - Pro Train: SD40-2 Loco Bundle 2",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-2022-dlc-southern-pacific-ge-cw44-9",
+    "titulo": "Trainz 2022 DLC - Southern Pacific GE CW44-9",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-atsf-b40-8w-500-559",
+    "titulo": "Trainz Plus DLC - ATSF B40-8W 500-559",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-atsf-gp38-2-santa-fe-2-pack",
+    "titulo": "Trainz Plus DLC - ATSF GP38-2 Santa FE (2 Pack)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-dic-reefer-mechanical-refrigerator",
+    "titulo": "Trainz Plus DLC - DIC-Reefer (Mechanical Refrigerator)",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-mojave-pack",
+    "titulo": "Trainz Plus DLC - Mojave Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-pro-train-atsf-f7a-b-warbonnet-loco-bundle",
+    "titulo": "Trainz Plus DLC - Pro Train: ATSF F7A/B Warbonnet Loco Bundle",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-plus-dlc-pro-train-sd40-2-loco-bundle-2",
+    "titulo": "Trainz Plus DLC - Pro Train: SD40-2 Loco Bundle 2",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trainz-simulator-dlc-aerotrain",
+    "titulo": "Trainz Simulator DLC: Aerotrain",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "transport-inc-map-pack",
+    "titulo": "Transport INC - Map Pack",
+    "motivo_exclusion": "steam auto-descartado; título indica demo/dlc/pack/skin",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "trs22-model-railroaders-edition",
+    "titulo": "TRS22 Model Railroaders Edition",
+    "motivo_exclusion": "juego base; jurisdicción: Santa Fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "truco-mobile-varios",
+    "titulo": "Truco Mobile (varios)",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ts-marketplace-bnsf-scenario-pack-01",
+    "titulo": "TS Marketplace: BNSF Scenario Pack 01",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ts-marketplace-bnsf-scenario-pack-02",
+    "titulo": "TS Marketplace: BNSF Scenario Pack 02",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ts-marketplace-southern-pacific-cotton-belt-gp30-livery-add-on",
+    "titulo": "TS Marketplace: Southern Pacific/Cotton Belt GP30 Livery Add-On",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ts-marketplace-tehachapi-pass-scenario-pack-01",
+    "titulo": "TS Marketplace: Tehachapi Pass Scenario Pack 01",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ts-marketplace-tehachapi-pass-scenario-pack-02",
+    "titulo": "TS Marketplace: Tehachapi Pass Scenario Pack 02",
+    "motivo_exclusion": "steam auto-descartado; terminos: santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "twin-hawk",
+    "titulo": "Twin Hawk",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ty-the-tasmanian-tiger",
+    "titulo": "TY the Tasmanian Tiger",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ty-the-tasmanian-tiger-4",
+    "titulo": "TY the Tasmanian Tiger 4",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "undead-tide-light-s-defense",
+    "titulo": "Undead Tide: Light's Defense",
+    "motivo_exclusion": "triage: juego base; jurisdicción: Misiones",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "vacation-adventures-park-ranger-14-collector-s-edition",
+    "titulo": "Vacation Adventures: Park Ranger 14 Collector's Edition",
+    "motivo_exclusion": "juego base; jurisdicción: San Juan",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "veils-of-the-past",
+    "titulo": "Veils of the Past",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "vialidad-argentina",
+    "titulo": "Vialidad Argentina",
+    "motivo_exclusion": "archive.org; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "victoria-3-colossus-of-the-south-region-pack",
+    "titulo": "Victoria 3: Colossus of the South - Region Pack",
+    "motivo_exclusion": "steam auto-descartado; terminos: rio de la plata",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "virtual-families",
+    "titulo": "Virtual Families",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "vroom-kaboom-premium",
+    "titulo": "Vroom Kaboom Premium",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "warhammer-40-000-speed-freeks",
+    "titulo": "Warhammer 40,000: Speed Freeks",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "warhammer-end-times-vermintide",
+    "titulo": "Warhammer: End Times - Vermintide",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "warp-tango",
+    "titulo": "Warp Tango",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "warp-tango-demo",
+    "titulo": "Warp Tango Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: tango",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "wee-tanks",
+    "titulo": "Wee Tanks!",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "which-sausage-mate",
+    "titulo": "Which Sausage, Mate?",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "who-are-you",
+    "titulo": "Who Are You!?",
+    "motivo_exclusion": "juego base; jurisdicción: Entre Ríos",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "windward-horizon",
+    "titulo": "Windward Horizon",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "witchtastic",
+    "titulo": "Witchtastic",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "wolf-mate",
+    "titulo": "Wolf Mate",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "wolfquest-anniversary-edition",
+    "titulo": "WolfQuest: Anniversary Edition",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "worms-ultimate-mayhem",
+    "titulo": "Worms Ultimate Mayhem",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "wrc-5-season-pass",
+    "titulo": "WRC 5 - Season Pass",
+    "motivo_exclusion": "tipo Steam: dlc",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "wrc-5-wrc-esports-pack-1",
+    "titulo": "WRC 5 - WRC eSports Pack 1",
+    "motivo_exclusion": "steam auto-descartado; terminos: argentina",
+    "fecha_descarte": "2026-08-03"
   },
   {
     "id": "x-plane-11-add-on-fsdg-dakar",
     "titulo": "X-Plane 11 - Add-on: FSDG - Dakar",
     "motivo_exclusion": "tipo Steam: dlc",
-    "fecha_descarte": "2026-07-09"
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "yaci-yatere",
+    "titulo": "Yaci Yateré",
+    "motivo_exclusion": "; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "yet-another-zombie-defense-hd",
+    "titulo": "Yet Another Zombie Defense HD",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "youra-demo",
+    "titulo": "Youra Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: mendoza",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "ypf-energia-educativa",
+    "titulo": "YPF Energía Educativa",
+    "motivo_exclusion": "promocional; sin app_id Steam",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "yunyun-syndrome-rhythm-psychosis",
+    "titulo": "Yunyun Syndrome!? Rhythm Psychosis",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zen-chess-mate-in-four",
+    "titulo": "Zen Chess: Mate in Four",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zen-chess-mate-in-one",
+    "titulo": "Zen Chess: Mate in One",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zen-chess-mate-in-three",
+    "titulo": "Zen Chess: Mate in Three",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zen-chess-mate-in-two",
+    "titulo": "Zen Chess: Mate in Two",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zero-hour",
+    "titulo": "Zero Hour",
+    "motivo_exclusion": "juego base; solo ruido mate/tango/santa fe",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zombff",
+    "titulo": "ZomBFF",
+    "motivo_exclusion": "juego base; jurisdicción: Ciudad Autónoma de Buenos Aires",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zundamon-dlc",
+    "titulo": "Zundamon DLC",
+    "motivo_exclusion": "steam auto-descartado; terminos: mate",
+    "fecha_descarte": "2026-08-03"
+  },
+  {
+    "id": "zupay-shadows-of-independence-demo",
+    "titulo": "Zupay: Shadows of Independence Demo",
+    "motivo_exclusion": "steam auto-descartado; terminos: gaucho,independencia",
+    "fecha_descarte": "2026-08-03"
   }
 ]
