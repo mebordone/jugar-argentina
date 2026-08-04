@@ -249,6 +249,34 @@ class PublishFlowTests(unittest.TestCase):
             payload = json.loads(descartados.read_text(encoding="utf-8"))
             self.assertEqual(payload[0]["id"], "cand-1")
 
+    def test_cli_track(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            csv_path = root / "raw_candidates.csv"
+            save_tracking_rows([], csv_path)
+            code = fichas.main(
+                [
+                    "--csv",
+                    str(csv_path),
+                    "track",
+                    "--titulo",
+                    "Juego Delta",
+                    "--url",
+                    "https://store.steampowered.com/app/999/",
+                    "--nota",
+                    "posible escenario argentino",
+                    "--estado",
+                    "candidato",
+                ]
+            )
+            self.assertEqual(code, 0)
+            from tracking import load_tracking_rows as load_rows
+
+            rows = load_rows(csv_path)
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["estado_triage"], "candidato")
+            self.assertEqual(rows[0]["url"], "https://store.steampowered.com/app/999/")
+
     def test_cli_status(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

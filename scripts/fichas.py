@@ -291,6 +291,59 @@ def cmd_discard(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_track(args: argparse.Namespace) -> int:
+    """Alta de investigación abierta en el CSV (sin crear borrador)."""
+    from ficha_model import normalize_candidate_status, slugify
+
+    csv_path = Path(args.csv) if getattr(args, "csv", None) else CSV_PATH
+    titulo = (args.titulo or "").strip()
+    if not titulo:
+        print("Indicá --titulo", file=sys.stderr)
+        return 1
+
+    estado = normalize_candidate_status(args.estado or "en_revision")
+    if estado not in {"candidato", "en_revision"}:
+        print("estado debe ser candidato o en_revision", file=sys.stderr)
+        return 1
+
+    rows = load_tracking_rows(csv_path)
+    existing_ids = {row.get("id") or "" for row in rows}
+    tracking_id = (args.id or "").strip() or slugify(titulo)
+    url = (args.url or "").strip()
+
+    # Evitar duplicar por id o por URL Steam ya rastreada.
+    for row in rows:
+        if row.get("id") == tracking_id:
+            print(f"Ya existe seguimiento '{tracking_id}' ({row.get('estado_triage')})", file=sys.stderr)
+            return 1
+        if url and url in (row.get("url") or ""):
+            print(
+                f"Ya existe URL en '{row.get('id')}' ({row.get('estado_triage')}): {row.get('titulo')}",
+                file=sys.stderr,
+            )
+            return 1
+
+    row = create_open_tracking_row(
+        titulo=titulo,
+        tracking_id=tracking_id,
+        origen=args.origen or "cli",
+        origen_ref=args.origen_ref or "",
+        existing_ids=existing_ids,
+    )
+    row["estado_triage"] = estado
+    row["url"] = url
+    row["fuente"] = (args.fuente or "").strip()
+    row["nota"] = (args.nota or "").strip()
+    row["vinculo_preliminar"] = (args.vinculo or "").strip()
+    row["notas_triage"] = (args.notas_triage or "").strip()
+    rows = upsert_tracking_row(rows, row)
+    save_tracking_rows(rows, csv_path)
+    print(f"Seguimiento abierto: {row['id']} [{estado}] — {titulo}")
+    if url:
+        print(f"URL: {url}")
+    return 0
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     """Reporte editorial de seguimiento, huecos y cola abierta."""
     from collections import Counter
@@ -439,6 +492,24 @@ def build_parser() -> argparse.ArgumentParser:
     disc_p.add_argument("id", help="tracking id")
     disc_p.add_argument("--motivo", required=True, help="Motivo editorial del descarte")
     disc_p.set_defaults(func=cmd_discard)
+
+    track_p = sub.add_parser("track", help="Abrir investigación en el CSV sin crear borrador")
+    track_p.add_argument("--titulo", required=True, help="Título del candidato")
+    track_p.add_argument("--id", help="ID de seguimiento (slug)")
+    track_p.add_argument("--url", help="URL de evidencia (Steam, web, etc.)")
+    track_p.add_argument("--fuente", help="Fuente de detección")
+    track_p.add_argument("--nota", help="Nota editorial breve")
+    track_p.add_argument("--vinculo", help="Vínculo preliminar (escenario/protagonista/deporte/...)")
+    track_p.add_argument("--notas-triage", dest="notas_triage", help="Notas de triage")
+    track_p.add_argument(
+        "--estado",
+        default="en_revision",
+        choices=["candidato", "en_revision"],
+        help="Estado abierto (default: en_revision)",
+    )
+    track_p.add_argument("--origen", default="cli", help="Origen del alta")
+    track_p.add_argument("--origen-ref", dest="origen_ref", default="", help="Referencia de origen")
+    track_p.set_defaults(func=cmd_track)
 
     status_p = sub.add_parser("status", help="Reporte editorial de cola, huecos e invariantes")
     status_p.add_argument("--limit", type=int, default=15, help="Máximo de abiertos/borradores a listar")

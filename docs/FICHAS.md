@@ -37,6 +37,9 @@ npm run ficha -- publish paleontorun
 # Descartar investigación
 npm run ficha -- discard <tracking_id> --motivo "Sin vínculo argentino verificable"
 
+# Abrir investigación (candidato/en_revision) sin crear borrador
+npm run ficha -- track --titulo "Mi Juego" --url "https://store.steampowered.com/app/123/" --nota "contenido argentino"
+
 # Estado editorial (cola, huecos, invariantes)
 npm run ficha -- status
 npm run ficha -- status --limit 30
