@@ -1,7 +1,8 @@
 import {
   discarded,
   games,
-  getCandidates,
+  getOpenCandidates,
+  normalizeCandidateStatus,
   type Candidate,
   type GameView,
 } from "./games";
@@ -86,15 +87,15 @@ export const listas: ListaDef[] = [
     statLabel: "candidatos rastreados",
     titulo: "Candidatos rastreados",
     descripcion:
-      "Títulos detectados en fuentes abiertas que todavía necesitan verificación editorial, descarte o pase a ficha publicada.",
+      "Títulos detectados en fuentes abiertas que todavía necesitan verificación editorial, descarte o pase a ficha publicada. Excluye verificados y descartes.",
     getItems: () =>
-      getCandidates()
+      getOpenCandidates()
         .sort((a, b) => a.titulo.localeCompare(b.titulo, "es"))
         .map((item: Candidate) => ({
           titulo: item.titulo,
           subtitulo: [
             item.anio || "Sin año",
-            item.estado_triage || item.estado_juego,
+            normalizeCandidateStatus(item.estado_triage),
             item.eje_sugerido,
           ]
             .filter(Boolean)

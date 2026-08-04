@@ -1,12 +1,12 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { getCandidates } from "./games";
+import { getOpenCandidates } from "./games";
 import { listaBySlug, listaHrefByStatKey, listas } from "./listas";
 
 vi.mock("./games", async (importOriginal) => {
   const actual = await importOriginal<typeof import("./games")>();
   return {
     ...actual,
-    getCandidates: vi.fn(() => [
+    getOpenCandidates: vi.fn(() => [
       {
         titulo: "Candidato Test",
         anio: "2024",
@@ -26,7 +26,7 @@ vi.mock("./games", async (importOriginal) => {
 
 describe("listas", () => {
   beforeEach(() => {
-    vi.mocked(getCandidates).mockReturnValue([
+    vi.mocked(getOpenCandidates).mockReturnValue([
       {
         titulo: "Candidato Test",
         anio: "2024",
@@ -68,7 +68,7 @@ describe("listas", () => {
   });
 
   it("ordena candidatos y omite url cuando no existe", () => {
-    vi.mocked(getCandidates).mockReturnValue([
+    vi.mocked(getOpenCandidates).mockReturnValue([
       {
         titulo: "Zeta",
         anio: "2024",
@@ -100,6 +100,8 @@ describe("listas", () => {
     const candidatos = listaBySlug.get("candidatos")!.getItems();
     expect(candidatos.map((item) => item.titulo)).toEqual(["Alpha", "Zeta"]);
     expect(candidatos[0].subtitulo).toContain("Sin año");
+    expect(candidatos[0].subtitulo).toContain("candidato");
+    expect(candidatos[1].subtitulo).toContain("en_revision");
     expect(candidatos[1].external).toBe(false);
     expect(candidatos[1].href).toBeUndefined();
   });

@@ -82,7 +82,14 @@ export type GameView = Game & {
   culturalSummary: string;
 };
 
+export type CandidateStatus =
+  | "candidato"
+  | "en_revision"
+  | "publicado"
+  | "descartado";
+
 export type Candidate = {
+  id?: string;
   titulo: string;
   anio: string;
   estado_juego: string;
@@ -91,10 +98,40 @@ export type Candidate = {
   url: string;
   nota: string;
   estado_triage: string;
+  ficha_id?: string;
+  origen?: string;
+  origen_ref?: string;
+  fecha_estado?: string;
+  motivo_decision?: string;
   eje_sugerido: string;
   ejes_culturales_sugeridos: string;
   notas_triage: string;
 };
+
+/** Estados canónicos visibles en la lista pública de candidatos. */
+export const OPEN_CANDIDATE_STATUSES: CandidateStatus[] = [
+  "candidato",
+  "en_revision",
+];
+
+export function normalizeCandidateStatus(raw: string | undefined | null): CandidateStatus {
+  const value = (raw || "").trim().toLowerCase();
+  if (value === "verificado" || value === "publicado") return "publicado";
+  if (value === "descartado") return "descartado";
+  if (
+    value === "pendiente" ||
+    value === "en_revision" ||
+    value === "requiere_verificacion" ||
+    value === "alta"
+  ) {
+    return "en_revision";
+  }
+  return "candidato";
+}
+
+export function isOpenCandidateStatus(raw: string | undefined | null): boolean {
+  return OPEN_CANDIDATE_STATUSES.includes(normalizeCandidateStatus(raw));
+}
 
 export const games = (rawGames as Game[]).map(enrichGame);
 export const discarded = descartados;
@@ -159,7 +196,7 @@ export function getStats() {
     }
   }
 
-  const candidates = getCandidates();
+  const candidates = getOpenCandidates();
   return {
     total: games.length,
     descartados: discarded.length,
@@ -206,6 +243,11 @@ export function getCandidates(): Candidate[] {
   const csvPath = path.join(process.cwd(), "data", "raw_candidates.csv");
   const csv = fs.readFileSync(csvPath, "utf-8");
   return parseCsv(csv) as Candidate[];
+}
+
+/** Candidatos todavía abiertos (excluye publicados y descartados). */
+export function getOpenCandidates(): Candidate[] {
+  return getCandidates().filter((item) => isOpenCandidateStatus(item.estado_triage));
 }
 
 export function relatedGames(game: GameView) {

@@ -7,7 +7,10 @@ import {
   games,
   getCandidates,
   getFilterOptions,
+  getOpenCandidates,
   getStats,
+  isOpenCandidateStatus,
+  normalizeCandidateStatus,
   relatedGames,
 } from "./games";
 import { baseGame, baseGameView } from "../test/fixtures/game";
@@ -99,6 +102,23 @@ describe("getCandidates", () => {
     expect(rows).toHaveLength(1);
     expect(rows[0].titulo).toBe("Juego CSV");
     expect(rows[0].notas_triage).toBe('nota "quoted"');
+  });
+
+  it("filtra candidatos abiertos y normaliza estados", () => {
+    vi.mocked(fs.readFileSync).mockReturnValue(
+      [
+        "titulo,anio,estado_juego,vinculo_preliminar,fuente,url,nota,estado_triage,eje_sugerido,ejes_culturales_sugeridos,notas_triage",
+        "Abierto,2020,publicado,escenario,fuente,https://example.com,nota,pendiente,historia,,",
+        "Hecho,2020,publicado,escenario,fuente,https://example.com,nota,verificado,historia,,",
+        "Fuera,2020,publicado,escenario,fuente,https://example.com,nota,descartado,historia,,",
+      ].join("\n"),
+    );
+    expect(normalizeCandidateStatus("pendiente")).toBe("en_revision");
+    expect(normalizeCandidateStatus("verificado")).toBe("publicado");
+    expect(isOpenCandidateStatus("pendiente")).toBe(true);
+    expect(isOpenCandidateStatus("verificado")).toBe(false);
+    const open = getOpenCandidates();
+    expect(open.map((row) => row.titulo)).toEqual(["Abierto"]);
   });
 });
 
