@@ -17,35 +17,67 @@ type Props = {
 
 const { stats } = Astro.props;
 
-const items = [
-  { key: "total" as const, count: stats.total, label: "juegos verificados" },
-  { key: "candidatos" as const, count: stats.candidatos, label: "candidatos rastreados" },
+const trackingItems = [
   {
-    key: "escenario" as const,
+    count: stats.total + stats.candidatos + stats.descartados,
+    label: "relevados",
+    href: "/curaduria",
+  },
+  {
+    count: stats.total,
+    label: "aceptados",
+    href: listaHrefByStatKey.total,
+  },
+  {
+    count: stats.candidatos,
+    label: "en revisión",
+    href: listaHrefByStatKey.candidatos,
+  },
+  {
+    count: stats.descartados,
+    label: "descartes explicados",
+    href: listaHrefByStatKey.descartados,
+  },
+];
+
+const linkItems = [
+  {
     count: stats.vinculos.escenario,
-    label: "con escenario argentino",
+    label: "con escenario",
+    href: listaHrefByStatKey.escenario,
   },
   {
-    key: "protagonista" as const,
     count: stats.vinculos.protagonista,
-    label: "con protagonistas argentinos",
+    label: "con protagonista",
+    href: listaHrefByStatKey.protagonista,
   },
   {
-    key: "deporte" as const,
     count: stats.vinculos.deporte,
-    label: "con deporte argentino",
+    label: "con deporte",
+    href: listaHrefByStatKey.deporte,
   },
-  { key: "descartados" as const, count: stats.descartados, label: "descartes explicados" },
 ];
 ---
 
 <section class="stats-strip" aria-label="Estadísticas de la base">
-  {
-    items.map((item) => (
-      <a class="stats-strip-link" href={sitePath(listaHrefByStatKey[item.key])}>
-        <strong>{item.count}</strong>
-        <span>{item.label}</span>
-      </a>
-    ))
-  }
+  <div class="stats-strip-group stats-strip-tracking" aria-label="Seguimiento editorial">
+    {
+      trackingItems.map((item) => (
+        <a class="stats-strip-link" href={sitePath(item.href)}>
+          <strong>{item.count}</strong>
+          <span>{item.label}</span>
+        </a>
+      ))
+    }
+  </div>
+  <div class="stats-strip-group stats-strip-links" aria-label="Vínculos argentinos">
+    {
+      linkItems.map((item) => (
+        <a class="stats-strip-link" href={sitePath(item.href)}>
+          <strong>{item.count}</strong>
+          <span>{item.label}</span>
+        </a>
+      ))
+    }
+  </div>
 </section>
